@@ -40,9 +40,9 @@ STDM - configuration can be installed in two ways:
 
 2. For advanced users - use git clone. The steps are:
 		
-	1. On the stdm - coniguration repository, click on the **clone or download button** <img src=".//images/readme/clone_button.png"/> 
+	1. On the stdm - coniguration repository, click on the **clone or download button** <img alt="clone or download button" style="margin-top: 10px;" src=".//images/readme/clone_button.png"/> 
 	
-	2. Copy the url **clone link** <img src="./images/readme/clone-http.png"/>
+	2. Copy the url **clone link** <img alt="clone link" style="margin-top: 10px; src="./images/readme/clone-http.png"/>
 
 	3. Clone the repository locally
 
