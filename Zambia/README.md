@@ -1,16 +1,15 @@
 **Zambia**
 ==============================
 
-#### Country profiles
+## Country themes
 
-##### Zambia
-
-**Customary Ownership: Lusaka City Council Property Ownership**
+### 1.**Customary Ownership: Lusaka City Council Property Ownership**
 
 Context:  The context of this configuration represents property ownership for the informal settlement in Lusaka. This configuration was used by LCC to collect data of person and properties owned for purposes of issuing Certificate of Ownership.
 
-**Example of Certificate of Customary Land Occupancy***
-[![STDM - Certificate of Customary Land Occupancy for Zambia](/images/readme/zambia_certificate_customary_land_occupancy)]
+**Example of Certificate of Customary Land Occupancy**
+
+[![STDM - Certificate of Customary Land Occupancy for Zambia](../images/readme/zambia_certificate_customary_land_occupancy)]
 
 ### License
 
