@@ -9,16 +9,30 @@ A set of the respective STDM data profile customizations at the country level. S
 
 The project structure of the stdm - configurations are based by country and themes within the country i.e. Uganda has a theme like Customary Ownership
 
-#### Country Pprofiles:
+#### Country Profiles:
 1. Uganda
+	
+	-Customary Ownership
 
-2. Sudan 
+2. Sudan
+
+	-Darfur 
 
 3. DRC
+	
+	-CLUP
+
+	-PCFP Socio Econss
+
 
 4. Zambia
+	
+	-Lusaka City Council (LCC) Property Ownership
+
 
 5. Phillipines
+	
+	-SALarBukidnon
 
 6. Kenya
 
@@ -48,6 +62,14 @@ STDM - configuration can be installed in two ways:
 
 
 ### Usage
+
+1. Copy/ move the customized stdm - configuration to the STDM plugin **base** directory
+
+2. Start your QGIS application
+
+3. Access the wizard, click the Configuration Wizard icon on the STDM plugin toolbar as shown below
+	<img alt="clone link" style="margin-top: 10px; src="./images/icons/config_wizard_icon.png"/>
+
 
 
     
