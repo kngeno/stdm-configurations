@@ -50,23 +50,23 @@ For advanced users, install git package
 
 STDM - configuration can be installed in two ways:
 
-1. For beginners - download zip file from the website [www.stdm.gltn.net](http://www.stdm.gltn.net/)
+1. For beginners - download zip file from the website [gltn@github.com](https://github.com/gltn/stdm-configurations/archive/master.zip)
 
 2. For advanced users - use git clone. The steps are:
 		
 	1. On the STDM - coniguration repository, clone or download the repo
 
-    2. Copy/ move the customized STDM - configuration (.stc) to the STDM plugin **base** directory
+    2. Rename the customized STDM - configuration to configuration.stc e.g. In the case for Uganda - **configuration.stc_Uganda_Customary_Ownership_UGANDA** to **configuration.stc**
 
-	3. Start your QGIS application
+    3. Copy/ move the customized STDM **configuration.stc** to the STDM **base** directory
 
-	4. Access the wizard, click the Configuration Wizard icon on the STDM plugin toolbar as shown below
-		
-		<img src="./images/icons/config_wizard_icon.png" alt="configuration wizard icon" style="margin-top: 10px;" />
+	4. Start your QGIS application
 
-	5. To save your configuration, click the Finish button.
+	5. Follow the STDM Getting Started Tutorial https://www.stdm.gltn.net/docs/1_7/#t=Getting_Started.htm
 
-    	<img src="./images/icons/config_wizard_icon.png" alt="configuration wizard icon" style="margin-top: 10px;" />
+	6. Once you login into STDM, the **LCC_Property_Ownership** will be available for selection as shown below
+
+		<img src="./images/readme/lcc_zambia_config.png" alt="configuration wizard icon" style="margin-top: 10px;" />
 
 ### How to Participate
 
