@@ -9,7 +9,7 @@ Context:  The context of this configuration represents property ownership for th
 
 **Example of Certificate of Customary Land Occupancy**
 
-[![STDM - Certificate of Customary Land Occupancy for Zambia](../images/readme/zambia_certificate_customary_land_occupancy.png | width=350 )](http://stdm.gltn.net/)
+<img width="350" alt="STDM - Certificate of Customary Land Occupancy for Zambia" src="../images/readme/zambia_certificate_customary_land_occupancy.png" />
 
 ### License
 
