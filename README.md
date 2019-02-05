@@ -7,7 +7,7 @@ A set of the respective STDM data profile customizations at the country level. S
 
 ### Project Structure
 
-The project structure of the STDM - configurations are based by country and themes within the country i.e. Uganda has a theme like Customary Ownership
+The project structure of the STDM - configurations are organized according to themes within countries i.e. Uganda has a theme called Customary Ownership which is a custom STDM configuration.
 
 #### Country Profiles:
 1. Uganda
@@ -20,19 +20,15 @@ The project structure of the STDM - configurations are based by country and them
 
 3. DRC
 	
-	- CLUP
-
-	- PCFP Socio Econss
-
+	- Social Economic
 
 4. Zambia
 	
-	- Lusaka City Council (LCC) Property Ownership
-
+	- Property Ownership
 
 5. Phillipines
 	
-	- SALarBukidnon
+	- Tenure Security
 
 6. Kenya
 
