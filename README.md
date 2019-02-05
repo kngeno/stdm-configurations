@@ -54,24 +54,16 @@ STDM - configuration can be installed in two ways:
 
 2. For advanced users - use git clone. The steps are:
 		
-	1. On the stdm - coniguration repository, click on the **clone or download button** <img alt="clone or download button" style="margin-top: 10px;" src=".//images/readme/clone_button.png"/> 
-	
-	2. Copy the url **clone link** <img alt="clone link" style="margin-top: 10px; src="./images/readme/clone-http.png"/>
+	1. On the stdm - coniguration repository, clone or download the repo
 
-	3. Clone the repository locally
+    2. Copy/ move the customized stdm - configuration (.stc) to the STDM plugin **base** directory
 
+	3. Start your QGIS application
 
-### Usage
+	4. Access the wizard, click the Configuration Wizard icon on the STDM plugin toolbar as shown below
+		<img alt="configuration wizard icon" style="margin-top: 10px; src="./images/icons/config_wizard_icon.png"/>
 
-1. Copy/ move the customized stdm - configuration to the STDM plugin **base** directory
-
-2. Start your QGIS application
-
-3. Access the wizard, click the Configuration Wizard icon on the STDM plugin toolbar as shown below
-	<img alt="clone link" style="margin-top: 10px; src="./images/icons/config_wizard_icon.png"/>
-
-
-
+	5. To save your configuration, click the Finish button.
     
 
 ### How to Participate
