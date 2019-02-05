@@ -62,11 +62,11 @@ STDM - configuration can be installed in two ways:
 
 	4. Access the wizard, click the Configuration Wizard icon on the STDM plugin toolbar as shown below
 		
-		<img alt="configuration wizard icon" style="margin-top: 10px; src="./images/icons/config_wizard_icon.png"/>
+		<img src="./images/icons/config_wizard_icon.png" alt="configuration wizard icon" style="margin-top: 10px;" />
 
 	5. To save your configuration, click the Finish button.
 
-    	<img alt="configuration wizard icon" style="margin-top: 10px; src="./images/icons/config_wizard_icon.png"/>
+    	<img src="./images/icons/config_wizard_icon.png" alt="configuration wizard icon" style="margin-top: 10px;" />
 
 ### How to Participate
 
