@@ -5,9 +5,9 @@
 A set of the respective STDM data profile customizations at the country level. See the topic on Creating and Customizing Data Profiles in the user manual https://www.stdm.gltn.net/docs/1_7/#t=Getting_Started.htm
 
 
-### Organization Structure
+### Project Structure
 
-Organization structure of the stdm - configurations are based by country and themes within the country i.e. Uganda has a theme like Customary Ownership
+The project structure of the stdm - configurations are based by country and themes within the country i.e. Uganda has a theme like Customary Ownership
 
 #### Country Pprofiles:
 1. Uganda
@@ -40,7 +40,7 @@ STDM - configuration can be installed in two ways:
 
 2. For advanced users - use git clone. The steps are:
 		
-	1. On the stdm - coniguration repository, click on the **clone or download button**[![STDM Configurations clone OR download](/images/readme/clone_button.png)]
+	1. On the stdm - coniguration repository, click on the **clone or download button** [![STDM Configurations clone OR download](/images/readme/clone_button.png)]
 	
 	2. Copy the url **clone link** [![STDM Configurations clone link](/images/readme/clone-http.png)]
 
