@@ -12,27 +12,27 @@ The project structure of the STDM - configurations are based by country and them
 #### Country Profiles:
 1. Uganda
 	
-	-Customary Ownership
+	- Customary Ownership
 
 2. Sudan
 
-	-Darfur 
+	- Darfur 
 
 3. DRC
 	
-	-CLUP
+	- CLUP
 
-	-PCFP Socio Econss
+	- PCFP Socio Econss
 
 
 4. Zambia
 	
-	-Lusaka City Council (LCC) Property Ownership
+	- Lusaka City Council (LCC) Property Ownership
 
 
 5. Phillipines
 	
-	-SALarBukidnon
+	- SALarBukidnon
 
 6. Kenya
 
@@ -40,11 +40,11 @@ The project structure of the STDM - configurations are based by country and them
 
 For advanced users, install git package
 
--[Windows](https://www.atlassian.com/git/tutorials/install-git#windows)
+- [Windows](https://www.atlassian.com/git/tutorials/install-git#windows)
 
--[Ubuntu](https://www.atlassian.com/git/tutorials/install-git#linux)
+- [Ubuntu](https://www.atlassian.com/git/tutorials/install-git#linux)
 
--[Mac](https://www.atlassian.com/git/tutorials/install-git#mac-os-x)
+- [Mac](https://www.atlassian.com/git/tutorials/install-git#mac-os-x)
 
 ### Installation
 
