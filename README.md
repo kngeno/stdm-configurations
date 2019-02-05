@@ -7,7 +7,7 @@ A set of the respective STDM data profile customizations at the country level. S
 
 ### Project Structure
 
-The project structure of the stdm - configurations are based by country and themes within the country i.e. Uganda has a theme like Customary Ownership
+The project structure of the STDM - configurations are based by country and themes within the country i.e. Uganda has a theme like Customary Ownership
 
 #### Country Profiles:
 1. Uganda
@@ -54,17 +54,19 @@ STDM - configuration can be installed in two ways:
 
 2. For advanced users - use git clone. The steps are:
 		
-	1. On the stdm - coniguration repository, clone or download the repo
+	1. On the STDM - coniguration repository, clone or download the repo
 
-    2. Copy/ move the customized stdm - configuration (.stc) to the STDM plugin **base** directory
+    2. Copy/ move the customized STDM - configuration (.stc) to the STDM plugin **base** directory
 
 	3. Start your QGIS application
 
 	4. Access the wizard, click the Configuration Wizard icon on the STDM plugin toolbar as shown below
+		
 		<img alt="configuration wizard icon" style="margin-top: 10px; src="./images/icons/config_wizard_icon.png"/>
 
 	5. To save your configuration, click the Finish button.
-    
+
+    	<img alt="configuration wizard icon" style="margin-top: 10px; src="./images/icons/config_wizard_icon.png"/>
 
 ### How to Participate
 
