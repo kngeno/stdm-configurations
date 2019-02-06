@@ -1,18 +1,18 @@
 **Social Tenure Domain Model**
 ==============================
 
-### About STDM - Configurations (.stc)
+### About STDM - Data Profiles (.stc)
 A set of the respective STDM data profile customizations at the country level. See the topic on Creating and Customizing Data Profiles in the user manual https://www.stdm.gltn.net/docs/1_7/#t=Getting_Started.htm
 
 
 ### Project Structure
 
-The project structure of the STDM - configurations are organized according to themes within countries i.e. Uganda has a theme called Customary Ownership which is a custom STDM configuration.
+The project structure of the STDM data profiles are organized according to application contexts within countries i.e. Zambia has two application contexts namely: Customary Land  and Informal Settlement which are custom STDM  data profiles/configurations.
 
-#### Country Profiles:
+#### Country Data Profiles/ Application Contexts:
 1. Uganda
 	
-	- Customary Ownership
+	- Customary Land
 
 2. Sudan
 
@@ -20,11 +20,13 @@ The project structure of the STDM - configurations are organized according to th
 
 3. DRC
 	
-	- Social Economic
+	- Social Economics
 
 4. Zambia
 	
-	- Property Ownership
+	- Customary Land
+
+	- Informal Settlement
 
 5. Phillipines
 	
@@ -34,19 +36,44 @@ The project structure of the STDM - configurations are organized according to th
 
 ### Prerequisites
 
-For advanced users, install git package
+1. A running version of STDM v1.7.4 or higher. The [Installation Guide](https://github.com/gltn/stdm)
 
-- [Windows](https://www.atlassian.com/git/tutorials/install-git#windows)
+	- During the setup, please keep in mind where you have created the STDM directory for your files.
 
-- [Ubuntu](https://www.atlassian.com/git/tutorials/install-git#linux)
+	**Automatically it is created in the _Home_ directory as a _hidden directory_**
+ 
 
-- [Mac](https://www.atlassian.com/git/tutorials/install-git#mac-os-x)
+2. For advanced users, install git package
+
+	- [Windows](https://www.atlassian.com/git/tutorials/install-git#windows)
+
+	- [Ubuntu](https://www.atlassian.com/git/tutorials/install-git#linux)
+
+	- [Mac](https://www.atlassian.com/git/tutorials/install-git#mac-os-x)
+
 
 ### Installation
 
 STDM - configuration can be installed in two ways:
 
-1. For beginners - download zip file from the website [gltn@github.com](https://github.com/gltn/stdm-configurations/archive/master.zip)
+1. For beginners - download zip file from [gltn@github.com](https://github.com/gltn/stdm-configurations/archive/master.zip)
+	
+	1. Extract/ unzip the **master.zip** file.
+
+	2. Select the application context implemented in a country and rename it to **configuration.stc**.
+
+	3. Locate the stdm directory created during STDM v1.7.4 installation. 
+
+		1. Check the _Home_ directory
+
+		2. Unhide the files/ directories to locate the **.stdm** directory 
+
+	4. Copy/ move the **configuration.stc** to the base directory of the stdm directory.
+
+	5. Refresh your QGIS application.
+
+	6. The STDM data profile/ configuration should be available for selection.
+
 
 2. For advanced users - use git clone. The steps are:
 		
@@ -64,19 +91,6 @@ STDM - configuration can be installed in two ways:
 
 		<img src="./images/readme/lcc_zambia_config.png" alt="configuration wizard icon" style="margin-top: 10px;" />
 
-### How to Participate
-
--   For more information, please visit [www.stdm.gltn.net](http://www.stdm.gltn.net/) or subscribe to: [lists.osgeo.org/cgi-bin/mailman/listinfo/stdm-user](http://lists.osgeo.org/cgi-bin/mailman/listinfo/stdm-user)
-
--   To receive important news and updates around STDM in general, subscribe to: [lists.osgeo.org/cgi-bin/mailman/listinfo/stdm-announce](http://lists.osgeo.org/cgi-bin/mailman/listinfo/stdm-announce)
-
--   If you find an issue working with STDM, please report it so that developers can check and fix it. To report a bug, subscribe to: [lists.osgeo.org/cgi-bin/mailman/listinfo/stdm-dev](http://lists.osgeo.org/cgi-bin/mailman/listinfo/stdm-dev) or post it in GitHub at: <https://github.com/gltn/stdm/issues>
-
--   To browse the source codes or extend the core platform, access the repository here: <https://github.com/gltn/stdm>
-
-[![Join the chat at https://gitter.im/gltn-stdm](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/gltn-stdm)
-
-
 ### License
 
-STDM is a free software; you can redistribute it and/or modify it under the terms of the GNU General Public License version 2 (GPL v2) as published by the Free Software Foundation. The full GNU General Public License is available in LICENSE.txt or [here](http://www.gnu.org/licenses/gpl-2.0.html).3.
+The STDM data profiles are free software; you can redistribute it and/or modify it under the terms of the GNU General Public License version 3 (GPL v3) as published by the Free Software Foundation. The full GNU General Public License is available in LICENSE.txt or [here](http://www.gnu.org/licenses/gpl-3.0.html).
