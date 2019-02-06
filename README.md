@@ -7,7 +7,7 @@ A set of the respective STDM data profile customizations at the country level. S
 
 ### Project Structure
 
-The project structure of the STDM data profiles are organized according to application contexts within countries i.e. Zambia has two application contexts namely: Customary Land  and Informal Settlement which are custom STDM  data profiles/configurations.
+The project structure of the STDM data profiles are organized according to application contexts within countries i.e. Zambia has two application contexts namely: Customary Land  and Informal Settlement.
 
 #### Country Data Profiles/ Application Contexts:
 1. Uganda
@@ -16,7 +16,7 @@ The project structure of the STDM data profiles are organized according to appli
 
 2. Sudan
 
-	- Darfur 
+	- Customary Land
 
 3. DRC
 	
@@ -33,6 +33,10 @@ The project structure of the STDM data profiles are organized according to appli
 	- Tenure Security
 
 6. Kenya
+	
+	- Informal Settlement
+
+
 
 ### Prerequisites
 
@@ -40,8 +44,7 @@ The project structure of the STDM data profiles are organized according to appli
 
 	- During the setup, please keep in mind where you have created the STDM directory for your files.
 
-	**Automatically it is created in the _Home_ directory as a _hidden directory_**
- 
+	- ** Note: It is created in the _Home_ directory as a _hidden directory_ **
 
 2. For advanced users, install git package
 
@@ -60,15 +63,15 @@ STDM - configuration can be installed in two ways:
 	
 	1. Extract/ unzip the **master.zip** file.
 
-	2. Select the application context implemented in a country and rename it to **configuration.stc**.
+	2. Select the application context in a country and rename it to **configuration.stc**.
 
-	3. Locate the stdm directory created during STDM v1.7.4 installation. 
+	3. Locate the STDM directory created during STDM v1.7.4 installation. 
 
 		1. Check the _Home_ directory
 
 		2. Unhide the files/ directories to locate the **.stdm** directory 
 
-	4. Copy/ move the **configuration.stc** to the base directory of the stdm directory.
+	4. Copy/ move the **configuration.stc** to the base directory of the STDM directory.
 
 	5. Refresh your QGIS application.
 

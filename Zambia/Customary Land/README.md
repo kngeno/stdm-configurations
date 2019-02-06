@@ -1,14 +1,13 @@
-**Zambia**
-==============================
-
-## Country themes
-
-### 1.**Customary Land**
+**Customary Land**
+==================
 
 
-### 2.**Informal Settlement**
+Context: 
 
-		1.Lusaka City Council (LCC) - Property Ownership
+
+**Sample output: Certificate of Customary Land Occupancy**
+
+<img width="350" alt="STDM - Certificate of Customary Land Occupancy for Zambia" src="../images/readme/zambia_certificate_customary_land_occupancy.png" />
 
 ### License
 
