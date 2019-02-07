@@ -59,9 +59,9 @@ The project structure of the STDM data profiles are organized according to appli
 
 STDM - configuration can be installed in two ways:
 
-1. For beginners - download zip file from [gltn@github.com](https://github.com/gltn/stdm-configurations/archive/master.zip)
+1. For beginners - download zip file [stdm-configurations-master.zip](https://github.com/gltn/stdm-configurations/archive/master.zip)
 	
-	1. Extract/ unzip the **master.zip** file.
+	1. Extract/ unzip the **stdm-configurations-master.zip** file.
 
 	2. Select the application context in a country and rename it to **configuration.stc**.
 

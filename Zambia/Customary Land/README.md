@@ -7,7 +7,7 @@ Context:
 
 **Sample output: Certificate of Customary Land Occupancy**
 
-<img width="350" alt="STDM - Certificate of Customary Land Occupancy for Zambia" src="../images/readme/zambia_certificate_customary_land_occupancy.png" />
+<img width="350" alt="STDM - Certificate of Customary Land Occupancy for Zambia" src="../../images/readme/zambia_certificate_customary_land_occupancy.png" />
 
 ### License
 
