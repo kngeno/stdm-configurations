@@ -1,13 +1,13 @@
 **Social Tenure Domain Model**
 ==============================
 
-### About STDM - Data Profiles (.stc)
-A set of the respective STDM data profile customizations at the country level. See the topic on Creating and Customizing Data Profiles in the user manual https://www.stdm.gltn.net/docs/1_7/#t=Getting_Started.htm
+### About STDM - Data Profiles (.stc) & Templates (.sdt)
+A set of the respective STDM data profile and template customizations at the country level. See the topic on Creating and Customizing Data Profiles in the user manual https://www.stdm.gltn.net/docs/1_7/#t=Getting_Started.htm
 
 
 ### Project Structure
 
-The STDM data profiles are organized according to application contexts within countries i.e. Zambia has two application contexts namely: Customary Land  and Informal Settlement.
+The STDM data profiles and templates are organized according to application contexts within countries i.e. Zambia has two application contexts namely: Customary Land  and Informal Settlement.
 
 #### Country Data Profiles/ Application Contexts:
 1. Uganda
@@ -57,7 +57,7 @@ The STDM data profiles are organized according to application contexts within co
 
 ### Installation
 
-STDM - configuration can be installed in two ways:
+STDM data profiles/configuration can be installed in two ways:
 
 1. For beginners - download [stdm-configurations-master.zip](https://github.com/gltn/stdm-configurations/archive/master.zip)
 	
@@ -85,7 +85,7 @@ STDM - configuration can be installed in two ways:
 2. For advanced users - use git clone. The steps are:
 		
 	1. On the STDM - configuration repository, clone or download the repo 
-	
+
     2. Rename the customized STDM - configuration to configuration.stc e.g. In the case for Uganda, rename **configuration.stc_Uganda_Customary_Ownership_UGANDA** to **configuration.stc**
 
     3. Locate the STDM directory created during STDM v1.7.4 installation. 
@@ -103,6 +103,11 @@ STDM - configuration can be installed in two ways:
 		<img src="./images/readme/lcc_zambia_config.png" alt="configuration wizard icon" style="margin-top: 10px;" />
 
 	7. Follow the STDM Getting Started Tutorial https://www.stdm.gltn.net/docs/1_7/#t=Getting_Started.htm
+
+
+STDM templates can be installed by:
+
+1. Copy/move the custom STDM template to the STDM base directory **.stdm** into the reports>templates directory i.e. **.stdm/reports/templates/_Certificate of Parcel Ownership Sample.sdt_**
 
 
 ### License
