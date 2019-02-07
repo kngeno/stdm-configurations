@@ -44,7 +44,7 @@ The project structure of the STDM data profiles are organized according to appli
 
 	- During the setup, please keep in mind where you have created the STDM directory for your files.
 
-	- ** Note: It is created in the _Home_ directory as a _hidden directory_ **
+	- **Note:** It is created in the _Home_ directory as a _hidden directory_
 
 2. For advanced users, install git package
 

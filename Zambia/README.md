@@ -1,14 +1,14 @@
 **Zambia**
 ==============================
 
-## Country themes
+## Application Contexts
 
 ### 1.**Customary Land**
 
 
 ### 2.**Informal Settlement**
 
-		1.Lusaka City Council (LCC) - Property Ownership
+1.Lusaka City Council (LCC) - Property Ownership
 
 ### License
 
