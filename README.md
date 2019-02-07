@@ -77,15 +77,15 @@ STDM - configuration can be installed in two ways:
 
 	6. The STDM data profile/configuration should be now available for selection.
 
-	<img src="./images/readme/lcc_zambia_config.png" alt="configuration wizard icon" style="margin-top: 10px;" />
+		<img src="./images/readme/lcc_zambia_config.png" alt="configuration wizard icon" style="margin-top: 10px;" />
 
 	7. Follow the STDM Getting Started Tutorial https://www.stdm.gltn.net/docs/1_7/#t=Getting_Started.htm
 
 
 2. For advanced users - use git clone. The steps are:
 		
-	1. On the STDM - configuration repository, clone or download the repo  <img href="https://github.com/gltn/stdm-configurations" src="./images/readme/clone_button.png" alt="clone or 	download button" style="max-width:100%; position:absolute" />
-
+	1. On the STDM - configuration repository, clone or download the repo 
+	
     2. Rename the customized STDM - configuration to configuration.stc e.g. In the case for Uganda, rename **configuration.stc_Uganda_Customary_Ownership_UGANDA** to **configuration.stc**
 
     3. Locate the STDM directory created during STDM v1.7.4 installation. 
