@@ -7,7 +7,7 @@ A set of the respective STDM data profile customizations at the country level. S
 
 ### Project Structure
 
-The project structure of the STDM data profiles are organized according to application contexts within countries i.e. Zambia has two application contexts namely: Customary Land  and Informal Settlement.
+The STDM data profiles are organized according to application contexts within countries i.e. Zambia has two application contexts namely: Customary Land  and Informal Settlement.
 
 #### Country Data Profiles/ Application Contexts:
 1. Uganda
@@ -42,9 +42,9 @@ The project structure of the STDM data profiles are organized according to appli
 
 1. A running version of STDM v1.7.4 or higher. The [Installation Guide](https://github.com/gltn/stdm)
 
-	- During the setup, please keep in mind where you have created the STDM directory for your files.
+	- During the setup, please keep in mind where you have created the **STDM directory (.stdm)** for your files.
 
-	- **Note:** It is created in the _Home_ directory as a _hidden directory_
+	- **Note:** It is created in the _**Home**_ directory as a _**hidden** directory_
 
 2. For advanced users, install git package
 
@@ -59,40 +59,41 @@ The project structure of the STDM data profiles are organized according to appli
 
 STDM - configuration can be installed in two ways:
 
-1. For beginners - download zip file [stdm-configurations-master.zip](https://github.com/gltn/stdm-configurations/archive/master.zip)
+1. For beginners - download [stdm-configurations-master.zip](https://github.com/gltn/stdm-configurations/archive/master.zip)
 	
-	1. Extract/ unzip the **stdm-configurations-master.zip** file.
+	1. Extract/unzip the **stdm-configurations-master.zip** file.
 
-	2. Select the application context in a country and rename it to **configuration.stc**.
+	2. Select the most suitable application context of a country and rename it to **configuration.stc**.
 
 	3. Locate the STDM directory created during STDM v1.7.4 installation. 
 
-		1. Check the _Home_ directory
+		1. Check the _Home_ directory for the **.stdm** directory or where you created it.
 
-		2. Unhide the files/ directories to locate the **.stdm** directory 
+		2. Unhide the files/directories to locate the **.stdm** directory 
 
-	4. Copy/ move the **configuration.stc** to the base directory of the STDM directory.
+	4. Copy/move the **configuration.stc** to the base directory of the STDM directory.
 
-	5. Refresh your QGIS application.
+	5. Restart your QGIS application.
 
-	6. The STDM data profile/ configuration should be available for selection.
+	6. The STDM data profile/configuration should be now available for selection.
 
 
 2. For advanced users - use git clone. The steps are:
 		
-	1. On the STDM - coniguration repository, clone or download the repo
+	1. On the STDM - coniguration repository, clone or download the repo <img src="./images/readme/clone_button.png" alt="clone or download button" style="margin-top: 10px;" />
 
     2. Rename the customized STDM - configuration to configuration.stc e.g. In the case for Uganda - **configuration.stc_Uganda_Customary_Ownership_UGANDA** to **configuration.stc**
 
-    3. Copy/ move the customized STDM **configuration.stc** to the STDM **base** directory
+    3. Copy/move the customized STDM **configuration.stc** to the STDM base directory **(.stdm)**
 
-	4. Start your QGIS application
+	4. Restart your QGIS application
 
-	5. Follow the STDM Getting Started Tutorial https://www.stdm.gltn.net/docs/1_7/#t=Getting_Started.htm
-
-	6. Once you login into STDM, the **LCC_Property_Ownership** will be available for selection as shown below
+	5. Once you login into STDM, the **LCC_Property_Ownership** will be available for selection as shown below
 
 		<img src="./images/readme/lcc_zambia_config.png" alt="configuration wizard icon" style="margin-top: 10px;" />
+
+	6. Follow the STDM Getting Started Tutorial https://www.stdm.gltn.net/docs/1_7/#t=Getting_Started.htm
+
 
 ### License
 
