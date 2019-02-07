@@ -1,13 +1,13 @@
 **Social Tenure Domain Model**
 ==============================
 
-### About STDM - Data Profiles (.stc) & Templates (.sdt)
-A set of the respective STDM data profile and template customizations at the country level. See the topic on Creating and Customizing Data Profiles in the user manual https://www.stdm.gltn.net/docs/1_7/#t=Getting_Started.htm
+### About STDM - Data Profiles (.stc) & Report Templates (.sdt)
+A set of the respective STDM data profile and report template customizations at the country level. See the topic on Creating and Customizing Data Profiles in the user manual https://www.stdm.gltn.net/docs/1_7/#t=Getting_Started.htm
 
 
 ### Project Structure
 
-The STDM data profiles and templates are organized according to application contexts within countries i.e. Zambia has two application contexts namely: Customary Land  and Informal Settlement.
+The STDM data profiles and report templates are organized according to application contexts within countries i.e. Zambia has two application contexts namely: Customary Land  and Informal Settlement.
 
 #### Country Data Profiles/ Application Contexts:
 1. Uganda
@@ -105,11 +105,11 @@ STDM data profiles/configuration can be installed in two ways:
 	7. Follow the STDM Getting Started Tutorial https://www.stdm.gltn.net/docs/1_7/#t=Getting_Started.htm
 
 
-STDM templates can be installed by:
+STDM report templates can be installed by:
 
-1. Copy/move the custom STDM template to the STDM base directory **.stdm** into the reports>templates directory i.e. **.stdm/reports/templates/_Certificate of Parcel Ownership Sample.sdt_**
+1. Copy/move the custom STDM report template to the STDM base directory **.stdm** into the reports>templates directory i.e. **.stdm/reports/templates/_Certificate of Parcel Ownership Sample.sdt_**
 
 
 ### License
 
-The STDM data profiles are free software; you can redistribute it and/or modify it under the terms of the GNU General Public License version 3 (GPL v3) as published by the Free Software Foundation. The full GNU General Public License is available in LICENSE.txt or [here](http://www.gnu.org/licenses/gpl-3.0.html).
+The STDM - configurations and report templates are free software; you can redistribute it and/or modify it under the terms of the GNU General Public License version 3 (GPL v3) as published by the Free Software Foundation. The full GNU General Public License is available in LICENSE.txt or [here](http://www.gnu.org/licenses/gpl-3.0.html).
