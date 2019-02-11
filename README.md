@@ -1,40 +1,30 @@
-**Social Tenure Domain Model**
+**STDM Customizations**
 ==============================
 
-### About STDM - Data Profiles (.stc) & Report Templates (.sdt)
+### About STDM - Data Profiles
 A set of the respective STDM data profile and report template customizations at the country level. See the topic on Creating and Customizing Data Profiles in the user manual https://www.stdm.gltn.net/docs/1_7/#t=Getting_Started.htm
 
 
-### Project Structure
+### About STDM - Report Templates
+
+
+
+### Organization Structure
 
 The STDM data profiles and report templates are organized according to application contexts within countries i.e. Zambia has two application contexts namely: Customary Land  and Informal Settlement.
 
 #### Country Data Profiles/ Application Contexts:
 1. Uganda
-	
-	- Customary Land
 
 2. Sudan
 
-	- Customary Land
-
 3. DRC
-	
-	- Social Economics
 
 4. Zambia
-	
-	- Customary Land
-
-	- Informal Settlement
 
 5. Phillipines
-	
-	- Tenure Security
 
 6. Kenya
-	
-	- Informal Settlement
 
 
 
@@ -57,7 +47,7 @@ The STDM data profiles and report templates are organized according to applicati
 
 ### Installation
 
-STDM data profiles/configuration can be installed in two ways:
+A. STDM data profiles/configuration can be installed in two ways:
 
 1. For beginners - download [stdm-configurations-master.zip](https://github.com/gltn/stdm-configurations/archive/master.zip)
 	
@@ -69,7 +59,7 @@ STDM data profiles/configuration can be installed in two ways:
 
 		1. Check the _Home_ directory for the **.stdm** directory or where you created it.
 
-		2. Unhide the files/directories to locate the **.stdm** directory 
+		2. Show the files/directories to locate the **.stdm** directory 
 
 	4. Copy/move the **configuration.stc** to the base directory of the STDM directory.
 
@@ -92,7 +82,7 @@ STDM data profiles/configuration can be installed in two ways:
 
 		1. Check the _Home_ directory for the **.stdm** directory or where you created it.
 
-		2. Unhide the files/directories to locate the **.stdm** directory 
+		2. Show the files/directories to locate the **.stdm** directory 
 
     4. Copy/move the customized STDM **configuration.stc** to the STDM base directory **(.stdm)**
 
@@ -105,11 +95,11 @@ STDM data profiles/configuration can be installed in two ways:
 	7. Follow the STDM Getting Started Tutorial https://www.stdm.gltn.net/docs/1_7/#t=Getting_Started.htm
 
 
-STDM report templates can be installed by:
+B. STDM report templates can be installed by:
 
 1. Copy/move the custom STDM report template to the STDM base directory **.stdm** into the reports>templates directory i.e. **.stdm/reports/templates/_Certificate of Parcel Ownership Sample.sdt_**
 
 
 ### License
 
-The STDM - configurations and report templates are free software; you can redistribute it and/or modify it under the terms of the GNU General Public License version 3 (GPL v3) as published by the Free Software Foundation. The full GNU General Public License is available in LICENSE.txt or [here](http://www.gnu.org/licenses/gpl-3.0.html).
+The STDM data profiles and report templates are free resources; adapting the same license as the STDM tool hence you can redistribute it and/or modify it under the terms of the GNU General Public License version 3 (GPL v3) as published by the Free Software Foundation. The full GNU General Public License is available in LICENSE.txt or [here](http://www.gnu.org/licenses/gpl-3.0.html).
