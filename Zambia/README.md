@@ -6,4 +6,4 @@
 
 2. **Informal Settlement**
 	
-	An application context where person/s to land relationships is applied to capture documents (e.g., land titles, bill of sale, etc.) with digitalized geospatial data and land ownership and tenure information.
+	An application context where person/s to property relationships is applied to capture documents (e.g., land titles, bill of sale, etc.) with digitalized geospatial data and land ownership and tenure information.

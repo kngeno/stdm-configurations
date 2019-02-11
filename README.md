@@ -1,11 +1,11 @@
 **STDM Customizations**
 ==============================
 
-### About STDM - Data Profiles
+### Data Profiles
 A set of the respective STDM data profile customizations at the country level. See the topic on Creating and Customizing Data Profiles in the user manual https://www.stdm.gltn.net/docs/1_7/#t=Getting_Started.htm
 
 
-### About STDM - Report Templates
+### Report Templates
 A set of the respective STDM report templates to generate documents based on STDM data profile customizations. See the topic on Designing and Generating Documents in the user manual: [Desing a Document Template](https://www.stdm.gltn.net/docs/1_7/Designing_a_Document_Template.htm) & [Generating Documents Using Templates](https://www.stdm.gltn.net/docs/1_7/Generating_Documents_Using_Templates.htm)
 
 
