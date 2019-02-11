@@ -26,7 +26,8 @@ The STDM data profiles and report templates are organized according to applicati
 		- Windows: `C:\Users\<Username>\.stdm\`
 
 		- Ubuntu: `/home/<username>/.stdm/`	
-			<img width="350" alt="STDM directory" src="./images/readme/path_supporting_documents.png" />
+
+		<img width="350" alt="STDM directory" src="./images/readme/path_supporting_documents.png" />
 
 2. A git package to clone the STDM - configurations from the github repository. Select the appropriate package below depending on the platform and follow the installation guide provided:
 
