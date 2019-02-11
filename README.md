@@ -2,41 +2,34 @@
 ==============================
 
 ### About STDM - Data Profiles
-A set of the respective STDM data profile and report template customizations at the country level. See the topic on Creating and Customizing Data Profiles in the user manual https://www.stdm.gltn.net/docs/1_7/#t=Getting_Started.htm
+A set of the respective STDM data profile customizations at the country level. See the topic on Creating and Customizing Data Profiles in the user manual https://www.stdm.gltn.net/docs/1_7/#t=Getting_Started.htm
 
 
 ### About STDM - Report Templates
+A set of the respective STDM report templates to generate documents based on STDM data profile customizations. See the topic on Designing and Generating Documents in the user manual: [Desing a Document Template](https://www.stdm.gltn.net/docs/1_7/Designing_a_Document_Template.htm) & [Generating Documents Using Templates](https://www.stdm.gltn.net/docs/1_7/Generating_Documents_Using_Templates.htm)
 
 
-
-### Organization Structure
+### Organization Overview
 
 The STDM data profiles and report templates are organized according to application contexts within countries i.e. Zambia has two application contexts namely: Customary Land  and Informal Settlement.
 
-#### Country Data Profiles/ Application Contexts:
-1. Uganda
-
-2. Sudan
-
-3. DRC
-
-4. Zambia
-
-5. Phillipines
-
-6. Kenya
-
-
-
 ### Prerequisites
 
-1. A running version of STDM v1.7.4 or higher. The [Installation Guide](https://github.com/gltn/stdm)
+1. A running version of STDM v1.7.4 or higher. The following is the [Installation Guide](https://github.com/gltn/stdm)
 
-	- During the setup, please keep in mind where you have created the **STDM directory (.stdm)** for your files.
+	- On Windows, select the appropriate **[Bundled STDM Installer](https://www.stdm.gltn.net/docs/1_7/#t=usingbundledstdminstaller.htm)** and follow this Installation Guide https://www.stdm.gltn.net/docs/1_7/#t=usingbundledstdminstaller.htm.
 
-	- **Note:** It is created in the _**Home**_ directory as a _**hidden** directory_
+	- On Ubuntu, use the following Installation Guide https://www.stdm.gltn.net/docs/1_7/#t=installingfromgltnpluginreposito.htm
 
-2. For advanced users, install git package
+	- **Note:** During the setup, keep in the directory path of the **STDM (.stdm)**.
+
+		- Windows: `C:\Users\<Username>\.stdm\`
+
+		- Ubuntu: `/home/<username>/.stdm/`	
+
+	<img width="350" alt="STDM directory" src="../../images/readme/path_supporting_documents.png" />
+
+2. A **git** package to clone the STDM - configurations from the github repository. Select the appropriate package below depending on the platform and follow the installation guide provided:
 
 	- [Windows](https://www.atlassian.com/git/tutorials/install-git#windows)
 
@@ -97,9 +90,9 @@ A. STDM data profiles/configuration can be installed in two ways:
 
 B. STDM report templates can be installed by:
 
-1. Copy/move the custom STDM report template to the STDM base directory **.stdm** into the reports>templates directory i.e. **.stdm/reports/templates/_Certificate of Parcel Ownership Sample.sdt_**
+1. Copy/move the custom STDM report template to the STDM base directory **.stdm** into the reports > templates directory i.e. **.stdm/reports/templates/_Certificate of Parcel Ownership Sample.sdt_**
 
 
 ### License
 
-The STDM data profiles and report templates are free resources; adapting the same license as the STDM tool hence you can redistribute it and/or modify it under the terms of the GNU General Public License version 3 (GPL v3) as published by the Free Software Foundation. The full GNU General Public License is available in LICENSE.txt or [here](http://www.gnu.org/licenses/gpl-3.0.html).
+The STDM data profile and report template customizations (configurations) are free resources; adapting the same license as the STDM tool hence you can redistribute it and/or modify it under the terms of the GNU General Public License version 3 (GPL v3) as published by the Free Software Foundation. The full GNU General Public License is available in LICENSE.txt or [here](http://www.gnu.org/licenses/gpl-3.0.html).
