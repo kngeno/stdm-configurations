@@ -17,9 +17,9 @@ The STDM data profiles and report templates are organized according to applicati
 
 1. A running version of STDM v1.7.4 or higher. The following is the [Installation Guide](https://github.com/gltn/stdm)
 
-	- On Windows, select the appropriate **[Bundled STDM Installer](https://www.stdm.gltn.net/docs/1_7/#t=usingbundledstdminstaller.htm)** and follow this Installation Guide https://www.stdm.gltn.net/docs/1_7/#t=usingbundledstdminstaller.htm.
+	- On Windows, select the appropriate **[Bundled STDM Installer](https://www.stdm.gltn.net/docs/1_7/#t=usingbundledstdminstaller.htm)** and follow this installation guide [Using Bundled STDM Installer]( https://www.stdm.gltn.net/docs/1_7/#t=usingbundledstdminstaller.htm).
 
-	- On Ubuntu, use the following Installation Guide https://www.stdm.gltn.net/docs/1_7/#t=installingfromgltnpluginreposito.htm
+	- On Ubuntu, use the following installation guide [Installing from GLTN Plugin Repository](https://www.stdm.gltn.net/docs/1_7/#t=installingfromgltnpluginreposito.htm)
 
 	- **Note:** During the setup, keep in the directory path of the **STDM (.stdm)**.
 
@@ -27,9 +27,9 @@ The STDM data profiles and report templates are organized according to applicati
 
 		- Ubuntu: `/home/<username>/.stdm/`	
 
-	<img width="350" alt="STDM directory" src="../../images/readme/path_supporting_documents.png" />
+	<img width="350" alt="STDM directory" src="./images/readme/path_supporting_documents.png" />
 
-2. A **git** package to clone the STDM - configurations from the github repository. Select the appropriate package below depending on the platform and follow the installation guide provided:
+2. A git package to clone the STDM - configurations from the github repository. Select the appropriate package below depending on the platform and follow the installation guide provided:
 
 	- [Windows](https://www.atlassian.com/git/tutorials/install-git#windows)
 
@@ -62,7 +62,7 @@ A. STDM data profiles/configuration can be installed in two ways:
 
 		<img src="./images/readme/lcc_zambia_config.png" alt="configuration wizard icon" style="margin-top: 10px;" />
 
-	7. Follow the STDM Getting Started Tutorial https://www.stdm.gltn.net/docs/1_7/#t=Getting_Started.htm
+	7. Follow the [STDM Getting Started Tutorial](https://www.stdm.gltn.net/docs/1_7/#t=Getting_Started.htm)
 
 
 2. For advanced users - use git clone. The steps are:
@@ -85,7 +85,7 @@ A. STDM data profiles/configuration can be installed in two ways:
 
 		<img src="./images/readme/lcc_zambia_config.png" alt="configuration wizard icon" style="margin-top: 10px;" />
 
-	7. Follow the STDM Getting Started Tutorial https://www.stdm.gltn.net/docs/1_7/#t=Getting_Started.htm
+	7. Follow the [STDM Getting Started Tutorial](https://www.stdm.gltn.net/docs/1_7/#t=Getting_Started.htm)
 
 
 B. STDM report templates can be installed by:
