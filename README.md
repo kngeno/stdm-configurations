@@ -21,7 +21,7 @@ The STDM data profiles and report templates are organized according to applicati
 
 	- On Ubuntu, use the following installation guide [Installing from GLTN Plugin Repository](https://www.stdm.gltn.net/docs/1_7/#t=installingfromgltnpluginreposito.htm)
 
-	- **Note:** During the setup, keep in the directory path of the **STDM (.stdm)**.
+	- **Note:** During the [configuration of the directory settings](https://www.stdm.gltn.net/docs/1_7/#t=Modifying_Supporting_Document_Path.htm), take note of the directory path of the **STDM (.stdm)**.
 
 		- Windows: `C:\Users\<Username>\.stdm\`
 
