@@ -31,11 +31,11 @@ The STDM data profiles and report templates are organized according to applicati
 
 2. A git package to clone the STDM - configurations from the github repository. Select the appropriate package below depending on the platform and follow the installation guide provided:
 
-	- [Windows](https://www.atlassian.com/git/tutorials/install-git#windows)
+	- Windows [Installation Guide](https://www.atlassian.com/git/tutorials/install-git#windows)
 
-	- [Ubuntu](https://www.atlassian.com/git/tutorials/install-git#linux)
+	- Ubuntu [Installation Guide](https://www.atlassian.com/git/tutorials/install-git#linux)
 
-	- [Mac](https://www.atlassian.com/git/tutorials/install-git#mac-os-x)
+	- Mac [Installation Guide](https://www.atlassian.com/git/tutorials/install-git#mac-os-x)
 
 
 ### Installation
