@@ -8,7 +8,7 @@ Context: This configuration represents properties owned by persons for purposes 
 
 **Sample output: Certificate of Informal Settlement**
 
-View [Certificate of Occupancy License Sample for LCC Zamia](https://github.com/kngeno/stdm-configurations/blob/master/images/certificates/ZM_LCC_Certificate_of_Occupancy_License_Sample.pdf)
+View [Certificate of Occupancy License Sample for LCC Zambia](https://github.com/kngeno/stdm-configurations/blob/master/images/certificates/ZM_LCC_Certificate_of_Occupancy_License_Sample.pdf)
 
 
-View [Certificate of Occupancy License Sample for LCC Zamia](./images/certificates/ZM_LCC_Certificate_of_Occupancy_License_Sample.pdf)
+View [Certificate of Occupancy License Sample for LCC Zambia](../../images/certificates/ZM_LCC_Certificate_of_Occupancy_License_Sample.pdf)
