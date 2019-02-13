@@ -13,9 +13,11 @@ A set of the respective STDM report templates to generate documents based on STD
 See the topic on Designing and Generating Documents in the user manual: [Desing a Document Template](https://www.stdm.gltn.net/docs/1_7/Designing_a_Document_Template.htm) & [Generating Documents Using Templates](https://www.stdm.gltn.net/docs/1_7/Generating_Documents_Using_Templates.htm)
 
 
-### Organization Overview
+### Content Organization
 
-The STDM data profiles and report templates are organized according to application contexts within countries i.e. Zambia has two application contexts namely: Customary Land  and Informal Settlement.
+The STDM data profiles and report templates are organized according to application contexts within countries.
+
+
 
 ### Prerequisites
 
@@ -44,7 +46,8 @@ The STDM data profiles and report templates are organized according to applicati
 
 ### Installation
 
-A. STDM data profiles/configuration can be installed in two ways:
+#### A. Data Profiles
+STDM data profiles/configuration can be installed in two ways:
 
 1. For beginners - download [stdm-configurations-master.zip](https://github.com/gltn/stdm-configurations/archive/master.zip)
 	
@@ -91,8 +94,8 @@ A. STDM data profiles/configuration can be installed in two ways:
 
 	7. Follow the [STDM Getting Started Tutorial](https://www.stdm.gltn.net/docs/1_7/#t=Getting_Started.htm)
 
-
-B. STDM report templates can be installed by:
+#### B. Report Templates
+STDM report templates can be installed by:
 
 1. Copy/move the custom STDM report template to the STDM base directory **.stdm** into the reports > templates directory i.e. **.stdm/reports/templates/_Certificate of Parcel Ownership Sample.sdt_**
 

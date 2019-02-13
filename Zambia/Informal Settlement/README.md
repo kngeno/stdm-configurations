@@ -2,10 +2,14 @@
 
 Context: This configuration represents properties owned by persons for purposes of issuing Occupancy licenses for the informal settlement in Kanyama, Ward 10, Zambia. 
 
-**Social Tenure Entities**
+**Social Tenure Relationship (STR) Data Model**
 
-<img alt="Lusaka City Council - Social Tenure Entities" src="../../images/readme/party_entities_lcc.png" />
+<img alt="Lusaka City Council - Social Tenure Relationship Entities" src="../../images/readme/party_entities_lcc.png" />
 
-**Sample output: Certificate of Informal Settlement**
+**Sample output: Certificate of Occupancy License for LCC Zambia**
 
-View [Certificate of Occupancy License Sample for LCC Zambia](../../images/certificates/ZM_LCC_Certificate_of_Occupancy_License_Sample.pdf)
+<img alt="Lusaka City Council - Certificate of Occupancy License - Page 1" src="../../certificates/ZM_LCC_Certificate_of_Occupancy_License_Sample_page1.png" />
+
+<img alt="Lusaka City Council - Certificate of Occupancy License - Page 2" src="../../certificates/ZM_LCC_Certificate_of_Occupancy_License_Sample_page2.png" />
+
+<img alt="Lusaka City Council - Certificate of Occupancy License - Page 3" src="../../certificates/ZM_LCC_Certificate_of_Occupancy_License_Sample_page3.png" />
