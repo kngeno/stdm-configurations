@@ -8,6 +8,6 @@ Context: This configuration represents properties owned by persons for purposes 
 
 **Sample output: Certificate of Informal Settlement**
 
-[A Certificate of Occupancy License Sample for LCC Zamia](../../images/certificates/ZM_LCC_Certificate_of_Occupancy_Licence_Sample.pdf)
+[A Certificate of Occupancy License Sample for LCC Zamia]("../../images/certificates/ZM_LCC_Certificate_of_Occupancy_Licence_Sample.pdf")
 
 <img alt="Lusaka City Council - Certificate of Occupancy license" src="../../images/certificates/ZM_LCC_Certificate_of_Occupancy_Licence_Sample.pdf" />
