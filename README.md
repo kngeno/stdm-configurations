@@ -21,7 +21,7 @@ The STDM data profiles and report templates are organized according to applicati
 
 1. A running version of STDM v1.7.4 or higher. The following is the [Installation Guide](https://github.com/gltn/stdm)
 
-	- On Windows, select the appropriate **[Bundled STDM Installer](https://www.stdm.gltn.net/docs/1_7/#t=usingbundledstdminstaller.htm)** and follow this installation guide [Using Bundled STDM Installer]( https://www.stdm.gltn.net/docs/1_7/#t=usingbundledstdminstaller.htm).
+	- On Windows, select the appropriate **[Bundled STDM Installer](https://www.stdm.gltn.net/docs/1_7/#t=usingbundledstdminstaller.htm)** and follow this installation guide [Using Bundled STDM Installer](https://www.stdm.gltn.net/docs/1_7/#t=usingbundledstdminstaller.htm).
 
 	- On Ubuntu, use the following installation guide [Installing from GLTN Plugin Repository](https://www.stdm.gltn.net/docs/1_7/#t=installingfromgltnpluginreposito.htm)
 
