@@ -8,8 +8,8 @@ Context: This configuration represents properties owned by persons for purposes 
 
 **Sample output: Certificate of Occupancy License for LCC Zambia**
 
-<img alt="Lusaka City Council - Certificate of Occupancy License - Page 1" src="../../images/certificates/ZM_LCC_Certificate_of_Occupancy_License_Sample_page1.png" />
+<img alt="Lusaka City Council - Certificate of Occupancy License - Page 1" src="../../images/certificates/ZM_LCC_Certificate_of_Occupancy_License_Sample_page1.png" width="200" height="400" />
 
-<img alt="Lusaka City Council - Certificate of Occupancy License - Page 2" src="../../images/certificates/ZM_LCC_Certificate_of_Occupancy_License_Sample_page2.png" />
+<img alt="Lusaka City Council - Certificate of Occupancy License - Page 2" src="../../images/certificates/ZM_LCC_Certificate_of_Occupancy_License_Sample_page2.png" width="200" height="400" />
 
-<img alt="Lusaka City Council - Certificate of Occupancy License - Page 3" src="../../images/certificates/ZM_LCC_Certificate_of_Occupancy_License_Sample_page3.png" />
+<img alt="Lusaka City Council - Certificate of Occupancy License - Page 3" src="../../images/certificates/ZM_LCC_Certificate_of_Occupancy_License_Sample_page3.png" width="200" height="400" />
