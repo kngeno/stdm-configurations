@@ -19,7 +19,7 @@ The STDM data profiles and report templates are organized in a hierarchical orde
 
 #### A graphical illustration showing the content organization
 
-<img width="700" alt="Content Organization" src="./images/readme/STDM Customizations - Content overview .png" />
+<img width="700" alt="Content Organization" src="./images/readme/STDM_Customizations_Content_overview.png" />
 
 
 ### Prerequisites
