@@ -15,8 +15,11 @@ See the topic on Designing and Generating Documents in the user manual: [Desing 
 
 ### Content Organization
 
-The STDM data profiles and report templates are organized according to application contexts within countries.
+The STDM data profiles and report templates are organized in a hierarchical order. The STDM customizations are implemented within the thematic areas of the STDM tool whereby countries have cross-cutting themes according to different existing application contexts.
 
+#### A graphical illustration showing the content organization
+
+<img width="700" alt="Content Organization" src="./images/readme/STDM Customizations - Content overview .png" />
 
 
 ### Prerequisites
