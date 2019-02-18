@@ -1,0 +1,603 @@
+<Configuration version="1.3">
+ <Profile description="The Uganda Customary profile is best suited to Uganda's customary Land Tenure." name="Uganda_Customary_Ownership">
+  <ValueLists>
+   <ValueList name="check_social_tenure_relationship_document_type">
+    <CodeValue value="Photo" code=""/>
+   </ValueList>
+   <ValueList name="check_tenure_type">
+    <CodeValue value="Customary" code=""/>
+   </ValueList>
+   <ValueList name="check_gender">
+    <CodeValue value="Female" code="FEM"/>
+    <CodeValue value="Male" code="MAL"/>
+   </ValueList>
+   <ValueList name="check_landuse">
+    <CodeValue value="Agricultural" code="AGR"/>
+    <CodeValue value="Commercial" code="COM"/>
+    <CodeValue value="Industrial" code="IND"/>
+    <CodeValue value="Institutional" code="INS"/>
+    <CodeValue value="Residential" code="RES"/>
+    <CodeValue value="Special purpose" code="SPE"/>
+   </ValueList>
+   <ValueList name="check_marital_status">
+    <CodeValue value="Married" code=""/>
+    <CodeValue value="Single" code=""/>
+    <CodeValue value="Divorced" code=""/>
+    <CodeValue value="Widow" code=""/>
+    <CodeValue value="Widower" code=""/>
+    <CodeValue value="Cohabiting" code=""/>
+    <CodeValue value="Separated" code=""/>
+   </ValueList>
+   <ValueList name="check_plot_type">
+    <CodeValue value="Private" code="PRI"/>
+    <CodeValue value="Public" code="PUB"/>
+    <CodeValue value="Communal" code="COM"/>
+   </ValueList>
+   <ValueList name="check_dispute">
+    <CodeValue value="Border" code="BOR"/>
+    <CodeValue value="Ownership" code="OWN"/>
+    <CodeValue value="Access" code="ACC"/>
+   </ValueList>
+   <ValueList name="check_application_approval_document_type">
+    <CodeValue value="Minutes" code=""/>
+    <CodeValue value="Chairperson" code=""/>
+    <CodeValue value="Secretary" code=""/>
+   </ValueList>
+   <ValueList name="check_approval_status">
+    <CodeValue value="Approved" code="APP"/>
+    <CodeValue value="Rejected" code="REJ"/>
+    <CodeValue value="Deferred" code="DEF"/>
+   </ValueList>
+   <ValueList name="check_position">
+    <CodeValue value="Assistant" code=""/>
+    <CodeValue value="Cartographer/ Draughtsman" code=""/>
+    <CodeValue value="Chief" code=""/>
+    <CodeValue value="County" code=""/>
+    <CodeValue value="Senior" code=""/>
+   </ValueList>
+   <ValueList name="check_adjudication_assistant_document_type">
+    <CodeValue value="General" code=""/>
+   </ValueList>
+   <ValueList name="check_adjudication_document_type">
+    <CodeValue value="General" code=""/>
+   </ValueList>
+   <ValueList name="check_household_document_type">
+    <CodeValue value="General" code=""/>
+   </ValueList>
+   <ValueList name="check_recorder_document_type">
+    <CodeValue value="General" code=""/>
+   </ValueList>
+   <ValueList name="check_community">
+    <CodeValue value="Batwa" code=""/>
+   </ValueList>
+   <ValueList name="check_how_customary_right_acquired">
+    <CodeValue value="Inheritance" code=""/>
+    <CodeValue value="Gift" code=""/>
+    <CodeValue value="Purchase" code=""/>
+    <CodeValue value="Government action" code=""/>
+   </ValueList>
+   <ValueList name="check_yes_no">
+    <CodeValue value="Yes" code=""/>
+    <CodeValue value="No" code=""/>
+   </ValueList>
+   <ValueList name="check_wish_to_hold_land">
+    <CodeValue value="Individual" code=""/>
+    <CodeValue value="Family" code=""/>
+   </ValueList>
+   <ValueList name="check_portion_document_type">
+    <CodeValue value="General" code="G"/>
+    <CodeValue value="Area Land Committee Remarks" code=""/>
+    <CodeValue value="Inspection Report" code=""/>
+    <CodeValue value="Physical Planning Committee Remarks" code=""/>
+    <CodeValue value="Land Officer Remarks" code=""/>
+   </ValueList>
+   <ValueList name="check_form_1_part_i_document_type">
+    <CodeValue value="Photo" code=""/>
+    <CodeValue value="Signature of Applicants" code=""/>
+    <CodeValue value="Form 1 Part I" code=""/>
+   </ValueList>
+   <ValueList name="check_use_of_land">
+    <CodeValue value="Farming" code=""/>
+    <CodeValue value="Housing" code=""/>
+    <CodeValue value="Family Dwelling" code=""/>
+   </ValueList>
+   <ValueList name="check_form_1_part_ii_document_type">
+    <CodeValue value="Form 1 Part II" code=""/>
+    <CodeValue value="Inspection Report" code=""/>
+   </ValueList>
+   <ValueList name="check_form_1_part_iii_document_type">
+    <CodeValue value="Form 1 Part III" code=""/>
+    <CodeValue value="Board minute approving survey" code=""/>
+   </ValueList>
+   <ValueList name="check_form_29_document_type">
+    <CodeValue value="General" code=""/>
+   </ValueList>
+   <ValueList name="check_form_23_document_type">
+    <CodeValue value="Form 3" code=""/>
+   </ValueList>
+   <ValueList name="check_locality_type">
+    <CodeValue value="Urban" code=""/>
+    <CodeValue value="Rural" code=""/>
+   </ValueList>
+   <ValueList name="check_nature_of_transaction">
+    <CodeValue value="Application for CCO" code=""/>
+   </ValueList>
+   <ValueList name="check_document_submitter_document_type">
+    <CodeValue value="General" code=""/>
+   </ValueList>
+   <ValueList name="check_applicants_document_type">
+    <CodeValue value="Photo" code=""/>
+    <CodeValue value="Identification Card" code=""/>
+   </ValueList>
+   <ValueList name="check_citizenship">
+    <CodeValue value="Ugandan" code=""/>
+    <CodeValue value="Other National" code=""/>
+   </ValueList>
+   <ValueList name="check_village">
+    <CodeValue value="Ahakahambo" code=""/>
+    <CodeValue value="Ahakatoma" code=""/>
+    <CodeValue value="Ahamuhambo" code=""/>
+    <CodeValue value="Ahamushebeya" code=""/>
+    <CodeValue value="Ahasingye" code=""/>
+    <CodeValue value="Birungo" code=""/>
+    <CodeValue value="Bugarama" code=""/>
+    <CodeValue value="Bugira" code=""/>
+    <CodeValue value="Bugo" code=""/>
+    <CodeValue value="Buhinga" code=""/>
+    <CodeValue value="Bumba" code=""/>
+    <CodeValue value="Bunagana" code=""/>
+    <CodeValue value="Busangano" code=""/>
+    <CodeValue value="Bushabira" code=""/>
+    <CodeValue value="Bwaya" code=""/>
+    <CodeValue value="Byumba" code=""/>
+    <CodeValue value="Habugarama" code=""/>
+    <CodeValue value="Hakabungo" code=""/>
+    <CodeValue value="Itala" code=""/>
+    <CodeValue value="Kabahesi" code=""/>
+    <CodeValue value="Kabeho" code=""/>
+    <CodeValue value="Kabera" code=""/>
+    <CodeValue value="Kabingo" code=""/>
+    <CodeValue value="Kabirago" code=""/>
+    <CodeValue value="Kaceerere" code=""/>
+    <CodeValue value="Kaceerere A" code=""/>
+    <CodeValue value="kaceerere B" code=""/>
+    <CodeValue value="Kacerere" code=""/>
+    <CodeValue value="Kacerere A" code=""/>
+    <CodeValue value="Kacerere B" code=""/>
+    <CodeValue value="Kagasha" code=""/>
+    <CodeValue value="Kagugo" code=""/>
+    <CodeValue value="Kagusha" code=""/>
+    <CodeValue value="Kagyera" code=""/>
+    <CodeValue value="Kamukungu" code=""/>
+    <CodeValue value="Kangante" code=""/>
+    <CodeValue value="Kanyante" code=""/>
+    <CodeValue value="Karago" code=""/>
+    <CodeValue value="Karambo" code=""/>
+    <CodeValue value="Karengyere" code=""/>
+    <CodeValue value="Kashenyi" code=""/>
+    <CodeValue value="Kashungyera" code=""/>
+    <CodeValue value="Katabura" code=""/>
+    <CodeValue value="Katambara" code=""/>
+    <CodeValue value="Kibingo" code=""/>
+    <CodeValue value="Kibingwe" code=""/>
+    <CodeValue value="Kigarama A" code=""/>
+    <CodeValue value="kigoro" code=""/>
+    <CodeValue value="Kihiira" code=""/>
+    <CodeValue value="Kihorongwa" code=""/>
+    <CodeValue value="Kikingo" code=""/>
+    <CodeValue value="Kikore" code=""/>
+    <CodeValue value="Kirwa" code=""/>
+    <CodeValue value="Kishanje" code=""/>
+    <CodeValue value="Kishaze" code=""/>
+    <CodeValue value="Kitaabo" code=""/>
+    <CodeValue value="Kitabagarwa A" code=""/>
+    <CodeValue value="kitabagarwa B" code=""/>
+    <CodeValue value="Kitabangarwa" code=""/>
+    <CodeValue value="Kitojo" code=""/>
+    <CodeValue value="Kitooma 1" code=""/>
+    <CodeValue value="kitooma 2" code=""/>
+    <CodeValue value="Kyamwimba" code=""/>
+    <CodeValue value="Kyarugondo" code=""/>
+    <CodeValue value="Kyondo" code=""/>
+    <CodeValue value="Magobore" code=""/>
+    <CodeValue value="Mahura" code=""/>
+    <CodeValue value="Mburashasho" code=""/>
+    <CodeValue value="Mugobore" code=""/>
+    <CodeValue value="Muguri A" code=""/>
+    <CodeValue value="Muguri B" code=""/>
+    <CodeValue value="Muhenvu" code=""/>
+    <CodeValue value="Muhguri A" code=""/>
+    <CodeValue value="Mukabaya" code=""/>
+    <CodeValue value="Mukiyovu" code=""/>
+    <CodeValue value="Mukoni" code=""/>
+    <CodeValue value="Murambo" code=""/>
+    <CodeValue value="Murungu" code=""/>
+    <CodeValue value="Mushenyi" code=""/>
+    <CodeValue value="Ndarura" code=""/>
+    <CodeValue value="Nyabigore" code=""/>
+    <CodeValue value="Nyabuhukye" code=""/>
+    <CodeValue value="Nyabyumba" code=""/>
+    <CodeValue value="Nyaconga" code=""/>
+    <CodeValue value="Nyakabungo" code=""/>
+    <CodeValue value="Nyakarindi" code=""/>
+    <CodeValue value="Nyakasharara" code=""/>
+    <CodeValue value="Nyakateete A" code=""/>
+    <CodeValue value="Nyakateete B" code=""/>
+    <CodeValue value="Nyakatoma" code=""/>
+    <CodeValue value="Nyakatugunda" code=""/>
+    <CodeValue value="Nyakibande" code=""/>
+    <CodeValue value="Nyakitokori" code=""/>
+    <CodeValue value="Nyakyonga" code=""/>
+    <CodeValue value="Nyamabare" code=""/>
+    <CodeValue value="Nyamitooma" code=""/>
+    <CodeValue value="Nyamiyaga" code=""/>
+    <CodeValue value="Nyamugari" code=""/>
+    <CodeValue value="Nyamurindira A" code=""/>
+    <CodeValue value="Nyamurindira B" code=""/>
+    <CodeValue value="Nyangoye" code=""/>
+    <CodeValue value="Nyarubira" code=""/>
+    <CodeValue value="Nyinamuhombori" code=""/>
+    <CodeValue value="Nyinansunzu" code=""/>
+    <CodeValue value="Nyinarushengye" code=""/>
+    <CodeValue value="Nyinasunzu" code=""/>
+    <CodeValue value="Omukamba" code=""/>
+    <CodeValue value="Omurujanga" code=""/>
+    <CodeValue value="Omururinda" code=""/>
+    <CodeValue value="Rugarama" code=""/>
+    <CodeValue value="Rujogo" code=""/>
+    <CodeValue value="Rukaranga" code=""/>
+    <CodeValue value="Rukore" code=""/>
+    <CodeValue value="Rushabo" code=""/>
+    <CodeValue value="Rushaki A" code=""/>
+    <CodeValue value="Rushebeya" code=""/>
+    <CodeValue value="Rushongati" code=""/>
+    <CodeValue value="Rutooma 1" code=""/>
+    <CodeValue value="Rutooma 2" code=""/>
+    <CodeValue value="Rwabarera" code=""/>
+    <CodeValue value="Rwabihindo" code=""/>
+    <CodeValue value="Rwabihindu" code=""/>
+    <CodeValue value="Rwakakobe" code=""/>
+    <CodeValue value="Rwakizamba" code=""/>
+    <CodeValue value="Rwamacumu" code=""/>
+    <CodeValue value="Rwanganiro" code=""/>
+    <CodeValue value="Rwangano" code=""/>
+    <CodeValue value="Rwanshoshore" code=""/>
+    <CodeValue value="Rwaza" code=""/>
+    <CodeValue value="Rwemihanga" code=""/>
+   </ValueList>
+   <ValueList name="check_parish">
+    <CodeValue value="Buranga" code=""/>
+    <CodeValue value="Butenga" code=""/>
+    <CodeValue value="Hamuhambo Ward" code=""/>
+    <CodeValue value="Kacerere" code=""/>
+    <CodeValue value="Kacerere Ward" code=""/>
+    <CodeValue value="Karujanga" code=""/>
+    <CodeValue value="Kasheregyenyi" code=""/>
+    <CodeValue value="Katenga" code=""/>
+    <CodeValue value="Kibuga" code=""/>
+    <CodeValue value="Kicumbi" code=""/>
+    <CodeValue value="Kisasa" code=""/>
+    <CodeValue value="Kitooma" code=""/>
+    <CodeValue value="Mayengo" code=""/>
+    <CodeValue value="Mugandu" code=""/>
+    <CodeValue value="Rukore Ward" code=""/>
+    <CodeValue value="Rwanyena" code=""/>
+   </ValueList>
+   <ValueList name="check_sub_county">
+    <CodeValue value="Rubaya" code=""/>
+    <CodeValue value="Kamuganguzi" code=""/>
+   </ValueList>
+   <ValueList name="check_county">
+    <CodeValue value="Ndorwa" code=""/>
+   </ValueList>
+   <ValueList name="check_district">
+    <CodeValue value="Kabale" code=""/>
+   </ValueList>
+   <ValueList name="check_education_level">
+    <CodeValue value="Primary" code=""/>
+    <CodeValue value="Ordinary" code=""/>
+    <CodeValue value="Advanced" code=""/>
+    <CodeValue value="Tertiary" code=""/>
+   </ValueList>
+   <ValueList name="check_cco_household_members">
+    <CodeValue value="Husband" code=""/>
+    <CodeValue value="Wife" code=""/>
+    <CodeValue value="Children" code=""/>
+   </ValueList>
+   <ValueList name="check_landuse_decision_maker">
+    <CodeValue value="Husband" code=""/>
+    <CodeValue value="Wife" code=""/>
+    <CodeValue value="Children above 18 years" code=""/>
+   </ValueList>
+   <ValueList name="check_food_source">
+    <CodeValue value="Household Farm" code=""/>
+    <CodeValue value="Market" code=""/>
+    <CodeValue value="Other" code=""/>
+   </ValueList>
+  </ValueLists>
+  <Associations>
+   <Association secondParent="Evaluation Form" firstParent="check_cco_household_members" shortName="coc_household_members" name="ug_coc_household_members"/>
+   <Association secondParent="Evaluation Form" firstParent="check_landuse_decision_maker" shortName="landuse_decision_maker" name="ug_landuse_decision_maker"/>
+   <Association secondParent="Evaluation Form" firstParent="check_food_source" shortName="food_source" name="ug_food_source"/>
+   <Association secondParent="check_tenure_type_str_attrs" firstParent="check_how_customary_right_acquired" shortName="how_customary_right_acquired" name="ug_how_customary_right_acquired"/>
+  </Associations>
+  <Entity editable="False" global="False" rowindex="-1" associative="False" description="" proxy="False" createId="True" supportsDocuments="False" shortName="check_tenure_type_str_attrs" name="ug_check_tenure_type_str_attrs" label="">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="-1" minimum="0" maximum="2147483647" description="" index="False" name="social_tenure_relationship_id" searchable="True" TYPE_INFO="FOREIGN_KEY" label="" mandatory="False">
+     <Relation name="fk_ug_social_tenure_relationship_id_ug_check_tenure_type_str_attrs_social_tenure_relationship_id"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="-1" description="" index="False" name="how_customary_right_acquired" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="" mandatory="False">
+     <associationEntity name="ug_how_customary_right_acquired"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="-1" minimum="0" maximum="2147483647" description="" index="False" name="wish_to_hold_land_as" searchable="True" TYPE_INFO="LOOKUP" label="" mandatory="False">
+     <Relation name="fk_ug_check_wish_to_hold_land_id_ug_check_tenure_type_str_attrs_wish_to_hold_land_as"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="-1" minimum="0" maximum="2147483647" description="" index="False" name="land_occupied" searchable="True" TYPE_INFO="LOOKUP" label="" mandatory="False">
+     <Relation name="fk_ug_check_yes_no_id_ug_check_tenure_type_str_attrs_land_occupied"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="-1" minimum="0" maximum="300" description="" index="False" name="occupant_name" searchable="True" TYPE_INFO="VARCHAR" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="-1" minimum="0" maximum="400" description="" index="False" name="claims_of_occupiers" searchable="True" TYPE_INFO="VARCHAR" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="-1" minimum="0" maximum="2147483647" description="" index="False" name="current_use_of_the_land" searchable="True" TYPE_INFO="LOOKUP" label="" mandatory="False">
+     <Relation name="fk_ug_check_landuse_id_ug_check_tenure_type_str_attrs_current_use_of_the_land"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="-1" minimum="0" maximum="2147483647" description="" index="False" name="intended_use_of_the_land" searchable="True" TYPE_INFO="LOOKUP" label="" mandatory="False">
+     <Relation name="fk_ug_check_landuse_id_ug_check_tenure_type_str_attrs_intended_use_of_the_land"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="-1" minimum="0" maximum="1" description="" index="False" name="dummy_custom_str" searchable="True" TYPE_INFO="VARCHAR" label="" mandatory="False"/>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="0" associative="False" description="Is a person applying application." documentTypeLookup="check_applicants_document_type" proxy="False" createId="True" supportsDocuments="True" shortName="Applicants" name="ug_applicants" label="Applicants">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="Surname first" rowindex="0" minimum="0" maximum="200" description="Applicants surname" index="True" name="surname" searchable="True" TYPE_INFO="VARCHAR" label="" mandatory="True"/>
+    <Column unique="False" tip="" rowindex="1" minimum="0" maximum="15" description="" index="False" name="first_name" searchable="True" TYPE_INFO="VARCHAR" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="2" minimum="0" maximum="2147483647" description="" index="False" name="gender" searchable="False" TYPE_INFO="LOOKUP" label="Sex" mandatory="False">
+     <Relation name="fk_ug_check_gender_id_ug_applicants_gender"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="3" minimum="-2147483648" maximum="2147483647" description="Age" index="False" name="age" searchable="True" TYPE_INFO="INT" label="" mandatory="False"/>
+    <Column unique="False" tip="The marital status of the person" rowindex="4" minimum="0" maximum="2147483647" description="The marital status of the person" index="False" name="marital_status" searchable="True" TYPE_INFO="LOOKUP" label="" mandatory="False">
+     <Relation name="fk_ug_check_marital_status_id_ug_applicants_marital_status"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="5" minimum="0" maximum="15" description="" index="False" name="citizenship_national_id" searchable="True" TYPE_INFO="VARCHAR" label="Ugandan Citizenship National ID" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="6" minimum="0" maximum="30" description="" index="False" name="telephone" searchable="True" TYPE_INFO="VARCHAR" label="" mandatory="False"/>
+    <Column unique="False" tip="Only Ugandan is allowed." rowindex="7" minimum="0" maximum="2147483647" description="" index="False" name="citizenship" searchable="True" TYPE_INFO="LOOKUP" label="" mandatory="True">
+     <Relation name="fk_ug_check_citizenship_id_ug_applicants_citizenship"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="8" minimum="0" maximum="2147483647" description="" index="False" name="applicants" searchable="False" TYPE_INFO="FOREIGN_KEY" label="" mandatory="False">
+     <Relation name="fk_ug_form_1_part_i_id_ug_applicants_applicants"/>
+    </Column>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="1" associative="False" description="" documentTypeLookup="check_form_1_part_i_document_type" proxy="False" createId="True" supportsDocuments="True" shortName="Form 1 Part I" name="ug_form_1_part_i" label="Form 1 Part I">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="0" minimum="0" maximum="100" description="" index="False" name="permanent" searchable="True" TYPE_INFO="VARCHAR" label="Permanent" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="1" minimum="0" maximum="50" description="" index="False" name="contact" searchable="True" TYPE_INFO="VARCHAR" label="Contact" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="2" minimum="0" maximum="2147483647" description="" index="False" name="village" searchable="True" TYPE_INFO="LOOKUP" label="Village/Zone" mandatory="False">
+     <Relation name="fk_ug_check_village_id_ug_form_1_part_i_village"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="3" minimum="0" maximum="2147483647" description="" index="False" name="parish" searchable="True" TYPE_INFO="LOOKUP" label="Parish/Ward" mandatory="False">
+     <Relation name="fk_ug_check_parish_id_ug_form_1_part_i_parish"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="4" minimum="0" maximum="2147483647" description="" index="False" name="sub_county" searchable="True" TYPE_INFO="LOOKUP" label="Sub-county/Town" mandatory="False">
+     <Relation name="fk_ug_check_sub_county_id_ug_form_1_part_i_sub_county"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="5" minimum="0" maximum="2147483647" description="" index="False" name="county" searchable="True" TYPE_INFO="LOOKUP" label="County/Division" mandatory="False">
+     <Relation name="fk_ug_check_county_id_ug_form_1_part_i_county"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="6" minimum="0" maximum="2147483647" description="" index="False" name="district" searchable="True" TYPE_INFO="LOOKUP" label="District" mandatory="False">
+     <Relation name="fk_ug_check_district_id_ug_form_1_part_i_district"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="7" minimum="-2.225073858507201383090232717332404064219215980462331830553327416887204434813918195854283159012511020564067339731035811005152434161553460108856012385377718821130777993532002330479610147442583636071921565046942503734208375250806650616658158948720491179968591639648500635908770118304874799780887753749949451580451605050915399856582470818645113537935804992115981085766051992433352114352390148795699609591288891602992641511063466313393663477586513029371762047325631781485664350872122828637642044846811407613911477062801689853244110024161447421618567166150540154285084716752901903161322778896729707373123334086988983175067838846926092773977972858659654941091369095406136467568702398678315290680984617210924625396728515625E-308" maximum="179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368" description="" index="False" name="approximate_area" searchable="True" TYPE_INFO="DOUBLE" label="Approximate Area (ha)" mandatory="False">
+     <Numeric scale="6" precision="18"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="8" minimum="0" maximum="2147483647" description="" index="False" name="use_of_land" searchable="True" TYPE_INFO="LOOKUP" label="Use or occupation of land" mandatory="True">
+     <Relation name="fk_ug_check_use_of_land_id_ug_form_1_part_i_use_of_land"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="9" minimum="0" maximum="2147483647" description="" index="False" name="how_customary_right_acquired" searchable="True" TYPE_INFO="LOOKUP" label="How was the customary right(s) acquired?" mandatory="False">
+     <Relation name="fk_ug_check_how_customary_right_acquired_id_ug_form_1_part_i_how_customary_right_acquired"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="10" description="" index="False" name="customary_ownership_certificate" searchable="False" TYPE_INFO="BOOL" label="Certificate of Customary Ownership" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="11" description="" index="False" name="hold_land_as_individual" searchable="False" TYPE_INFO="BOOL" label="Wish to hold land as Individual(s)" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="12" description="" index="False" name="hold_land_as_family" searchable="False" TYPE_INFO="BOOL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="13" minimum="0" maximum="100" description="" index="False" name="state_shares" searchable="False" TYPE_INFO="PERCENT" label="" mandatory="False">
+     <Numeric scale="6" precision="18"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="14" minimum="0001-01-01" maximum="9999-12-31" description="" index="False" name="date_of_application" searchable="False" TYPE_INFO="DATE" label="" mandatory="False">
+     <currentDate minimum="False" maximum="False"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="15" minimum="0" maximum="1073741823" description="" index="False" name="owners_of_adjacent_land" searchable="False" TYPE_INFO="TEXT" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="16" minimum="0001-01-01 00:00:00" maximum="9999-12-31 23:59:59.999999" description="" index="False" name="entry_date_and_time" searchable="False" TYPE_INFO="DATETIME" label="" mandatory="False">
+     <currentDateTime minimum="False" maximum="False"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="17" minimum="0" maximum="2147483647" description="" index="False" name="nature_of_transaction" searchable="True" TYPE_INFO="LOOKUP" label="" mandatory="False">
+     <Relation name="fk_ug_check_nature_of_transaction_id_ug_form_1_part_i_nature_of_transaction"/>
+    </Column>
+    <Column unique="False" tip="Name of the recorder. " rowindex="18" minimum="0" maximum="50" description="" index="False" name="recorder_name" searchable="True" TYPE_INFO="VARCHAR" label="" mandatory="True"/>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="2" associative="False" description="" documentTypeLookup="check_form_1_part_ii_document_type" proxy="False" createId="True" supportsDocuments="True" shortName="Form 1 Part II" name="ug_form_1_part_ii" label="Form 1 Part II">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="0" description="" index="False" name="land_occupied" searchable="False" TYPE_INFO="BOOL" label="Is the land Occupied" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="1" minimum="0" maximum="2147483647" description="" index="False" name="current_use_of_land" searchable="True" TYPE_INFO="LOOKUP" label="" mandatory="False">
+     <Relation name="fk_ug_check_use_of_land_id_ug_form_1_part_ii_current_use_of_land"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="2" minimum="0" maximum="100" description="" index="False" name="other_current_use_of_land" searchable="True" TYPE_INFO="VARCHAR" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="3" minimum="0" maximum="200" description="" index="False" name="intended_use_of_land" searchable="True" TYPE_INFO="VARCHAR" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="4" minimum="0" maximum="1073741823" description="" index="False" name="remarks_and_recommendations_alc" searchable="False" TYPE_INFO="TEXT" label="Remarks and Recommendations of Area Land Committee" mandatory="False"/>
+    <Column unique="False" tip="Parcel number" rowindex="5" minimum="0" maximum="30" description="" index="False" name="parcel_number" searchable="True" TYPE_INFO="VARCHAR" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="6" minimum="0001-01-01" maximum="9999-12-31" description="" index="False" name="date" searchable="False" TYPE_INFO="DATE" label="" mandatory="False">
+     <currentDate minimum="False" maximum="False"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="7" minimum="0" maximum="2147483647" description="" index="False" name="part_ii" searchable="False" TYPE_INFO="FOREIGN_KEY" label="Part II" mandatory="False">
+     <Relation name="fk_ug_form_1_part_i_id_ug_form_1_part_ii_part_ii"/>
+    </Column>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="3" associative="False" description="" documentTypeLookup="check_form_1_part_iii_document_type" proxy="False" createId="True" supportsDocuments="True" shortName="Form 1 Part III" name="ug_form_1_part_iii" label="Form 1 Part III">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="0" minimum="0" maximum="2147483647" description="" index="False" name="approval_status" searchable="True" TYPE_INFO="LOOKUP" label="" mandatory="False">
+     <Relation name="fk_ug_check_approval_status_id_ug_form_1_part_iii_approval_status"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="1" minimum="0" maximum="1073741823" description="" index="False" name="approval_terms_and_conditions" searchable="False" TYPE_INFO="TEXT" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="2" minimum="0" maximum="1073741823" description="" index="False" name="disapproval_reasons" searchable="False" TYPE_INFO="TEXT" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="3" minimum="0" maximum="100" description="" index="False" name="minute_number" searchable="True" TYPE_INFO="VARCHAR" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="4" minimum="0001-01-01" maximum="9999-12-31" description="" index="False" name="date_of_meeting" searchable="False" TYPE_INFO="DATE" label="" mandatory="False">
+     <currentDate minimum="False" maximum="False"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="5" description="" index="False" name="converted_to_freehold" searchable="False" TYPE_INFO="BOOL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="6" minimum="0" maximum="2147483647" description="" index="False" name="part_iii" searchable="False" TYPE_INFO="FOREIGN_KEY" label="Part III" mandatory="False">
+     <Relation name="fk_ug_form_1_part_i_id_ug_form_1_part_iii_part_iii"/>
+    </Column>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="4" associative="False" description="Demarcation form" documentTypeLookup="check_form_23_document_type" proxy="False" createId="True" supportsDocuments="True" shortName="Form 23" name="ug_form_23" label="Form 23">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="0" minimum="0" maximum="30" description="" index="False" name="parcel_number" searchable="True" TYPE_INFO="VARCHAR" label="" mandatory="True"/>
+    <Column unique="False" tip="" rowindex="1" minimum="0" maximum="2147483647" description="" index="False" name="district" searchable="True" TYPE_INFO="LOOKUP" label="" mandatory="False">
+     <Relation name="fk_ug_check_district_id_ug_form_23_district"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="2" minimum="0" maximum="2147483647" description="" index="False" name="county" searchable="True" TYPE_INFO="LOOKUP" label="County/Municipal" mandatory="False">
+     <Relation name="fk_ug_check_county_id_ug_form_23_county"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="3" minimum="0" maximum="2147483647" description="" index="False" name="sub_county" searchable="True" TYPE_INFO="LOOKUP" label="Sub-county/Division" mandatory="False">
+     <Relation name="fk_ug_check_sub_county_id_ug_form_23_sub_county"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="4" minimum="0" maximum="2147483647" description="" index="False" name="parish" searchable="True" TYPE_INFO="LOOKUP" label="Parish/Ward" mandatory="False">
+     <Relation name="fk_ug_check_parish_id_ug_form_23_parish"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="5" minimum="0" maximum="2147483647" description="" index="False" name="village" searchable="True" TYPE_INFO="LOOKUP" label="Village/Zone" mandatory="False">
+     <Relation name="fk_ug_check_village_id_ug_form_23_village"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="6" minimum="0" maximum="1073741823" description="" index="False" name="easements" searchable="False" TYPE_INFO="TEXT" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="7" minimum="0" maximum="1073741823" description="" index="False" name="rights_of_way_and_easements" searchable="False" TYPE_INFO="TEXT" label="Rights of Way and Any Other Easements" mandatory="False"/>
+    <Column unique="True" tip="" rowindex="8" description="" index="True" name="sketch" searchable="False" TYPE_INFO="GEOMETRY" label="" mandatory="False">
+     <Geometry layerDisplay="UB/KC/P1" srid="21096" type="2"/>
+    </Column>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="5" associative="False" description="Evaluation Of Women, Youth And Food Security Inclusion In The Project" proxy="False" createId="True" supportsDocuments="False" shortName="Evaluation Form" name="ug_evaluation_form" label="">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="0" minimum="0" maximum="50" description="Name of head of household" index="False" name="household_head_name" searchable="True" TYPE_INFO="VARCHAR" label="Name of household head" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="1" minimum="0" maximum="2147483647" description="Sex of household head" index="False" name="household_head_sex" searchable="True" TYPE_INFO="LOOKUP" label="" mandatory="False">
+     <Relation name="fk_ug_check_gender_id_ug_evaluation_form_household_head_sex"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="2" minimum="0" maximum="2147483647" description="Education level of the household head" index="False" name="household_head_education_level" searchable="True" TYPE_INFO="LOOKUP" label="" mandatory="False">
+     <Relation name="fk_ug_check_education_level_id_ug_evaluation_form_household_head_education_level"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="3" minimum="0" maximum="2147483647" description="" index="False" name="marital_status" searchable="True" TYPE_INFO="LOOKUP" label="" mandatory="False">
+     <Relation name="fk_ug_check_marital_status_id_ug_evaluation_form_marital_status"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="4" minimum="-2147483648" maximum="2147483647" description="Number of members in the Household" index="False" name="household_member_number" searchable="True" TYPE_INFO="INT" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="5" minimum="0" maximum="2147483647" description="Highest Education level in the household" index="False" name="household_higest_education_level" searchable="True" TYPE_INFO="LOOKUP" label="" mandatory="False">
+     <Relation name="fk_ug_check_education_level_id_ug_evaluation_form_household_higest_education_level"/>
+    </Column>
+    <Column unique="False" tip="Enter total land owned (acres)" rowindex="6" minimum="-2.225073858507201383090232717332404064219215980462331830553327416887204434813918195854283159012511020564067339731035811005152434161553460108856012385377718821130777993532002330479610147442583636071921565046942503734208375250806650616658158948720491179968591639648500635908770118304874799780887753749949451580451605050915399856582470818645113537935804992115981085766051992433352114352390148795699609591288891602992641511063466313393663477586513029371762047325631781485664350872122828637642044846811407613911477062801689853244110024161447421618567166150540154285084716752901903161322778896729707373123334086988983175067838846926092773977972858659654941091369095406136467568702398678315290680984617210924625396728515625E-308" maximum="179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368" description="1.&#x9;What is the total amount of land owned by the household (acres)" index="False" name="household_total_land" searchable="True" TYPE_INFO="DOUBLE" label="" mandatory="False">
+     <Numeric scale="6" precision="18"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="7" description="2.&#x9;Which members of the household appear on the Customary Ownership Certificate" index="False" name="coc_household_members" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="" mandatory="False">
+     <associationEntity name="ug_coc_household_members"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="8" minimum="-2.225073858507201383090232717332404064219215980462331830553327416887204434813918195854283159012511020564067339731035811005152434161553460108856012385377718821130777993532002330479610147442583636071921565046942503734208375250806650616658158948720491179968591639648500635908770118304874799780887753749949451580451605050915399856582470818645113537935804992115981085766051992433352114352390148795699609591288891602992641511063466313393663477586513029371762047325631781485664350872122828637642044846811407613911477062801689853244110024161447421618567166150540154285084716752901903161322778896729707373123334086988983175067838846926092773977972858659654941091369095406136467568702398678315290680984617210924625396728515625E-308" maximum="179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368" description="Total land allocated to crop production in acres" index="False" name="total_crop_production_land" searchable="True" TYPE_INFO="DOUBLE" label="" mandatory="False">
+     <Numeric scale="6" precision="18"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="-1" minimum="0" maximum="1073741823" description="4.&#x9;What do you think are the effects of land rights to production" index="False" name="land_rights_effects_production" searchable="False" TYPE_INFO="TEXT" label="What do you think are the effects of land rights to production?" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="10" description="Household member who makes land use decisions" index="False" name="landuse_decision_maker" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="Who makes decisions on use of land?" mandatory="False">
+     <associationEntity name="ug_landuse_decision_maker"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="11" minimum="0" maximum="1073741823" description="" index="False" name="production_constraints" searchable="False" TYPE_INFO="TEXT" label="Product constraint to land access" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="12" minimum="0" maximum="1073741823" description="" index="False" name="main_income_source" searchable="False" TYPE_INFO="TEXT" label="Household main source of income" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="13" minimum="-2.225073858507201383090232717332404064219215980462331830553327416887204434813918195854283159012511020564067339731035811005152434161553460108856012385377718821130777993532002330479610147442583636071921565046942503734208375250806650616658158948720491179968591639648500635908770118304874799780887753749949451580451605050915399856582470818645113537935804992115981085766051992433352114352390148795699609591288891602992641511063466313393663477586513029371762047325631781485664350872122828637642044846811407613911477062801689853244110024161447421618567166150540154285084716752901903161322778896729707373123334086988983175067838846926092773977972858659654941091369095406136467568702398678315290680984617210924625396728515625E-308" maximum="179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368" description="Household average monthly income? " index="False" name="average_monthly_income" searchable="True" TYPE_INFO="DOUBLE" label="Household average monthly income?" mandatory="False">
+     <Numeric scale="6" precision="18"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="14" description="Main household source of food? " index="False" name="food_source" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="Main household source of food? " mandatory="False">
+     <associationEntity name="ug_food_source"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="15" minimum="0" maximum="1073741823" description="Other source of food" index="False" name="other_food_source" searchable="False" TYPE_INFO="TEXT" label="Other food source" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="-1" minimum="0" maximum="2147483647" description="" index="False" name="part_ii" searchable="False" TYPE_INFO="FOREIGN_KEY" label="" mandatory="False">
+     <Relation name="fk_ug_form_1_part_i_id_ug_evaluation_form_part_ii"/>
+    </Column>
+   </Columns>
+  </Entity>
+  <Relations>
+   <EntityRelation displayColumns="name,code" child="social_tenure_relationship_supporting_document" showInParent="True" parent="check_social_tenure_relationship_document_type" name="fk_ug_check_social_tenure_relationship_document_type_id_ug_social_tenure_relationship_supporting_document_document_type" parentColumn="id" showInChild="True" childColumn="document_type"/>
+   <EntityRelation displayColumns="" child="social_tenure_relationship_supporting_document" showInParent="True" parent="social_tenure_relationship" name="fk_ug_social_tenure_relationship_id_ug_social_tenure_relationship_supporting_document_social_tenure_relationship_id" parentColumn="id" showInChild="True" childColumn="social_tenure_relationship_id"/>
+   <EntityRelation displayColumns="" child="social_tenure_relationship_supporting_document" showInParent="True" parent="supporting_document" name="fk_ug_supporting_document_id_ug_social_tenure_relationship_supporting_document_supporting_doc_id" parentColumn="id" showInChild="True" childColumn="supporting_doc_id"/>
+   <EntityRelation displayColumns="name,code" child="social_tenure_relationship" showInParent="True" parent="check_tenure_type" name="fk_ug_check_tenure_type_id_ug_social_tenure_relationship_tenure_type" parentColumn="id" showInChild="True" childColumn="tenure_type"/>
+   <EntityRelation displayColumns="" child="admin_spatial_unit_set" showInParent="True" parent="admin_spatial_unit_set" name="fk_admin_spatial_unit_set_id_admin_spatial_unit_set_parent_id" parentColumn="id" showInChild="True" childColumn="parent_id"/>
+   <EntityRelation displayColumns="name,code" child="Form 1 Part I_supporting_document" showInParent="True" parent="check_form_1_part_i_document_type" name="fk_ug_check_form_1_part_i_document_type_id_ug_form_1_part_i_supporting_document_document_type" parentColumn="id" showInChild="True" childColumn="document_type"/>
+   <EntityRelation displayColumns="" child="Form 1 Part I_supporting_document" showInParent="True" parent="Form 1 Part I" name="fk_ug_form_1_part_i_id_ug_form_1_part_i_supporting_document_form_1_part_i_id" parentColumn="id" showInChild="True" childColumn="form_1_part_i_id"/>
+   <EntityRelation displayColumns="" child="Form 1 Part I_supporting_document" showInParent="True" parent="supporting_document" name="fk_ug_supporting_document_id_ug_form_1_part_i_supporting_document_supporting_doc_id" parentColumn="id" showInChild="True" childColumn="supporting_doc_id"/>
+   <EntityRelation displayColumns="name,code" child="Form 1 Part I" showInParent="True" parent="check_village" name="fk_ug_check_village_id_ug_form_1_part_i_village" parentColumn="id" showInChild="True" childColumn="village"/>
+   <EntityRelation displayColumns="name,code" child="Form 1 Part I" showInParent="True" parent="check_parish" name="fk_ug_check_parish_id_ug_form_1_part_i_parish" parentColumn="id" showInChild="True" childColumn="parish"/>
+   <EntityRelation displayColumns="name,code" child="Form 1 Part I" showInParent="True" parent="check_sub_county" name="fk_ug_check_sub_county_id_ug_form_1_part_i_sub_county" parentColumn="id" showInChild="True" childColumn="sub_county"/>
+   <EntityRelation displayColumns="name,code" child="Form 1 Part I" showInParent="True" parent="check_county" name="fk_ug_check_county_id_ug_form_1_part_i_county" parentColumn="id" showInChild="True" childColumn="county"/>
+   <EntityRelation displayColumns="name,code" child="Form 1 Part I" showInParent="True" parent="check_district" name="fk_ug_check_district_id_ug_form_1_part_i_district" parentColumn="id" showInChild="True" childColumn="district"/>
+   <EntityRelation displayColumns="name,code" child="Form 1 Part I" showInParent="" parent="check_use_of_land" name="fk_ug_check_use_of_land_id_ug_form_1_part_i_use_of_land" parentColumn="id" showInChild="True" childColumn="use_of_land"/>
+   <EntityRelation displayColumns="name,code" child="Form 1 Part I" showInParent="" parent="check_how_customary_right_acquired" name="fk_ug_check_how_customary_right_acquired_id_ug_form_1_part_i_how_customary_right_acquired" parentColumn="id" showInChild="True" childColumn="how_customary_right_acquired"/>
+   <EntityRelation displayColumns="name,code" child="Form 1 Part I" showInParent="True" parent="check_nature_of_transaction" name="fk_ug_check_nature_of_transaction_id_ug_form_1_part_i_nature_of_transaction" parentColumn="id" showInChild="True" childColumn="nature_of_transaction"/>
+   <EntityRelation displayColumns="name,code" child="Form 23_supporting_document" showInParent="True" parent="check_form_23_document_type" name="fk_ug_check_form_23_document_type_id_ug_form_23_supporting_document_document_type" parentColumn="id" showInChild="True" childColumn="document_type"/>
+   <EntityRelation displayColumns="" child="Form 23_supporting_document" showInParent="True" parent="Form 23" name="fk_ug_form_23_id_ug_form_23_supporting_document_form_23_id" parentColumn="id" showInChild="True" childColumn="form_23_id"/>
+   <EntityRelation displayColumns="" child="Form 23_supporting_document" showInParent="True" parent="supporting_document" name="fk_ug_supporting_document_id_ug_form_23_supporting_document_supporting_doc_id" parentColumn="id" showInChild="True" childColumn="supporting_doc_id"/>
+   <EntityRelation displayColumns="name,code" child="Form 23" showInParent="True" parent="check_district" name="fk_ug_check_district_id_ug_form_23_district" parentColumn="id" showInChild="True" childColumn="district"/>
+   <EntityRelation displayColumns="name,code" child="Form 23" showInParent="True" parent="check_county" name="fk_ug_check_county_id_ug_form_23_county" parentColumn="id" showInChild="True" childColumn="county"/>
+   <EntityRelation displayColumns="name,code" child="Form 23" showInParent="True" parent="check_sub_county" name="fk_ug_check_sub_county_id_ug_form_23_sub_county" parentColumn="id" showInChild="True" childColumn="sub_county"/>
+   <EntityRelation displayColumns="name,code" child="Form 23" showInParent="True" parent="check_parish" name="fk_ug_check_parish_id_ug_form_23_parish" parentColumn="id" showInChild="True" childColumn="parish"/>
+   <EntityRelation displayColumns="name,code" child="Form 23" showInParent="True" parent="check_village" name="fk_ug_check_village_id_ug_form_23_village" parentColumn="id" showInChild="True" childColumn="village"/>
+   <EntityRelation displayColumns="name,code" child="Applicants_supporting_document" showInParent="True" parent="check_applicants_document_type" name="fk_ug_check_applicants_document_type_id_ug_applicants_supporting_document_document_type" parentColumn="id" showInChild="True" childColumn="document_type"/>
+   <EntityRelation displayColumns="" child="Applicants_supporting_document" showInParent="True" parent="Applicants" name="fk_ug_applicants_id_ug_applicants_supporting_document_applicants_id" parentColumn="id" showInChild="True" childColumn="applicants_id"/>
+   <EntityRelation displayColumns="" child="Applicants_supporting_document" showInParent="True" parent="supporting_document" name="fk_ug_supporting_document_id_ug_applicants_supporting_document_supporting_doc_id" parentColumn="id" showInChild="True" childColumn="supporting_doc_id"/>
+   <EntityRelation displayColumns="name,code" child="Applicants" showInParent="" parent="check_gender" name="fk_ug_check_gender_id_ug_applicants_gender" parentColumn="id" showInChild="True" childColumn="gender"/>
+   <EntityRelation displayColumns="name,code" child="Applicants" showInParent="" parent="check_marital_status" name="fk_ug_check_marital_status_id_ug_applicants_marital_status" parentColumn="id" showInChild="True" childColumn="marital_status"/>
+   <EntityRelation displayColumns="name,code" child="Applicants" showInParent="True" parent="check_citizenship" name="fk_ug_check_citizenship_id_ug_applicants_citizenship" parentColumn="id" showInChild="True" childColumn="citizenship"/>
+   <EntityRelation displayColumns="application_number" child="Applicants" showInParent="" parent="Form 1 Part I" name="fk_ug_form_1_part_i_id_ug_applicants_applicants" parentColumn="id" showInChild="True" childColumn="applicants"/>
+   <EntityRelation displayColumns="name,code" child="Form 1 Part II_supporting_document" showInParent="True" parent="check_form_1_part_ii_document_type" name="fk_ug_check_form_1_part_ii_document_type_id_ug_form_1_part_ii_supporting_document_document_type" parentColumn="id" showInChild="True" childColumn="document_type"/>
+   <EntityRelation displayColumns="" child="Form 1 Part II_supporting_document" showInParent="True" parent="Form 1 Part II" name="fk_ug_form_1_part_ii_id_ug_form_1_part_ii_supporting_document_form_1_part_ii_id" parentColumn="id" showInChild="True" childColumn="form_1_part_ii_id"/>
+   <EntityRelation displayColumns="" child="Form 1 Part II_supporting_document" showInParent="True" parent="supporting_document" name="fk_ug_supporting_document_id_ug_form_1_part_ii_supporting_document_supporting_doc_id" parentColumn="id" showInChild="True" childColumn="supporting_doc_id"/>
+   <EntityRelation displayColumns="name,code" child="Form 1 Part II" showInParent="" parent="check_use_of_land" name="fk_ug_check_use_of_land_id_ug_form_1_part_ii_current_use_of_land" parentColumn="id" showInChild="True" childColumn="current_use_of_land"/>
+   <EntityRelation displayColumns="file_number" child="Form 1 Part II" showInParent="" parent="Form 1 Part I" name="fk_ug_form_1_part_i_id_ug_form_1_part_ii_part_ii" parentColumn="id" showInChild="True" childColumn="part_ii"/>
+   <EntityRelation displayColumns="name,code" child="Form 1 Part III_supporting_document" showInParent="True" parent="check_form_1_part_iii_document_type" name="fk_ug_check_form_1_part_iii_document_type_id_ug_form_1_part_iii_supporting_document_document_type" parentColumn="id" showInChild="True" childColumn="document_type"/>
+   <EntityRelation displayColumns="" child="Form 1 Part III_supporting_document" showInParent="True" parent="Form 1 Part III" name="fk_ug_form_1_part_iii_id_ug_form_1_part_iii_supporting_document_form_1_part_iii_id" parentColumn="id" showInChild="True" childColumn="form_1_part_iii_id"/>
+   <EntityRelation displayColumns="" child="Form 1 Part III_supporting_document" showInParent="True" parent="supporting_document" name="fk_ug_supporting_document_id_ug_form_1_part_iii_supporting_document_supporting_doc_id" parentColumn="id" showInChild="True" childColumn="supporting_doc_id"/>
+   <EntityRelation displayColumns="name,code" child="Form 1 Part III" showInParent="" parent="check_approval_status" name="fk_ug_check_approval_status_id_ug_form_1_part_iii_approval_status" parentColumn="id" showInChild="True" childColumn="approval_status"/>
+   <EntityRelation displayColumns="file_number" child="Form 1 Part III" showInParent="" parent="Form 1 Part I" name="fk_ug_form_1_part_i_id_ug_form_1_part_iii_part_iii" parentColumn="id" showInChild="True" childColumn="part_iii"/>
+   <EntityRelation displayColumns="name,code" child="Evaluation Form" showInParent="True" parent="check_gender" name="fk_ug_check_gender_id_ug_evaluation_form_household_head_sex" parentColumn="id" showInChild="True" childColumn="household_head_sex"/>
+   <EntityRelation displayColumns="name,code" child="Evaluation Form" showInParent="True" parent="check_education_level" name="fk_ug_check_education_level_id_ug_evaluation_form_household_head_education_level" parentColumn="id" showInChild="True" childColumn="household_head_education_level"/>
+   <EntityRelation displayColumns="name,code" child="Evaluation Form" showInParent="True" parent="check_marital_status" name="fk_ug_check_marital_status_id_ug_evaluation_form_marital_status" parentColumn="id" showInChild="True" childColumn="marital_status"/>
+   <EntityRelation displayColumns="name,code" child="Evaluation Form" showInParent="True" parent="check_education_level" name="fk_ug_check_education_level_id_ug_evaluation_form_household_higest_education_level" parentColumn="id" showInChild="True" childColumn="household_higest_education_level"/>
+   <EntityRelation displayColumns="" child="coc_household_members" showInParent="True" parent="check_cco_household_members" name="fk_ug_check_cco_household_members_id_ug_coc_household_members_ug_check_cco_household_members_id" parentColumn="id" showInChild="True" childColumn="ug_check_cco_household_members_id"/>
+   <EntityRelation displayColumns="" child="coc_household_members" showInParent="True" parent="Evaluation Form" name="fk_ug_evaluation_form_id_ug_coc_household_members_ug_evaluation_form_id" parentColumn="id" showInChild="True" childColumn="ug_evaluation_form_id"/>
+   <EntityRelation displayColumns="" child="landuse_decision_maker" showInParent="True" parent="check_landuse_decision_maker" name="fk_ug_check_landuse_decision_maker_id_ug_landuse_decision_maker_ug_check_landuse_decision_maker_id" parentColumn="id" showInChild="True" childColumn="ug_check_landuse_decision_maker_id"/>
+   <EntityRelation displayColumns="" child="landuse_decision_maker" showInParent="True" parent="Evaluation Form" name="fk_ug_evaluation_form_id_ug_landuse_decision_maker_ug_evaluation_form_id" parentColumn="id" showInChild="True" childColumn="ug_evaluation_form_id"/>
+   <EntityRelation displayColumns="" child="food_source" showInParent="True" parent="check_food_source" name="fk_ug_check_food_source_id_ug_food_source_ug_check_food_source_id" parentColumn="id" showInChild="True" childColumn="ug_check_food_source_id"/>
+   <EntityRelation displayColumns="" child="food_source" showInParent="True" parent="Evaluation Form" name="fk_ug_evaluation_form_id_ug_food_source_ug_evaluation_form_id" parentColumn="id" showInChild="True" childColumn="ug_evaluation_form_id"/>
+   <EntityRelation displayColumns="" child="Evaluation Form" showInParent="True" parent="Form 1 Part I" name="fk_ug_form_1_part_i_id_ug_evaluation_form_part_ii" parentColumn="id" showInChild="True" childColumn="part_ii"/>
+   <EntityRelation displayColumns="" child="check_tenure_type_str_attrs" showInParent="" parent="social_tenure_relationship" name="fk_ug_social_tenure_relationship_id_ug_check_tenure_type_str_attrs_social_tenure_relationship_id" parentColumn="id" showInChild="True" childColumn="social_tenure_relationship_id"/>
+   <EntityRelation displayColumns="" child="how_customary_right_acquired" showInParent="True" parent="check_how_customary_right_acquired" name="fk_ug_check_how_customary_right_acquired_id_ug_how_customary_right_acquired_ug_check_how_customary_right_acquired_id" parentColumn="id" showInChild="True" childColumn="ug_check_how_customary_right_acquired_id"/>
+   <EntityRelation displayColumns="" child="how_customary_right_acquired" showInParent="True" parent="check_tenure_type_str_attrs" name="fk_ug_check_tenure_type_str_attrs_id_ug_how_customary_right_acquired_ug_check_tenure_type_str_attrs_id" parentColumn="id" showInChild="True" childColumn="ug_check_tenure_type_str_attrs_id"/>
+   <EntityRelation displayColumns="name,code" child="check_tenure_type_str_attrs" showInParent="" parent="check_wish_to_hold_land" name="fk_ug_check_wish_to_hold_land_id_ug_check_tenure_type_str_attrs_wish_to_hold_land_as" parentColumn="id" showInChild="True" childColumn="wish_to_hold_land_as"/>
+   <EntityRelation displayColumns="name,code" child="check_tenure_type_str_attrs" showInParent="" parent="check_yes_no" name="fk_ug_check_yes_no_id_ug_check_tenure_type_str_attrs_land_occupied" parentColumn="id" showInChild="True" childColumn="land_occupied"/>
+   <EntityRelation displayColumns="name,code" child="check_tenure_type_str_attrs" showInParent="" parent="check_landuse" name="fk_ug_check_landuse_id_ug_check_tenure_type_str_attrs_current_use_of_the_land" parentColumn="id" showInChild="True" childColumn="current_use_of_the_land"/>
+   <EntityRelation displayColumns="name,code" child="check_tenure_type_str_attrs" showInParent="" parent="check_landuse" name="fk_ug_check_landuse_id_ug_check_tenure_type_str_attrs_intended_use_of_the_land" parentColumn="id" showInChild="True" childColumn="intended_use_of_the_land"/>
+   <EntityRelation displayColumns="" child="social_tenure_relationship" showInParent="True" parent="Form 1 Part I" name="fk_ug_form_1_part_i_id_ug_social_tenure_relationship_form_1_part_i_id" parentColumn="id" showInChild="True" childColumn="form_1_part_i_id"/>
+   <EntityRelation displayColumns="" child="social_tenure_relationship" showInParent="True" parent="Form 23" name="fk_ug_form_23_id_ug_social_tenure_relationship_form_23_id" parentColumn="id" showInChild="True" childColumn="form_23_id"/>
+  </Relations>
+  <SocialTenure layerDisplay="Social Tenure Relationship" tenureTypeList="check_tenure_type" spatialUnit="Form 23" supportsMultipleParties="True" party="Form 1 Part I">
+   <Validity>
+    <Start minimum="1900-12-13" maximum="2099-12-31"/>
+    <End minimum="2000-09-22" maximum="2909-12-11"/>
+   </Validity>
+   <SpatialUnitTenureMappings>
+    <Mapping tenureTypeList="check_tenure_type" spatialUnit="Form 23"/>
+   </SpatialUnitTenureMappings>
+   <CustomAttributes>
+    <TenureEntity tenureTypeList="check_tenure_type" entity="check_tenure_type_str_attrs"/>
+   </CustomAttributes>
+  </SocialTenure>
+ </Profile>
+</Configuration>

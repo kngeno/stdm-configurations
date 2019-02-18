@@ -1,0 +1,1011 @@
+<Configuration version="1.3">
+ <Profile description="Darfur villages profile." name="Darfur">
+  <ValueLists>
+   <ValueList name="check_social_tenure_relationship_document_type">
+    <CodeValue value="عام" code=""/>
+   </ValueList>
+   <ValueList name="check_tenure_type">
+    <CodeValue value="عام" code=""/>
+   </ValueList>
+   <ValueList name="check_gender">
+    <CodeValue value="الذكر" code=""/>
+    <CodeValue value="إناثا" code=""/>
+   </ValueList>
+   <ValueList name="check_landmarks">
+    <CodeValue value="زراعة" code=""/>
+    <CodeValue value="مرعى" code=""/>
+    <CodeValue value="غابة" code=""/>
+    <CodeValue value="مسار مرع" code=""/>
+   </ValueList>
+   <ValueList name="check_topographic_features">
+    <CodeValue value="منبسط" code=""/>
+    <CodeValue value="جبل" code=""/>
+    <CodeValue value="وادي" code=""/>
+    <CodeValue value="اخري" code=""/>
+   </ValueList>
+   <ValueList name="check_natural_barrier">
+    <CodeValue value="خور" code=""/>
+    <CodeValue value="جبل" code=""/>
+    <CodeValue value="وادي" code=""/>
+    <CodeValue value="اخري" code=""/>
+   </ValueList>
+   <ValueList name="check_road_type">
+    <CodeValue value="سكة حديد" code=""/>
+    <CodeValue value="محلي -درب" code=""/>
+    <CodeValue value="رئيسي" code=""/>
+    <CodeValue value="اقليمي" code=""/>
+   </ValueList>
+   <ValueList name="check_road_status">
+    <CodeValue value="وعر" code=""/>
+    <CodeValue value="ممهد" code=""/>
+    <CodeValue value="اسفلت" code=""/>
+   </ValueList>
+   <ValueList name="check_yes_no">
+    <CodeValue value="نعم" code=""/>
+    <CodeValue value="لا" code=""/>
+   </ValueList>
+   <ValueList name="check_activity_type">
+    <CodeValue value="زراعه" code=""/>
+    <CodeValue value="رعي" code=""/>
+    <CodeValue value="احتطاب" code=""/>
+   </ValueList>
+   <ValueList name="check_land_type">
+    <CodeValue value="الاراض الطبيعية" code=""/>
+    <CodeValue value="الاراضي الزراعيه" code=""/>
+   </ValueList>
+   <ValueList name="check_irrigation_type">
+    <CodeValue value="مروي" code=""/>
+    <CodeValue value="مطري" code=""/>
+   </ValueList>
+   <ValueList name="check_landuse">
+    <CodeValue value="سكني" code=""/>
+    <CodeValue value="سوق" code=""/>
+    <CodeValue value="زراعي" code=""/>
+    <CodeValue value="مرعى" code=""/>
+    <CodeValue value="غابة" code=""/>
+    <CodeValue value="تعليمي" code=""/>
+    <CodeValue value="صحي" code=""/>
+    <CodeValue value="إداري" code=""/>
+    <CodeValue value="إجتماعي" code=""/>
+    <CodeValue value="نشاط إقتصادي" code=""/>
+    <CodeValue value="ديني" code=""/>
+    <CodeValue value="الحرم" code=""/>
+    <CodeValue value="الحدود" code=""/>
+    <CodeValue value="وادي" code=""/>
+    <CodeValue value="جبل" code=""/>
+    <CodeValue value="نهر" code=""/>
+    <CodeValue value="أمني" code=""/>
+    <CodeValue value="مصدر مياه" code=""/>
+    <CodeValue value="صرف صحي" code=""/>
+    <CodeValue value="مداد الطاقة" code=""/>
+    <CodeValue value="خدمات هاتف" code=""/>
+    <CodeValue value="مقبرة" code=""/>
+    <CodeValue value="رياضة" code=""/>
+    <CodeValue value="مسار رعي" code=""/>
+    <CodeValue value="محكمة ادارة اهلية" code=""/>
+    <CodeValue value="الصرف الصحي" code=""/>
+    <CodeValue value="اخرى" code=""/>
+   </ValueList>
+   <ValueList name="check_natural_land_type">
+    <CodeValue value="مرعي" code=""/>
+    <CodeValue value="غابة" code=""/>
+   </ValueList>
+   <ValueList name="check_constructing_materials">
+    <CodeValue value="طوب احمر" code=""/>
+    <CodeValue value="طوب اخضر" code=""/>
+    <CodeValue value="بلوك" code=""/>
+    <CodeValue value="طين" code=""/>
+    <CodeValue value="مواد مؤقتة(قش-بلاستيك)" code=""/>
+   </ValueList>
+   <ValueList name="check_school_level">
+    <CodeValue value="أساس" code=""/>
+    <CodeValue value="ثانوي" code=""/>
+    <CodeValue value="خلوة" code=""/>
+    <CodeValue value="روضة" code=""/>
+   </ValueList>
+   <ValueList name="check_school_type">
+    <CodeValue value="بنين" code=""/>
+    <CodeValue value="بنات" code=""/>
+    <CodeValue value="مختلطة" code=""/>
+   </ValueList>
+   <ValueList name="check_health_service_type">
+    <CodeValue value="معاون طبي" code=""/>
+    <CodeValue value="وجود قابلة" code=""/>
+    <CodeValue value="وحدة صحية" code=""/>
+    <CodeValue value="مركزصحي" code=""/>
+    <CodeValue value="مستشفى" code=""/>
+   </ValueList>
+   <ValueList name="check_religious_service_type">
+    <CodeValue value="مسجد جامع" code=""/>
+    <CodeValue value="مصلى عيد" code=""/>
+    <CodeValue value="اخري" code=""/>
+   </ValueList>
+   <ValueList name="check_admin_service_type">
+    <CodeValue value="مركز شرطة" code=""/>
+    <CodeValue value="محكمة" code=""/>
+    <CodeValue value="اخري" code=""/>
+   </ValueList>
+   <ValueList name="check_market_type">
+    <CodeValue value="دائم" code=""/>
+    <CodeValue value="اسبوعي" code=""/>
+    <CodeValue value="اخري" code=""/>
+   </ValueList>
+   <ValueList name="check_economic_activity_type">
+    <CodeValue value="طاحونة" code=""/>
+    <CodeValue value="فرن" code=""/>
+    <CodeValue value="اخرى" code=""/>
+    <CodeValue value="اخري" code=""/>
+   </ValueList>
+   <ValueList name="check_community_center_type">
+    <CodeValue value="مركز تنمية اجتماعية" code=""/>
+    <CodeValue value="جمعية نسائية" code=""/>
+    <CodeValue value="مركز شباب" code=""/>
+    <CodeValue value="اخري" code=""/>
+   </ValueList>
+   <ValueList name="check_infrastructure_type">
+    <CodeValue value="امداد الطاقه" code=""/>
+    <CodeValue value="خدمات هاتف" code=""/>
+    <CodeValue value="مصادر المياه" code=""/>
+   </ValueList>
+   <ValueList name="check_housing_and_building_percentage_document_type">
+    <CodeValue value="عام" code=""/>
+   </ValueList>
+   <ValueList name="check_schools_document_type">
+    <CodeValue value="عام" code=""/>
+   </ValueList>
+   <ValueList name="check_health_services_document_type">
+    <CodeValue value="عام" code=""/>
+   </ValueList>
+   <ValueList name="check_religious_services_document_type">
+    <CodeValue value="عام" code=""/>
+   </ValueList>
+   <ValueList name="check_administrative_and_security_services_document_type">
+    <CodeValue value="عام" code=""/>
+   </ValueList>
+   <ValueList name="check_market_document_type">
+    <CodeValue value="عام" code=""/>
+   </ValueList>
+   <ValueList name="check_economic_activities_document_type">
+    <CodeValue value="عام" code=""/>
+   </ValueList>
+   <ValueList name="check_community_centers_document_type">
+    <CodeValue value="عام" code=""/>
+   </ValueList>
+   <ValueList name="check_enumeration_document_type">
+    <CodeValue value="عام" code=""/>
+   </ValueList>
+   <ValueList name="check_state">
+    <CodeValue value="عام" code=""/>
+   </ValueList>
+   <ValueList name="check_direction">
+    <CodeValue value="شمال" code=""/>
+    <CodeValue value="شرق" code=""/>
+    <CodeValue value="غرب" code=""/>
+    <CodeValue value="جنوب" code=""/>
+   </ValueList>
+   <ValueList name="check_agriculture_land_document_type">
+    <CodeValue value="غرب" code=""/>
+    <CodeValue value="الشرق" code=""/>
+    <CodeValue value="شمال" code=""/>
+    <CodeValue value="جنوب" code=""/>
+   </ValueList>
+   <ValueList name="check_field_size">
+    <CodeValue value="صغير" code=""/>
+    <CodeValue value="متوسط" code=""/>
+    <CodeValue value="كبير" code=""/>
+   </ValueList>
+   <ValueList name="check_natural_land_document_type">
+    <CodeValue value="غرب" code=""/>
+    <CodeValue value="الشرق" code=""/>
+    <CodeValue value="شمال" code=""/>
+    <CodeValue value="جنوب" code=""/>
+   </ValueList>
+   <ValueList name="check_status">
+    <CodeValue value="ممتاز" code=""/>
+    <CodeValue value="جيد" code=""/>
+    <CodeValue value="وسط" code=""/>
+    <CodeValue value="ردئ" code=""/>
+   </ValueList>
+   <ValueList name="check_water_sources_type">
+    <CodeValue value="حفير" code=""/>
+    <CodeValue value=" دونكي" code=""/>
+    <CodeValue value=" مضخه" code=""/>
+    <CodeValue value="اخرى" code=""/>
+   </ValueList>
+   <ValueList name="check_power_sources_document_type">
+    <CodeValue value="عام" code=""/>
+   </ValueList>
+   <ValueList name="check_water_sources_document_type">
+    <CodeValue value="عام" code=""/>
+   </ValueList>
+   <ValueList name="check_power_sources_type">
+    <CodeValue value="-كهرباء" code=""/>
+    <CodeValue value="طاقة شمسية" code=""/>
+    <CodeValue value="–فحم" code=""/>
+    <CodeValue value="حطب" code=""/>
+    <CodeValue value="–مولد" code=""/>
+    <CodeValue value="اخري" code=""/>
+   </ValueList>
+   <ValueList name="check_type_of_animal">
+    <CodeValue value="ضان" code=""/>
+    <CodeValue value="ماعز" code=""/>
+    <CodeValue value="بقر" code=""/>
+    <CodeValue value="ابل" code=""/>
+    <CodeValue value="خيول" code=""/>
+    <CodeValue value="حمير" code=""/>
+    <CodeValue value="دواجن" code=""/>
+   </ValueList>
+   <ValueList name="check_veterinary_services">
+    <CodeValue value="طبيب بيطري" code=""/>
+    <CodeValue value="معاون بيطري" code=""/>
+    <CodeValue value="نقطة غيار" code=""/>
+    <CodeValue value="عيادة متحركة" code=""/>
+   </ValueList>
+   <ValueList name="check_disasters">
+    <CodeValue value="سيول فيضانات" code=""/>
+    <CodeValue value="حرائق" code=""/>
+    <CodeValue value="اخرى" code=""/>
+   </ValueList>
+   <ValueList name="check_economic_resources">
+    <CodeValue value="راضي زراعية مع توفر المياه" code=""/>
+    <CodeValue value="موارد معدنية" code=""/>
+    <CodeValue value="موارد مائية" code=""/>
+    <CodeValue value="اثار" code=""/>
+    <CodeValue value="اخرى" code=""/>
+   </ValueList>
+   <ValueList name="check_teacher_type">
+    <CodeValue value="مؤقت" code=""/>
+    <CodeValue value="دائم" code=""/>
+   </ValueList>
+   <ValueList name="check_sanitation_document_type">
+    <CodeValue value="عام" code=""/>
+   </ValueList>
+   <ValueList name="check_sanitation_type">
+    <CodeValue value="بيارات" code=""/>
+    <CodeValue value="بلدي" code=""/>
+    <CodeValue value="اخرى" code=""/>
+   </ValueList>
+   <ValueList name="check_profession">
+    <CodeValue value="زراعة" code=""/>
+    <CodeValue value="رعي" code=""/>
+    <CodeValue value="تجارة" code=""/>
+    <CodeValue value="صناعة" code=""/>
+    <CodeValue value="وظائف حكومية" code=""/>
+    <CodeValue value="اخرى" code=""/>
+   </ValueList>
+   <ValueList name="check_animal_route_type">
+    <CodeValue value="منزلة" code=""/>
+    <CodeValue value="صينية" code=""/>
+   </ValueList>
+   <ValueList name="check_boundary_type">
+    <CodeValue value="قرية" code=""/>
+    <CodeValue value="حرم" code=""/>
+   </ValueList>
+   <ValueList name="check_telecommunication_services_document_type">
+    <CodeValue value="عام" code=""/>
+   </ValueList>
+   <ValueList name="check_telecommunication_type">
+    <CodeValue value="برج" code=""/>
+    <CodeValue value="مكتب" code=""/>
+    <CodeValue value="أخرى" code=""/>
+   </ValueList>
+  </ValueLists>
+  <Associations>
+   <Association secondParent="Basic Information" firstParent="check_natural_barrier" shortName="natural_barriers" name="da_natural_barriers"/>
+  </Associations>
+  <Entity editable="True" global="False" rowindex="-1" associative="False" description="" proxy="False" createId="True" supportsDocuments="False" shortName="Basic Information" name="da_basic_information" label="">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="0" minimum="0" maximum="150" description="اسم القرية" index="False" name="village_name" searchable="True" TYPE_INFO="VARCHAR" label="اسم القرية" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="1" minimum="0" maximum="50" description="" index="False" name="village_longitude" searchable="True" TYPE_INFO="VARCHAR" label="خط الطول" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="2" minimum="0" maximum="30" description="" index="False" name="village_latitude" searchable="True" TYPE_INFO="VARCHAR" label="خط العرض" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="3" minimum="0" maximum="2147483647" description="" index="False" name="state" searchable="True" TYPE_INFO="ADMIN_SPATIAL_UNIT" label="الولاية" mandatory="False">
+     <Relation name="fk_admin_spatial_unit_set_id_da_basic_information_state"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="4" minimum="0" maximum="2147483647" description="" index="False" name="locality" searchable="True" TYPE_INFO="ADMIN_SPATIAL_UNIT" label="المحلية" mandatory="False">
+     <Relation name="fk_admin_spatial_unit_set_id_da_basic_information_locality"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="5" minimum="0" maximum="2147483647" description="" index="False" name="admin_unit" searchable="True" TYPE_INFO="ADMIN_SPATIAL_UNIT" label="الوحدة الادارية" mandatory="False">
+     <Relation name="fk_admin_spatial_unit_set_id_da_basic_information_admin_unit"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="6" minimum="0" maximum="1000" description="" index="False" name="number_of_schools" searchable="True" TYPE_INFO="INT" label="عددالمدارس" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="7" description="" index="False" name="natural_barriers" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="المحددات الطبيعية التي تعيق الموصولية " mandatory="False">
+     <associationEntity name="da_natural_barriers"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="8" minimum="0" maximum="2147483647" description="" index="False" name="no_connection_in_rainy_season" searchable="True" TYPE_INFO="LOOKUP" label="هل القرية تنقطع في الخريف مع ذكر السبب ؟" mandatory="False">
+     <Relation name="fk_da_check_yes_no_id_da_basic_information_no_connection_in_rainy_season"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="9" minimum="0" maximum="1073741823" description="" index="False" name="reason_for_no_connection" searchable="False" TYPE_INFO="TEXT" label="اذا كان نعم اذكر السبب" mandatory="False"/>
+    <Column unique="True" tip="" rowindex="10" description="" index="True" name="geom" searchable="False" TYPE_INFO="GEOMETRY" label="" mandatory="False">
+     <Geometry layerDisplay="قرية" srid="4326" type="0"/>
+    </Column>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="-1" associative="False" description="" proxy="False" createId="True" supportsDocuments="False" shortName="Village Landuse" name="da_village_landuse" label="">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="0" minimum="0" maximum="100" description="" index="False" name="name" searchable="True" TYPE_INFO="VARCHAR" label="الاسم" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="1" minimum="0" maximum="2147483647" description="" index="False" name="land_use_type" searchable="True" TYPE_INFO="LOOKUP" label="" mandatory="False">
+     <Relation name="fk_da_check_landuse_id_da_village_landuse_land_use_type"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="2" minimum="0" maximum="2147483647" description="" index="False" name="village" searchable="False" TYPE_INFO="FOREIGN_KEY" label="" mandatory="False">
+     <Relation name="fk_da_basic_information_id_da_village_landuse_village"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="3" minimum="0" maximum="1073741823" description="" index="False" name="remarks" searchable="False" TYPE_INFO="TEXT" label="ملاحظات" mandatory="False"/>
+    <Column unique="True" tip="" rowindex="4" description="" index="True" name="geom" searchable="False" TYPE_INFO="GEOMETRY" label="" mandatory="False">
+     <Geometry layerDisplay="استخدام الارض" srid="4326" type="2"/>
+    </Column>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="-1" associative="False" description="" proxy="False" createId="True" supportsDocuments="False" shortName="Village Boundary and Buffer" name="da_village_boundary_and_buffer" label="">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="2147483647" description="" index="False" name="boundary_type" searchable="True" TYPE_INFO="LOOKUP" label="نوع الحدود" mandatory="False">
+     <Relation name="fk_da_check_boundary_type_id_da_village_boundary_and_buffer_boundary_type"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="2147483647" description="" index="False" name="village" searchable="False" TYPE_INFO="FOREIGN_KEY" label="قرية" mandatory="False">
+     <Relation name="fk_da_basic_information_id_da_village_boundary_and_buffer_village"/>
+    </Column>
+    <Column unique="True" tip="" rowindex="" description="" index="True" name="geom" searchable="False" TYPE_INFO="GEOMETRY" label="" mandatory="False">
+     <Geometry layerDisplay="حدود و حرم القرية" srid="4326" type="2"/>
+    </Column>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="-1" associative="False" description="" documentTypeLookup="check_schools_document_type" proxy="False" createId="True" supportsDocuments="True" shortName="Schools" name="da_schools" label="">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="0" minimum="0" maximum="100" description="" index="False" name="name" searchable="True" TYPE_INFO="VARCHAR" label="الاسم" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="1" minimum="0" maximum="2147483647" description="" index="False" name="school_type" searchable="True" TYPE_INFO="LOOKUP" label="النوع" mandatory="False">
+     <Relation name="fk_da_check_school_type_id_da_schools_school_type"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="2" minimum="0" maximum="100" description="" index="False" name="latitude" searchable="True" TYPE_INFO="VARCHAR" label="دائرة العرض" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="3" minimum="0" maximum="100" description="" index="False" name="longitude" searchable="True" TYPE_INFO="VARCHAR" label="خط الطول " mandatory="False"/>
+    <Column unique="False" tip="" rowindex="4" minimum="0" maximum="1073741823" description="" index="False" name="remarks" searchable="False" TYPE_INFO="TEXT" label="ملاحظات" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="5" minimum="0" maximum="2147483647" description="" index="False" name="village" searchable="False" TYPE_INFO="FOREIGN_KEY" label="قرية" mandatory="False">
+     <Relation name="fk_da_basic_information_id_da_schools_village"/>
+    </Column>
+    <Column unique="True" tip="" rowindex="6" description="" index="True" name="geom" searchable="False" TYPE_INFO="GEOMETRY" label="" mandatory="False">
+     <Geometry layerDisplay="المدارس" srid="4326" type="0"/>
+    </Column>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="-1" associative="False" description="" proxy="False" createId="True" supportsDocuments="False" shortName="Schools Detail" name="da_schools_detail" label="">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="0" minimum="0" maximum="2147483647" description="" index="False" name="school_level" searchable="True" TYPE_INFO="LOOKUP" label="مستوى المدرسة" mandatory="False">
+     <Relation name="fk_da_check_school_level_id_da_schools_detail_school_level"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="number_of_students" searchable="True" TYPE_INFO="INT" label="عددالطلاب" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="2" minimum="-2147483648" maximum="2147483647" description="" index="False" name="number_of_classes" searchable="True" TYPE_INFO="INT" label="عددالفصول" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="3" minimum="-2147483648" maximum="2147483647" description="" index="False" name="number_of_teachers" searchable="True" TYPE_INFO="INT" label="عدد المدرسين" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="4" minimum="0" maximum="2147483647" description="" index="False" name="building_material" searchable="True" TYPE_INFO="LOOKUP" label="نوع مواد البناء" mandatory="False">
+     <Relation name="fk_da_check_constructing_materials_id_da_schools_detail_building_material"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="5" minimum="0" maximum="2147483647" description="" index="False" name="building_status" searchable="True" TYPE_INFO="LOOKUP" label="حالة المبنى" mandatory="False">
+     <Relation name="fk_da_check_status_id_da_schools_detail_building_status"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="6" minimum="0" maximum="1073741823" description="" index="False" name="nearest_school" searchable="False" TYPE_INFO="TEXT" label="اقرب مدرسة بديلة" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="7" minimum="0" maximum="2147483647" description="" index="False" name="teacher_type" searchable="True" TYPE_INFO="LOOKUP" label="نوع المدرسين" mandatory="False">
+     <Relation name="fk_da_check_teacher_type_id_da_schools_detail_teacher_type"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="8" minimum="0" maximum="2147483647" description="" index="False" name="school" searchable="False" TYPE_INFO="FOREIGN_KEY" label="مدرسة " mandatory="False">
+     <Relation name="fk_da_schools_id_da_schools_detail_school"/>
+    </Column>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="-1" associative="False" description="" proxy="False" createId="True" supportsDocuments="False" shortName="Population" name="da_population" label="">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="0" minimum="-2147483648" maximum="2147483647" description="" index="False" name="population_number_male" searchable="True" TYPE_INFO="INT" label="عدد السكان ذكور" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="population_number_female" searchable="True" TYPE_INFO="INT" label="عدد السكان إناث" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="2" minimum="0" maximum="100" description="" index="False" name="houshold_average_size" searchable="True" TYPE_INFO="INT" label="متوسط  افراد الاسرة " mandatory="False"/>
+    <Column unique="False" tip="" rowindex="3" minimum="-2147483648" maximum="2147483647" description="" index="False" name="population_male_0_4" searchable="True" TYPE_INFO="INT" label="ذكور0-4 " mandatory="False"/>
+    <Column unique="False" tip="" rowindex="4" minimum="-2147483648" maximum="2147483647" description="" index="False" name="population_male_5_9" searchable="True" TYPE_INFO="INT" label="ذكور 5-9" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="5" minimum="-2147483648" maximum="2147483647" description="" index="False" name="population_male_10_14" searchable="True" TYPE_INFO="INT" label="ذكور 10-14" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="6" minimum="-2147483648" maximum="2147483647" description="" index="False" name="population_male_15_49" searchable="True" TYPE_INFO="INT" label="ذكور 15-49" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="7" minimum="-2147483648" maximum="2147483647" description="" index="False" name="population_male_50_and_above" searchable="True" TYPE_INFO="INT" label="ذكور 50- فاكثر " mandatory="False"/>
+    <Column unique="False" tip="" rowindex="8" minimum="-2147483648" maximum="2147483647" description="" index="False" name="population_female_0_4" searchable="True" TYPE_INFO="INT" label=" إناث0-4 " mandatory="False"/>
+    <Column unique="False" tip="" rowindex="9" minimum="-2147483648" maximum="2147483647" description="" index="False" name="population_female_5_9" searchable="True" TYPE_INFO="INT" label=" إناث 5-9" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="10" minimum="-2147483648" maximum="2147483647" description="" index="False" name="population_female_10_14" searchable="True" TYPE_INFO="INT" label=" إناث 10-14" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="11" minimum="-2147483648" maximum="2147483647" description="" index="False" name="population_female_15_49" searchable="True" TYPE_INFO="INT" label=" إناث 15-49" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="12" minimum="-2147483648" maximum="2147483647" description="" index="False" name="population_female_50_and_above" searchable="True" TYPE_INFO="INT" label=" إناث 50- فاكثر " mandatory="False"/>
+    <Column unique="False" tip="" rowindex="13" minimum="0" maximum="2147483647" description="" index="False" name="village" searchable="False" TYPE_INFO="FOREIGN_KEY" label="قرية" mandatory="False">
+     <Relation name="fk_da_basic_information_id_da_population_village"/>
+    </Column>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="-1" associative="False" description="" proxy="False" createId="True" supportsDocuments="False" shortName="Natural Disasters" name="da_natural_disasters" label="">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="0" minimum="0" maximum="2147483647" description="" index="False" name="disasters" searchable="True" TYPE_INFO="LOOKUP" label="المخاطر " mandatory="False">
+     <Relation name="fk_da_check_disasters_id_da_natural_disasters_disasters"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="1" minimum="0" maximum="2147483647" description="" index="False" name="presence" searchable="True" TYPE_INFO="LOOKUP" label="نعم/ لا" mandatory="False">
+     <Relation name="fk_da_check_yes_no_id_da_natural_disasters_presence"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="2" minimum="0" maximum="1073741823" description="" index="False" name="remarks" searchable="False" TYPE_INFO="TEXT" label="ملاحظة" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="3" minimum="0" maximum="2147483647" description="" index="False" name="village" searchable="False" TYPE_INFO="FOREIGN_KEY" label="قرية" mandatory="False">
+     <Relation name="fk_da_basic_information_id_da_natural_disasters_village"/>
+    </Column>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="-1" associative="False" description="" proxy="False" createId="True" supportsDocuments="False" shortName="Animal Population" name="da_animal_population" label="">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="0" minimum="0" maximum="2147483647" description="" index="False" name="type_of_animal" searchable="True" TYPE_INFO="LOOKUP" label="نوع الحيوان " mandatory="False">
+     <Relation name="fk_da_check_type_of_animal_id_da_animal_population_type_of_animal"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="approximate_number" searchable="True" TYPE_INFO="INT" label="العدد بالتقريب" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="2" minimum="0" maximum="2147483647" description="" index="False" name="village" searchable="False" TYPE_INFO="FOREIGN_KEY" label="قرية" mandatory="False">
+     <Relation name="fk_da_basic_information_id_da_animal_population_village"/>
+    </Column>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="-1" associative="False" description="" proxy="False" createId="True" supportsDocuments="False" shortName="Topographic Features" name="da_topographic_features" label="">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="2147483647" description="" index="False" name="topographic_features" searchable="True" TYPE_INFO="LOOKUP" label="الخصائص الطبوغرافية   " mandatory="False">
+     <Relation name="fk_da_check_topographic_features_id_da_topographic_features_topographic_features"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="2147483647" description="" index="False" name="direction" searchable="True" TYPE_INFO="LOOKUP" label="" mandatory="False">
+     <Relation name="fk_da_check_direction_id_da_topographic_features_direction"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="1073741823" description="" index="False" name="remarks" searchable="False" TYPE_INFO="TEXT" label="ملاحظات" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="2147483647" description="" index="False" name="village" searchable="False" TYPE_INFO="FOREIGN_KEY" label="قرية" mandatory="False">
+     <Relation name="fk_da_basic_information_id_da_topographic_features_village"/>
+    </Column>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="-1" associative="False" description="" proxy="False" createId="True" supportsDocuments="False" shortName="Future Growth Direction" name="da_future_growth_direction" label="">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="0" minimum="0" maximum="2147483647" description="" index="False" name="village" searchable="False" TYPE_INFO="FOREIGN_KEY" label="قرية" mandatory="False">
+     <Relation name="fk_da_basic_information_id_da_future_growth_direction_village"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="1" minimum="0" maximum="1073741823" description="" index="False" name="description" searchable="False" TYPE_INFO="TEXT" label="وصف" mandatory="False"/>
+    <Column unique="True" tip="" rowindex="2" description="" index="True" name="geom" searchable="False" TYPE_INFO="GEOMETRY" label="" mandatory="False">
+     <Geometry layerDisplay="إتجاه النمو المستقبلي" srid="4326" type="1"/>
+    </Column>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="-1" associative="False" description="" documentTypeLookup="check_housing_and_building_percentage_document_type" proxy="False" createId="True" supportsDocuments="True" shortName="Housing and Building Percentage" name="da_housing_and_building_percentage" label="">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="0" minimum="0" maximum="2147483647" description="" index="False" name="constructing_materials" searchable="True" TYPE_INFO="LOOKUP" label="مواد البناء الغالبة" mandatory="False">
+     <Relation name="fk_da_check_constructing_materials_id_da_housing_and_building_percentage_constructing_materials"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="1" minimum="0" maximum="100" description="" index="False" name="percentage" searchable="False" TYPE_INFO="PERCENT" label="النسبة المئوية" mandatory="False">
+     <Numeric scale="6" precision="18"/>
+    </Column>
+    <Column unique="False" tip="تعريف : -1 المواد الثابتة – ممتاز 2- مواد طينية – جيد ووسط 3- مواد قشية وبلاستيك – ردئ" rowindex="2" minimum="0" maximum="2147483647" description="" index="False" name="status" searchable="True" TYPE_INFO="LOOKUP" label="حالة المبنى العمرانية" mandatory="False">
+     <Relation name="fk_da_check_status_id_da_housing_and_building_percentage_status"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="3" minimum="0" maximum="2147483647" description="" index="False" name="village" searchable="False" TYPE_INFO="FOREIGN_KEY" label="قرية" mandatory="False">
+     <Relation name="fk_da_basic_information_id_da_housing_and_building_percentage_village"/>
+    </Column>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="-1" associative="False" description="" documentTypeLookup="check_health_services_document_type" proxy="False" createId="True" supportsDocuments="True" shortName="Health Services" name="da_health_services" label="">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="100" description="" index="False" name="name" searchable="True" TYPE_INFO="VARCHAR" label="الاسم" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="2147483647" description="" index="False" name="health_service_type" searchable="True" TYPE_INFO="LOOKUP" label="نوع الخدمة الصحية" mandatory="False">
+     <Relation name="fk_da_check_health_service_type_id_da_health_services_health_service_type"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="100" description="" index="False" name="latitude" searchable="True" TYPE_INFO="VARCHAR" label="دائرة العرض" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="100" description="" index="False" name="longitude" searchable="True" TYPE_INFO="VARCHAR" label="خط الطول " mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="1073741823" description="" index="False" name="remarks" searchable="False" TYPE_INFO="TEXT" label="ملاحظات" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="2147483647" description="" index="False" name="village" searchable="False" TYPE_INFO="FOREIGN_KEY" label="قرية" mandatory="False">
+     <Relation name="fk_da_basic_information_id_da_health_services_village"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="2147483647" description="" index="False" name="working" searchable="True" TYPE_INFO="LOOKUP" label="؟ هل تعمل" mandatory="False">
+     <Relation name="fk_da_check_yes_no_id_da_health_services_working"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="1073741823" description="" index="False" name="reason" searchable="False" TYPE_INFO="TEXT" label="سبب عدم العمل؟" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="30" description="" index="False" name="establish_year" searchable="True" TYPE_INFO="VARCHAR" label="سنة التاسيس" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="100" description="" index="False" name="owner" searchable="True" TYPE_INFO="VARCHAR" label="الجهة التابعة لها" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="2147483647" description="" index="False" name="building_status" searchable="True" TYPE_INFO="LOOKUP" label="حالة المبنى" mandatory="False">
+     <Relation name="fk_da_check_status_id_da_health_services_building_status"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="1073741823" description="" index="False" name="nearest_health_service" searchable="False" TYPE_INFO="TEXT" label="اقرب مؤسسة بديل" mandatory="False"/>
+    <Column unique="True" tip="" rowindex="" description="" index="True" name="geom" searchable="False" TYPE_INFO="GEOMETRY" label="" mandatory="False">
+     <Geometry layerDisplay="الخدمات الصحية" srid="4326" type="0"/>
+    </Column>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="-1" associative="False" description="" documentTypeLookup="check_religious_services_document_type" proxy="False" createId="True" supportsDocuments="True" shortName="Religious Services" name="da_religious_services" label="">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="100" description="" index="False" name="name" searchable="True" TYPE_INFO="VARCHAR" label="الاسم" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="2147483647" description="" index="False" name="religious_service_type" searchable="True" TYPE_INFO="LOOKUP" label="خدمة دينية" mandatory="False">
+     <Relation name="fk_da_check_religious_service_type_id_da_religious_services_religious_service_type"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="100" description="" index="False" name="latitude" searchable="True" TYPE_INFO="VARCHAR" label="دائرة العرض" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="100" description="" index="False" name="longitude" searchable="True" TYPE_INFO="VARCHAR" label="خط الطول " mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="1073741823" description="" index="False" name="remarks" searchable="False" TYPE_INFO="TEXT" label="ملاحظات" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="2147483647" description="" index="False" name="village" searchable="False" TYPE_INFO="FOREIGN_KEY" label="قرية" mandatory="False">
+     <Relation name="fk_da_basic_information_id_da_religious_services_village"/>
+    </Column>
+    <Column unique="True" tip="" rowindex="" description="" index="True" name="geom" searchable="False" TYPE_INFO="GEOMETRY" label="" mandatory="False">
+     <Geometry layerDisplay="الخدمات الدينية" srid="4326" type="0"/>
+    </Column>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="-1" associative="False" description="" documentTypeLookup="check_administrative_and_security_services_document_type" proxy="False" createId="True" supportsDocuments="True" shortName="Administrative and Security Services" name="da_administrative_and_security_services" label="">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="0" minimum="0" maximum="100" description="" index="False" name="name" searchable="True" TYPE_INFO="VARCHAR" label="الاسم" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="1" minimum="0" maximum="2147483647" description="" index="False" name="admin_service_type" searchable="True" TYPE_INFO="LOOKUP" label="نوع الخدمة" mandatory="False">
+     <Relation name="fk_da_check_admin_service_type_id_da_administrative_and_security_services_admin_service_type"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="2" minimum="0" maximum="100" description="" index="False" name="latitude" searchable="True" TYPE_INFO="VARCHAR" label="دائرة العرض" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="3" minimum="0" maximum="100" description="" index="False" name="longitude" searchable="True" TYPE_INFO="VARCHAR" label="خط الطول " mandatory="False"/>
+    <Column unique="False" tip="" rowindex="4" minimum="0" maximum="1073741823" description="" index="False" name="remarks" searchable="False" TYPE_INFO="TEXT" label="ملاحظات" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="5" minimum="0" maximum="2147483647" description="" index="False" name="village" searchable="False" TYPE_INFO="FOREIGN_KEY" label="قرية" mandatory="False">
+     <Relation name="fk_da_basic_information_id_da_administrative_and_security_services_village"/>
+    </Column>
+    <Column unique="True" tip="" rowindex="6" description="" index="True" name="geom" searchable="False" TYPE_INFO="GEOMETRY" label="" mandatory="False">
+     <Geometry layerDisplay="الوحدات الإدارية و الأمنية" srid="4326" type="0"/>
+    </Column>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="-1" associative="False" description="" documentTypeLookup="check_market_document_type" proxy="False" createId="True" supportsDocuments="True" shortName="Market" name="da_market" label="">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="0" minimum="0" maximum="100" description="" index="False" name="name" searchable="True" TYPE_INFO="VARCHAR" label="الاسم" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="1" minimum="0" maximum="2147483647" description="" index="False" name="market_type" searchable="True" TYPE_INFO="LOOKUP" label="نوع السوق" mandatory="False">
+     <Relation name="fk_da_check_market_type_id_da_market_market_type"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="2" minimum="0" maximum="100" description="" index="False" name="latitude" searchable="True" TYPE_INFO="VARCHAR" label="دائرة العرض" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="3" minimum="0" maximum="100" description="" index="False" name="longitude" searchable="True" TYPE_INFO="VARCHAR" label="خط الطول " mandatory="False"/>
+    <Column unique="False" tip="" rowindex="4" minimum="0" maximum="1073741823" description="" index="False" name="remarks" searchable="False" TYPE_INFO="TEXT" label="ملاحظات" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="5" minimum="0" maximum="2147483647" description="" index="False" name="village" searchable="False" TYPE_INFO="FOREIGN_KEY" label="قرية" mandatory="False">
+     <Relation name="fk_da_basic_information_id_da_market_village"/>
+    </Column>
+    <Column unique="True" tip="" rowindex="6" description="" index="True" name="geom" searchable="False" TYPE_INFO="GEOMETRY" label="" mandatory="False">
+     <Geometry layerDisplay="السوق" srid="4326" type="0"/>
+    </Column>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="-1" associative="False" description="" documentTypeLookup="check_economic_activities_document_type" proxy="False" createId="True" supportsDocuments="True" shortName="Economic Activities" name="da_economic_activities" label="">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="0" minimum="0" maximum="100" description="" index="False" name="name" searchable="True" TYPE_INFO="VARCHAR" label="الاسم" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="1" minimum="0" maximum="2147483647" description="" index="False" name="economic_activity_type" searchable="True" TYPE_INFO="LOOKUP" label="نوع النشاط الاقتصادي" mandatory="False">
+     <Relation name="fk_da_check_economic_activity_type_id_da_economic_activities_economic_activity_type"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="2" minimum="0" maximum="100" description="" index="False" name="latitude" searchable="True" TYPE_INFO="VARCHAR" label="دائرة العرض" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="3" minimum="0" maximum="100" description="" index="False" name="longitude" searchable="True" TYPE_INFO="VARCHAR" label="خط الطول " mandatory="False"/>
+    <Column unique="False" tip="" rowindex="4" minimum="0" maximum="1073741823" description="" index="False" name="remarks" searchable="False" TYPE_INFO="TEXT" label="ملاحظات" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="5" minimum="0" maximum="2147483647" description="" index="False" name="village" searchable="False" TYPE_INFO="FOREIGN_KEY" label="قرية" mandatory="False">
+     <Relation name="fk_da_basic_information_id_da_economic_activities_village"/>
+    </Column>
+    <Column unique="True" tip="" rowindex="6" description="" index="True" name="geom" searchable="False" TYPE_INFO="GEOMETRY" label="" mandatory="False">
+     <Geometry layerDisplay="النشاط ألإقتصادي" srid="4326" type="0"/>
+    </Column>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="-1" associative="False" description="" documentTypeLookup="check_community_centers_document_type" proxy="False" createId="True" supportsDocuments="True" shortName="Community Centers" name="da_community_centers" label="">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="0" minimum="0" maximum="100" description="" index="False" name="name" searchable="True" TYPE_INFO="VARCHAR" label="الاسم" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="1" minimum="0" maximum="2147483647" description="" index="False" name="community_center_type" searchable="True" TYPE_INFO="LOOKUP" label="نوع مركز المجتمع" mandatory="False">
+     <Relation name="fk_da_check_community_center_type_id_da_community_centers_community_center_type"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="2" minimum="0" maximum="100" description="" index="False" name="latitude" searchable="True" TYPE_INFO="VARCHAR" label="دائرة العرض" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="3" minimum="0" maximum="100" description="" index="False" name="longitude" searchable="True" TYPE_INFO="VARCHAR" label="خط الطول " mandatory="False"/>
+    <Column unique="False" tip="" rowindex="4" minimum="0" maximum="1073741823" description="" index="False" name="remarks" searchable="False" TYPE_INFO="TEXT" label="ملاحظات" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="5" minimum="0" maximum="2147483647" description="" index="False" name="village" searchable="False" TYPE_INFO="FOREIGN_KEY" label="قرية" mandatory="False">
+     <Relation name="fk_da_basic_information_id_da_community_centers_village"/>
+    </Column>
+    <Column unique="True" tip="" rowindex="6" description="" index="True" name="geom" searchable="False" TYPE_INFO="GEOMETRY" label="" mandatory="False">
+     <Geometry layerDisplay="المراكز الاجتماعية" srid="4326" type="0"/>
+    </Column>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="-1" associative="False" description="" proxy="False" createId="True" supportsDocuments="False" shortName="Enumeration" name="da_enumeration" label="">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="0" minimum="0" maximum="30" description=".رقم الاستبيان" index="False" name="reference_number" searchable="True" TYPE_INFO="VARCHAR" label=".رقم الاستبيان" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="1" minimum="0001-01-01" maximum="9999-12-31" description="" index="False" name="date_of_enumeration" searchable="False" TYPE_INFO="DATE" label="تاريخ العد" mandatory="False">
+     <currentDate minimum="False" maximum="False"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="2" minimum="0" maximum="30" description="" index="False" name="contact_number" searchable="True" TYPE_INFO="VARCHAR" label="التلفون" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="3" minimum="0" maximum="150" description="اسم معد البيانات" index="False" name="name_of_collector" searchable="True" TYPE_INFO="VARCHAR" label="اسم معد البيانات" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="4" minimum="0" maximum="2147483647" description="" index="False" name="gender" searchable="True" TYPE_INFO="LOOKUP" label="النوع" mandatory="False">
+     <Relation name="fk_da_check_gender_id_da_enumeration_gender"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="5" minimum="0" maximum="30" description="" index="False" name="job" searchable="True" TYPE_INFO="VARCHAR" label="الوظيفة" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="6" minimum="0" maximum="2147483647" description="" index="False" name="village" searchable="False" TYPE_INFO="FOREIGN_KEY" label="قرية" mandatory="False">
+     <Relation name="fk_da_basic_information_id_da_enumeration_village"/>
+    </Column>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="-1" associative="False" description="" proxy="False" createId="True" supportsDocuments="False" shortName="Roads" name="da_roads" label="">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="0" minimum="0" maximum="100" description="" index="False" name="road_name" searchable="True" TYPE_INFO="VARCHAR" label="اسم الطريق" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="1" minimum="0" maximum="2147483647" description="" index="False" name="road_type" searchable="True" TYPE_INFO="LOOKUP" label="درجة الطريق" mandatory="False">
+     <Relation name="fk_da_check_road_type_id_da_roads_road_type"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="2" minimum="0" maximum="2147483647" description="" index="False" name="road_status" searchable="True" TYPE_INFO="LOOKUP" label="وصف الطريق" mandatory="False">
+     <Relation name="fk_da_check_road_status_id_da_roads_road_status"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="3" minimum="0" maximum="2147483647" description="" index="False" name="village" searchable="False" TYPE_INFO="FOREIGN_KEY" label="قرية" mandatory="False">
+     <Relation name="fk_da_basic_information_id_da_roads_village"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="4" minimum="0" maximum="2147483647" description="" index="False" name="direction" searchable="True" TYPE_INFO="LOOKUP" label="الاتجاه  " mandatory="False">
+     <Relation name="fk_da_check_direction_id_da_roads_direction"/>
+    </Column>
+    <Column unique="True" tip="" rowindex="5" description="" index="True" name="geom" searchable="False" TYPE_INFO="GEOMETRY" label="" mandatory="False">
+     <Geometry layerDisplay="الطرق" srid="4326" type="1"/>
+    </Column>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="-1" associative="False" description="" proxy="False" createId="True" supportsDocuments="False" shortName="Participants" name="da_participants" label="">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="100" description="" index="False" name="name" searchable="True" TYPE_INFO="VARCHAR" label="الاسم" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="2147483647" description="" index="False" name="gender" searchable="True" TYPE_INFO="LOOKUP" label="النوع" mandatory="False">
+     <Relation name="fk_da_check_gender_id_da_participants_gender"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="30" description="" index="False" name="telephone_number" searchable="True" TYPE_INFO="VARCHAR" label="التلفون" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="100" description="" index="False" name="job" searchable="True" TYPE_INFO="VARCHAR" label="الوظيفة" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="2147483647" description="" index="False" name="village" searchable="False" TYPE_INFO="FOREIGN_KEY" label="قرية" mandatory="False">
+     <Relation name="fk_da_basic_information_id_da_participants_village"/>
+    </Column>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="-1" associative="False" description="" proxy="False" createId="True" supportsDocuments="False" shortName="Population by activity" name="da_population_by_activity" label="">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="2147483647" description="" index="False" name="economic_activity" searchable="True" TYPE_INFO="LOOKUP" label="النشاط" mandatory="False">
+     <Relation name="fk_da_check_profession_id_da_population_by_activity_economic_activity"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="" minimum="-2147483648" maximum="2147483647" description="" index="False" name="number_of_people" searchable="True" TYPE_INFO="INT" label="العدد" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="2147483647" description="" index="False" name="village" searchable="False" TYPE_INFO="FOREIGN_KEY" label="قرية" mandatory="False">
+     <Relation name="fk_da_basic_information_id_da_population_by_activity_village"/>
+    </Column>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="-1" associative="False" description="" documentTypeLookup="check_agriculture_land_document_type" proxy="False" createId="True" supportsDocuments="True" shortName="Agriculture Land" name="da_agriculture_land" label="">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="2147483647" description="" index="False" name="irrigation_type" searchable="True" TYPE_INFO="LOOKUP" label="نوعالري " mandatory="False">
+     <Relation name="fk_da_check_irrigation_type_id_da_agriculture_land_irrigation_type"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="30" description="" index="False" name="crop_type" searchable="True" TYPE_INFO="VARCHAR" label="نوع المحصول " mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="2147483647" description="" index="False" name="field_size" searchable="True" TYPE_INFO="LOOKUP" label="حجم الحقل" mandatory="False">
+     <Relation name="fk_da_check_field_size_id_da_agriculture_land_field_size"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="100" description="" index="False" name="longitude" searchable="True" TYPE_INFO="VARCHAR" label="خط الطول " mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="100" description="" index="False" name="latitude" searchable="True" TYPE_INFO="VARCHAR" label="دائرة العرض" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="2147483647" description="" index="False" name="village" searchable="False" TYPE_INFO="FOREIGN_KEY" label="قرية" mandatory="False">
+     <Relation name="fk_da_basic_information_id_da_agriculture_land_village"/>
+    </Column>
+    <Column unique="True" tip="" rowindex="" description="" index="True" name="geom" searchable="False" TYPE_INFO="GEOMETRY" label="" mandatory="False">
+     <Geometry layerDisplay="ألأراضي الزراعية" srid="4326" type="2"/>
+    </Column>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="-1" associative="False" description="" documentTypeLookup="check_natural_land_document_type" proxy="False" createId="True" supportsDocuments="True" shortName="Natural Land" name="da_natural_land" label="">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="100" description="" index="False" name="name" searchable="True" TYPE_INFO="VARCHAR" label="الاسم" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="2147483647" description="" index="False" name="irrigation_type" searchable="True" TYPE_INFO="LOOKUP" label="نوعالري " mandatory="False">
+     <Relation name="fk_da_check_irrigation_type_id_da_natural_land_irrigation_type"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="2147483647" description="" index="False" name="natural_land_type" searchable="True" TYPE_INFO="LOOKUP" label="النوع" mandatory="False">
+     <Relation name="fk_da_check_natural_land_type_id_da_natural_land_natural_land_type"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="100" description="" index="False" name="longitude" searchable="True" TYPE_INFO="VARCHAR" label="خط الطول " mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="100" description="" index="False" name="latitude" searchable="True" TYPE_INFO="VARCHAR" label="دائرة العرض" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="2147483647" description="" index="False" name="village" searchable="False" TYPE_INFO="FOREIGN_KEY" label="قرية" mandatory="False">
+     <Relation name="fk_da_basic_information_id_da_natural_land_village"/>
+    </Column>
+    <Column unique="True" tip="" rowindex="" description="" index="True" name="geom" searchable="False" TYPE_INFO="GEOMETRY" label="" mandatory="False">
+     <Geometry layerDisplay="ألأراضي الطبيعية" srid="4326" type="2"/>
+    </Column>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="-1" associative="False" description="" documentTypeLookup="check_power_sources_document_type" proxy="False" createId="True" supportsDocuments="True" shortName="Power Sources" name="da_power_sources" label="">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="100" description="" index="False" name="name" searchable="True" TYPE_INFO="VARCHAR" label="الاسم" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="2147483647" description="" index="False" name="power_sources_type" searchable="True" TYPE_INFO="LOOKUP" label="النوع" mandatory="False">
+     <Relation name="fk_da_check_power_sources_type_id_da_power_sources_power_sources_type"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="100" description="" index="False" name="longitude" searchable="True" TYPE_INFO="VARCHAR" label="خط الطول " mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="100" description="" index="False" name="latitude" searchable="True" TYPE_INFO="VARCHAR" label="دائرة العرض" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="1073741823" description="" index="False" name="remarks" searchable="False" TYPE_INFO="TEXT" label="ملاحظات" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="2147483647" description="" index="False" name="village" searchable="False" TYPE_INFO="FOREIGN_KEY" label="قرية" mandatory="False">
+     <Relation name="fk_da_basic_information_id_da_power_sources_village"/>
+    </Column>
+    <Column unique="True" tip="" rowindex="" description="" index="True" name="geom" searchable="False" TYPE_INFO="GEOMETRY" label="" mandatory="False">
+     <Geometry layerDisplay="مصادر الطاقة" srid="4326" type="0"/>
+    </Column>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="-1" associative="False" description="" documentTypeLookup="check_water_sources_document_type" proxy="False" createId="True" supportsDocuments="True" shortName="Water Sources" name="da_water_sources" label="">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="100" description="" index="False" name="name" searchable="True" TYPE_INFO="VARCHAR" label="الاسم" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="2147483647" description="" index="False" name="water_sources_type" searchable="True" TYPE_INFO="LOOKUP" label="النوع" mandatory="False">
+     <Relation name="fk_da_check_water_sources_type_id_da_water_sources_water_sources_type"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="30" description="" index="False" name="longitude" searchable="True" TYPE_INFO="VARCHAR" label="خط الطول " mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="30" description="" index="False" name="latitude" searchable="True" TYPE_INFO="VARCHAR" label="دائرة العرض" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="1073741823" description="" index="False" name="remarks" searchable="False" TYPE_INFO="TEXT" label="ملاحظات" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="2147483647" description="" index="False" name="village" searchable="False" TYPE_INFO="FOREIGN_KEY" label="قرية" mandatory="False">
+     <Relation name="fk_da_basic_information_id_da_water_sources_village"/>
+    </Column>
+    <Column unique="True" tip="" rowindex="" description="" index="True" name="geom" searchable="False" TYPE_INFO="GEOMETRY" label="" mandatory="False">
+     <Geometry layerDisplay="مصادر المياه" srid="4326" type="0"/>
+    </Column>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="-1" associative="False" description="" proxy="False" createId="True" supportsDocuments="False" shortName="Veterinary Services" name="da_veterinary_services" label="">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="2147483647" description="" index="False" name="veterinary_services" searchable="True" TYPE_INFO="LOOKUP" label="الخدمة البيطرية" mandatory="False">
+     <Relation name="fk_da_check_veterinary_services_id_da_veterinary_services_veterinary_services"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="2147483647" description="" index="False" name="availability" searchable="True" TYPE_INFO="LOOKUP" label="نعم/ لا" mandatory="False">
+     <Relation name="fk_da_check_yes_no_id_da_veterinary_services_availability"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="1073741823" description="" index="False" name="remarks" searchable="False" TYPE_INFO="TEXT" label="ملاحظة" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="2147483647" description="" index="False" name="village" searchable="False" TYPE_INFO="FOREIGN_KEY" label="قرية" mandatory="False">
+     <Relation name="fk_da_basic_information_id_da_veterinary_services_village"/>
+    </Column>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="-1" associative="False" description="" proxy="False" createId="True" supportsDocuments="False" shortName="Economic Resources" name="da_economic_resources" label="">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="2147483647" description="" index="False" name="economic_resources" searchable="True" TYPE_INFO="LOOKUP" label="الموارد الاقتصادية بالقرية " mandatory="False">
+     <Relation name="fk_da_check_economic_resources_id_da_economic_resources_economic_resources"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="2147483647" description="" index="False" name="presence" searchable="True" TYPE_INFO="LOOKUP" label="نعم/ لا" mandatory="False">
+     <Relation name="fk_da_check_yes_no_id_da_economic_resources_presence"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="1073741823" description="" index="False" name="remarks" searchable="False" TYPE_INFO="TEXT" label="ملاحظة" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="2147483647" description="" index="False" name="village" searchable="False" TYPE_INFO="FOREIGN_KEY" label="قرية" mandatory="False">
+     <Relation name="fk_da_basic_information_id_da_economic_resources_village"/>
+    </Column>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="-1" associative="False" description="" proxy="False" createId="True" supportsDocuments="False" shortName="Nearest Animal Route" name="da_nearest_animal_route" label="">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="100" description="" index="False" name="name" searchable="True" TYPE_INFO="VARCHAR" label="الإسم " mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="-2.225073858507201383090232717332404064219215980462331830553327416887204434813918195854283159012511020564067339731035811005152434161553460108856012385377718821130777993532002330479610147442583636071921565046942503734208375250806650616658158948720491179968591639648500635908770118304874799780887753749949451580451605050915399856582470818645113537935804992115981085766051992433352114352390148795699609591288891602992641511063466313393663477586513029371762047325631781485664350872122828637642044846811407613911477062801689853244110024161447421618567166150540154285084716752901903161322778896729707373123334086988983175067838846926092773977972858659654941091369095406136467568702398678315290680984617210924625396728515625E-308" maximum="179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368" description="" index="False" name="distance" searchable="True" TYPE_INFO="DOUBLE" label="(km) المسافة" mandatory="False">
+     <Numeric scale="6" precision="18"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="1073741823" description="" index="False" name="remarks" searchable="False" TYPE_INFO="TEXT" label="ملاحظات" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="2147483647" description="" index="False" name="direction" searchable="True" TYPE_INFO="LOOKUP" label="الاتجاه" mandatory="False">
+     <Relation name="fk_da_check_direction_id_da_nearest_animal_route_direction"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="2147483647" description="" index="False" name="village" searchable="False" TYPE_INFO="FOREIGN_KEY" label="قرية" mandatory="False">
+     <Relation name="fk_da_basic_information_id_da_nearest_animal_route_village"/>
+    </Column>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="-1" associative="False" description="" documentTypeLookup="check_sanitation_document_type" proxy="False" createId="True" supportsDocuments="True" shortName="Sanitation" name="da_sanitation" label="">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="100" description="" index="False" name="name" searchable="True" TYPE_INFO="VARCHAR" label="الاسم" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="2147483647" description="" index="False" name="sanitation" searchable="True" TYPE_INFO="LOOKUP" label="الصرف الصحي" mandatory="False">
+     <Relation name="fk_da_check_sanitation_type_id_da_sanitation_sanitation"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="100" description="" index="False" name="longitude" searchable="True" TYPE_INFO="VARCHAR" label="خط الطول " mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="100" description="" index="False" name="latitude" searchable="True" TYPE_INFO="VARCHAR" label="دائرة العرض" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="1073741823" description="" index="False" name="remarks" searchable="False" TYPE_INFO="TEXT" label="ملاحظات" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="2147483647" description="" index="False" name="village" searchable="False" TYPE_INFO="FOREIGN_KEY" label="قرية" mandatory="False">
+     <Relation name="fk_da_basic_information_id_da_sanitation_village"/>
+    </Column>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="-1" associative="False" description="" proxy="False" createId="True" supportsDocuments="False" shortName="Three Kilometers to Village" name="da_three_kilometers_to_village" label="">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="2147483647" description="" index="False" name="direction" searchable="True" TYPE_INFO="LOOKUP" label="" mandatory="False">
+     <Relation name="fk_da_check_direction_id_da_three_kilometers_to_village_direction"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="2147483647" description="" index="False" name="land_use_type" searchable="True" TYPE_INFO="LOOKUP" label="" mandatory="False">
+     <Relation name="fk_da_check_landuse_id_da_three_kilometers_to_village_land_use_type"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="1073741823" description="" index="False" name="remarks" searchable="False" TYPE_INFO="TEXT" label="ملاحظات" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="2147483647" description="" index="False" name="village" searchable="False" TYPE_INFO="FOREIGN_KEY" label="قرية" mandatory="False">
+     <Relation name="fk_da_basic_information_id_da_three_kilometers_to_village_village"/>
+    </Column>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="-1" associative="False" description="" proxy="False" createId="True" supportsDocuments="False" shortName="Buffer Zone Distances" name="da_buffer_zone_distances" label="">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="2147483647" description="" index="False" name="direction" searchable="True" TYPE_INFO="LOOKUP" label="" mandatory="False">
+     <Relation name="fk_da_check_direction_id_da_buffer_zone_distances_direction"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="1797" description="" index="False" name="distance" searchable="True" TYPE_INFO="DOUBLE" label="المسافه(km )" mandatory="False">
+     <Numeric scale="6" precision="18"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="2147483647" description="" index="False" name="activity_type" searchable="True" TYPE_INFO="LOOKUP" label="نوع النشاط" mandatory="False">
+     <Relation name="fk_da_check_activity_type_id_da_buffer_zone_distances_activity_type"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="1073741823" description="" index="False" name="remarks" searchable="False" TYPE_INFO="TEXT" label="ملاحظات" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="2147483647" description="" index="False" name="village" searchable="False" TYPE_INFO="FOREIGN_KEY" label="قرية" mandatory="False">
+     <Relation name="fk_da_basic_information_id_da_buffer_zone_distances_village"/>
+    </Column>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="-1" associative="False" description="" documentTypeLookup="check_telecommunication_services_document_type" proxy="False" createId="True" supportsDocuments="True" shortName="Telecommunication Services" name="da_telecommunication_services" label="">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="100" description="" index="False" name="name" searchable="True" TYPE_INFO="VARCHAR" label="الاسم" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="2147483647" description="" index="False" name="telecommunication_type" searchable="True" TYPE_INFO="LOOKUP" label="نوع خدمة الهاتف" mandatory="False">
+     <Relation name="fk_da_check_telecommunication_type_id_da_telecommunication_services_telecommunication_type"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="100" description="" index="False" name="latitude" searchable="True" TYPE_INFO="VARCHAR" label="دائرة العرض" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="100" description="" index="False" name="longitude" searchable="True" TYPE_INFO="VARCHAR" label="خط الطول " mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="1073741823" description="" index="False" name="remarks" searchable="False" TYPE_INFO="TEXT" label="ملاحظات" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="" minimum="0" maximum="2147483647" description="" index="False" name="village" searchable="False" TYPE_INFO="FOREIGN_KEY" label="قرية" mandatory="False">
+     <Relation name="fk_da_basic_information_id_da_telecommunication_services_village"/>
+    </Column>
+    <Column unique="True" tip="" rowindex="" description="" index="True" name="geom" searchable="False" TYPE_INFO="GEOMETRY" label="" mandatory="False">
+     <Geometry layerDisplay="خدمات الهاتف" srid="4326" type="0"/>
+    </Column>
+   </Columns>
+  </Entity>
+  <Entity editable="False" global="False" rowindex="-1" associative="False" description="" proxy="False" createId="True" supportsDocuments="False" shortName="check_tenure_type_str_attrs" name="da_check_tenure_type_str_attrs" label="">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="-1" minimum="0" maximum="2147483647" description="" index="False" name="social_tenure_relationship_id" searchable="True" TYPE_INFO="FOREIGN_KEY" label="" mandatory="False">
+     <Relation name="fk_da_social_tenure_relationship_id_da_check_tenure_type_str_attrs_social_tenure_relationship_id"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="-1" minimum="0" maximum="1" description="" index="False" name="dummy_custom_str" searchable="True" TYPE_INFO="VARCHAR" label="" mandatory="False"/>
+   </Columns>
+  </Entity>
+  <Relations>
+   <EntityRelation displayColumns="name,code" child="social_tenure_relationship_supporting_document" showInParent="True" parent="check_social_tenure_relationship_document_type" name="fk_da_check_social_tenure_relationship_document_type_id_da_social_tenure_relationship_supporting_document_document_type" parentColumn="id" showInChild="True" childColumn="document_type"/>
+   <EntityRelation displayColumns="" child="social_tenure_relationship_supporting_document" showInParent="True" parent="social_tenure_relationship" name="fk_da_social_tenure_relationship_id_da_social_tenure_relationship_supporting_document_social_tenure_relationship_id" parentColumn="id" showInChild="True" childColumn="social_tenure_relationship_id"/>
+   <EntityRelation displayColumns="" child="social_tenure_relationship_supporting_document" showInParent="True" parent="supporting_document" name="fk_da_supporting_document_id_da_social_tenure_relationship_supporting_document_supporting_doc_id" parentColumn="id" showInChild="True" childColumn="supporting_doc_id"/>
+   <EntityRelation displayColumns="name,code" child="social_tenure_relationship" showInParent="True" parent="check_tenure_type" name="fk_da_check_tenure_type_id_da_social_tenure_relationship_tenure_type" parentColumn="id" showInChild="True" childColumn="tenure_type"/>
+   <EntityRelation displayColumns="" child="admin_spatial_unit_set" showInParent="True" parent="admin_spatial_unit_set" name="fk_admin_spatial_unit_set_id_admin_spatial_unit_set_parent_id" parentColumn="id" showInChild="True" childColumn="parent_id"/>
+   <EntityRelation displayColumns="name,code" child="Basic Information" showInParent="True" parent="admin_spatial_unit_set" name="fk_admin_spatial_unit_set_id_da_basic_information_state" parentColumn="id" showInChild="True" childColumn="state"/>
+   <EntityRelation displayColumns="name,code" child="Basic Information" showInParent="True" parent="admin_spatial_unit_set" name="fk_admin_spatial_unit_set_id_da_basic_information_locality" parentColumn="id" showInChild="True" childColumn="locality"/>
+   <EntityRelation displayColumns="name,code" child="Basic Information" showInParent="True" parent="admin_spatial_unit_set" name="fk_admin_spatial_unit_set_id_da_basic_information_admin_unit" parentColumn="id" showInChild="True" childColumn="admin_unit"/>
+   <EntityRelation displayColumns="" child="natural_barriers" showInParent="True" parent="check_natural_barrier" name="fk_da_check_natural_barrier_id_da_natural_barriers_da_check_natural_barrier_id" parentColumn="id" showInChild="True" childColumn="da_check_natural_barrier_id"/>
+   <EntityRelation displayColumns="" child="natural_barriers" showInParent="True" parent="Basic Information" name="fk_da_basic_information_id_da_natural_barriers_da_basic_information_id" parentColumn="id" showInChild="True" childColumn="da_basic_information_id"/>
+   <EntityRelation displayColumns="name,code" child="Basic Information" showInParent="True" parent="check_yes_no" name="fk_da_check_yes_no_id_da_basic_information_no_connection_in_rainy_season" parentColumn="id" showInChild="True" childColumn="no_connection_in_rainy_season"/>
+   <EntityRelation displayColumns="name,code" child="Village Landuse" showInParent="True" parent="check_landuse" name="fk_da_check_landuse_id_da_village_landuse_land_use_type" parentColumn="id" showInChild="True" childColumn="land_use_type"/>
+   <EntityRelation displayColumns="village_name" child="Village Landuse" showInParent="True" parent="Basic Information" name="fk_da_basic_information_id_da_village_landuse_village" parentColumn="id" showInChild="True" childColumn="village"/>
+   <EntityRelation displayColumns="name,code" child="Village Boundary and Buffer" showInParent="True" parent="check_boundary_type" name="fk_da_check_boundary_type_id_da_village_boundary_and_buffer_boundary_type" parentColumn="id" showInChild="True" childColumn="boundary_type"/>
+   <EntityRelation displayColumns="village_name" child="Village Boundary and Buffer" showInParent="True" parent="Basic Information" name="fk_da_basic_information_id_da_village_boundary_and_buffer_village" parentColumn="id" showInChild="True" childColumn="village"/>
+   <EntityRelation displayColumns="name,code" child="Schools_supporting_document" showInParent="True" parent="check_schools_document_type" name="fk_da_check_schools_document_type_id_da_schools_supporting_document_document_type" parentColumn="id" showInChild="True" childColumn="document_type"/>
+   <EntityRelation displayColumns="" child="Schools_supporting_document" showInParent="True" parent="Schools" name="fk_da_schools_id_da_schools_supporting_document_schools_id" parentColumn="id" showInChild="True" childColumn="schools_id"/>
+   <EntityRelation displayColumns="" child="Schools_supporting_document" showInParent="True" parent="supporting_document" name="fk_da_supporting_document_id_da_schools_supporting_document_supporting_doc_id" parentColumn="id" showInChild="True" childColumn="supporting_doc_id"/>
+   <EntityRelation displayColumns="name,code" child="Schools" showInParent="True" parent="check_school_type" name="fk_da_check_school_type_id_da_schools_school_type" parentColumn="id" showInChild="True" childColumn="school_type"/>
+   <EntityRelation displayColumns="village_name" child="Schools" showInParent="True" parent="Basic Information" name="fk_da_basic_information_id_da_schools_village" parentColumn="id" showInChild="True" childColumn="village"/>
+   <EntityRelation displayColumns="name,code" child="Schools Detail" showInParent="True" parent="check_school_level" name="fk_da_check_school_level_id_da_schools_detail_school_level" parentColumn="id" showInChild="True" childColumn="school_level"/>
+   <EntityRelation displayColumns="name,code" child="Schools Detail" showInParent="True" parent="check_constructing_materials" name="fk_da_check_constructing_materials_id_da_schools_detail_building_material" parentColumn="id" showInChild="True" childColumn="building_material"/>
+   <EntityRelation displayColumns="name,code" child="Schools Detail" showInParent="True" parent="check_status" name="fk_da_check_status_id_da_schools_detail_building_status" parentColumn="id" showInChild="True" childColumn="building_status"/>
+   <EntityRelation displayColumns="name,code" child="Schools Detail" showInParent="True" parent="check_teacher_type" name="fk_da_check_teacher_type_id_da_schools_detail_teacher_type" parentColumn="id" showInChild="True" childColumn="teacher_type"/>
+   <EntityRelation displayColumns="name" child="Schools Detail" showInParent="True" parent="Schools" name="fk_da_schools_id_da_schools_detail_school" parentColumn="id" showInChild="True" childColumn="school"/>
+   <EntityRelation displayColumns="village_name" child="Population" showInParent="True" parent="Basic Information" name="fk_da_basic_information_id_da_population_village" parentColumn="id" showInChild="True" childColumn="village"/>
+   <EntityRelation displayColumns="name,code" child="Natural Disasters" showInParent="True" parent="check_disasters" name="fk_da_check_disasters_id_da_natural_disasters_disasters" parentColumn="id" showInChild="True" childColumn="disasters"/>
+   <EntityRelation displayColumns="name,code" child="Natural Disasters" showInParent="True" parent="check_yes_no" name="fk_da_check_yes_no_id_da_natural_disasters_presence" parentColumn="id" showInChild="True" childColumn="presence"/>
+   <EntityRelation displayColumns="village_name" child="Natural Disasters" showInParent="True" parent="Basic Information" name="fk_da_basic_information_id_da_natural_disasters_village" parentColumn="id" showInChild="True" childColumn="village"/>
+   <EntityRelation displayColumns="name,code" child="Animal Population" showInParent="True" parent="check_type_of_animal" name="fk_da_check_type_of_animal_id_da_animal_population_type_of_animal" parentColumn="id" showInChild="True" childColumn="type_of_animal"/>
+   <EntityRelation displayColumns="village_name" child="Animal Population" showInParent="True" parent="Basic Information" name="fk_da_basic_information_id_da_animal_population_village" parentColumn="id" showInChild="True" childColumn="village"/>
+   <EntityRelation displayColumns="name,code" child="Topographic Features" showInParent="True" parent="check_topographic_features" name="fk_da_check_topographic_features_id_da_topographic_features_topographic_features" parentColumn="id" showInChild="True" childColumn="topographic_features"/>
+   <EntityRelation displayColumns="name,code" child="Topographic Features" showInParent="True" parent="check_direction" name="fk_da_check_direction_id_da_topographic_features_direction" parentColumn="id" showInChild="True" childColumn="direction"/>
+   <EntityRelation displayColumns="village_name" child="Topographic Features" showInParent="True" parent="Basic Information" name="fk_da_basic_information_id_da_topographic_features_village" parentColumn="id" showInChild="True" childColumn="village"/>
+   <EntityRelation displayColumns="village_name" child="Future Growth Direction" showInParent="True" parent="Basic Information" name="fk_da_basic_information_id_da_future_growth_direction_village" parentColumn="id" showInChild="True" childColumn="village"/>
+   <EntityRelation displayColumns="name,code" child="Housing and Building Percentage_supporting_document" showInParent="True" parent="check_housing_and_building_percentage_document_type" name="fk_da_check_housing_and_building_percentage_document_type_id_da_housing_and_building_percentage_supporting_document_document_type" parentColumn="id" showInChild="True" childColumn="document_type"/>
+   <EntityRelation displayColumns="" child="Housing and Building Percentage_supporting_document" showInParent="True" parent="Housing and Building Percentage" name="fk_da_housing_and_building_percentage_id_da_housing_and_building_percentage_supporting_document_housing_and_building_percentage_id" parentColumn="id" showInChild="True" childColumn="housing_and_building_percentage_id"/>
+   <EntityRelation displayColumns="" child="Housing and Building Percentage_supporting_document" showInParent="True" parent="supporting_document" name="fk_da_supporting_document_id_da_housing_and_building_percentage_supporting_document_supporting_doc_id" parentColumn="id" showInChild="True" childColumn="supporting_doc_id"/>
+   <EntityRelation displayColumns="name,code" child="Housing and Building Percentage" showInParent="True" parent="check_constructing_materials" name="fk_da_check_constructing_materials_id_da_housing_and_building_percentage_constructing_materials" parentColumn="id" showInChild="True" childColumn="constructing_materials"/>
+   <EntityRelation displayColumns="name,code" child="Housing and Building Percentage" showInParent="True" parent="check_status" name="fk_da_check_status_id_da_housing_and_building_percentage_status" parentColumn="id" showInChild="True" childColumn="status"/>
+   <EntityRelation displayColumns="village_name" child="Housing and Building Percentage" showInParent="True" parent="Basic Information" name="fk_da_basic_information_id_da_housing_and_building_percentage_village" parentColumn="id" showInChild="True" childColumn="village"/>
+   <EntityRelation displayColumns="name,code" child="Health Services_supporting_document" showInParent="True" parent="check_health_services_document_type" name="fk_da_check_health_services_document_type_id_da_health_services_supporting_document_document_type" parentColumn="id" showInChild="True" childColumn="document_type"/>
+   <EntityRelation displayColumns="" child="Health Services_supporting_document" showInParent="True" parent="Health Services" name="fk_da_health_services_id_da_health_services_supporting_document_health_services_id" parentColumn="id" showInChild="True" childColumn="health_services_id"/>
+   <EntityRelation displayColumns="" child="Health Services_supporting_document" showInParent="True" parent="supporting_document" name="fk_da_supporting_document_id_da_health_services_supporting_document_supporting_doc_id" parentColumn="id" showInChild="True" childColumn="supporting_doc_id"/>
+   <EntityRelation displayColumns="name,code" child="Health Services" showInParent="True" parent="check_health_service_type" name="fk_da_check_health_service_type_id_da_health_services_health_service_type" parentColumn="id" showInChild="True" childColumn="health_service_type"/>
+   <EntityRelation displayColumns="village_name" child="Health Services" showInParent="True" parent="Basic Information" name="fk_da_basic_information_id_da_health_services_village" parentColumn="id" showInChild="True" childColumn="village"/>
+   <EntityRelation displayColumns="name,code" child="Health Services" showInParent="True" parent="check_yes_no" name="fk_da_check_yes_no_id_da_health_services_working" parentColumn="id" showInChild="True" childColumn="working"/>
+   <EntityRelation displayColumns="name,code" child="Health Services" showInParent="True" parent="check_status" name="fk_da_check_status_id_da_health_services_building_status" parentColumn="id" showInChild="True" childColumn="building_status"/>
+   <EntityRelation displayColumns="name,code" child="Religious Services_supporting_document" showInParent="True" parent="check_religious_services_document_type" name="fk_da_check_religious_services_document_type_id_da_religious_services_supporting_document_document_type" parentColumn="id" showInChild="True" childColumn="document_type"/>
+   <EntityRelation displayColumns="" child="Religious Services_supporting_document" showInParent="True" parent="Religious Services" name="fk_da_religious_services_id_da_religious_services_supporting_document_religious_services_id" parentColumn="id" showInChild="True" childColumn="religious_services_id"/>
+   <EntityRelation displayColumns="" child="Religious Services_supporting_document" showInParent="True" parent="supporting_document" name="fk_da_supporting_document_id_da_religious_services_supporting_document_supporting_doc_id" parentColumn="id" showInChild="True" childColumn="supporting_doc_id"/>
+   <EntityRelation displayColumns="name,code" child="Religious Services" showInParent="True" parent="check_religious_service_type" name="fk_da_check_religious_service_type_id_da_religious_services_religious_service_type" parentColumn="id" showInChild="True" childColumn="religious_service_type"/>
+   <EntityRelation displayColumns="village_name" child="Religious Services" showInParent="True" parent="Basic Information" name="fk_da_basic_information_id_da_religious_services_village" parentColumn="id" showInChild="True" childColumn="village"/>
+   <EntityRelation displayColumns="name,code" child="Administrative and Security Services_supporting_document" showInParent="True" parent="check_administrative_and_security_services_document_type" name="fk_da_check_administrative_and_security_services_document_type_id_da_administrative_and_security_services_supporting_document_document_type" parentColumn="id" showInChild="True" childColumn="document_type"/>
+   <EntityRelation displayColumns="" child="Administrative and Security Services_supporting_document" showInParent="True" parent="Administrative and Security Services" name="fk_da_administrative_and_security_services_id_da_administrative_and_security_services_supporting_document_administrative_and_security_services_id" parentColumn="id" showInChild="True" childColumn="administrative_and_security_services_id"/>
+   <EntityRelation displayColumns="" child="Administrative and Security Services_supporting_document" showInParent="True" parent="supporting_document" name="fk_da_supporting_document_id_da_administrative_and_security_services_supporting_document_supporting_doc_id" parentColumn="id" showInChild="True" childColumn="supporting_doc_id"/>
+   <EntityRelation displayColumns="name,code" child="Administrative and Security Services" showInParent="True" parent="check_admin_service_type" name="fk_da_check_admin_service_type_id_da_administrative_and_security_services_admin_service_type" parentColumn="id" showInChild="True" childColumn="admin_service_type"/>
+   <EntityRelation displayColumns="village_name" child="Administrative and Security Services" showInParent="True" parent="Basic Information" name="fk_da_basic_information_id_da_administrative_and_security_services_village" parentColumn="id" showInChild="True" childColumn="village"/>
+   <EntityRelation displayColumns="name,code" child="Market_supporting_document" showInParent="True" parent="check_market_document_type" name="fk_da_check_market_document_type_id_da_market_supporting_document_document_type" parentColumn="id" showInChild="True" childColumn="document_type"/>
+   <EntityRelation displayColumns="" child="Market_supporting_document" showInParent="True" parent="Market" name="fk_da_market_id_da_market_supporting_document_market_id" parentColumn="id" showInChild="True" childColumn="market_id"/>
+   <EntityRelation displayColumns="" child="Market_supporting_document" showInParent="True" parent="supporting_document" name="fk_da_supporting_document_id_da_market_supporting_document_supporting_doc_id" parentColumn="id" showInChild="True" childColumn="supporting_doc_id"/>
+   <EntityRelation displayColumns="name,code" child="Market" showInParent="True" parent="check_market_type" name="fk_da_check_market_type_id_da_market_market_type" parentColumn="id" showInChild="True" childColumn="market_type"/>
+   <EntityRelation displayColumns="village_name" child="Market" showInParent="True" parent="Basic Information" name="fk_da_basic_information_id_da_market_village" parentColumn="id" showInChild="True" childColumn="village"/>
+   <EntityRelation displayColumns="name,code" child="Economic Activities_supporting_document" showInParent="True" parent="check_economic_activities_document_type" name="fk_da_check_economic_activities_document_type_id_da_economic_activities_supporting_document_document_type" parentColumn="id" showInChild="True" childColumn="document_type"/>
+   <EntityRelation displayColumns="" child="Economic Activities_supporting_document" showInParent="True" parent="Economic Activities" name="fk_da_economic_activities_id_da_economic_activities_supporting_document_economic_activities_id" parentColumn="id" showInChild="True" childColumn="economic_activities_id"/>
+   <EntityRelation displayColumns="" child="Economic Activities_supporting_document" showInParent="True" parent="supporting_document" name="fk_da_supporting_document_id_da_economic_activities_supporting_document_supporting_doc_id" parentColumn="id" showInChild="True" childColumn="supporting_doc_id"/>
+   <EntityRelation displayColumns="name,code" child="Economic Activities" showInParent="True" parent="check_economic_activity_type" name="fk_da_check_economic_activity_type_id_da_economic_activities_economic_activity_type" parentColumn="id" showInChild="True" childColumn="economic_activity_type"/>
+   <EntityRelation displayColumns="village_name" child="Economic Activities" showInParent="True" parent="Basic Information" name="fk_da_basic_information_id_da_economic_activities_village" parentColumn="id" showInChild="True" childColumn="village"/>
+   <EntityRelation displayColumns="name,code" child="Community Centers_supporting_document" showInParent="True" parent="check_community_centers_document_type" name="fk_da_check_community_centers_document_type_id_da_community_centers_supporting_document_document_type" parentColumn="id" showInChild="True" childColumn="document_type"/>
+   <EntityRelation displayColumns="" child="Community Centers_supporting_document" showInParent="True" parent="Community Centers" name="fk_da_community_centers_id_da_community_centers_supporting_document_community_centers_id" parentColumn="id" showInChild="True" childColumn="community_centers_id"/>
+   <EntityRelation displayColumns="" child="Community Centers_supporting_document" showInParent="True" parent="supporting_document" name="fk_da_supporting_document_id_da_community_centers_supporting_document_supporting_doc_id" parentColumn="id" showInChild="True" childColumn="supporting_doc_id"/>
+   <EntityRelation displayColumns="name,code" child="Community Centers" showInParent="True" parent="check_community_center_type" name="fk_da_check_community_center_type_id_da_community_centers_community_center_type" parentColumn="id" showInChild="True" childColumn="community_center_type"/>
+   <EntityRelation displayColumns="village_name" child="Community Centers" showInParent="True" parent="Basic Information" name="fk_da_basic_information_id_da_community_centers_village" parentColumn="id" showInChild="True" childColumn="village"/>
+   <EntityRelation displayColumns="name,code" child="Enumeration" showInParent="True" parent="check_gender" name="fk_da_check_gender_id_da_enumeration_gender" parentColumn="id" showInChild="True" childColumn="gender"/>
+   <EntityRelation displayColumns="village_name" child="Enumeration" showInParent="True" parent="Basic Information" name="fk_da_basic_information_id_da_enumeration_village" parentColumn="id" showInChild="True" childColumn="village"/>
+   <EntityRelation displayColumns="name,code" child="Roads" showInParent="True" parent="check_road_type" name="fk_da_check_road_type_id_da_roads_road_type" parentColumn="id" showInChild="True" childColumn="road_type"/>
+   <EntityRelation displayColumns="name,code" child="Roads" showInParent="True" parent="check_road_status" name="fk_da_check_road_status_id_da_roads_road_status" parentColumn="id" showInChild="True" childColumn="road_status"/>
+   <EntityRelation displayColumns="village_name" child="Roads" showInParent="True" parent="Basic Information" name="fk_da_basic_information_id_da_roads_village" parentColumn="id" showInChild="True" childColumn="village"/>
+   <EntityRelation displayColumns="name,code" child="Roads" showInParent="True" parent="check_direction" name="fk_da_check_direction_id_da_roads_direction" parentColumn="id" showInChild="True" childColumn="direction"/>
+   <EntityRelation displayColumns="name,code" child="Participants" showInParent="True" parent="check_gender" name="fk_da_check_gender_id_da_participants_gender" parentColumn="id" showInChild="True" childColumn="gender"/>
+   <EntityRelation displayColumns="village_name" child="Participants" showInParent="True" parent="Basic Information" name="fk_da_basic_information_id_da_participants_village" parentColumn="id" showInChild="True" childColumn="village"/>
+   <EntityRelation displayColumns="name,code" child="Population by activity" showInParent="True" parent="check_profession" name="fk_da_check_profession_id_da_population_by_activity_economic_activity" parentColumn="id" showInChild="True" childColumn="economic_activity"/>
+   <EntityRelation displayColumns="village_name" child="Population by activity" showInParent="True" parent="Basic Information" name="fk_da_basic_information_id_da_population_by_activity_village" parentColumn="id" showInChild="True" childColumn="village"/>
+   <EntityRelation displayColumns="name,code" child="Agriculture Land_supporting_document" showInParent="True" parent="check_agriculture_land_document_type" name="fk_da_check_agriculture_land_document_type_id_da_agriculture_land_supporting_document_document_type" parentColumn="id" showInChild="True" childColumn="document_type"/>
+   <EntityRelation displayColumns="" child="Agriculture Land_supporting_document" showInParent="True" parent="Agriculture Land" name="fk_da_agriculture_land_id_da_agriculture_land_supporting_document_agriculture_land_id" parentColumn="id" showInChild="True" childColumn="agriculture_land_id"/>
+   <EntityRelation displayColumns="" child="Agriculture Land_supporting_document" showInParent="True" parent="supporting_document" name="fk_da_supporting_document_id_da_agriculture_land_supporting_document_supporting_doc_id" parentColumn="id" showInChild="True" childColumn="supporting_doc_id"/>
+   <EntityRelation displayColumns="name,code" child="Agriculture Land" showInParent="True" parent="check_irrigation_type" name="fk_da_check_irrigation_type_id_da_agriculture_land_irrigation_type" parentColumn="id" showInChild="True" childColumn="irrigation_type"/>
+   <EntityRelation displayColumns="name,code" child="Agriculture Land" showInParent="True" parent="check_field_size" name="fk_da_check_field_size_id_da_agriculture_land_field_size" parentColumn="id" showInChild="True" childColumn="field_size"/>
+   <EntityRelation displayColumns="village_name" child="Agriculture Land" showInParent="True" parent="Basic Information" name="fk_da_basic_information_id_da_agriculture_land_village" parentColumn="id" showInChild="True" childColumn="village"/>
+   <EntityRelation displayColumns="name,code" child="Natural Land_supporting_document" showInParent="True" parent="check_natural_land_document_type" name="fk_da_check_natural_land_document_type_id_da_natural_land_supporting_document_document_type" parentColumn="id" showInChild="True" childColumn="document_type"/>
+   <EntityRelation displayColumns="" child="Natural Land_supporting_document" showInParent="True" parent="Natural Land" name="fk_da_natural_land_id_da_natural_land_supporting_document_natural_land_id" parentColumn="id" showInChild="True" childColumn="natural_land_id"/>
+   <EntityRelation displayColumns="" child="Natural Land_supporting_document" showInParent="True" parent="supporting_document" name="fk_da_supporting_document_id_da_natural_land_supporting_document_supporting_doc_id" parentColumn="id" showInChild="True" childColumn="supporting_doc_id"/>
+   <EntityRelation displayColumns="name,code" child="Natural Land" showInParent="True" parent="check_irrigation_type" name="fk_da_check_irrigation_type_id_da_natural_land_irrigation_type" parentColumn="id" showInChild="True" childColumn="irrigation_type"/>
+   <EntityRelation displayColumns="name,code" child="Natural Land" showInParent="True" parent="check_natural_land_type" name="fk_da_check_natural_land_type_id_da_natural_land_natural_land_type" parentColumn="id" showInChild="True" childColumn="natural_land_type"/>
+   <EntityRelation displayColumns="village_name" child="Natural Land" showInParent="True" parent="Basic Information" name="fk_da_basic_information_id_da_natural_land_village" parentColumn="id" showInChild="True" childColumn="village"/>
+   <EntityRelation displayColumns="name,code" child="Power Sources_supporting_document" showInParent="True" parent="check_power_sources_document_type" name="fk_da_check_power_sources_document_type_id_da_power_sources_supporting_document_document_type" parentColumn="id" showInChild="True" childColumn="document_type"/>
+   <EntityRelation displayColumns="" child="Power Sources_supporting_document" showInParent="True" parent="Power Sources" name="fk_da_power_sources_id_da_power_sources_supporting_document_power_sources_id" parentColumn="id" showInChild="True" childColumn="power_sources_id"/>
+   <EntityRelation displayColumns="" child="Power Sources_supporting_document" showInParent="True" parent="supporting_document" name="fk_da_supporting_document_id_da_power_sources_supporting_document_supporting_doc_id" parentColumn="id" showInChild="True" childColumn="supporting_doc_id"/>
+   <EntityRelation displayColumns="name,code" child="Power Sources" showInParent="True" parent="check_power_sources_type" name="fk_da_check_power_sources_type_id_da_power_sources_power_sources_type" parentColumn="id" showInChild="True" childColumn="power_sources_type"/>
+   <EntityRelation displayColumns="village_name" child="Power Sources" showInParent="True" parent="Basic Information" name="fk_da_basic_information_id_da_power_sources_village" parentColumn="id" showInChild="True" childColumn="village"/>
+   <EntityRelation displayColumns="name,code" child="Water Sources_supporting_document" showInParent="True" parent="check_water_sources_document_type" name="fk_da_check_water_sources_document_type_id_da_water_sources_supporting_document_document_type" parentColumn="id" showInChild="True" childColumn="document_type"/>
+   <EntityRelation displayColumns="" child="Water Sources_supporting_document" showInParent="True" parent="Water Sources" name="fk_da_water_sources_id_da_water_sources_supporting_document_water_sources_id" parentColumn="id" showInChild="True" childColumn="water_sources_id"/>
+   <EntityRelation displayColumns="" child="Water Sources_supporting_document" showInParent="True" parent="supporting_document" name="fk_da_supporting_document_id_da_water_sources_supporting_document_supporting_doc_id" parentColumn="id" showInChild="True" childColumn="supporting_doc_id"/>
+   <EntityRelation displayColumns="name,code" child="Water Sources" showInParent="True" parent="check_water_sources_type" name="fk_da_check_water_sources_type_id_da_water_sources_water_sources_type" parentColumn="id" showInChild="True" childColumn="water_sources_type"/>
+   <EntityRelation displayColumns="village_name" child="Water Sources" showInParent="True" parent="Basic Information" name="fk_da_basic_information_id_da_water_sources_village" parentColumn="id" showInChild="True" childColumn="village"/>
+   <EntityRelation displayColumns="name,code" child="Veterinary Services" showInParent="True" parent="check_veterinary_services" name="fk_da_check_veterinary_services_id_da_veterinary_services_veterinary_services" parentColumn="id" showInChild="True" childColumn="veterinary_services"/>
+   <EntityRelation displayColumns="name,code" child="Veterinary Services" showInParent="True" parent="check_yes_no" name="fk_da_check_yes_no_id_da_veterinary_services_availability" parentColumn="id" showInChild="True" childColumn="availability"/>
+   <EntityRelation displayColumns="village_name" child="Veterinary Services" showInParent="True" parent="Basic Information" name="fk_da_basic_information_id_da_veterinary_services_village" parentColumn="id" showInChild="True" childColumn="village"/>
+   <EntityRelation displayColumns="name,code" child="Economic Resources" showInParent="True" parent="check_economic_resources" name="fk_da_check_economic_resources_id_da_economic_resources_economic_resources" parentColumn="id" showInChild="True" childColumn="economic_resources"/>
+   <EntityRelation displayColumns="name,code" child="Economic Resources" showInParent="True" parent="check_yes_no" name="fk_da_check_yes_no_id_da_economic_resources_presence" parentColumn="id" showInChild="True" childColumn="presence"/>
+   <EntityRelation displayColumns="village_name" child="Economic Resources" showInParent="True" parent="Basic Information" name="fk_da_basic_information_id_da_economic_resources_village" parentColumn="id" showInChild="True" childColumn="village"/>
+   <EntityRelation displayColumns="name,code" child="Nearest Animal Route" showInParent="True" parent="check_direction" name="fk_da_check_direction_id_da_nearest_animal_route_direction" parentColumn="id" showInChild="True" childColumn="direction"/>
+   <EntityRelation displayColumns="village_name" child="Nearest Animal Route" showInParent="True" parent="Basic Information" name="fk_da_basic_information_id_da_nearest_animal_route_village" parentColumn="id" showInChild="True" childColumn="village"/>
+   <EntityRelation displayColumns="name,code" child="Sanitation_supporting_document" showInParent="True" parent="check_sanitation_document_type" name="fk_da_check_sanitation_document_type_id_da_sanitation_supporting_document_document_type" parentColumn="id" showInChild="True" childColumn="document_type"/>
+   <EntityRelation displayColumns="" child="Sanitation_supporting_document" showInParent="True" parent="Sanitation" name="fk_da_sanitation_id_da_sanitation_supporting_document_sanitation_id" parentColumn="id" showInChild="True" childColumn="sanitation_id"/>
+   <EntityRelation displayColumns="" child="Sanitation_supporting_document" showInParent="True" parent="supporting_document" name="fk_da_supporting_document_id_da_sanitation_supporting_document_supporting_doc_id" parentColumn="id" showInChild="True" childColumn="supporting_doc_id"/>
+   <EntityRelation displayColumns="name,code" child="Sanitation" showInParent="True" parent="check_sanitation_type" name="fk_da_check_sanitation_type_id_da_sanitation_sanitation" parentColumn="id" showInChild="True" childColumn="sanitation"/>
+   <EntityRelation displayColumns="village_name" child="Sanitation" showInParent="True" parent="Basic Information" name="fk_da_basic_information_id_da_sanitation_village" parentColumn="id" showInChild="True" childColumn="village"/>
+   <EntityRelation displayColumns="name,code" child="Three Kilometers to Village" showInParent="True" parent="check_direction" name="fk_da_check_direction_id_da_three_kilometers_to_village_direction" parentColumn="id" showInChild="True" childColumn="direction"/>
+   <EntityRelation displayColumns="name,code" child="Three Kilometers to Village" showInParent="True" parent="check_landuse" name="fk_da_check_landuse_id_da_three_kilometers_to_village_land_use_type" parentColumn="id" showInChild="True" childColumn="land_use_type"/>
+   <EntityRelation displayColumns="village_name" child="Three Kilometers to Village" showInParent="True" parent="Basic Information" name="fk_da_basic_information_id_da_three_kilometers_to_village_village" parentColumn="id" showInChild="True" childColumn="village"/>
+   <EntityRelation displayColumns="name,code" child="Buffer Zone Distances" showInParent="True" parent="check_direction" name="fk_da_check_direction_id_da_buffer_zone_distances_direction" parentColumn="id" showInChild="True" childColumn="direction"/>
+   <EntityRelation displayColumns="name,code" child="Buffer Zone Distances" showInParent="True" parent="check_activity_type" name="fk_da_check_activity_type_id_da_buffer_zone_distances_activity_type" parentColumn="id" showInChild="True" childColumn="activity_type"/>
+   <EntityRelation displayColumns="village_name" child="Buffer Zone Distances" showInParent="True" parent="Basic Information" name="fk_da_basic_information_id_da_buffer_zone_distances_village" parentColumn="id" showInChild="True" childColumn="village"/>
+   <EntityRelation displayColumns="name,code" child="Telecommunication Services_supporting_document" showInParent="True" parent="check_telecommunication_services_document_type" name="fk_da_check_telecommunication_services_document_type_id_da_telecommunication_services_supporting_document_document_type" parentColumn="id" showInChild="True" childColumn="document_type"/>
+   <EntityRelation displayColumns="" child="Telecommunication Services_supporting_document" showInParent="True" parent="Telecommunication Services" name="fk_da_telecommunication_services_id_da_telecommunication_services_supporting_document_telecommunication_services_id" parentColumn="id" showInChild="True" childColumn="telecommunication_services_id"/>
+   <EntityRelation displayColumns="" child="Telecommunication Services_supporting_document" showInParent="True" parent="supporting_document" name="fk_da_supporting_document_id_da_telecommunication_services_supporting_document_supporting_doc_id" parentColumn="id" showInChild="True" childColumn="supporting_doc_id"/>
+   <EntityRelation displayColumns="name,code" child="Telecommunication Services" showInParent="True" parent="check_telecommunication_type" name="fk_da_check_telecommunication_type_id_da_telecommunication_services_telecommunication_type" parentColumn="id" showInChild="True" childColumn="telecommunication_type"/>
+   <EntityRelation displayColumns="village_name" child="Telecommunication Services" showInParent="True" parent="Basic Information" name="fk_da_basic_information_id_da_telecommunication_services_village" parentColumn="id" showInChild="True" childColumn="village"/>
+   <EntityRelation displayColumns="" child="check_tenure_type_str_attrs" showInParent="True" parent="social_tenure_relationship" name="fk_da_social_tenure_relationship_id_da_check_tenure_type_str_attrs_social_tenure_relationship_id" parentColumn="id" showInChild="True" childColumn="social_tenure_relationship_id"/>
+   <EntityRelation displayColumns="" child="social_tenure_relationship" showInParent="True" parent="Schools" name="fk_da_schools_id_da_social_tenure_relationship_schools_id" parentColumn="id" showInChild="True" childColumn="schools_id"/>
+   <EntityRelation displayColumns="" child="social_tenure_relationship" showInParent="True" parent="Agriculture Land" name="fk_da_agriculture_land_id_da_social_tenure_relationship_agriculture_land_id" parentColumn="id" showInChild="True" childColumn="agriculture_land_id"/>
+  </Relations>
+  <SocialTenure layerDisplay="" tenureTypeList="check_tenure_type" spatialUnit="Agriculture Land" supportsMultipleParties="True" party="Schools">
+   <SpatialUnitTenureMappings>
+    <Mapping tenureTypeList="check_tenure_type" spatialUnit="Agriculture Land"/>
+   </SpatialUnitTenureMappings>
+   <CustomAttributes>
+    <TenureEntity tenureTypeList="check_tenure_type" entity="check_tenure_type_str_attrs"/>
+   </CustomAttributes>
+  </SocialTenure>
+ </Profile>
+</Configuration>

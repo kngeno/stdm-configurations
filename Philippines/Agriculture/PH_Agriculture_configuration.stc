@@ -1,0 +1,773 @@
+<Configuration version="1.3">
+ <Profile description="Improving Tenure Security of Smallholder Farmers in Select Areas in the Philippines" name="SALar_Bukidnon">
+  <ValueLists>
+   <ValueList name="check_social_tenure_relationship_document_type">
+    <CodeValue value="General" code=""/>
+   </ValueList>
+   <ValueList name="check_tenure_type">
+    <CodeValue value="Adverse Possession" code=""/>
+    <CodeValue value="Communal Ownership" code=""/>
+    <CodeValue value="Family Ownership" code=""/>
+    <CodeValue value="Private Ownership" code=""/>
+    <CodeValue value="Tenancy" code=""/>
+   </ValueList>
+   <ValueList name="check_farmer_document_type">
+    <CodeValue value="National ID" code=""/>
+    <CodeValue value="Photo" code=""/>
+   </ValueList>
+   <ValueList name="check_garden_document_type">
+    <CodeValue value="General" code=""/>
+   </ValueList>
+   <ValueList name="check_gender">
+    <CodeValue value="Female" code="F"/>
+    <CodeValue value="Male" code="M"/>
+   </ValueList>
+   <ValueList name="check_marital_status">
+    <CodeValue value="Married" code=""/>
+    <CodeValue value="Single" code=""/>
+    <CodeValue value="Divorced" code=""/>
+    <CodeValue value="Widow" code=""/>
+    <CodeValue value="Widower" code=""/>
+    <CodeValue value="Cohabiting" code=""/>
+    <CodeValue value="Separated" code=""/>
+   </ValueList>
+   <ValueList name="check_respondent_role">
+    <CodeValue value="Child of Farmer" code=""/>
+    <CodeValue value="Farm Manager" code=""/>
+    <CodeValue value="Laborer" code=""/>
+    <CodeValue value="Smallholder Farmer" code=""/>
+    <CodeValue value="Spouse" code=""/>
+   </ValueList>
+   <ValueList name="check_socio_economic_impact">
+    <CodeValue value="Improved Access to Financial Services" code=""/>
+    <CodeValue value="Improved Access to Health" code=""/>
+    <CodeValue value="Improved Housing Conditions" code=""/>
+    <CodeValue value="Improved Literacy Levels" code=""/>
+    <CodeValue value="Improved Tenure Security" code=""/>
+   </ValueList>
+   <ValueList name="check_input_service">
+    <CodeValue value="Farm Tools" code=""/>
+    <CodeValue value="Fertilizer" code=""/>
+    <CodeValue value="Herbicides" code=""/>
+    <CodeValue value="Pesticides" code=""/>
+    <CodeValue value="Seeding" code=""/>
+    <CodeValue value="Training" code=""/>
+   </ValueList>
+   <ValueList name="check_rank">
+    <CodeValue value="Very High" code="VH"/>
+    <CodeValue value="High" code="H"/>
+    <CodeValue value="Medium" code="M"/>
+    <CodeValue value="Low" code="L"/>
+    <CodeValue value="Very Low" code="VL"/>
+   </ValueList>
+   <ValueList name="check_person_document_type">
+    <CodeValue value="General" code=""/>
+   </ValueList>
+   <ValueList name="check_household_relation">
+    <CodeValue value="Husband" code="1"/>
+    <CodeValue value="Wife" code="2"/>
+    <CodeValue value="Son" code="3"/>
+    <CodeValue value="Daughter" code="4"/>
+    <CodeValue value="Mother-in-law" code="5"/>
+    <CodeValue value="Father-in-law" code="6"/>
+    <CodeValue value="Other" code="7"/>
+   </ValueList>
+   <ValueList name="check_education_level">
+    <CodeValue value="Elementary Level" code="1"/>
+    <CodeValue value="High School Level" code="2"/>
+    <CodeValue value="Vocational Graduate" code="3"/>
+    <CodeValue value="College Level" code="4"/>
+    <CodeValue value="Post Graduate Level" code="5"/>
+    <CodeValue value="None" code="6"/>
+   </ValueList>
+   <ValueList name="check_work_type">
+    <CodeValue value="Farmer" code="1"/>
+    <CodeValue value="Laborer" code="2"/>
+    <CodeValue value="Private/Business" code="3"/>
+    <CodeValue value="Self-employed" code="4"/>
+    <CodeValue value="Government employee" code="5"/>
+    <CodeValue value="OFW" code="6"/>
+    <CodeValue value="Unemployed" code="7"/>
+   </ValueList>
+   <ValueList name="check_household_document_type">
+    <CodeValue value="General" code=""/>
+   </ValueList>
+   <ValueList name="check_household_priority">
+    <CodeValue value="Tenure security" code="1"/>
+    <CodeValue value="Food security" code="2"/>
+    <CodeValue value="Housing improvement" code="3"/>
+    <CodeValue value="Drinking water" code="4"/>
+    <CodeValue value="Education" code="5"/>
+    <CodeValue value="Electricity" code="6"/>
+    <CodeValue value="Farm inputs" code="7"/>
+    <CodeValue value="Toilet" code="8"/>
+    <CodeValue value="Peace and order" code="9"/>
+    <CodeValue value="Livelihood/Family business" code="10"/>
+    <CodeValue value="Other, specify" code="11"/>
+   </ValueList>
+   <ValueList name="check_village_priority">
+    <CodeValue value="Tenure security" code="1"/>
+    <CodeValue value="Food security" code="2"/>
+    <CodeValue value="Health centers" code="3"/>
+    <CodeValue value="Roads" code="4"/>
+    <CodeValue value="Drainage improvement" code="5"/>
+    <CodeValue value="School and educational facilities" code="6"/>
+    <CodeValue value="Sewerage" code="7"/>
+    <CodeValue value="Electricity" code="8"/>
+    <CodeValue value="Mobile network" code="9"/>
+    <CodeValue value="Peace and order" code="10"/>
+    <CodeValue value="Market" code="11"/>
+    <CodeValue value="Safety from crime and armed conflict" code="12"/>
+    <CodeValue value="Safety from natural disasters (typhoon, landslide," code="13"/>
+    <CodeValue value="Other, specify" code="14"/>
+   </ValueList>
+   <ValueList name="check_savings_type">
+    <CodeValue value="Rural Bank" code="1"/>
+    <CodeValue value="Cooperative" code="2"/>
+    <CodeValue value="At home" code="3"/>
+    <CodeValue value="Other, specify" code="4"/>
+   </ValueList>
+   <ValueList name="check_household_property">
+    <CodeValue value="Sari-sari store" code="1"/>
+    <CodeValue value="Vehicle/s" code="2"/>
+    <CodeValue value="Farm outside of ancestral domain" code="3"/>
+    <CodeValue value="house/s" code="4"/>
+    <CodeValue value="Other, specify" code="5"/>
+   </ValueList>
+   <ValueList name="check_communal_property">
+    <CodeValue value="Forestland" code="1"/>
+    <CodeValue value="Burial ground" code="2"/>
+    <CodeValue value="River" code="3"/>
+    <CodeValue value="Lakes" code="4"/>
+    <CodeValue value="Other, specify" code="5"/>
+   </ValueList>
+   <ValueList name="check_program_service">
+    <CodeValue value="Health" code="1"/>
+    <CodeValue value="Education" code="2"/>
+    <CodeValue value="Livelihood" code="3"/>
+    <CodeValue value="Market" code="4"/>
+    <CodeValue value="Formal credit" code="5"/>
+    <CodeValue value="Security" code="6"/>
+    <CodeValue value="4Ps" code="7"/>
+    <CodeValue value="Other, specify" code="8"/>
+   </ValueList>
+   <ValueList name="check_program_services_source">
+    <CodeValue value="Government" code="1"/>
+    <CodeValue value="NGO" code="2"/>
+    <CodeValue value="Private" code="3"/>
+    <CodeValue value="Church" code="4"/>
+    <CodeValue value="Traditional" code="5"/>
+    <CodeValue value="Other, specify" code="6"/>
+   </ValueList>
+   <ValueList name="check_structure_material">
+    <CodeValue value="Concrete" code="1"/>
+    <CodeValue value="Semi-concrete" code="2"/>
+    <CodeValue value="Light materials" code="3"/>
+   </ValueList>
+   <ValueList name="check_structure_use">
+    <CodeValue value="Residential" code="1"/>
+    <CodeValue value="Commercial" code="2"/>
+    <CodeValue value="Mixed-use" code="3"/>
+   </ValueList>
+   <ValueList name="check_number_floor">
+    <CodeValue value="One Floor" code="1"/>
+    <CodeValue value="Two Floors" code="2"/>
+    <CodeValue value="Other, specify" code="3"/>
+   </ValueList>
+   <ValueList name="check_power_source">
+    <CodeValue value="Buseco" code="1"/>
+    <CodeValue value="Solar panel" code="2"/>
+    <CodeValue value="No electricity" code="3"/>
+    <CodeValue value="Other, specify" code="4"/>
+   </ValueList>
+   <ValueList name="check_water_source">
+    <CodeValue value="Local water district" code="1"/>
+    <CodeValue value="Deep well" code="2"/>
+    <CodeValue value="Commercial vendor" code="3"/>
+    <CodeValue value="Other, specify" code="4"/>
+   </ValueList>
+   <ValueList name="check_sanitation_type">
+    <CodeValue value="Owned/house" code="1"/>
+    <CodeValue value="Communal" code="2"/>
+   </ValueList>
+   <ValueList name="check_toilet_type">
+    <CodeValue value="Flush" code="1"/>
+    <CodeValue value="Pit composting" code="2"/>
+    <CodeValue value="Pit latrine" code="3"/>
+    <CodeValue value="Bush" code="4"/>
+    <CodeValue value="Other, specify" code="5"/>
+   </ValueList>
+   <ValueList name="check_garden_use">
+    <CodeValue value="Food" code="1"/>
+    <CodeValue value="Income" code="2"/>
+    <CodeValue value="Medicine" code="3"/>
+    <CodeValue value="Other, specify" code="4"/>
+   </ValueList>
+   <ValueList name="check_garden_plant">
+    <CodeValue value="Vegetables" code="1"/>
+    <CodeValue value="Fruit trees" code="2"/>
+    <CodeValue value="Root crops" code="3"/>
+    <CodeValue value="Ornamental" code="4"/>
+    <CodeValue value="Other, specify" code="5"/>
+   </ValueList>
+   <ValueList name="check_house_unit_tenure_document_type">
+    <CodeValue value="General" code=""/>
+   </ValueList>
+   <ValueList name="check_land_tenure_type">
+    <CodeValue value="Owned/being amortized" code="1"/>
+    <CodeValue value="Shared with payment" code="2"/>
+    <CodeValue value="Shared without payment" code="3"/>
+    <CodeValue value="Rented" code="4"/>
+    <CodeValue value="Rent-free with consent of owner" code="5"/>
+    <CodeValue value="Rent-free without consent of owner" code="6"/>
+   </ValueList>
+   <ValueList name="check_land_document_type">
+    <CodeValue value="Receipt of land tax" code="1"/>
+    <CodeValue value="Registered tenancy document" code="2"/>
+    <CodeValue value="Contract" code="3"/>
+    <CodeValue value="Lease" code="4"/>
+    <CodeValue value="No document" code="5"/>
+    <CodeValue value="Other, specify" code="6"/>
+   </ValueList>
+   <ValueList name="check_residential_tenure_type">
+    <CodeValue value="Owned/being amortized" code="1"/>
+    <CodeValue value="Shared with payment" code="2"/>
+    <CodeValue value="Shared without payment" code="3"/>
+    <CodeValue value="Rented" code="4"/>
+    <CodeValue value="Rent-free with consent of owner" code="5"/>
+    <CodeValue value="Rent-free without consent of owner" code="6"/>
+   </ValueList>
+   <ValueList name="check_residential_document_type">
+    <CodeValue value="Registered tenancy document" code="1"/>
+    <CodeValue value="Contract" code="2"/>
+    <CodeValue value="Lease/Rent" code="3"/>
+    <CodeValue value="No document" code="4"/>
+    <CodeValue value="Other, specify" code="5"/>
+   </ValueList>
+   <ValueList name="check_land_type">
+    <CodeValue value="Private land" code="1"/>
+    <CodeValue value="Trust land" code="2"/>
+    <CodeValue value="Institution land" code="3"/>
+    <CodeValue value="Government land" code="4"/>
+    <CodeValue value="Public land" code="5"/>
+    <CodeValue value="Communal land" code="6"/>
+    <CodeValue value="Other, specify" code="7"/>
+   </ValueList>
+   <ValueList name="check_ownership_eviction_reason">
+    <CodeValue value="Government" code="1"/>
+    <CodeValue value="Business/Private sector" code="1"/>
+    <CodeValue value="Migrants/settlers" code="3"/>
+    <CodeValue value="Neighbor" code="4"/>
+    <CodeValue value="Other, specify" code="5"/>
+   </ValueList>
+   <ValueList name="check_natural_disaster_eviction_reason">
+    <CodeValue value="Flooding" code="1"/>
+    <CodeValue value="Landslide" code="2"/>
+    <CodeValue value="Other, specify" code="3"/>
+   </ValueList>
+   <ValueList name="check_crop_type">
+    <CodeValue value="Vegetables" code="1"/>
+    <CodeValue value="Fruit trees" code="2"/>
+    <CodeValue value="Ornamental" code="3"/>
+    <CodeValue value="Rice" code="4"/>
+    <CodeValue value="Corn" code="5"/>
+    <CodeValue value="Root crops" code="6"/>
+    <CodeValue value="Timber trees" code="7"/>
+    <CodeValue value="Other, specify" code="8"/>
+   </ValueList>
+   <ValueList name="check_labor_type">
+    <CodeValue value="Family" code="1"/>
+    <CodeValue value="Communal" code="2"/>
+    <CodeValue value="Cooperative" code="3"/>
+    <CodeValue value="Contract (as employee)" code="4"/>
+    <CodeValue value="Contract (as employer)" code="5"/>
+    <CodeValue value="Other, specify" code="6"/>
+   </ValueList>
+   <ValueList name="check_animal_type">
+    <CodeValue value="Carabao" code="1"/>
+    <CodeValue value="Horse" code="2"/>
+    <CodeValue value="Cow" code="3"/>
+    <CodeValue value="No animal/s" code="4"/>
+    <CodeValue value="Other, specify" code="5"/>
+   </ValueList>
+   <ValueList name="check_farm_equipment">
+    <CodeValue value="Tractor" code="1"/>
+    <CodeValue value="Plower" code="2"/>
+    <CodeValue value="No equipment" code="3"/>
+    <CodeValue value="Other, specify" code="4"/>
+   </ValueList>
+   <ValueList name="check_fertilizer_type">
+    <CodeValue value="Organic fertilizer" code="1"/>
+    <CodeValue value="Synthetic fertilizer" code="2"/>
+    <CodeValue value="Pesticides" code="3"/>
+    <CodeValue value="Other, specify" code="4"/>
+   </ValueList>
+   <ValueList name="check_farm_produce_use">
+    <CodeValue value="Household consumption" code="1"/>
+    <CodeValue value="Communal consumption" code="2"/>
+    <CodeValue value="Income" code="3"/>
+    <CodeValue value="Other, specify" code="4"/>
+   </ValueList>
+   <ValueList name="check_produce_sell_option">
+    <CodeValue value="Direct selling" code="1"/>
+    <CodeValue value="Middle-man" code="2"/>
+    <CodeValue value="Contract" code="3"/>
+    <CodeValue value="Government subsidy" code="4"/>
+    <CodeValue value="Other, specify" code="5"/>
+   </ValueList>
+   <ValueList name="check_farm_irrigation_type">
+    <CodeValue value="Individual irrigation" code="1"/>
+    <CodeValue value="Communal" code="2"/>
+    <CodeValue value="Rain-fed" code="3"/>
+    <CodeValue value="No irrigation" code="4"/>
+    <CodeValue value="Other, specify" code="5"/>
+   </ValueList>
+   <ValueList name="check_farm_irrigation_provider">
+    <CodeValue value="IP organization" code="1"/>
+    <CodeValue value="Government" code="2"/>
+    <CodeValue value="Private business" code="3"/>
+    <CodeValue value="Non-government organization" code="4"/>
+    <CodeValue value="Other, specify" code="5"/>
+   </ValueList>
+   <ValueList name="check_eviction_reason">
+    <CodeValue value="Conflict on ownership of land" code="1"/>
+    <CodeValue value="Natural Disaster" code="2"/>
+    <CodeValue value="Armed Conflict" code="3"/>
+    <CodeValue value="Other, specify" code="4"/>
+   </ValueList>
+   <ValueList name="check_farm_inputs_priority">
+    <CodeValue value="Fertilizers" code="1"/>
+    <CodeValue value="Seedlings" code="2"/>
+    <CodeValue value="Farm tools" code="3"/>
+    <CodeValue value="Pesticides" code="4"/>
+    <CodeValue value="Trainings" code="5"/>
+    <CodeValue value="Other, specify" code="6"/>
+   </ValueList>
+   <ValueList name="check_house_document_type">
+    <CodeValue value="General" code=""/>
+   </ValueList>
+   <ValueList name="check_lot_tenure_document_type">
+    <CodeValue value="General" code=""/>
+   </ValueList>
+  </ValueLists>
+  <Associations>
+   <Association secondParent="Household" firstParent="check_household_property" shortName="household_properties" name="sa_household_properties"/>
+   <Association secondParent="Household" firstParent="check_communal_property" shortName="communal_properties" name="sa_communal_properties"/>
+   <Association secondParent="Household" firstParent="check_program_service" shortName="program_services_access" name="sa_program_services_access"/>
+   <Association secondParent="Household" firstParent="check_program_services_source" shortName="program_services_source" name="sa_program_services_source"/>
+   <Association secondParent="Household" firstParent="check_savings_type" shortName="family_savings_type" name="sa_family_savings_type"/>
+   <Association secondParent="Household" firstParent="check_savings_type" shortName="community_savings_type" name="sa_community_savings_type"/>
+   <Association secondParent="Household" firstParent="check_household_priority" shortName="household_priorities" name="sa_household_priorities"/>
+   <Association secondParent="Household" firstParent="check_village_priority" shortName="village_priorities" name="sa_village_priorities"/>
+   <Association secondParent="House" firstParent="check_garden_use" shortName="garden_use" name="sa_garden_use"/>
+   <Association secondParent="House" firstParent="check_garden_plant" shortName="garden_plants" name="sa_garden_plants"/>
+   <Association secondParent="Farm" firstParent="check_crop_type" shortName="crops_planted" name="sa_crops_planted"/>
+   <Association secondParent="Farm" firstParent="check_labor_type" shortName="labor_type" name="sa_labor_type"/>
+   <Association secondParent="Farm" firstParent="check_animal_type" shortName="farm_animals_used" name="sa_farm_animals_used"/>
+   <Association secondParent="Farm" firstParent="check_farm_equipment" shortName="farm_equipment_used" name="sa_farm_equipment_used"/>
+   <Association secondParent="Farm" firstParent="check_fertilizer_type" shortName="farm_fertilizer" name="sa_farm_fertilizer"/>
+   <Association secondParent="Farm" firstParent="check_farm_inputs_priority" shortName="farm_input_priority" name="sa_farm_input_priority"/>
+   <Association secondParent="Farm" firstParent="check_farm_produce_use" shortName="farm_produce_use" name="sa_farm_produce_use"/>
+   <Association secondParent="Farm" firstParent="check_produce_sell_option" shortName="produce_sell_options" name="sa_produce_sell_options"/>
+   <Association secondParent="Farm" firstParent="check_farm_irrigation_type" shortName="farm_irrigation_type" name="sa_farm_irrigation_type"/>
+   <Association secondParent="Farm" firstParent="check_farm_irrigation_provider" shortName="irrigation_provider" name="sa_irrigation_provider"/>
+   <Association secondParent="Farm" firstParent="check_eviction_reason" shortName="eviction_reasons" name="sa_eviction_reasons"/>
+   <Association secondParent="Farm" firstParent="check_ownership_eviction_reason" shortName="ownership_eviction_reasons" name="sa_ownership_eviction_reasons"/>
+   <Association secondParent="Farm" firstParent="check_natural_disaster_eviction_reason" shortName="natural_disaster_eviction" name="sa_natural_disaster_eviction"/>
+  </Associations>
+  <Entity editable="False" global="False" rowindex="-1" associative="False" description="" proxy="False" createId="True" supportsDocuments="False" shortName="check_tenure_type_str_attrs" name="sa_check_tenure_type_str_attrs" label="">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="-1" minimum="0" maximum="2147483647" description="" index="False" name="social_tenure_relationship_id" searchable="True" TYPE_INFO="FOREIGN_KEY" label="" mandatory="False">
+     <Relation name="fk_sa_social_tenure_relationship_id_sa_check_tenure_type_str_attrs_social_tenure_relationship_id"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="-1" minimum="0" maximum="1" description="" index="False" name="dummy_custom_str" searchable="True" TYPE_INFO="VARCHAR" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="-1" minimum="0" maximum="30" description="" index="False" name="name" searchable="True" TYPE_INFO="VARCHAR" label="" mandatory="False"/>
+   </Columns>
+  </Entity>
+  <Entity editable="False" global="False" rowindex="-1" associative="False" description="" proxy="False" createId="True" supportsDocuments="False" shortName="check_respondent_role_str_attrs" name="sa_check_respondent_role_str_attrs" label="">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="-1" minimum="0" maximum="2147483647" description="" index="False" name="social_tenure_relationship_id" searchable="True" TYPE_INFO="FOREIGN_KEY" label="" mandatory="False">
+     <Relation name="fk_sa_social_tenure_relationship_id_sa_check_respondent_role_str_attrs_social_tenure_relationship_id"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="-1" minimum="0" maximum="1" description="" index="False" name="dummy_custom_str" searchable="True" TYPE_INFO="VARCHAR" label="" mandatory="False"/>
+   </Columns>
+  </Entity>
+  <Entity editable="False" global="False" rowindex="-1" associative="False" description="" proxy="False" createId="True" supportsDocuments="False" shortName="check_marital_status_str_attrs" name="sa_check_marital_status_str_attrs" label="">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="-1" minimum="0" maximum="2147483647" description="" index="False" name="social_tenure_relationship_id" searchable="True" TYPE_INFO="FOREIGN_KEY" label="" mandatory="False">
+     <Relation name="fk_sa_social_tenure_relationship_id_sa_check_marital_status_str_attrs_social_tenure_relationship_id"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="-1" minimum="0" maximum="1" description="" index="False" name="dummy_custom_str" searchable="True" TYPE_INFO="VARCHAR" label="" mandatory="False"/>
+   </Columns>
+  </Entity>
+  <Entity editable="False" global="False" rowindex="-1" associative="False" description="" proxy="False" createId="True" supportsDocuments="False" shortName="check_land_tenure_type_str_attrs" name="sa_check_land_tenure_type_str_attrs" label="">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="-1" minimum="0" maximum="2147483647" description="" index="False" name="social_tenure_relationship_id" searchable="True" TYPE_INFO="FOREIGN_KEY" label="" mandatory="False">
+     <Relation name="fk_sa_social_tenure_relationship_id_sa_check_land_tenure_type_str_attrs_social_tenure_relationship_id"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="-1" minimum="0" maximum="1" description="" index="False" name="dummy_custom_str" searchable="True" TYPE_INFO="VARCHAR" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="-1" minimum="0" maximum="2147483647" description="Type of land document" index="False" name="land_document_type" searchable="True" TYPE_INFO="LOOKUP" label="" mandatory="False">
+     <Relation name="fk_sa_check_land_document_type_id_sa_check_land_tenure_type_str_attrs_land_document_type"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="-1" minimum="0" maximum="1073741823" description="Other land document type" index="False" name="other_document_type" searchable="False" TYPE_INFO="TEXT" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="-1" minimum="0" maximum="30" description="Last name of person in document" index="False" name="last_name" searchable="True" TYPE_INFO="VARCHAR" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="-1" minimum="0" maximum="50" description="Other names of person in document" index="False" name="other_name" searchable="True" TYPE_INFO="VARCHAR" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="-1" minimum="0" maximum="2147483647" description="Gender of person on document" index="False" name="sex" searchable="True" TYPE_INFO="LOOKUP" label="" mandatory="False">
+     <Relation name="fk_sa_check_gender_id_sa_check_land_tenure_type_str_attrs_sex"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="-1" minimum="0001-01-01" maximum="9999-12-31" description="Date of birth of person on document" index="False" name="date_of_birth" searchable="False" TYPE_INFO="DATE" label="" mandatory="False">
+     <currentDate minimum="False" maximum="False"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="-1" minimum="0" maximum="30" description="Document identification number" index="False" name="document_id_number" searchable="True" TYPE_INFO="VARCHAR" label="" mandatory="False"/>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="0" associative="False" description="Refers to the survey of the project" proxy="False" createId="True" supportsDocuments="False" shortName="Enumeration" name="sa_enumeration" label="">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="True" tip="" rowindex="0" minimum="-2147483648" maximum="2147483647" description="Survey form number" index="False" name="form_number" searchable="True" TYPE_INFO="INT" label="" mandatory="True"/>
+    <Column unique="False" tip="The date of data collection" rowindex="1" minimum="2000-09-14" maximum="7999-12-31" description="The date of data collection" index="False" name="enumeration_date" searchable="False" TYPE_INFO="DATE" label="" mandatory="False">
+     <currentDate minimum="False" maximum="True"/>
+    </Column>
+    <Column unique="False" tip="The person collecting the survey data" rowindex="2" minimum="0" maximum="2147483647" description="The person collecting the survey data" index="False" name="enumerator" searchable="False" TYPE_INFO="FOREIGN_KEY" label="" mandatory="False">
+     <Relation name="fk_sa_enumerator_id_sa_enumeration_enumerator"/>
+    </Column>
+    <Column unique="False" tip="The person who is the subject of the survey" rowindex="3" minimum="0" maximum="2147483647" description="The person who is the subject of the survey" index="False" name="respondent" searchable="False" TYPE_INFO="FOREIGN_KEY" label="" mandatory="False">
+     <Relation name="fk_sa_person_id_sa_enumeration_respondent"/>
+    </Column>
+    <Column unique="False" tip="Select municipality from the list" rowindex="4" minimum="0" maximum="2147483647" description="Municipality where survey is conducted" index="False" name="municipality" searchable="True" TYPE_INFO="ADMIN_SPATIAL_UNIT" label="" mandatory="False">
+     <Relation name="fk_admin_spatial_unit_set_id_sa_enumeration_municipality"/>
+    </Column>
+    <Column unique="False" tip="Select barangay from list" rowindex="5" minimum="0" maximum="2147483647" description="Village" index="False" name="barangay" searchable="True" TYPE_INFO="ADMIN_SPATIAL_UNIT" label="" mandatory="False">
+     <Relation name="fk_admin_spatial_unit_set_id_sa_enumeration_barangay"/>
+    </Column>
+    <Column unique="False" tip="Select purok name from list" rowindex="6" minimum="0" maximum="2147483647" description="Zone" index="False" name="purok" searchable="True" TYPE_INFO="ADMIN_SPATIAL_UNIT" label="" mandatory="False">
+     <Relation name="fk_admin_spatial_unit_set_id_sa_enumeration_purok"/>
+    </Column>
+    <Column unique="False" tip="Enter IPO name" rowindex="7" minimum="0" maximum="200" description="Indigenous People’s Organization" index="False" name="ipo" searchable="True" TYPE_INFO="VARCHAR" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="8" minimum="0" maximum="15" description="GPS device ID number" index="False" name="gps_id_number" searchable="True" TYPE_INFO="VARCHAR" label="GPS ID number" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="9" minimum="0" maximum="15" description="Camera ID number used by enumerator" index="False" name="camera_id_number" searchable="True" TYPE_INFO="VARCHAR" label="Camera ID number" mandatory="False"/>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="1" associative="False" description="Refers to the person collecting data for the survey" proxy="False" createId="True" supportsDocuments="False" shortName="Enumerator" name="sa_enumerator" label="">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="Last name of the enumerator" rowindex="0" minimum="0" maximum="20" description="Last name of the enumerator" index="False" name="last_name" searchable="True" TYPE_INFO="VARCHAR" label="" mandatory="False"/>
+    <Column unique="False" tip="Other names of the enumerator" rowindex="1" minimum="0" maximum="30" description="Other names of the enumerator" index="False" name="other_names" searchable="True" TYPE_INFO="VARCHAR" label="" mandatory="False"/>
+    <Column unique="False" tip="The sex of the enumerator" rowindex="2" minimum="0" maximum="2147483647" description="The sex of the enumerator" index="False" name="sex" searchable="True" TYPE_INFO="LOOKUP" label="" mandatory="True">
+     <Relation name="fk_sa_check_gender_id_sa_enumerator_sex"/>
+    </Column>
+    <Column unique="False" tip="Date of birth of the enumerator" rowindex="3" minimum="1852-09-14" maximum="7999-12-31" description="Date of birth of the enumerator" index="False" name="date_of_birth" searchable="False" TYPE_INFO="DATE" label="" mandatory="True">
+     <currentDate minimum="False" maximum="True"/>
+    </Column>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="2" associative="False" description="House and its occupants" documentTypeLookup="check_household_document_type" proxy="False" createId="True" supportsDocuments="True" shortName="Household" name="sa_household" label="">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="True" tip="Enter a unique household number" rowindex="0" minimum="0" maximum="15" description="Unique ID  for a household" index="False" name="household_number" searchable="True" TYPE_INFO="VARCHAR" label="Household Number" mandatory="True"/>
+    <Column unique="False" tip="" rowindex="1" minimum="-2.225073858507201383090232717332404064219215980462331830553327416887204434813918195854283159012511020564067339731035811005152434161553460108856012385377718821130777993532002330479610147442583636071921565046942503734208375250806650616658158948720491179968591639648500635908770118304874799780887753749949451580451605050915399856582470818645113537935804992115981085766051992433352114352390148795699609591288891602992641511063466313393663477586513029371762047325631781485664350872122828637642044846811407613911477062801689853244110024161447421618567166150540154285084716752901903161322778896729707373123334086988983175067838846926092773977972858659654941091369095406136467568702398678315290680984617210924625396728515625E-308" maximum="179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368" description="Estimated total montly expenses" index="False" name="monthly_expenses" searchable="True" TYPE_INFO="DOUBLE" label="Monthly expenses" mandatory="False">
+     <Numeric scale="6" precision="18"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="2" minimum="-2.225073858507201383090232717332404064219215980462331830553327416887204434813918195854283159012511020564067339731035811005152434161553460108856012385377718821130777993532002330479610147442583636071921565046942503734208375250806650616658158948720491179968591639648500635908770118304874799780887753749949451580451605050915399856582470818645113537935804992115981085766051992433352114352390148795699609591288891602992641511063466313393663477586513029371762047325631781485664350872122828637642044846811407613911477062801689853244110024161447421618567166150540154285084716752901903161322778896729707373123334086988983175067838846926092773977972858659654941091369095406136467568702398678315290680984617210924625396728515625E-308" maximum="179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368" description="Estimated total monthly income from farming." index="False" name="monthly_farm_income" searchable="True" TYPE_INFO="DOUBLE" label="Monthly farm income" mandatory="False">
+     <Numeric scale="6" precision="18"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="3" minimum="-2.225073858507201383090232717332404064219215980462331830553327416887204434813918195854283159012511020564067339731035811005152434161553460108856012385377718821130777993532002330479610147442583636071921565046942503734208375250806650616658158948720491179968591639648500635908770118304874799780887753749949451580451605050915399856582470818645113537935804992115981085766051992433352114352390148795699609591288891602992641511063466313393663477586513029371762047325631781485664350872122828637642044846811407613911477062801689853244110024161447421618567166150540154285084716752901903161322778896729707373123334086988983175067838846926092773977972858659654941091369095406136467568702398678315290680984617210924625396728515625E-308" maximum="179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368" description="Estimated total non-farming monthly income" index="False" name="other_monthly_income" searchable="True" TYPE_INFO="DOUBLE" label="Other monthly income" mandatory="False">
+     <Numeric scale="6" precision="18"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="4" minimum="-2.225073858507201383090232717332404064219215980462331830553327416887204434813918195854283159012511020564067339731035811005152434161553460108856012385377718821130777993532002330479610147442583636071921565046942503734208375250806650616658158948720491179968591639648500635908770118304874799780887753749949451580451605050915399856582470818645113537935804992115981085766051992433352114352390148795699609591288891602992641511063466313393663477586513029371762047325631781485664350872122828637642044846811407613911477062801689853244110024161447421618567166150540154285084716752901903161322778896729707373123334086988983175067838846926092773977972858659654941091369095406136467568702398678315290680984617210924625396728515625E-308" maximum="179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368" description="Average monthly farm input expenses" index="False" name="farm_inputs_expenses" searchable="True" TYPE_INFO="DOUBLE" label="Avg. Monthly expences" mandatory="False">
+     <Numeric scale="6" precision="18"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="5" description="Household properties" index="False" name="household_properties" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="" mandatory="False">
+     <associationEntity name="sa_household_properties"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="6" minimum="0" maximum="1073741823" description="Other household properties" index="False" name="other_household_properties" searchable="False" TYPE_INFO="TEXT" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="7" description="Communal properties a household can access" index="False" name="communal_properties" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="" mandatory="False">
+     <associationEntity name="sa_communal_properties"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="8" minimum="0" maximum="1073741823" description="Other communal properties" index="False" name="other_communal_properties" searchable="False" TYPE_INFO="TEXT" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="9" description="Program and services a household can access" index="False" name="program_services_access" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="" mandatory="False">
+     <associationEntity name="sa_program_services_access"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="10" minimum="0" maximum="1073741823" description="Other program and services a household can access." index="False" name="other_program_services" searchable="False" TYPE_INFO="TEXT" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="11" description="Source of program and services" index="False" name="program_services_source" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="" mandatory="False">
+     <associationEntity name="sa_program_services_source"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="12" minimum="0" maximum="1073741823" description="Other sources of program and services" index="False" name="other_program_services_source" searchable="False" TYPE_INFO="TEXT" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="13" description="The type of saving a household practice" index="False" name="family_savings_type" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="" mandatory="False">
+     <associationEntity name="sa_family_savings_type"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="14" minimum="0" maximum="1073741823" description="Other type of family savings" index="False" name="other_family_savings_type" searchable="False" TYPE_INFO="TEXT" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="15" description="Type of community savings" index="False" name="community_savings_type" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="" mandatory="False">
+     <associationEntity name="sa_community_savings_type"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="16" minimum="0" maximum="1073741823" description="Other type of household community savings." index="False" name="other_community_savings_type" searchable="False" TYPE_INFO="TEXT" label="" mandatory="False"/>
+    <Column unique="False" tip="Choose top 3 priorities" rowindex="17" description="Type of household priorities" index="False" name="household_priorities" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="Household Priorities" mandatory="False">
+     <associationEntity name="sa_household_priorities"/>
+    </Column>
+    <Column unique="False" tip="Enter priority not in the selection list" rowindex="18" minimum="0" maximum="1073741823" description="Priority not on the household priorities selection list" index="False" name="other_household_priorities" searchable="False" TYPE_INFO="TEXT" label="Other Household Priorities" mandatory="False"/>
+    <Column unique="False" tip="Choose top 3 village priorities" rowindex="19" description="Type of village priorities" index="False" name="village_priorities" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="Village Priorities" mandatory="False">
+     <associationEntity name="sa_village_priorities"/>
+    </Column>
+    <Column unique="False" tip="Enter other village priorities" rowindex="20" minimum="0" maximum="1073741823" description="Village priorities not on the village priorites selection list" index="False" name="other_village_priorities" searchable="False" TYPE_INFO="TEXT" label="Other Village Priorities" mandatory="False"/>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="3" associative="False" description="Refers to the subject of the survey" documentTypeLookup="check_person_document_type" proxy="False" createId="True" supportsDocuments="True" shortName="Person" name="sa_person" label="">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="Last name of the respondent" rowindex="0" minimum="0" maximum="30" description="Last name of the respondent" index="False" name="last_name" searchable="True" TYPE_INFO="VARCHAR" label="" mandatory="False"/>
+    <Column unique="False" tip="Other names of the respondent" rowindex="1" minimum="0" maximum="30" description="Other names of the respondent" index="False" name="other_names" searchable="True" TYPE_INFO="VARCHAR" label="" mandatory="False"/>
+    <Column unique="False" tip="The sex of the respondent" rowindex="2" minimum="0" maximum="2147483647" description="The sex of the respondent" index="False" name="sex" searchable="True" TYPE_INFO="LOOKUP" label="" mandatory="True">
+     <Relation name="fk_sa_check_gender_id_sa_person_sex"/>
+    </Column>
+    <Column unique="False" tip="Date of birth of the respondent" rowindex="3" minimum="1852-09-14" maximum="7999-12-31" description="Date of birth of the respondent" index="False" name="date_of_birth" searchable="False" TYPE_INFO="DATE" label="" mandatory="True">
+     <currentDate minimum="False" maximum="True"/>
+    </Column>
+    <Column unique="False" tip="The mobile  number of the respondent" rowindex="4" minimum="0" maximum="30" description="The mobile  number of the respondent" index="False" name="mobile_number" searchable="True" TYPE_INFO="VARCHAR" label="" mandatory="False"/>
+    <Column unique="False" tip="Select houshold relation " rowindex="5" minimum="0" maximum="2147483647" description="Type of relation a person has with a household" index="False" name="household_relation" searchable="True" TYPE_INFO="LOOKUP" label="" mandatory="False">
+     <Relation name="fk_sa_check_household_relation_id_sa_person_household_relation"/>
+    </Column>
+    <Column unique="False" tip="Enter other household relation" rowindex="6" minimum="0" maximum="30" description="Other household relation not on list" index="False" name="other_household_relation" searchable="True" TYPE_INFO="VARCHAR" label="" mandatory="False"/>
+    <Column unique="False" tip="Select higest  level of Education" rowindex="7" minimum="0" maximum="2147483647" description="Persons higest level of eductation" index="False" name="education_level" searchable="True" TYPE_INFO="LOOKUP" label="Level of Education" mandatory="False">
+     <Relation name="fk_sa_check_education_level_id_sa_person_education_level"/>
+    </Column>
+    <Column unique="False" tip="Enter type of work a person does" rowindex="8" minimum="0" maximum="2147483647" description="Type of work a person does" index="False" name="work_type" searchable="True" TYPE_INFO="LOOKUP" label="Type of Work" mandatory="False">
+     <Relation name="fk_sa_check_work_type_id_sa_person_work_type"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="9" minimum="0" maximum="2147483647" description="" index="False" name="person" searchable="False" TYPE_INFO="FOREIGN_KEY" label="" mandatory="False">
+     <Relation name="fk_sa_household_id_sa_person_person"/>
+    </Column>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="4" associative="False" description="Refers to house unit for a household" documentTypeLookup="check_house_document_type" proxy="False" createId="True" supportsDocuments="True" shortName="House" name="sa_house" label="">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="Enter name of the GPS filename" rowindex="0" minimum="0" maximum="200" description="GPS point filename" index="False" name="gps_filename" searchable="True" TYPE_INFO="VARCHAR" label="GPS Filename" mandatory="False"/>
+    <Column unique="False" tip="Select major material used for structure" rowindex="1" minimum="0" maximum="2147483647" description="Major material used for structure" index="False" name="material_used" searchable="True" TYPE_INFO="LOOKUP" label="Major Structure Material" mandatory="False">
+     <Relation name="fk_sa_check_structure_material_id_sa_house_material_used"/>
+    </Column>
+    <Column unique="False" tip="Select use of structure" rowindex="2" minimum="0" maximum="2147483647" description="Use of structure" index="False" name="use_of_structure" searchable="True" TYPE_INFO="LOOKUP" label="Use of Structure" mandatory="False">
+     <Relation name="fk_sa_check_structure_use_id_sa_house_use_of_structure"/>
+    </Column>
+    <Column unique="False" tip="Select number of floors in a structure" rowindex="3" minimum="-2147483648" maximum="2147483647" description="Number of floors in a structure" index="False" name="number_of_floors" searchable="True" TYPE_INFO="INT" label="Number of Floors" mandatory="False"/>
+    <Column unique="False" tip="Select house unit power source" rowindex="4" minimum="0" maximum="2147483647" description="Houser power source" index="False" name="power_source" searchable="True" TYPE_INFO="LOOKUP" label="Power Source" mandatory="False">
+     <Relation name="fk_sa_check_power_source_id_sa_house_power_source"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="5" minimum="0" maximum="100" description="Other power source" index="False" name="other_power_source" searchable="True" TYPE_INFO="VARCHAR" label="" mandatory="False"/>
+    <Column unique="False" tip="Select drinking water source" rowindex="6" minimum="0" maximum="2147483647" description="Drinkgin water source" index="False" name="water_source" searchable="True" TYPE_INFO="LOOKUP" label="" mandatory="False">
+     <Relation name="fk_sa_check_water_source_id_sa_house_water_source"/>
+    </Column>
+    <Column unique="False" tip="Enter other water source" rowindex="7" minimum="0" maximum="50" description="Other drinking water source" index="False" name="other_water_source" searchable="True" TYPE_INFO="VARCHAR" label="" mandatory="False"/>
+    <Column unique="False" tip="Select sanitation type" rowindex="8" minimum="0" maximum="2147483647" description="Type of sanitation" index="False" name="sanitation_type" searchable="True" TYPE_INFO="LOOKUP" label="" mandatory="False">
+     <Relation name="fk_sa_check_sanitation_type_id_sa_house_sanitation_type"/>
+    </Column>
+    <Column unique="False" tip="Select toilet type" rowindex="9" minimum="0" maximum="2147483647" description="Type of toilet" index="False" name="toilet_type" searchable="True" TYPE_INFO="LOOKUP" label="" mandatory="False">
+     <Relation name="fk_sa_check_toilet_type_id_sa_house_toilet_type"/>
+    </Column>
+    <Column unique="False" tip="Enter other toilet type" rowindex="10" minimum="0" maximum="30" description="Other toilet type" index="False" name="other_toilet_type" searchable="True" TYPE_INFO="VARCHAR" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="11" description="Geometry location of the house" index="False" name="geom_location" searchable="False" TYPE_INFO="GEOMETRY" label="" mandatory="False">
+     <Geometry layerDisplay="" srid="4326" type="2"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="-1" minimum="0" maximum="2147483647" description="Reference to enumeration" index="False" name="house_unit" searchable="False" TYPE_INFO="FOREIGN_KEY" label="House" mandatory="False">
+     <Relation name="fk_sa_enumeration_id_sa_house_house_unit"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="13" description="Use of garden" index="False" name="garden_use" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="" mandatory="False">
+     <associationEntity name="sa_garden_use"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="14" minimum="0" maximum="1073741823" description="Other uses of the garden" index="False" name="other_garden_use" searchable="False" TYPE_INFO="TEXT" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="15" description="Plants in the garden" index="False" name="garden_plants" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="" mandatory="False">
+     <associationEntity name="sa_garden_plants"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="16" minimum="0" maximum="1073741823" description="Other plants in the garden" index="False" name="other_garden_plants" searchable="False" TYPE_INFO="TEXT" label="" mandatory="False"/>
+    <Column unique="True" tip="" rowindex="17" minimum="0" maximum="30" description="Unique code for the house" index="False" name="house_code" searchable="True" TYPE_INFO="VARCHAR" label="" mandatory="False"/>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="5" associative="False" description="Farm a household owns" proxy="False" createId="True" supportsDocuments="False" shortName="Farm" name="sa_farm" label="">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="Select type of land" rowindex="0" minimum="0" maximum="2147483647" description="Type of land" index="False" name="land_type" searchable="True" TYPE_INFO="LOOKUP" label="Type of land" mandatory="False">
+     <Relation name="fk_sa_check_land_type_id_sa_farm_land_type"/>
+    </Column>
+    <Column unique="False" tip="Enter other land type" rowindex="1" minimum="0" maximum="30" description="Other land type" index="False" name="other_land_type" searchable="True" TYPE_INFO="VARCHAR" label="" mandatory="False"/>
+    <Column unique="False" tip="Enter GPS point file name" rowindex="2" minimum="0" maximum="30" description="GPS point file name of current farm" index="False" name="gps_filename" searchable="True" TYPE_INFO="VARCHAR" label="GPS Filename" mandatory="True"/>
+    <Column unique="False" tip="" rowindex="3" description="Farm geometry location" index="False" name="farm_geom_location" searchable="False" TYPE_INFO="GEOMETRY" label="" mandatory="False">
+     <Geometry layerDisplay="" srid="4326" type="2"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="4" minimum="0" maximum="2147483647" description="Enumeration Reference" index="False" name="farm" searchable="False" TYPE_INFO="FOREIGN_KEY" label="" mandatory="False">
+     <Relation name="fk_sa_enumeration_id_sa_farm_farm"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="5" description="Type of crops planted in a farm" index="False" name="crops_planted" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="" mandatory="False">
+     <associationEntity name="sa_crops_planted"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="6" minimum="0" maximum="1073741823" description="Other types of crops planted in a farm" index="False" name="other_crops_planted" searchable="False" TYPE_INFO="TEXT" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="7" description="Type of labor used in the farm" index="False" name="labor_type" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="" mandatory="False">
+     <associationEntity name="sa_labor_type"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="8" minimum="0" maximum="1073741823" description="Other type of labor used in the farm" index="False" name="other_labor_type" searchable="False" TYPE_INFO="TEXT" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="9" description="Animals that assist with farming" index="False" name="farm_animals_used" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="" mandatory="False">
+     <associationEntity name="sa_farm_animals_used"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="10" minimum="0" maximum="1073741823" description="Other animals used in farming" index="False" name="other_farm_animals" searchable="False" TYPE_INFO="TEXT" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="11" description="Equipment used in farming" index="False" name="farm_equipment_used" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="" mandatory="False">
+     <associationEntity name="sa_farm_equipment_used"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="12" minimum="0" maximum="1073741823" description="Other farm equipment used in farming" index="False" name="other_farm_equipment" searchable="False" TYPE_INFO="TEXT" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="13" description="Fertilizer or pestcides used in the farm" index="False" name="farm_fertilizer" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="" mandatory="False">
+     <associationEntity name="sa_farm_fertilizer"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="14" minimum="0" maximum="1073741823" description="Other type of fertilizer or pestcides used in the farm" index="False" name="other_fertilizer_type" searchable="False" TYPE_INFO="TEXT" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="15" description="Priority for farm input and services" index="False" name="farm_input_priority" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="" mandatory="False">
+     <associationEntity name="sa_farm_input_priority"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="16" minimum="0" maximum="1073741823" description="Other priorities for farm inputs" index="False" name="other_farm_input_priority" searchable="False" TYPE_INFO="TEXT" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="17" description="Primary use of farm produce" index="False" name="farm_produce_use" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="" mandatory="False">
+     <associationEntity name="sa_farm_produce_use"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="18" minimum="0" maximum="1073741823" description="Other use of farm produce" index="False" name="other_farm_produce_use" searchable="False" TYPE_INFO="TEXT" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="19" description="Options used to sell farm produce" index="False" name="produce_sell_options" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="" mandatory="False">
+     <associationEntity name="sa_produce_sell_options"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="20" minimum="0" maximum="1073741823" description="Other options for selling farm produce" index="False" name="other_produce_sell_options" searchable="False" TYPE_INFO="TEXT" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="21" description="Type of irrigation used in farm" index="False" name="farm_irrigation_type" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="" mandatory="False">
+     <associationEntity name="sa_farm_irrigation_type"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="22" minimum="0" maximum="1073741823" description="Other types of irrigation used" index="False" name="other_farm_irrigation_type" searchable="False" TYPE_INFO="TEXT" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="23" description="Provider of irrigation services" index="False" name="irrigation_provider" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="" mandatory="False">
+     <associationEntity name="sa_irrigation_provider"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="24" minimum="0" maximum="1073741823" description="Other farm irrigation providers" index="False" name="other_irrigation_provider" searchable="False" TYPE_INFO="TEXT" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="25" minimum="-2147483648" maximum="2147483647" description="Number of households sharing farm production" index="False" name="households_sharing_production" searchable="True" TYPE_INFO="INT" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="26" minimum="0" maximum="100" description="Percentage of production given to landlord" index="False" name="landlord_percentage" searchable="False" TYPE_INFO="PERCENT" label="" mandatory="False">
+     <Numeric scale="6" precision="18"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="27" description="Do you fear eviction in the next 5 years" index="False" name="fear_eviction" searchable="False" TYPE_INFO="BOOL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="28" description="Reasons for eviction" index="False" name="eviction_reasons" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="" mandatory="False">
+     <associationEntity name="sa_eviction_reasons"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="29" minimum="0" maximum="1073741823" description="Other reasons for evicition" index="False" name="other_eviction_reasons" searchable="False" TYPE_INFO="TEXT" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="30" description="Ownership eviction reasons" index="False" name="ownership_eviction_reasons" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="" mandatory="False">
+     <associationEntity name="sa_ownership_eviction_reasons"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="31" minimum="0" maximum="1073741823" description="Other ownership eviction reasons" index="False" name="other_ownership_eviction_reasons" searchable="False" TYPE_INFO="TEXT" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="32" description="Natural disaster eviction reasons" index="False" name="natural_disaster_eviction" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="" mandatory="False">
+     <associationEntity name="sa_natural_disaster_eviction"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="33" minimum="0" maximum="1073741823" description="Other natural disaster eviction reasons" index="False" name="other_natural_disaster_eviction" searchable="False" TYPE_INFO="TEXT" label="" mandatory="False"/>
+    <Column unique="True" tip="" rowindex="34" minimum="0" maximum="30" description="Unique code for the farm" index="False" name="farm_code" searchable="True" TYPE_INFO="VARCHAR" label="" mandatory="False"/>
+   </Columns>
+  </Entity>
+  <Relations>
+   <EntityRelation displayColumns="name,code" child="social_tenure_relationship_supporting_document" showInParent="True" parent="check_social_tenure_relationship_document_type" name="fk_sa_check_social_tenure_relationship_document_type_id_sa_social_tenure_relationship_supporting_document_document_type" parentColumn="id" showInChild="True" childColumn="document_type"/>
+   <EntityRelation displayColumns="" child="social_tenure_relationship_supporting_document" showInParent="True" parent="social_tenure_relationship" name="fk_sa_social_tenure_relationship_id_sa_social_tenure_relationship_supporting_document_social_tenure_relationship_id" parentColumn="id" showInChild="True" childColumn="social_tenure_relationship_id"/>
+   <EntityRelation displayColumns="" child="social_tenure_relationship_supporting_document" showInParent="True" parent="supporting_document" name="fk_sa_supporting_document_id_sa_social_tenure_relationship_supporting_document_supporting_doc_id" parentColumn="id" showInChild="True" childColumn="supporting_doc_id"/>
+   <EntityRelation displayColumns="name,code" child="social_tenure_relationship" showInParent="True" parent="check_tenure_type" name="fk_sa_check_tenure_type_id_sa_social_tenure_relationship_tenure_type" parentColumn="id" showInChild="True" childColumn="tenure_type"/>
+   <EntityRelation displayColumns="" child="admin_spatial_unit_set" showInParent="True" parent="admin_spatial_unit_set" name="fk_admin_spatial_unit_set_id_admin_spatial_unit_set_parent_id" parentColumn="id" showInChild="True" childColumn="parent_id"/>
+   <EntityRelation displayColumns="name,code" child="Enumerator" showInParent="True" parent="check_gender" name="fk_sa_check_gender_id_sa_enumerator_sex" parentColumn="id" showInChild="True" childColumn="sex"/>
+   <EntityRelation displayColumns="name,code" child="Household_supporting_document" showInParent="True" parent="check_household_document_type" name="fk_sa_check_household_document_type_id_sa_household_supporting_document_document_type" parentColumn="id" showInChild="True" childColumn="document_type"/>
+   <EntityRelation displayColumns="" child="Household_supporting_document" showInParent="True" parent="Household" name="fk_sa_household_id_sa_household_supporting_document_household_id" parentColumn="id" showInChild="True" childColumn="household_id"/>
+   <EntityRelation displayColumns="" child="Household_supporting_document" showInParent="True" parent="supporting_document" name="fk_sa_supporting_document_id_sa_household_supporting_document_supporting_doc_id" parentColumn="id" showInChild="True" childColumn="supporting_doc_id"/>
+   <EntityRelation displayColumns="" child="household_properties" showInParent="True" parent="check_household_property" name="fk_sa_check_household_property_id_sa_household_properties_sa_check_household_property_id" parentColumn="id" showInChild="True" childColumn="sa_check_household_property_id"/>
+   <EntityRelation displayColumns="" child="household_properties" showInParent="True" parent="Household" name="fk_sa_household_id_sa_household_properties_sa_household_id" parentColumn="id" showInChild="True" childColumn="sa_household_id"/>
+   <EntityRelation displayColumns="" child="communal_properties" showInParent="True" parent="check_communal_property" name="fk_sa_check_communal_property_id_sa_communal_properties_sa_check_communal_property_id" parentColumn="id" showInChild="True" childColumn="sa_check_communal_property_id"/>
+   <EntityRelation displayColumns="" child="communal_properties" showInParent="True" parent="Household" name="fk_sa_household_id_sa_communal_properties_sa_household_id" parentColumn="id" showInChild="True" childColumn="sa_household_id"/>
+   <EntityRelation displayColumns="" child="program_services_access" showInParent="True" parent="check_program_service" name="fk_sa_check_program_service_id_sa_program_services_access_sa_check_program_service_id" parentColumn="id" showInChild="True" childColumn="sa_check_program_service_id"/>
+   <EntityRelation displayColumns="" child="program_services_access" showInParent="True" parent="Household" name="fk_sa_household_id_sa_program_services_access_sa_household_id" parentColumn="id" showInChild="True" childColumn="sa_household_id"/>
+   <EntityRelation displayColumns="" child="program_services_source" showInParent="True" parent="check_program_services_source" name="fk_sa_check_program_services_source_id_sa_program_services_source_sa_check_program_services_source_id" parentColumn="id" showInChild="True" childColumn="sa_check_program_services_source_id"/>
+   <EntityRelation displayColumns="" child="program_services_source" showInParent="True" parent="Household" name="fk_sa_household_id_sa_program_services_source_sa_household_id" parentColumn="id" showInChild="True" childColumn="sa_household_id"/>
+   <EntityRelation displayColumns="" child="family_savings_type" showInParent="True" parent="check_savings_type" name="fk_sa_check_savings_type_id_sa_family_savings_type_sa_check_savings_type_id" parentColumn="id" showInChild="True" childColumn="sa_check_savings_type_id"/>
+   <EntityRelation displayColumns="" child="family_savings_type" showInParent="True" parent="Household" name="fk_sa_household_id_sa_family_savings_type_sa_household_id" parentColumn="id" showInChild="True" childColumn="sa_household_id"/>
+   <EntityRelation displayColumns="" child="community_savings_type" showInParent="True" parent="check_savings_type" name="fk_sa_check_savings_type_id_sa_community_savings_type_sa_check_savings_type_id" parentColumn="id" showInChild="True" childColumn="sa_check_savings_type_id"/>
+   <EntityRelation displayColumns="" child="community_savings_type" showInParent="True" parent="Household" name="fk_sa_household_id_sa_community_savings_type_sa_household_id" parentColumn="id" showInChild="True" childColumn="sa_household_id"/>
+   <EntityRelation displayColumns="" child="household_priorities" showInParent="True" parent="check_household_priority" name="fk_sa_check_household_priority_id_sa_household_priorities_sa_check_household_priority_id" parentColumn="id" showInChild="True" childColumn="sa_check_household_priority_id"/>
+   <EntityRelation displayColumns="" child="household_priorities" showInParent="True" parent="Household" name="fk_sa_household_id_sa_household_priorities_sa_household_id" parentColumn="id" showInChild="True" childColumn="sa_household_id"/>
+   <EntityRelation displayColumns="" child="village_priorities" showInParent="True" parent="check_village_priority" name="fk_sa_check_village_priority_id_sa_village_priorities_sa_check_village_priority_id" parentColumn="id" showInChild="True" childColumn="sa_check_village_priority_id"/>
+   <EntityRelation displayColumns="" child="village_priorities" showInParent="True" parent="Household" name="fk_sa_household_id_sa_village_priorities_sa_household_id" parentColumn="id" showInChild="True" childColumn="sa_household_id"/>
+   <EntityRelation displayColumns="" child="check_tenure_type_str_attrs" showInParent="True" parent="social_tenure_relationship" name="fk_sa_social_tenure_relationship_id_sa_check_tenure_type_str_attrs_social_tenure_relationship_id" parentColumn="id" showInChild="True" childColumn="social_tenure_relationship_id"/>
+   <EntityRelation displayColumns="" child="check_respondent_role_str_attrs" showInParent="True" parent="social_tenure_relationship" name="fk_sa_social_tenure_relationship_id_sa_check_respondent_role_str_attrs_social_tenure_relationship_id" parentColumn="id" showInChild="True" childColumn="social_tenure_relationship_id"/>
+   <EntityRelation displayColumns="" child="check_marital_status_str_attrs" showInParent="True" parent="social_tenure_relationship" name="fk_sa_social_tenure_relationship_id_sa_check_marital_status_str_attrs_social_tenure_relationship_id" parentColumn="id" showInChild="True" childColumn="social_tenure_relationship_id"/>
+   <EntityRelation displayColumns="" child="check_land_tenure_type_str_attrs" showInParent="True" parent="social_tenure_relationship" name="fk_sa_social_tenure_relationship_id_sa_check_land_tenure_type_str_attrs_social_tenure_relationship_id" parentColumn="id" showInChild="True" childColumn="social_tenure_relationship_id"/>
+   <EntityRelation displayColumns="name,code" child="check_land_tenure_type_str_attrs" showInParent="True" parent="check_land_document_type" name="fk_sa_check_land_document_type_id_sa_check_land_tenure_type_str_attrs_land_document_type" parentColumn="id" showInChild="True" childColumn="land_document_type"/>
+   <EntityRelation displayColumns="name,code" child="check_land_tenure_type_str_attrs" showInParent="True" parent="check_gender" name="fk_sa_check_gender_id_sa_check_land_tenure_type_str_attrs_sex" parentColumn="id" showInChild="True" childColumn="sex"/>
+   <EntityRelation displayColumns="name,code" child="Person_supporting_document" showInParent="True" parent="check_person_document_type" name="fk_sa_check_person_document_type_id_sa_person_supporting_document_document_type" parentColumn="id" showInChild="True" childColumn="document_type"/>
+   <EntityRelation displayColumns="" child="Person_supporting_document" showInParent="True" parent="Person" name="fk_sa_person_id_sa_person_supporting_document_person_id" parentColumn="id" showInChild="True" childColumn="person_id"/>
+   <EntityRelation displayColumns="" child="Person_supporting_document" showInParent="True" parent="supporting_document" name="fk_sa_supporting_document_id_sa_person_supporting_document_supporting_doc_id" parentColumn="id" showInChild="True" childColumn="supporting_doc_id"/>
+   <EntityRelation displayColumns="name,code" child="Person" showInParent="True" parent="check_gender" name="fk_sa_check_gender_id_sa_person_sex" parentColumn="id" showInChild="True" childColumn="sex"/>
+   <EntityRelation displayColumns="name,code" child="Person" showInParent="True" parent="check_household_relation" name="fk_sa_check_household_relation_id_sa_person_household_relation" parentColumn="id" showInChild="True" childColumn="household_relation"/>
+   <EntityRelation displayColumns="name,code" child="Person" showInParent="True" parent="check_education_level" name="fk_sa_check_education_level_id_sa_person_education_level" parentColumn="id" showInChild="True" childColumn="education_level"/>
+   <EntityRelation displayColumns="name,code" child="Person" showInParent="True" parent="check_work_type" name="fk_sa_check_work_type_id_sa_person_work_type" parentColumn="id" showInChild="True" childColumn="work_type"/>
+   <EntityRelation displayColumns="household_number" child="Person" showInParent="True" parent="Household" name="fk_sa_household_id_sa_person_person" parentColumn="id" showInChild="True" childColumn="person"/>
+   <EntityRelation displayColumns="first_name, last_name" child="Enumeration" showInParent="True" parent="Enumerator" name="fk_sa_enumerator_id_sa_enumeration_enumerator" parentColumn="id" showInChild="True" childColumn="enumerator"/>
+   <EntityRelation displayColumns="first_name, last_name" child="Enumeration" showInParent="True" parent="Person" name="fk_sa_person_id_sa_enumeration_respondent" parentColumn="id" showInChild="True" childColumn="respondent"/>
+   <EntityRelation displayColumns="name,code" child="Enumeration" showInParent="True" parent="admin_spatial_unit_set" name="fk_admin_spatial_unit_set_id_sa_enumeration_municipality" parentColumn="id" showInChild="True" childColumn="municipality"/>
+   <EntityRelation displayColumns="name,code" child="Enumeration" showInParent="True" parent="admin_spatial_unit_set" name="fk_admin_spatial_unit_set_id_sa_enumeration_barangay" parentColumn="id" showInChild="True" childColumn="barangay"/>
+   <EntityRelation displayColumns="name,code" child="Enumeration" showInParent="True" parent="admin_spatial_unit_set" name="fk_admin_spatial_unit_set_id_sa_enumeration_purok" parentColumn="id" showInChild="True" childColumn="purok"/>
+   <EntityRelation displayColumns="name,code" child="House_supporting_document" showInParent="True" parent="check_house_document_type" name="fk_sa_check_house_document_type_id_sa_house_supporting_document_document_type" parentColumn="id" showInChild="True" childColumn="document_type"/>
+   <EntityRelation displayColumns="" child="House_supporting_document" showInParent="True" parent="House" name="fk_sa_house_id_sa_house_supporting_document_house_id" parentColumn="id" showInChild="True" childColumn="house_id"/>
+   <EntityRelation displayColumns="" child="House_supporting_document" showInParent="True" parent="supporting_document" name="fk_sa_supporting_document_id_sa_house_supporting_document_supporting_doc_id" parentColumn="id" showInChild="True" childColumn="supporting_doc_id"/>
+   <EntityRelation displayColumns="name,code" child="House" showInParent="True" parent="check_structure_material" name="fk_sa_check_structure_material_id_sa_house_material_used" parentColumn="id" showInChild="True" childColumn="material_used"/>
+   <EntityRelation displayColumns="name,code" child="House" showInParent="True" parent="check_structure_use" name="fk_sa_check_structure_use_id_sa_house_use_of_structure" parentColumn="id" showInChild="True" childColumn="use_of_structure"/>
+   <EntityRelation displayColumns="name,code" child="House" showInParent="True" parent="check_power_source" name="fk_sa_check_power_source_id_sa_house_power_source" parentColumn="id" showInChild="True" childColumn="power_source"/>
+   <EntityRelation displayColumns="name,code" child="House" showInParent="True" parent="check_water_source" name="fk_sa_check_water_source_id_sa_house_water_source" parentColumn="id" showInChild="True" childColumn="water_source"/>
+   <EntityRelation displayColumns="name,code" child="House" showInParent="True" parent="check_sanitation_type" name="fk_sa_check_sanitation_type_id_sa_house_sanitation_type" parentColumn="id" showInChild="True" childColumn="sanitation_type"/>
+   <EntityRelation displayColumns="name,code" child="House" showInParent="True" parent="check_toilet_type" name="fk_sa_check_toilet_type_id_sa_house_toilet_type" parentColumn="id" showInChild="True" childColumn="toilet_type"/>
+   <EntityRelation displayColumns="form_number" child="House" showInParent="True" parent="Enumeration" name="fk_sa_enumeration_id_sa_house_house_unit" parentColumn="id" showInChild="True" childColumn="house_unit"/>
+   <EntityRelation displayColumns="" child="garden_use" showInParent="True" parent="check_garden_use" name="fk_sa_check_garden_use_id_sa_garden_use_sa_check_garden_use_id" parentColumn="id" showInChild="True" childColumn="sa_check_garden_use_id"/>
+   <EntityRelation displayColumns="" child="garden_use" showInParent="True" parent="House" name="fk_sa_house_id_sa_garden_use_sa_house_id" parentColumn="id" showInChild="True" childColumn="sa_house_id"/>
+   <EntityRelation displayColumns="" child="garden_plants" showInParent="True" parent="check_garden_plant" name="fk_sa_check_garden_plant_id_sa_garden_plants_sa_check_garden_plant_id" parentColumn="id" showInChild="True" childColumn="sa_check_garden_plant_id"/>
+   <EntityRelation displayColumns="" child="garden_plants" showInParent="True" parent="House" name="fk_sa_house_id_sa_garden_plants_sa_house_id" parentColumn="id" showInChild="True" childColumn="sa_house_id"/>
+   <EntityRelation displayColumns="name,code" child="Farm" showInParent="True" parent="check_land_type" name="fk_sa_check_land_type_id_sa_farm_land_type" parentColumn="id" showInChild="True" childColumn="land_type"/>
+   <EntityRelation displayColumns="form_number" child="Farm" showInParent="True" parent="Enumeration" name="fk_sa_enumeration_id_sa_farm_farm" parentColumn="id" showInChild="True" childColumn="farm"/>
+   <EntityRelation displayColumns="" child="crops_planted" showInParent="True" parent="check_crop_type" name="fk_sa_check_crop_type_id_sa_crops_planted_sa_check_crop_type_id" parentColumn="id" showInChild="True" childColumn="sa_check_crop_type_id"/>
+   <EntityRelation displayColumns="" child="crops_planted" showInParent="True" parent="Farm" name="fk_sa_farm_id_sa_crops_planted_sa_farm_id" parentColumn="id" showInChild="True" childColumn="sa_farm_id"/>
+   <EntityRelation displayColumns="" child="labor_type" showInParent="True" parent="check_labor_type" name="fk_sa_check_labor_type_id_sa_labor_type_sa_check_labor_type_id" parentColumn="id" showInChild="True" childColumn="sa_check_labor_type_id"/>
+   <EntityRelation displayColumns="" child="labor_type" showInParent="True" parent="Farm" name="fk_sa_farm_id_sa_labor_type_sa_farm_id" parentColumn="id" showInChild="True" childColumn="sa_farm_id"/>
+   <EntityRelation displayColumns="" child="farm_animals_used" showInParent="True" parent="check_animal_type" name="fk_sa_check_animal_type_id_sa_farm_animals_used_sa_check_animal_type_id" parentColumn="id" showInChild="True" childColumn="sa_check_animal_type_id"/>
+   <EntityRelation displayColumns="" child="farm_animals_used" showInParent="True" parent="Farm" name="fk_sa_farm_id_sa_farm_animals_used_sa_farm_id" parentColumn="id" showInChild="True" childColumn="sa_farm_id"/>
+   <EntityRelation displayColumns="" child="farm_equipment_used" showInParent="True" parent="check_farm_equipment" name="fk_sa_check_farm_equipment_id_sa_farm_equipment_used_sa_check_farm_equipment_id" parentColumn="id" showInChild="True" childColumn="sa_check_farm_equipment_id"/>
+   <EntityRelation displayColumns="" child="farm_equipment_used" showInParent="True" parent="Farm" name="fk_sa_farm_id_sa_farm_equipment_used_sa_farm_id" parentColumn="id" showInChild="True" childColumn="sa_farm_id"/>
+   <EntityRelation displayColumns="" child="farm_fertilizer" showInParent="True" parent="check_fertilizer_type" name="fk_sa_check_fertilizer_type_id_sa_farm_fertilizer_sa_check_fertilizer_type_id" parentColumn="id" showInChild="True" childColumn="sa_check_fertilizer_type_id"/>
+   <EntityRelation displayColumns="" child="farm_fertilizer" showInParent="True" parent="Farm" name="fk_sa_farm_id_sa_farm_fertilizer_sa_farm_id" parentColumn="id" showInChild="True" childColumn="sa_farm_id"/>
+   <EntityRelation displayColumns="" child="farm_input_priority" showInParent="True" parent="check_farm_inputs_priority" name="fk_sa_check_farm_inputs_priority_id_sa_farm_input_priority_sa_check_farm_inputs_priority_id" parentColumn="id" showInChild="True" childColumn="sa_check_farm_inputs_priority_id"/>
+   <EntityRelation displayColumns="" child="farm_input_priority" showInParent="True" parent="Farm" name="fk_sa_farm_id_sa_farm_input_priority_sa_farm_id" parentColumn="id" showInChild="True" childColumn="sa_farm_id"/>
+   <EntityRelation displayColumns="" child="farm_produce_use" showInParent="True" parent="check_farm_produce_use" name="fk_sa_check_farm_produce_use_id_sa_farm_produce_use_sa_check_farm_produce_use_id" parentColumn="id" showInChild="True" childColumn="sa_check_farm_produce_use_id"/>
+   <EntityRelation displayColumns="" child="farm_produce_use" showInParent="True" parent="Farm" name="fk_sa_farm_id_sa_farm_produce_use_sa_farm_id" parentColumn="id" showInChild="True" childColumn="sa_farm_id"/>
+   <EntityRelation displayColumns="" child="produce_sell_options" showInParent="True" parent="check_produce_sell_option" name="fk_sa_check_produce_sell_option_id_sa_produce_sell_options_sa_check_produce_sell_option_id" parentColumn="id" showInChild="True" childColumn="sa_check_produce_sell_option_id"/>
+   <EntityRelation displayColumns="" child="produce_sell_options" showInParent="True" parent="Farm" name="fk_sa_farm_id_sa_produce_sell_options_sa_farm_id" parentColumn="id" showInChild="True" childColumn="sa_farm_id"/>
+   <EntityRelation displayColumns="" child="farm_irrigation_type" showInParent="True" parent="check_farm_irrigation_type" name="fk_sa_check_farm_irrigation_type_id_sa_farm_irrigation_type_sa_check_farm_irrigation_type_id" parentColumn="id" showInChild="True" childColumn="sa_check_farm_irrigation_type_id"/>
+   <EntityRelation displayColumns="" child="farm_irrigation_type" showInParent="True" parent="Farm" name="fk_sa_farm_id_sa_farm_irrigation_type_sa_farm_id" parentColumn="id" showInChild="True" childColumn="sa_farm_id"/>
+   <EntityRelation displayColumns="" child="irrigation_provider" showInParent="True" parent="check_farm_irrigation_provider" name="fk_sa_check_farm_irrigation_provider_id_sa_irrigation_provider_sa_check_farm_irrigation_provider_id" parentColumn="id" showInChild="True" childColumn="sa_check_farm_irrigation_provider_id"/>
+   <EntityRelation displayColumns="" child="irrigation_provider" showInParent="True" parent="Farm" name="fk_sa_farm_id_sa_irrigation_provider_sa_farm_id" parentColumn="id" showInChild="True" childColumn="sa_farm_id"/>
+   <EntityRelation displayColumns="" child="eviction_reasons" showInParent="True" parent="check_eviction_reason" name="fk_sa_check_eviction_reason_id_sa_eviction_reasons_sa_check_eviction_reason_id" parentColumn="id" showInChild="True" childColumn="sa_check_eviction_reason_id"/>
+   <EntityRelation displayColumns="" child="eviction_reasons" showInParent="True" parent="Farm" name="fk_sa_farm_id_sa_eviction_reasons_sa_farm_id" parentColumn="id" showInChild="True" childColumn="sa_farm_id"/>
+   <EntityRelation displayColumns="" child="ownership_eviction_reasons" showInParent="True" parent="check_ownership_eviction_reason" name="fk_sa_check_ownership_eviction_reason_id_sa_ownership_eviction_reasons_sa_check_ownership_eviction_reason_id" parentColumn="id" showInChild="True" childColumn="sa_check_ownership_eviction_reason_id"/>
+   <EntityRelation displayColumns="" child="ownership_eviction_reasons" showInParent="True" parent="Farm" name="fk_sa_farm_id_sa_ownership_eviction_reasons_sa_farm_id" parentColumn="id" showInChild="True" childColumn="sa_farm_id"/>
+   <EntityRelation displayColumns="" child="natural_disaster_eviction" showInParent="True" parent="check_natural_disaster_eviction_reason" name="fk_sa_check_natural_disaster_eviction_reason_id_sa_natural_disaster_eviction_sa_check_natural_disaster_eviction_reason_id" parentColumn="id" showInChild="True" childColumn="sa_check_natural_disaster_eviction_reason_id"/>
+   <EntityRelation displayColumns="" child="natural_disaster_eviction" showInParent="True" parent="Farm" name="fk_sa_farm_id_sa_natural_disaster_eviction_sa_farm_id" parentColumn="id" showInChild="True" childColumn="sa_farm_id"/>
+   <EntityRelation displayColumns="" child="social_tenure_relationship" showInParent="True" parent="Household" name="fk_sa_household_id_sa_social_tenure_relationship_household_id" parentColumn="id" showInChild="True" childColumn="household_id"/>
+   <EntityRelation displayColumns="" child="social_tenure_relationship" showInParent="True" parent="Person" name="fk_sa_person_id_sa_social_tenure_relationship_person_id" parentColumn="id" showInChild="True" childColumn="person_id"/>
+   <EntityRelation displayColumns="" child="social_tenure_relationship" showInParent="True" parent="Farm" name="fk_sa_farm_id_sa_social_tenure_relationship_farm_id" parentColumn="id" showInChild="True" childColumn="farm_id"/>
+   <EntityRelation displayColumns="" child="social_tenure_relationship" showInParent="True" parent="House" name="fk_sa_house_id_sa_social_tenure_relationship_house_id" parentColumn="id" showInChild="True" childColumn="house_id"/>
+   <EntityRelation displayColumns="name,code" child="social_tenure_relationship" showInParent="True" parent="check_land_tenure_type" name="fk_sa_check_land_tenure_type_id_sa_social_tenure_relationship_land_tenure_type" parentColumn="id" showInChild="True" childColumn="land_tenure_type"/>
+  </Relations>
+  <SocialTenure layerDisplay="ru_garden_vw_social_tenure_relationship" tenureTypeList="check_tenure_type" spatialUnit="Farm,House" supportsMultipleParties="True" party="Household,Person">
+   <Validity>
+    <Start minimum="1752-09-14" maximum="7999-12-31"/>
+    <End minimum="1752-09-14" maximum="7999-12-31"/>
+   </Validity>
+   <SpatialUnitTenureMappings>
+    <Mapping tenureTypeList="check_land_tenure_type" spatialUnit="Farm"/>
+    <Mapping tenureTypeList="check_land_tenure_type" spatialUnit="House"/>
+    <Mapping tenureTypeList="check_tenure_type" spatialUnit="Garden"/>
+   </SpatialUnitTenureMappings>
+   <CustomAttributes>
+    <TenureEntity tenureTypeList="check_respondent_role" entity="check_respondent_role_str_attrs"/>
+    <TenureEntity tenureTypeList="check_tenure_type" entity="check_tenure_type_str_attrs"/>
+    <TenureEntity tenureTypeList="check_marital_status" entity="check_marital_status_str_attrs"/>
+    <TenureEntity tenureTypeList="check_land_tenure_type" entity="check_land_tenure_type_str_attrs"/>
+   </CustomAttributes>
+  </SocialTenure>
+ </Profile>
+</Configuration>

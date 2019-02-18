@@ -1,0 +1,472 @@
+<Configuration version="1.3">
+ <Profile description="donnees socio economique sur menage" name="PCFP_socio_econ">
+  <ValueLists>
+   <ValueList name="check_social_tenure_relationship_document_type">
+    <CodeValue value="General" code=""/>
+   </ValueList>
+   <ValueList name="check_tenure_type">
+    <CodeValue value="individuel" code="IND"/>
+    <CodeValue value="Collectif" code="COL"/>
+    <CodeValue value="Communautaire" code="COM"/>
+    <CodeValue value="Famille" code="FA"/>
+   </ValueList>
+   <ValueList name="check_document_document_type">
+    <CodeValue value="General" code=""/>
+    <CodeValue value="Acte de vente" code="AV"/>
+    <CodeValue value="Acte de session" code="AS"/>
+    <CodeValue value="Demande de terre" code="DT"/>
+    <CodeValue value="Acte de reconnaissance parcellaire" code="ARP"/>
+    <CodeValue value="Fiche doccupation parcellaire" code="FOP"/>
+    <CodeValue value="Contrat de location" code="CL"/>
+    <CodeValue value="PV de mesurage et bornage" code="PVMB"/>
+    <CodeValue value="PV de constat de lieu ou de mise en valeur" code="PVCV"/>
+    <CodeValue value="Certificat Enregistrement" code="CE"/>
+    <CodeValue value="Quittance" code="QUI"/>
+    <CodeValue value="Fiche parcellaire" code="FP"/>
+    <CodeValue value="Autre" code="Autre"/>
+    <CodeValue value="Aucun" code="Aucun"/>
+   </ValueList>
+   <ValueList name="check_genre">
+    <CodeValue value="homme" code="H"/>
+    <CodeValue value="Femme" code="F"/>
+   </ValueList>
+   <ValueList name="check_str_avec_parcelle">
+    <CodeValue value="Proprietaire" code="propr"/>
+    <CodeValue value="Membre de la famille" code="MF"/>
+    <CodeValue value="Locataire" code="LOC"/>
+    <CodeValue value="Sous locataire" code="SLOC"/>
+    <CodeValue value="Voisin" code="VOI"/>
+    <CodeValue value="Leader Communautaire" code="LCOM"/>
+    <CodeValue value="Ancien de la communaute" code="ACOM"/>
+    <CodeValue value="Autre" code="Autre"/>
+    <CodeValue value="occupant illegal" code="OIL"/>
+   </ValueList>
+   <ValueList name="check_occupation">
+    <CodeValue value="Commercant" code="COM"/>
+    <CodeValue value="Agriculteur" code="AGR"/>
+    <CodeValue value="Menager" code="MNG"/>
+    <CodeValue value="Profession liberale" code="PL"/>
+    <CodeValue value="Salarie" code="SAL"/>
+    <CodeValue value="Autre" code="AUT"/>
+    <CodeValue value="Secteur prive" code="SP"/>
+    <CodeValue value="chomeur" code="CH"/>
+    <CodeValue value="Travail Occasionel" code="TOc"/>
+    <CodeValue value="Etudiant" code="Etudi"/>
+    <CodeValue value="Enfant" code="Enf"/>
+    <CodeValue value="Mineur" code="Mineu"/>
+   </ValueList>
+   <ValueList name="check_etat_civil">
+    <CodeValue value="MariE" code="MA"/>
+    <CodeValue value="DivorcE" code="DIV"/>
+    <CodeValue value="Veuf (Veuve)" code="VF"/>
+    <CodeValue value="SeparE" code="SEP"/>
+    <CodeValue value="MariE (traditionel)" code="MT"/>
+    <CodeValue value="Autre" code="Autre"/>
+    <CodeValue value="Celibataire" code="CEL"/>
+   </ValueList>
+   <ValueList name="check_regime_matrimonial">
+    <CodeValue value="separation des biens" code="SB"/>
+    <CodeValue value="Biens Communs" code="BC"/>
+    <CodeValue value="Acquisition des Biens" code="AB"/>
+   </ValueList>
+   <ValueList name="check_lien_parente">
+    <CodeValue value="chef de menage" code="CHEF"/>
+    <CodeValue value="Femme" code="FE"/>
+    <CodeValue value="mere" code="mere"/>
+    <CodeValue value="Pere" code="Pere"/>
+    <CodeValue value="Ami" code="Ami"/>
+    <CodeValue value="Fils (Fille)" code="FILS"/>
+    <CodeValue value="Membre Famille" code="MF"/>
+    <CodeValue value="Frere (Soeur)" code="FRERE"/>
+    <CodeValue value="Autre" code="AUTRE"/>
+    <CodeValue value="Voisin" code="Voisi"/>
+   </ValueList>
+   <ValueList name="check_groupement_list">
+    <CodeValue value="Kisigari" code="KIS"/>
+    <CodeValue value="Buzi" code="Buzi"/>
+    <CodeValue value="Pimbo" code="PIMBO"/>
+   </ValueList>
+   <ValueList name="check_localite_list">
+    <CodeValue value="Nyabirehe" code="NYA"/>
+    <CodeValue value="Kako" code="KAKO"/>
+    <CodeValue value="Kalengera" code="KAL"/>
+    <CodeValue value="Rubare" code="RUB"/>
+    <CodeValue value="Butumba" code="BUT"/>
+    <CodeValue value="Minova" code="MIN"/>
+    <CodeValue value="Djugu" code="Djugu"/>
+   </ValueList>
+   <ValueList name="check_propriete_list">
+    <CodeValue value="Personnel" code="PE"/>
+    <CodeValue value="Tierce personne" code="TPE"/>
+    <CodeValue value="Institution Privee" code="IPR"/>
+    <CodeValue value="Gouvernement National" code="GN"/>
+    <CodeValue value="Conseil" code="CO"/>
+    <CodeValue value="Traditionnel" code="TR"/>
+    <CodeValue value="Autre" code="AUTR"/>
+   </ValueList>
+   <ValueList name="check_mode_acquisition">
+    <CodeValue value="Achat du particulier" code="AP"/>
+    <CodeValue value="Achat de leader communautaire" code="ALC"/>
+    <CodeValue value="Achat du gouvernement" code=""/>
+    <CodeValue value="Heritage de la famille" code="HF"/>
+    <CodeValue value="Allocation" code="ALL"/>
+    <CodeValue value="Don" code="DON"/>
+    <CodeValue value="Echange" code="ECH"/>
+    <CodeValue value="Fusion" code="FUS"/>
+    <CodeValue value="Prescription" code="Presc"/>
+    <CodeValue value="Cession" code="CESS"/>
+   </ValueList>
+   <ValueList name="check_utilite">
+    <CodeValue value="Residentielle" code="RES"/>
+    <CodeValue value="Commerciale" code="COM"/>
+    <CodeValue value="Public" code="PUB"/>
+    <CodeValue value="Industrielle" code="IND"/>
+    <CodeValue value="Agropastorale" code="AGR"/>
+    <CodeValue value="Mixte" code="Mixte"/>
+    <CodeValue value="Autres" code="ATRES"/>
+   </ValueList>
+   <ValueList name="check_type_construction">
+    <CodeValue value="Durable" code="DUR"/>
+    <CodeValue value="Semi Durable" code="SDUR"/>
+   </ValueList>
+   <ValueList name="check_partie_conflit">
+    <CodeValue value="Gouvernement National" code="GN"/>
+    <CodeValue value="Gouvernement Provincial" code="GP"/>
+    <CodeValue value="Concessionnaire" code="CON"/>
+    <CodeValue value="Particulier" code="PA"/>
+    <CodeValue value="Goupe (Collectif)" code="GR"/>
+    <CodeValue value="Entreprise" code="ENT"/>
+    <CodeValue value="Leader traditionnel" code="LT"/>
+    <CodeValue value="communaute (clan)" code="COM"/>
+    <CodeValue value="Famille" code="FA"/>
+   </ValueList>
+   <ValueList name="check_type_conflit">
+    <CodeValue value="Accaparement des terres" code="AT"/>
+    <CodeValue value="desheritage du veuf (Veuve)" code="DESH"/>
+    <CodeValue value="Revente du terrain par le chef" code="RTC"/>
+    <CodeValue value="Vente sans consentement de la famille" code="VSCF"/>
+    <CodeValue value="Conflit Heritage" code="CH"/>
+    <CodeValue value="Depossession-Non Autochtone" code="DNAut"/>
+    <CodeValue value="depossession Femme non reconnu" code="DFNR"/>
+    <CodeValue value="Depossession proprietaire absents" code="DPA"/>
+    <CodeValue value="Deplacement par developpement Instructure" code="DDI"/>
+    <CodeValue value="Autre" code="AUTRE"/>
+   </ValueList>
+   <ValueList name="check_status_conflit">
+    <CodeValue value="Resolu" code="RES"/>
+    <CodeValue value="En cour de resolution" code="ECRES"/>
+    <CodeValue value="Non Resolut" code="NRES"/>
+   </ValueList>
+   <ValueList name="check_membrefamille_document_type">
+    <CodeValue value="General" code=""/>
+    <CodeValue value="passport" code="PASP"/>
+    <CodeValue value="carte electeur" code="CEL"/>
+    <CodeValue value="Fiche identification" code="FI"/>
+    <CodeValue value="autres" code="autre"/>
+   </ValueList>
+   <ValueList name="check_niveau_etude">
+    <CodeValue value="N/A" code="1"/>
+    <CodeValue value="Primaire" code="2"/>
+    <CodeValue value="Secondaire" code="SEC"/>
+    <CodeValue value="Universite complete" code="UNIV"/>
+    <CodeValue value="Competence Professionnelle" code="CPro"/>
+    <CodeValue value="Universite Complete" code="UAv"/>
+   </ValueList>
+   <ValueList name="check_parcelle_document_type">
+    <CodeValue value="General" code=""/>
+   </ValueList>
+   <ValueList name="check_personne_document_type">
+    <CodeValue value="General" code=""/>
+   </ValueList>
+  </ValueLists>
+  <Entity editable="False" global="False" rowindex="-1" associative="False" description="" proxy="False" createId="True" supportsDocuments="False" shortName="check_tenure_type_str_attrs" name="pc_check_tenure_type_str_attrs" label="">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="-1" minimum="0" maximum="2147483647" description="" index="False" name="social_tenure_relationship_id" searchable="True" TYPE_INFO="FOREIGN_KEY" label="" mandatory="False">
+     <Relation name="fk_pc_social_tenure_relationship_id_pc_check_tenure_type_str_attrs_social_tenure_relationship_id"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="-1" minimum="0" maximum="1" description="" index="False" name="dummy_custom_str" searchable="True" TYPE_INFO="VARCHAR" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="-1" minimum="0" maximum="2147483647" description="type de tenure" index="False" name="type_de_tenure" searchable="True" TYPE_INFO="LOOKUP" label="Type Tenure" mandatory="False">
+     <Relation name="fk_pc_check_tenure_type_id_pc_check_tenure_type_str_attrs_type_de_tenure"/>
+    </Column>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="0" associative="False" description="details sur le menage" proxy="False" createId="True" supportsDocuments="False" shortName="Menage" name="pc_menage" label="menage">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="0" minimum="0" maximum="4000" description="code menage" index="True" name="code_menage" searchable="True" TYPE_INFO="AUTO_GENERATED" label="Code menage" mandatory="False">
+     <Code columnSeparators=" " prefix_source="columns" leading_zero="" disableAutoIncrement="False" hidePrefix="False" columns="code_menage" separator="" enableEditing="False"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="1" minimum="0" maximum="2000" description="taille menage" index="False" name="taille_menage" searchable="True" TYPE_INFO="INT" label="taille menage" mandatory="False"/>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="1" associative="False" description="enumerator: toute les information sur l'enqueteur" proxy="False" createId="True" supportsDocuments="False" shortName="Enqueteur" name="pc_enqueteur" label="Enqueteur">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="Nom de l'enqueteur" rowindex="0" minimum="0" maximum="30" description="nom" index="False" name="nom" searchable="True" TYPE_INFO="VARCHAR" label="Votre Nom" mandatory="False"/>
+    <Column unique="False" tip="Votre postnom" rowindex="1" minimum="0" maximum="30" description="post nom de l'enqueteur" index="False" name="post_nom" searchable="True" TYPE_INFO="VARCHAR" label="Votre PostNom" mandatory="False"/>
+    <Column unique="False" tip="votre prenom" rowindex="2" minimum="0" maximum="30" description="prenom de l'enqueteur" index="False" name="prenom" searchable="True" TYPE_INFO="VARCHAR" label="Prenom" mandatory="False"/>
+    <Column unique="False" tip="homme/femme" rowindex="3" minimum="0" maximum="2147483647" description="genre" index="False" name="genre" searchable="True" TYPE_INFO="LOOKUP" label="Sexe" mandatory="False">
+     <Relation name="fk_pc_check_genre_id_pc_enqueteur_genre"/>
+    </Column>
+    <Column unique="False" tip="Votre numero de telephone" rowindex="4" minimum="-2147483648" maximum="2147483647" description="telephone" index="False" name="telephone" searchable="True" TYPE_INFO="INT" label="" mandatory="False"/>
+    <Column unique="False" tip="date d'aujourdhui" rowindex="5" minimum="0001-01-01" maximum="9999-12-31" description="date" index="False" name="date" searchable="False" TYPE_INFO="DATE" label="date" mandatory="True">
+     <currentDate minimum="False" maximum="False"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="6" minimum="0" maximum="2147483647" description="menage" index="False" name="menage_code" searchable="False" TYPE_INFO="FOREIGN_KEY" label="Code menage" mandatory="False">
+     <Relation name="fk_pc_menage_id_pc_enqueteur_menage_code"/>
+    </Column>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="10" associative="False" description="details sut les membre de la famille" documentTypeLookup="check_membrefamille_document_type" proxy="False" createId="True" supportsDocuments="True" shortName="MembreFamille" name="pc_membrefamille" label="Membres de la Famille">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="Code menage" rowindex="0" minimum="0" maximum="2147483647" description="Code menage" index="False" name="mf_code_menage" searchable="False" TYPE_INFO="FOREIGN_KEY" label="Code menage" mandatory="False">
+     <Relation name="fk_pc_menage_id_pc_membrefamille_mf_code_menage"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="1" minimum="0" maximum="30" description="nom" index="False" name="nom" searchable="True" TYPE_INFO="VARCHAR" label="NOM" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="2" minimum="0" maximum="30" description="post nom" index="False" name="postnom" searchable="True" TYPE_INFO="VARCHAR" label="Post Nom" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="3" minimum="0" maximum="30" description="prenom" index="False" name="prenom" searchable="True" TYPE_INFO="VARCHAR" label="Prenom" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="4" minimum="0" maximum="30" description="Numero carte ID" index="False" name="numer_carte_id" searchable="True" TYPE_INFO="VARCHAR" label="Carte ID Numero" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="5" minimum="0" maximum="2147483647" description="type id" index="False" name="type_id" searchable="True" TYPE_INFO="LOOKUP" label="type ID" mandatory="False">
+     <Relation name="fk_pc_check_membrefamille_document_type_id_pc_membrefamille_type_id"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="6" minimum="0" maximum="2147483647" description="genre" index="False" name="genre" searchable="True" TYPE_INFO="LOOKUP" label="Genre" mandatory="False">
+     <Relation name="fk_pc_check_genre_id_pc_membrefamille_genre"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="-1" minimum="-1" maximum="250" description="age" index="False" name="age" searchable="True" TYPE_INFO="INT" label="age" mandatory="False"/>
+    <Column unique="False" tip="etat civil" rowindex="8" minimum="0" maximum="2147483647" description="etat civil" index="False" name="etat_civil" searchable="True" TYPE_INFO="LOOKUP" label="Etat Civil" mandatory="False">
+     <Relation name="fk_pc_check_etat_civil_id_pc_membrefamille_etat_civil"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="9" minimum="0" maximum="2147483647" description="occupation" index="False" name="occupation" searchable="True" TYPE_INFO="LOOKUP" label="Occupation" mandatory="False">
+     <Relation name="fk_pc_check_occupation_id_pc_membrefamille_occupation"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="10" minimum="0" maximum="2147483647" description="lien parente menage" index="False" name="lien_parente_menage" searchable="True" TYPE_INFO="LOOKUP" label="Lien Parente" mandatory="False">
+     <Relation name="fk_pc_check_lien_parente_id_pc_membrefamille_lien_parente_menage"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="11" description="temoin present" index="False" name="temoin" searchable="False" TYPE_INFO="BOOL" label="Temois present?" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="12" minimum="0" maximum="2147483647" description="relation de tenure" index="False" name="relation_de_tenure" searchable="True" TYPE_INFO="LOOKUP" label="Relation Tenure" mandatory="False">
+     <Relation name="fk_pc_check_str_avec_parcelle_id_pc_membrefamille_relation_de_tenure"/>
+    </Column>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="2" associative="False" description="relation entre personne, parcelle, menage" proxy="False" createId="True" supportsDocuments="False" shortName="Enquette" name="pc_enquette" label="enquette">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="Code Menage" rowindex="0" minimum="0" maximum="2147483647" description="Code Menage" index="False" name="enq_code_menage" searchable="False" TYPE_INFO="FOREIGN_KEY" label="Code Menage" mandatory="False">
+     <Relation name="fk_pc_menage_id_pc_enquette_enq_code_menage"/>
+    </Column>
+    <Column unique="False" tip="Code Repondant" rowindex="-1" minimum="0" maximum="2147483647" description="Code Repondant" index="False" name="enq_code_repondant" searchable="False" TYPE_INFO="FOREIGN_KEY" label="Code Repondant" mandatory="False">
+     <Relation name="fk_pc_repondant_id_pc_enquette_enq_code_repondant"/>
+    </Column>
+    <Column unique="False" tip="Code Personne" rowindex="2" minimum="0" maximum="2147483647" description="Code Personne" index="False" name="enq_code_personne" searchable="False" TYPE_INFO="FOREIGN_KEY" label="Code Personne" mandatory="False">
+     <Relation name="fk_pc_personne_id_pc_enquette_enq_code_personne"/>
+    </Column>
+    <Column unique="False" tip="Code Temoins" rowindex="3" minimum="0" maximum="2147483647" description="Code Temoins" index="False" name="enq_code_temoins" searchable="False" TYPE_INFO="FOREIGN_KEY" label="Code Temoins" mandatory="False">
+     <Relation name="fk_pc_temoins_id_pc_enquette_enq_code_temoins"/>
+    </Column>
+    <Column unique="False" tip="Code Parcelle" rowindex="4" minimum="0" maximum="2147483647" description="Code Parcelle" index="False" name="enq_code_parcelle" searchable="False" TYPE_INFO="FOREIGN_KEY" label="Code Parcelle" mandatory="False">
+     <Relation name="fk_pc_parcelle_id_pc_enquette_enq_code_parcelle"/>
+    </Column>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="3" associative="False" description="respondant: details sur le repondant" proxy="False" createId="True" supportsDocuments="False" shortName="Repondant" name="pc_repondant" label="repondant">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="Nom du repondant" rowindex="0" minimum="0" maximum="30" description="nom" index="False" name="nom" searchable="True" TYPE_INFO="VARCHAR" label="Nom" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="1" minimum="0" maximum="30" description="post nom" index="False" name="postnom" searchable="True" TYPE_INFO="VARCHAR" label="PostNom" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="2" minimum="0" maximum="30" description="prenom" index="False" name="prenom" searchable="True" TYPE_INFO="VARCHAR" label="Prenom" mandatory="False"/>
+    <Column unique="False" tip="genre" rowindex="3" minimum="0" maximum="2147483647" description="genre" index="False" name="genre" searchable="True" TYPE_INFO="LOOKUP" label="Genre" mandatory="False">
+     <Relation name="fk_pc_check_genre_id_pc_repondant_genre"/>
+    </Column>
+    <Column unique="False" tip="qui est il pour la parcelle" rowindex="4" minimum="0" maximum="2147483647" description="relation avec la parcelle" index="False" name="str_parcel" searchable="True" TYPE_INFO="LOOKUP" label="Relation avec Parcelle" mandatory="False">
+     <Relation name="fk_pc_check_str_avec_parcelle_id_pc_repondant_str_parcel"/>
+    </Column>
+    <Column unique="False" tip="Telephone" rowindex="5" minimum="-2147483648" maximum="2147483647" description="telephone" index="False" name="telephone" searchable="True" TYPE_INFO="INT" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="6" minimum="0" maximum="30" description="Adresse" index="False" name="adresse" searchable="True" TYPE_INFO="VARCHAR" label="Adresse" mandatory="False"/>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="4" associative="False" description="Partie: detail sur la personne proprietaire de la parcelle" documentTypeLookup="check_personne_document_type" proxy="False" createId="True" supportsDocuments="True" shortName="Personne" name="pc_personne" label="personne">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="0" minimum="0" maximum="50" description="nom" index="False" name="nom" searchable="True" TYPE_INFO="VARCHAR" label="Nom" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="1" minimum="0" maximum="50" description="postnom" index="False" name="postnom" searchable="True" TYPE_INFO="VARCHAR" label="Post-Nom" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="2" minimum="0" maximum="50" description="prenom" index="False" name="prenom" searchable="True" TYPE_INFO="VARCHAR" label="Prenom" mandatory="False"/>
+    <Column unique="False" tip="genre" rowindex="3" minimum="0" maximum="2147483647" description="genre" index="False" name="genre" searchable="True" TYPE_INFO="LOOKUP" label="" mandatory="False">
+     <Relation name="fk_pc_check_genre_id_pc_personne_genre"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="4" minimum="0" maximum="50" description="id national" index="False" name="id_national" searchable="True" TYPE_INFO="VARCHAR" label="ID Passport- Carte electeur" mandatory="False"/>
+    <Column unique="False" tip="date de naissance du proprietaire de la parcelle" rowindex="5" minimum="0001-01-01" maximum="9999-12-31" description="date de naissance" index="False" name="date_naissace" searchable="False" TYPE_INFO="DATE" label="Date Naissance" mandatory="False">
+     <currentDate minimum="False" maximum="False"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="6" minimum="0" maximum="50" description="lieu de naissance du proprietaire" index="False" name="lieu_de_naissance" searchable="False" TYPE_INFO="VARCHAR" label="Lieu Naissance" mandatory="False"/>
+    <Column unique="False" tip="Occupation ou profession du proprietaire" rowindex="7" minimum="0" maximum="2147483647" description="profession du proprietaire" index="False" name="profession" searchable="False" TYPE_INFO="LOOKUP" label="Ocuupation" mandatory="False">
+     <Relation name="fk_pc_check_occupation_id_pc_personne_profession"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="8" minimum="0" maximum="2147483647" description="etat civil" index="False" name="etat_civil" searchable="True" TYPE_INFO="LOOKUP" label="Etat Civil" mandatory="False">
+     <Relation name="fk_pc_check_etat_civil_id_pc_personne_etat_civil"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="9" minimum="0" maximum="2147483647" description="regime matrimonial" index="False" name="regime_matrimonial" searchable="True" TYPE_INFO="LOOKUP" label="Regime Matrimonial" mandatory="False">
+     <Relation name="fk_pc_check_regime_matrimonial_id_pc_personne_regime_matrimonial"/>
+    </Column>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="5" associative="False" description="Witness: details sur le temoin. relation entre repondant et personne" proxy="False" createId="True" supportsDocuments="False" shortName="Temoins" name="pc_temoins" label="temoin">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="0" minimum="0" maximum="50" description="nom" index="False" name="nom" searchable="True" TYPE_INFO="VARCHAR" label="Nom" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="1" minimum="0" maximum="50" description="postnom" index="False" name="postnom" searchable="True" TYPE_INFO="VARCHAR" label="Post Nom" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="2" minimum="0" maximum="50" description="prenom" index="False" name="prenom" searchable="True" TYPE_INFO="VARCHAR" label="Prenom" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="3" minimum="0" maximum="2147483647" description="genre" index="False" name="genre" searchable="True" TYPE_INFO="LOOKUP" label="Genre" mandatory="False">
+     <Relation name="fk_pc_check_genre_id_pc_temoins_genre"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="4" minimum="0" maximum="50" description="lien parente" index="False" name="lien_parente" searchable="True" TYPE_INFO="VARCHAR" label="Lien de Parente" mandatory="False"/>
+    <Column unique="False" tip="Telephone" rowindex="5" minimum="-2147483648" maximum="2147483647" description="telephone" index="False" name="telephone" searchable="False" TYPE_INFO="INT" label="" mandatory="False"/>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="6" associative="False" description="detail sur la parcelle" documentTypeLookup="check_parcelle_document_type" proxy="False" createId="True" supportsDocuments="True" shortName="Parcelle" name="pc_parcelle" label="Parcelle">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="numero cadastral" rowindex="0" minimum="0" maximum="30" description="numero identification" index="False" name="numero_identification" searchable="True" TYPE_INFO="VARCHAR" label="Numero Identification" mandatory="True"/>
+    <Column unique="False" tip="" rowindex="1" minimum="-0" maximum="179769313485999993463412110191957867872176903147024190229169150664616720223488549064776002732213849498804348433116986060126989671666306060788674238031081950882294921586851551818012975619342999042256679071052330673321513805402276774228700884740900574397999799640549171929913383207407537025048827210712192385024" description="largeur de la parcelle" index="False" name="la_largeur" searchable="False" TYPE_INFO="DOUBLE" label="largeur" mandatory="False">
+     <Numeric scale="6" precision="18"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="2" minimum="-0" maximum="179769313485999993463412110191957867872176903147024190229169150664616720223488549064776002732213849498804348433116986060126989671666306060788674238031081950882294921586851551818012975619342999042256679071052330673321513805402276774228700884740900574397999799640549171929913383207407537025048827210712192385024" description="longueur de la parcelle" index="False" name="la_longueur" searchable="False" TYPE_INFO="DOUBLE" label="longueur" mandatory="False">
+     <Numeric scale="6" precision="18"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="3" minimum="0" maximum="100000" description="nombre de strcutures" index="False" name="nbre_strcutures" searchable="True" TYPE_INFO="INT" label="nombre de strcutures" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="4" minimum="0" maximum="2147483647" description="groupement" index="False" name="groupement" searchable="True" TYPE_INFO="LOOKUP" label="Groupement" mandatory="True">
+     <Relation name="fk_pc_check_groupement_list_id_pc_parcelle_groupement"/>
+    </Column>
+    <Column unique="False" tip="Localite" rowindex="5" minimum="0" maximum="2147483647" description="localite" index="False" name="localite" searchable="True" TYPE_INFO="LOOKUP" label="" mandatory="True">
+     <Relation name="fk_pc_check_localite_list_id_pc_parcelle_localite"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="6" minimum="0" maximum="2147483647" description="propriete" index="False" name="type_propriete" searchable="True" TYPE_INFO="LOOKUP" label="Type de ProprietE" mandatory="True">
+     <Relation name="fk_pc_check_tenure_type_id_pc_parcelle_type_propriete"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="7" minimum="0" maximum="2147483647" description="responable" index="False" name="responsable" searchable="True" TYPE_INFO="LOOKUP" label="Responsable" mandatory="True">
+     <Relation name="fk_pc_check_propriete_list_id_pc_parcelle_responsable"/>
+    </Column>
+    <Column unique="False" tip="Utilite de la parcelle" rowindex="8" minimum="0" maximum="2147483647" description="Utilite de la parcelle" index="False" name="utilite" searchable="True" TYPE_INFO="LOOKUP" label="Utilite" mandatory="False">
+     <Relation name="fk_pc_check_utilite_id_pc_parcelle_utilite"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="9" description="geomtry" index="False" name="geomtry" searchable="False" TYPE_INFO="GEOMETRY" label="Entite spatiale" mandatory="False">
+     <Geometry layerDisplay="" srid="32735" type="2"/>
+    </Column>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="7" associative="False" description="deatils sur le mode d'acquisition de la parcelle" proxy="False" createId="True" supportsDocuments="False" shortName="Acquisition" name="pc_acquisition" label="Acquisition">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="0" minimum="0" maximum="2147483647" description="mode acquisition" index="False" name="mode_acquisition" searchable="True" TYPE_INFO="LOOKUP" label="" mandatory="False">
+     <Relation name="fk_pc_check_mode_acquisition_id_pc_acquisition_mode_acquisition"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="1" minimum="0001-01-01" maximum="9999-12-31" description="date acquisition" index="False" name="date_acquisition" searchable="False" TYPE_INFO="DATE" label="Date Acquisition" mandatory="False">
+     <currentDate minimum="False" maximum="False"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="2" minimum="0" maximum="2147483647" description="" index="False" name="code_person" searchable="False" TYPE_INFO="FOREIGN_KEY" label="code personne" mandatory="False">
+     <Relation name="fk_pc_parcelle_id_pc_acquisition_code_person"/>
+    </Column>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="8" associative="False" description="details sur les strucutre " proxy="False" createId="True" supportsDocuments="False" shortName="Structure" name="pc_structure" label="Structure">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="0" minimum="0" maximum="2147483647" description="type de construction" index="False" name="type_construction" searchable="True" TYPE_INFO="LOOKUP" label="Type de Construction" mandatory="False">
+     <Relation name="fk_pc_check_type_construction_id_pc_structure_type_construction"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="1" minimum="-2.225073858507201383090232717332404064219215980462331830553327416887204434813918195854283159012511020564067339731035811005152434161553460108856012385377718821130777993532002330479610147442583636071921565046942503734208375250806650616658158948720491179968591639648500635908770118304874799780887753749949451580451605050915399856582470818645113537935804992115981085766051992433352114352390148795699609591288891602992641511063466313393663477586513029371762047325631781485664350872122828637642044846811407613911477062801689853244110024161447421618567166150540154285084716752901903161322778896729707373123334086988983175067838846926092773977972858659654941091369095406136467568702398678315290680984617210924625396728515625E-308" maximum="179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368" description="longueur" index="False" name="la_longueur" searchable="False" TYPE_INFO="DOUBLE" label="longueur" mandatory="False">
+     <Numeric scale="6" precision="18"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="2" minimum="-2.225073858507201383090232717332404064219215980462331830553327416887204434813918195854283159012511020564067339731035811005152434161553460108856012385377718821130777993532002330479610147442583636071921565046942503734208375250806650616658158948720491179968591639648500635908770118304874799780887753749949451580451605050915399856582470818645113537935804992115981085766051992433352114352390148795699609591288891602992641511063466313393663477586513029371762047325631781485664350872122828637642044846811407613911477062801689853244110024161447421618567166150540154285084716752901903161322778896729707373123334086988983175067838846926092773977972858659654941091369095406136467568702398678315290680984617210924625396728515625E-308" maximum="179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368" description="largeur" index="False" name="la_largeur" searchable="False" TYPE_INFO="DOUBLE" label="largeur" mandatory="False">
+     <Numeric scale="6" precision="18"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="3" description="geometry" index="False" name="geomtry" searchable="False" TYPE_INFO="GEOMETRY" label="Entite spatiale" mandatory="False">
+     <Geometry layerDisplay="" srid="32735" type="2"/>
+    </Column>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="9" associative="False" description="details sur le conflit" proxy="False" createId="True" supportsDocuments="False" shortName="Conflit" name="pc_conflit" label="Conflit">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="Code Parcelle" rowindex="0" minimum="0" maximum="2147483647" description="Code Parcelle" index="False" name="conflit_parcelle_code" searchable="False" TYPE_INFO="FOREIGN_KEY" label="Code Parcelle" mandatory="False">
+     <Relation name="fk_pc_parcelle_id_pc_conflit_conflit_parcelle_code"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="1" description="contentieux foncier" index="False" name="dispute" searchable="False" TYPE_INFO="BOOL" label="Confit?" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="2" minimum="0" maximum="2147483647" description="partie conflit" index="False" name="partie_conflit" searchable="True" TYPE_INFO="LOOKUP" label="Partie Conflit" mandatory="False">
+     <Relation name="fk_pc_check_partie_conflit_id_pc_conflit_partie_conflit"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="3" minimum="0" maximum="2147483647" description="type conflit" index="False" name="type_conflit" searchable="True" TYPE_INFO="LOOKUP" label="Type Conflit" mandatory="False">
+     <Relation name="fk_pc_check_type_conflit_id_pc_conflit_type_conflit"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="4" minimum="0" maximum="2147483647" description="status conflit" index="False" name="status_conflit" searchable="True" TYPE_INFO="LOOKUP" label="Status Conflit" mandatory="False">
+     <Relation name="fk_pc_check_status_conflit_id_pc_conflit_status_conflit"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="-1" minimum="0" maximum="250" description="remarque" index="False" name="remarque" searchable="True" TYPE_INFO="VARCHAR" label="remarque" mandatory="False"/>
+   </Columns>
+  </Entity>
+  <Relations>
+   <EntityRelation displayColumns="name,code" child="social_tenure_relationship_supporting_document" showInParent="True" parent="check_social_tenure_relationship_document_type" name="fk_pc_check_social_tenure_relationship_document_type_id_pc_social_tenure_relationship_supporting_document_document_type" parentColumn="id" showInChild="True" childColumn="document_type"/>
+   <EntityRelation displayColumns="" child="social_tenure_relationship_supporting_document" showInParent="True" parent="social_tenure_relationship" name="fk_pc_social_tenure_relationship_id_pc_social_tenure_relationship_supporting_document_social_tenure_relationship_id" parentColumn="id" showInChild="True" childColumn="social_tenure_relationship_id"/>
+   <EntityRelation displayColumns="" child="social_tenure_relationship_supporting_document" showInParent="True" parent="supporting_document" name="fk_pc_supporting_document_id_pc_social_tenure_relationship_supporting_document_supporting_doc_id" parentColumn="id" showInChild="True" childColumn="supporting_doc_id"/>
+   <EntityRelation displayColumns="name,code" child="social_tenure_relationship" showInParent="True" parent="check_tenure_type" name="fk_pc_check_tenure_type_id_pc_social_tenure_relationship_tenure_type" parentColumn="id" showInChild="True" childColumn="tenure_type"/>
+   <EntityRelation displayColumns="" child="admin_spatial_unit_set" showInParent="True" parent="admin_spatial_unit_set" name="fk_admin_spatial_unit_set_id_admin_spatial_unit_set_parent_id" parentColumn="id" showInChild="True" childColumn="parent_id"/>
+   <EntityRelation displayColumns="name,code" child="Repondant" showInParent="True" parent="check_genre" name="fk_pc_check_genre_id_pc_repondant_genre" parentColumn="id" showInChild="True" childColumn="genre"/>
+   <EntityRelation displayColumns="name,code" child="Repondant" showInParent="True" parent="check_str_avec_parcelle" name="fk_pc_check_str_avec_parcelle_id_pc_repondant_str_parcel" parentColumn="id" showInChild="True" childColumn="str_parcel"/>
+   <EntityRelation displayColumns="name,code" child="Personne_supporting_document" showInParent="True" parent="check_personne_document_type" name="fk_pc_check_personne_document_type_id_pc_personne_supporting_document_document_type" parentColumn="id" showInChild="True" childColumn="document_type"/>
+   <EntityRelation displayColumns="" child="Personne_supporting_document" showInParent="True" parent="Personne" name="fk_pc_personne_id_pc_personne_supporting_document_personne_id" parentColumn="id" showInChild="True" childColumn="personne_id"/>
+   <EntityRelation displayColumns="" child="Personne_supporting_document" showInParent="True" parent="supporting_document" name="fk_pc_supporting_document_id_pc_personne_supporting_document_supporting_doc_id" parentColumn="id" showInChild="True" childColumn="supporting_doc_id"/>
+   <EntityRelation displayColumns="name,code" child="Personne" showInParent="True" parent="check_genre" name="fk_pc_check_genre_id_pc_personne_genre" parentColumn="id" showInChild="True" childColumn="genre"/>
+   <EntityRelation displayColumns="name,code" child="Personne" showInParent="True" parent="check_occupation" name="fk_pc_check_occupation_id_pc_personne_profession" parentColumn="id" showInChild="True" childColumn="profession"/>
+   <EntityRelation displayColumns="name,code" child="Personne" showInParent="True" parent="check_etat_civil" name="fk_pc_check_etat_civil_id_pc_personne_etat_civil" parentColumn="id" showInChild="True" childColumn="etat_civil"/>
+   <EntityRelation displayColumns="name,code" child="Personne" showInParent="True" parent="check_regime_matrimonial" name="fk_pc_check_regime_matrimonial_id_pc_personne_regime_matrimonial" parentColumn="id" showInChild="True" childColumn="regime_matrimonial"/>
+   <EntityRelation displayColumns="name,code" child="Temoins" showInParent="True" parent="check_genre" name="fk_pc_check_genre_id_pc_temoins_genre" parentColumn="id" showInChild="True" childColumn="genre"/>
+   <EntityRelation displayColumns="name,code" child="Parcelle_supporting_document" showInParent="True" parent="check_parcelle_document_type" name="fk_pc_check_parcelle_document_type_id_pc_parcelle_supporting_document_document_type" parentColumn="id" showInChild="True" childColumn="document_type"/>
+   <EntityRelation displayColumns="" child="Parcelle_supporting_document" showInParent="True" parent="Parcelle" name="fk_pc_parcelle_id_pc_parcelle_supporting_document_parcelle_id" parentColumn="id" showInChild="True" childColumn="parcelle_id"/>
+   <EntityRelation displayColumns="" child="Parcelle_supporting_document" showInParent="True" parent="supporting_document" name="fk_pc_supporting_document_id_pc_parcelle_supporting_document_supporting_doc_id" parentColumn="id" showInChild="True" childColumn="supporting_doc_id"/>
+   <EntityRelation displayColumns="name,code" child="Parcelle" showInParent="True" parent="check_groupement_list" name="fk_pc_check_groupement_list_id_pc_parcelle_groupement" parentColumn="id" showInChild="True" childColumn="groupement"/>
+   <EntityRelation displayColumns="name,code" child="Parcelle" showInParent="True" parent="check_localite_list" name="fk_pc_check_localite_list_id_pc_parcelle_localite" parentColumn="id" showInChild="True" childColumn="localite"/>
+   <EntityRelation displayColumns="name,code" child="Parcelle" showInParent="True" parent="check_tenure_type" name="fk_pc_check_tenure_type_id_pc_parcelle_type_propriete" parentColumn="id" showInChild="True" childColumn="type_propriete"/>
+   <EntityRelation displayColumns="name,code" child="Parcelle" showInParent="True" parent="check_propriete_list" name="fk_pc_check_propriete_list_id_pc_parcelle_responsable" parentColumn="id" showInChild="True" childColumn="responsable"/>
+   <EntityRelation displayColumns="name,code" child="Parcelle" showInParent="True" parent="check_utilite" name="fk_pc_check_utilite_id_pc_parcelle_utilite" parentColumn="id" showInChild="True" childColumn="utilite"/>
+   <EntityRelation displayColumns="name,code" child="Structure" showInParent="True" parent="check_type_construction" name="fk_pc_check_type_construction_id_pc_structure_type_construction" parentColumn="id" showInChild="True" childColumn="type_construction"/>
+   <EntityRelation displayColumns="" child="check_tenure_type_str_attrs" showInParent="True" parent="social_tenure_relationship" name="fk_pc_social_tenure_relationship_id_pc_check_tenure_type_str_attrs_social_tenure_relationship_id" parentColumn="id" showInChild="True" childColumn="social_tenure_relationship_id"/>
+   <EntityRelation displayColumns="name,code" child="check_tenure_type_str_attrs" showInParent="True" parent="check_tenure_type" name="fk_pc_check_tenure_type_id_pc_check_tenure_type_str_attrs_type_de_tenure" parentColumn="id" showInChild="True" childColumn="type_de_tenure"/>
+   <EntityRelation displayColumns="name,code" child="Enqueteur" showInParent="True" parent="check_genre" name="fk_pc_check_genre_id_pc_enqueteur_genre" parentColumn="id" showInChild="True" childColumn="genre"/>
+   <EntityRelation displayColumns="code_menage" child="Enqueteur" showInParent="True" parent="Menage" name="fk_pc_menage_id_pc_enqueteur_menage_code" parentColumn="id" showInChild="True" childColumn="menage_code"/>
+   <EntityRelation displayColumns="name,code" child="MembreFamille_supporting_document" showInParent="True" parent="check_membrefamille_document_type" name="fk_pc_check_membrefamille_document_type_id_pc_membrefamille_supporting_document_document_type" parentColumn="id" showInChild="True" childColumn="document_type"/>
+   <EntityRelation displayColumns="" child="MembreFamille_supporting_document" showInParent="True" parent="MembreFamille" name="fk_pc_membrefamille_id_pc_membrefamille_supporting_document_membrefamille_id" parentColumn="id" showInChild="True" childColumn="membrefamille_id"/>
+   <EntityRelation displayColumns="" child="MembreFamille_supporting_document" showInParent="True" parent="supporting_document" name="fk_pc_supporting_document_id_pc_membrefamille_supporting_document_supporting_doc_id" parentColumn="id" showInChild="True" childColumn="supporting_doc_id"/>
+   <EntityRelation displayColumns="code_menage" child="MembreFamille" showInParent="True" parent="Menage" name="fk_pc_menage_id_pc_membrefamille_mf_code_menage" parentColumn="id" showInChild="True" childColumn="mf_code_menage"/>
+   <EntityRelation displayColumns="name,code" child="MembreFamille" showInParent="True" parent="check_membrefamille_document_type" name="fk_pc_check_membrefamille_document_type_id_pc_membrefamille_type_id" parentColumn="id" showInChild="True" childColumn="type_id"/>
+   <EntityRelation displayColumns="name,code" child="MembreFamille" showInParent="True" parent="check_genre" name="fk_pc_check_genre_id_pc_membrefamille_genre" parentColumn="id" showInChild="True" childColumn="genre"/>
+   <EntityRelation displayColumns="name,code" child="MembreFamille" showInParent="True" parent="check_etat_civil" name="fk_pc_check_etat_civil_id_pc_membrefamille_etat_civil" parentColumn="id" showInChild="True" childColumn="etat_civil"/>
+   <EntityRelation displayColumns="name,code" child="MembreFamille" showInParent="True" parent="check_occupation" name="fk_pc_check_occupation_id_pc_membrefamille_occupation" parentColumn="id" showInChild="True" childColumn="occupation"/>
+   <EntityRelation displayColumns="name,code" child="MembreFamille" showInParent="True" parent="check_lien_parente" name="fk_pc_check_lien_parente_id_pc_membrefamille_lien_parente_menage" parentColumn="id" showInChild="True" childColumn="lien_parente_menage"/>
+   <EntityRelation displayColumns="name,code" child="MembreFamille" showInParent="True" parent="check_str_avec_parcelle" name="fk_pc_check_str_avec_parcelle_id_pc_membrefamille_relation_de_tenure" parentColumn="id" showInChild="True" childColumn="relation_de_tenure"/>
+   <EntityRelation displayColumns="code_menage" child="Enquette" showInParent="True" parent="Menage" name="fk_pc_menage_id_pc_enquette_enq_code_menage" parentColumn="id" showInChild="True" childColumn="enq_code_menage"/>
+   <EntityRelation displayColumns="nom,postnom,prenom" child="Enquette" showInParent="True" parent="Repondant" name="fk_pc_repondant_id_pc_enquette_enq_code_repondant" parentColumn="id" showInChild="True" childColumn="enq_code_repondant"/>
+   <EntityRelation displayColumns="id_national" child="Enquette" showInParent="True" parent="Personne" name="fk_pc_personne_id_pc_enquette_enq_code_personne" parentColumn="id" showInChild="True" childColumn="enq_code_personne"/>
+   <EntityRelation displayColumns="nom,postnom,prenom" child="Enquette" showInParent="True" parent="Temoins" name="fk_pc_temoins_id_pc_enquette_enq_code_temoins" parentColumn="id" showInChild="True" childColumn="enq_code_temoins"/>
+   <EntityRelation displayColumns="numero_cadastral" child="Enquette" showInParent="True" parent="Parcelle" name="fk_pc_parcelle_id_pc_enquette_enq_code_parcelle" parentColumn="id" showInChild="True" childColumn="enq_code_parcelle"/>
+   <EntityRelation displayColumns="name,code" child="Acquisition" showInParent="True" parent="check_mode_acquisition" name="fk_pc_check_mode_acquisition_id_pc_acquisition_mode_acquisition" parentColumn="id" showInChild="True" childColumn="mode_acquisition"/>
+   <EntityRelation displayColumns="numero_identification" child="Acquisition" showInParent="True" parent="Parcelle" name="fk_pc_parcelle_id_pc_acquisition_code_person" parentColumn="id" showInChild="True" childColumn="code_person"/>
+   <EntityRelation displayColumns="numero_cadastral" child="Conflit" showInParent="True" parent="Parcelle" name="fk_pc_parcelle_id_pc_conflit_conflit_parcelle_code" parentColumn="id" showInChild="True" childColumn="conflit_parcelle_code"/>
+   <EntityRelation displayColumns="name,code" child="Conflit" showInParent="True" parent="check_partie_conflit" name="fk_pc_check_partie_conflit_id_pc_conflit_partie_conflit" parentColumn="id" showInChild="True" childColumn="partie_conflit"/>
+   <EntityRelation displayColumns="name,code" child="Conflit" showInParent="True" parent="check_type_conflit" name="fk_pc_check_type_conflit_id_pc_conflit_type_conflit" parentColumn="id" showInChild="True" childColumn="type_conflit"/>
+   <EntityRelation displayColumns="name,code" child="Conflit" showInParent="True" parent="check_status_conflit" name="fk_pc_check_status_conflit_id_pc_conflit_status_conflit" parentColumn="id" showInChild="True" childColumn="status_conflit"/>
+   <EntityRelation displayColumns="" child="social_tenure_relationship" showInParent="True" parent="Personne" name="fk_pc_personne_id_pc_social_tenure_relationship_personne_id" parentColumn="id" showInChild="True" childColumn="personne_id"/>
+   <EntityRelation displayColumns="" child="social_tenure_relationship" showInParent="True" parent="Structure" name="fk_pc_structure_id_pc_social_tenure_relationship_structure_id" parentColumn="id" showInChild="True" childColumn="structure_id"/>
+   <EntityRelation displayColumns="" child="social_tenure_relationship" showInParent="True" parent="Parcelle" name="fk_pc_parcelle_id_pc_social_tenure_relationship_parcelle_id" parentColumn="id" showInChild="True" childColumn="parcelle_id"/>
+  </Relations>
+  <SocialTenure layerDisplay="" tenureTypeList="check_tenure_type" spatialUnit="Structure,Parcelle" supportsMultipleParties="False" party="Personne">
+   <SpatialUnitTenureMappings>
+    <Mapping tenureTypeList="check_tenure_type" spatialUnit="Parcelle"/>
+    <Mapping tenureTypeList="check_tenure_type" spatialUnit="Structure"/>
+   </SpatialUnitTenureMappings>
+   <CustomAttributes>
+    <TenureEntity tenureTypeList="check_tenure_type" entity="check_tenure_type_str_attrs"/>
+   </CustomAttributes>
+  </SocialTenure>
+ </Profile>
+</Configuration>
