@@ -4,4 +4,4 @@ Context: The profile is based on Uganda's Customary Land Tenure system where ent
 
 **Social Tenure Relationship (STR) Data Model**
 
-<img alt="Lusaka City Council - Social Tenure Relationship Entities" src="../../images/readme/party_entities_pader_ug.png" />
+<img alt="Lusaka City Council - Social Tenure Relationship Entities" src="../images/readme/party_entities_pader_ug.png" />

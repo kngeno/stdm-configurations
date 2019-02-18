@@ -4,4 +4,4 @@ Context: The context of this configuration is Tenure Security for Smallholder fa
 
 **Social Tenure Relationship (STR) Data Model**
 
-<img alt="Lusaka City Council - Social Tenure Relationship Entities" src="../../images/readme/party_entities_phillipines.png" />
+<img alt="Lusaka City Council - Social Tenure Relationship Entities" src="../images/readme/party_entities_phillipines.png" />

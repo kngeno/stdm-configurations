@@ -4,4 +4,4 @@ Context: This extensive configuration was used to collect data for a number of v
 
 **Social Tenure Relationship (STR) Data Model**
 
-<img alt="Lusaka City Council - Social Tenure Relationship Entities" src="../../images/readme/party_entities_darfur.png" />
+<img alt="Lusaka City Council - Social Tenure Relationship Entities" src="../images/readme/party_entities_darfur.png" />
