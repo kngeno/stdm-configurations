@@ -4,7 +4,7 @@ Context: This configuration represents customary land owned by persons for purpo
 
 **Social Tenure Entities**
 
-<img alt="Chamuka Chiefdom - Social Tenure Entities"/>
+<!-- <img alt="Chamuka Chiefdom - Social Tenure Entities"/> -->
 
 **Sample output: Certificate of Customary Land Occupancy**
 
