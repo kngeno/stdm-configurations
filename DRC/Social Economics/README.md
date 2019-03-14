@@ -4,4 +4,4 @@ Context: The party entity in the configuration is person and spatial unit entiti
 
 **Social Tenure Relationship (STR) Data Model**
 
-<img alt="Lusaka City Council - Social Tenure Relationship Entities" src="../images/readme/party_entities_social_economics_drc.png" />
+<img alt="Lusaka City Council - Social Tenure Relationship Entities" src="../../images/readme/party_entities_social_economics_drc.png" />
