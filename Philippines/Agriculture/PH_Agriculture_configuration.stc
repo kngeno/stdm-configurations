@@ -1,0 +1,889 @@
+<Configuration version="1.3">
+ <Profile description="" name="Salar_Household_survey_form">
+  <ValueLists>
+   <ValueList name="check_social_tenure_relationship_document_type">
+    <CodeValue value="General" code=""/>
+   </ValueList>
+   <ValueList name="check_tenure_type">
+    <CodeValue value="Nanag-iya pero naka prenda" code=""/>
+    <CodeValue value="Nanag-iya pero wala na prenda" code=""/>
+    <CodeValue value="Nanagiya/namana" code=""/>
+    <CodeValue value="Naki-puyo nga naay bayad" code=""/>
+    <CodeValue value="Naki-puyo nga way bayad" code=""/>
+    <CodeValue value="Nag-renta" code=""/>
+    <CodeValue value="Uban pa, nganli" code=""/>
+   </ValueList>
+   <ValueList name="check_enumerator_document_type">
+    <CodeValue value="General" code=""/>
+   </ValueList>
+   <ValueList name="check_household_document_type">
+    <CodeValue value="General" code=""/>
+   </ValueList>
+   <ValueList name="check_household_member_document_type">
+    <CodeValue value="General" code=""/>
+   </ValueList>
+   <ValueList name="check_enumeration_document_type">
+    <CodeValue value="General" code=""/>
+   </ValueList>
+   <ValueList name="check_house_document_type">
+    <CodeValue value="General" code=""/>
+   </ValueList>
+   <ValueList name="check_garden_document_type">
+    <CodeValue value="General" code=""/>
+   </ValueList>
+   <ValueList name="check_farm_document_type">
+    <CodeValue value="General" code=""/>
+   </ValueList>
+   <ValueList name="check_sex">
+    <CodeValue value="male" code=""/>
+    <CodeValue value="female" code=""/>
+   </ValueList>
+   <ValueList name="check_house_hold_properties">
+    <CodeValue value="Tindahan" code=""/>
+    <CodeValue value="Sakyanan/mga sakyanan" code=""/>
+    <CodeValue value="Uma sa sulod sa yutang kabilin" code=""/>
+    <CodeValue value="Uma sa gawas sa yutang kabilin" code=""/>
+    <CodeValue value="Balay/mga panimalay" code=""/>
+    <CodeValue value="Uban pa, nganli" code=""/>
+   </ValueList>
+   <ValueList name="check_communal_resources">
+    <CodeValue value="Kalasangan" code=""/>
+    <CodeValue value="Lubonganan sa patay nga lawas" code=""/>
+    <CodeValue value="Suba" code=""/>
+    <CodeValue value="Linaw" code=""/>
+    <CodeValue value="Uban pa, nganli" code=""/>
+   </ValueList>
+   <ValueList name="check_programs_and_services">
+    <CodeValue value="Pang-lawas" code=""/>
+    <CodeValue value="Edukasyon" code=""/>
+    <CodeValue value="Panginabuhian" code=""/>
+    <CodeValue value="Merkado" code=""/>
+    <CodeValue value="Pautang" code=""/>
+    <CodeValue value="Seguridad" code=""/>
+    <CodeValue value="4Ps" code=""/>
+    <CodeValue value="Uban pa, nganli" code=""/>
+   </ValueList>
+   <ValueList name="check_savings_type">
+    <CodeValue value="Rural bank" code=""/>
+    <CodeValue value="Kooperadiba" code=""/>
+    <CodeValue value="Sa balay/alkansya" code=""/>
+    <CodeValue value="Uban pa, nganli" code=""/>
+   </ValueList>
+   <ValueList name="check_programs_and_services_provider">
+    <CodeValue value="Gobyerno" code=""/>
+    <CodeValue value="NGO" code=""/>
+    <CodeValue value="Pribado na kompanya/institusyon" code=""/>
+    <CodeValue value="Simbahan" code=""/>
+    <CodeValue value="Uban pa, nganli" code=""/>
+   </ValueList>
+   <ValueList name="check_communal_savings_type">
+    <CodeValue value="Rural bank" code=""/>
+    <CodeValue value="Kooperatiba" code=""/>
+    <CodeValue value="Uban pa, nganli" code=""/>
+   </ValueList>
+   <ValueList name="check_household_priorities">
+    <CodeValue value="Seguridad sa yuta" code=""/>
+    <CodeValue value="seguridad sa pag-kaon" code=""/>
+    <CodeValue value="Kahimtang sa balay puloy-anan" code=""/>
+    <CodeValue value="Limpyo na tubig ilimnonon" code=""/>
+    <CodeValue value="Edukasyon" code=""/>
+    <CodeValue value="Kuryente" code=""/>
+    <CodeValue value="Pag tikad sa kaumahan" code=""/>
+    <CodeValue value="kaselyas" code=""/>
+    <CodeValue value="Kalinaw ug kahapsay sa palibot" code=""/>
+    <CodeValue value="Panginabuhian" code=""/>
+    <CodeValue value="Pang-lawas" code=""/>
+    <CodeValue value="Uban pa, nganli" code=""/>
+   </ValueList>
+   <ValueList name="check_communal_priorities">
+    <CodeValue value="Seguridad sa yuta" code=""/>
+    <CodeValue value="Seguridad sa pag-kaon" code=""/>
+    <CodeValue value="Health centers" code=""/>
+    <CodeValue value="Kalsada/Dalan" code=""/>
+    <CodeValue value="Patubig" code=""/>
+    <CodeValue value="Drainage improvement" code=""/>
+    <CodeValue value="Skwelahan ug mga nindot na pasilidad ini" code=""/>
+    <CodeValue value="Sewerage" code=""/>
+    <CodeValue value="Kuryente" code=""/>
+    <CodeValue value="Signal sa selpon" code=""/>
+    <CodeValue value="Kalinaw ug kahapsay sa palibot" code=""/>
+    <CodeValue value="Merkado" code=""/>
+    <CodeValue value="Seguridad sa kalamidad (bagyo, lanslide, sunog)" code=""/>
+    <CodeValue value="Uban pa, nganli" code=""/>
+   </ValueList>
+   <ValueList name="check_camera_id_number">
+    <CodeValue value="CAM1" code=""/>
+    <CodeValue value="CAM2" code=""/>
+    <CodeValue value="CAM3" code=""/>
+    <CodeValue value="CAM4" code=""/>
+    <CodeValue value="CAM5" code=""/>
+    <CodeValue value="CAM6" code=""/>
+    <CodeValue value="TCAM1" code=""/>
+    <CodeValue value="TCAM2" code=""/>
+    <CodeValue value="TCAM3" code=""/>
+    <CodeValue value="TCAM4" code=""/>
+    <CodeValue value="TCAM5" code=""/>
+    <CodeValue value="TCAM6" code=""/>
+    <CodeValue value="TCAM7" code=""/>
+   </ValueList>
+   <ValueList name="check_relasyon_sa_pnimalay">
+    <CodeValue value="Bana/Asawa" code=""/>
+    <CodeValue value="Anak" code=""/>
+   </ValueList>
+   <ValueList name="check_level_of_education">
+    <CodeValue value="Wala" code=""/>
+    <CodeValue value="Nakatungtung sa elementarya" code=""/>
+    <CodeValue value="Nakahuman ug elementarya" code=""/>
+    <CodeValue value="Nakatungtung ug secondarya" code=""/>
+    <CodeValue value="Nakahuman ug secondarya" code=""/>
+    <CodeValue value="Naka human ug vocational" code=""/>
+    <CodeValue value="Naka tungtung ug kolehiyo" code=""/>
+    <CodeValue value="Naka human ug kolehiyo" code=""/>
+    <CodeValue value="Post graduate" code=""/>
+    <CodeValue value="Post graduate diploma" code=""/>
+    <CodeValue value="Uban pa, nganli" code=""/>
+   </ValueList>
+   <ValueList name="check_type_of_work">
+    <CodeValue value="Mag-uuma" code=""/>
+    <CodeValue value="Laborer" code=""/>
+    <CodeValue value="Nag trabaho sa pribado na kumpanya/panimalay" code=""/>
+    <CodeValue value="Nanag-iya/nag trabaho sa kaugalingong negosyo" code=""/>
+    <CodeValue value="Empleyado sa gobyerno" code=""/>
+    <CodeValue value="Nag trabaho sa laing nasod" code=""/>
+    <CodeValue value="Studyante" code=""/>
+    <CodeValue value="Dili mahimo/bata pa" code=""/>
+    <CodeValue value="Uban pa, nganli" code=""/>
+   </ValueList>
+   <ValueList name="check_tribe">
+    <CodeValue value="Talaandig" code=""/>
+    <CodeValue value="Higa-onon" code=""/>
+    <CodeValue value="Bukidnon" code=""/>
+    <CodeValue value="Umayamnon" code=""/>
+    <CodeValue value="Matigsalug" code=""/>
+    <CodeValue value="Manobo" code=""/>
+    <CodeValue value="Tigwahanon" code=""/>
+    <CodeValue value="Uban pa, nganli" code=""/>
+   </ValueList>
+   <ValueList name="check_ipo">
+    <CodeValue value="MILALITTRA" code=""/>
+    <CodeValue value="NAMAMAYUK" code=""/>
+    <CodeValue value="PTTA/CALUDA" code=""/>
+   </ValueList>
+   <ValueList name="check_structure_material">
+    <CodeValue value="Sementado" code=""/>
+    <CodeValue value="Kahoy" code=""/>
+    <CodeValue value="Kahoy ug Semento" code=""/>
+   </ValueList>
+   <ValueList name="check_structural_use">
+    <CodeValue value="Puloyanan" code=""/>
+    <CodeValue value="Panginabuhian" code=""/>
+    <CodeValue value="Puloyanan ug panginabuhian" code=""/>
+   </ValueList>
+   <ValueList name="check_number_of_floors">
+    <CodeValue value="1 ka-adana" code=""/>
+    <CodeValue value="2 ka-adana" code=""/>
+    <CodeValue value="Uban pa, nganli" code=""/>
+   </ValueList>
+   <ValueList name="check_power_source">
+    <CodeValue value="Buseco" code=""/>
+    <CodeValue value="Febeco" code=""/>
+    <CodeValue value="Solar panel" code=""/>
+    <CodeValue value="Walay kuryente" code=""/>
+    <CodeValue value="Uban pa, nganli" code=""/>
+   </ValueList>
+   <ValueList name="check_drinking_water_source">
+    <CodeValue value="Local water district" code=""/>
+    <CodeValue value="Atabay/balon" code=""/>
+    <CodeValue value="Mineral water na mapalit sa tindahan" code=""/>
+    <CodeValue value="Uban pa, Nganli" code=""/>
+   </ValueList>
+   <ValueList name="check_domestic_water_source">
+    <CodeValue value="Local water district" code=""/>
+    <CodeValue value="Tubig gikan sa komunidad" code=""/>
+    <CodeValue value="Atabay/balon" code=""/>
+    <CodeValue value="Suba" code=""/>
+    <CodeValue value="Linaw" code=""/>
+    <CodeValue value="Tubod" code=""/>
+    <CodeValue value="Tubig ulan" code=""/>
+    <CodeValue value="Uban pa, nganli" code=""/>
+   </ValueList>
+   <ValueList name="check_sanitation">
+    <CodeValue value="Kaugalingong kaselyas" code=""/>
+    <CodeValue value="Komunal na kaselyas" code=""/>
+   </ValueList>
+   <ValueList name="check_toilet_type">
+    <CodeValue value="Adunay septic tank" code=""/>
+    <CodeValue value="Walay septic tank" code=""/>
+    <CodeValue value="Gina lubong lng sa yuta" code=""/>
+    <CodeValue value="Galibang sa sampinitan/kasagbutan" code=""/>
+    <CodeValue value="Uban pa, nganli" code=""/>
+   </ValueList>
+   <ValueList name="check_gps_id_number">
+    <CodeValue value="GPS 1" code=""/>
+    <CodeValue value="GPS 2" code=""/>
+    <CodeValue value="GPS 3" code=""/>
+    <CodeValue value="GPS 4" code=""/>
+    <CodeValue value="TGPS 1" code=""/>
+    <CodeValue value="TGPS 2" code=""/>
+    <CodeValue value="TGPS 3" code=""/>
+    <CodeValue value="TGPS 4" code=""/>
+    <CodeValue value="TGPS 5" code=""/>
+    <CodeValue value="TGPS 6" code=""/>
+    <CodeValue value="TGPS 7" code=""/>
+   </ValueList>
+   <ValueList name="check_hose_lot_tenure">
+    <CodeValue value="Kaugalingong yuta pero na prenda" code=""/>
+    <CodeValue value="Kaugalingong yuta pero wala na prenda" code=""/>
+    <CodeValue value="Kaugalingong yuta/ namana" code=""/>
+    <CodeValue value="Daghan sila nakipuyo sa yuta pero gabayad" code=""/>
+    <CodeValue value="Naki-puyo sa yuta pero wa gabayad" code=""/>
+    <CodeValue value="Gi-rentahan" code=""/>
+    <CodeValue value="Uban pa, nganli" code=""/>
+   </ValueList>
+   <ValueList name="check_house_lot_document_type">
+    <CodeValue value="Resibo sa land tax" code=""/>
+    <CodeValue value="Registered Tenancy document" code=""/>
+    <CodeValue value="Kontrata" code=""/>
+    <CodeValue value="Pag-arkila" code=""/>
+    <CodeValue value="Walay dokumento" code=""/>
+    <CodeValue value="Uban pa, nganli" code=""/>
+   </ValueList>
+   <ValueList name="check_house_tenure_type">
+    <CodeValue value="Kaugalingong balay pero na prenda" code=""/>
+    <CodeValue value="Kaugalingong balay pero wala na prenda" code=""/>
+    <CodeValue value="Kaugalingong balay/ namana" code=""/>
+    <CodeValue value="Daghan sila naki-puyo sa balay pero ga bayad" code=""/>
+    <CodeValue value="Daghan sila naki-puyo sa balay pero dili ga bayad" code=""/>
+    <CodeValue value="Ga renta" code=""/>
+    <CodeValue value="Uban pa, nganli" code=""/>
+   </ValueList>
+   <ValueList name="check_housedocumenttype">
+    <CodeValue value="Dokumento nga na rehistro (1)" code=""/>
+    <CodeValue value="Kontrata" code=""/>
+    <CodeValue value="Pag-arkila/renta" code=""/>
+    <CodeValue value="Walay dokumento" code=""/>
+    <CodeValue value="Uban pa, nganli" code=""/>
+   </ValueList>
+   <ValueList name="check_garden_plants_use">
+    <CodeValue value="Pagkaon" code=""/>
+    <CodeValue value="Kita/Abot" code=""/>
+    <CodeValue value="Tambal" code=""/>
+    <CodeValue value="Pang dekorasyon/ pa-nindot sa panimalay" code=""/>
+    <CodeValue value="Uban pa, nganli" code=""/>
+   </ValueList>
+   <ValueList name="check_garden_plants">
+    <CodeValue value="Utanon" code=""/>
+    <CodeValue value="Mga kahoy nga gapamunga ug prutas" code=""/>
+    <CodeValue value="Mga Lagutmon" code=""/>
+    <CodeValue value="Ornamental" code=""/>
+    <CodeValue value="Mga tambal nga tanom" code=""/>
+   </ValueList>
+   <ValueList name="check_farmtenure_type">
+    <CodeValue value="Pribado na yuta/luna" code=""/>
+    <CodeValue value="Gipa-salig nga yuta/luna" code=""/>
+    <CodeValue value="Institution nga yuta/luna" code=""/>
+    <CodeValue value="Gobyerno nga yuta/luna" code=""/>
+    <CodeValue value="Gobyerno na yuta pero abli sa publiko" code=""/>
+    <CodeValue value="Yuta/luna nga gipanag-iyahan sa kumunidad" code=""/>
+    <CodeValue value="Uban pa, nganli" code=""/>
+   </ValueList>
+   <ValueList name="check_farmdocument_type">
+    <CodeValue value="Pag dawat sa Buwis sa yuta" code=""/>
+    <CodeValue value="Registred tenancy document" code=""/>
+    <CodeValue value="Kontrata" code=""/>
+    <CodeValue value="Arkila" code=""/>
+    <CodeValue value="Walay dokumento" code=""/>
+   </ValueList>
+   <ValueList name="check_source_of_conflict">
+    <CodeValue value="Gobyerno" code=""/>
+    <CodeValue value="Pribado/negosyo nga sektor" code=""/>
+    <CodeValue value="Mga migrante/ nagpuyo" code=""/>
+    <CodeValue value="Silingan" code=""/>
+    <CodeValue value="Uban pa, nganli" code=""/>
+   </ValueList>
+   <ValueList name="check_natural_calamity">
+    <CodeValue value="Pag- baha" code=""/>
+    <CodeValue value="Landslide" code=""/>
+    <CodeValue value="Uban pa, nganli" code=""/>
+   </ValueList>
+   <ValueList name="check_crops">
+    <CodeValue value="Utanon" code=""/>
+    <CodeValue value="Prutas" code=""/>
+    <CodeValue value="Mga tanom nga panindot sa palibot" code=""/>
+    <CodeValue value="Bugas" code=""/>
+    <CodeValue value="Mais" code=""/>
+    <CodeValue value="Lagutmon" code=""/>
+    <CodeValue value="Agro-forest trees" code=""/>
+    <CodeValue value="Uban pa, nganli" code=""/>
+   </ValueList>
+   <ValueList name="check_type_of_work_in_farm">
+    <CodeValue value="Pamilya" code=""/>
+    <CodeValue value="Kommunal" code=""/>
+    <CodeValue value="Kooperatiba" code=""/>
+    <CodeValue value="Kontrata (isip empleyado)" code=""/>
+    <CodeValue value="Kontrata (isip amo)" code=""/>
+    <CodeValue value="Uban pa, nganli" code=""/>
+   </ValueList>
+   <ValueList name="check_animal">
+    <CodeValue value="Kabaw" code=""/>
+    <CodeValue value="Kabayo" code=""/>
+    <CodeValue value="Baka" code=""/>
+    <CodeValue value="Walay gi gamit nga hayop" code=""/>
+    <CodeValue value="Uban pa, nganli" code=""/>
+   </ValueList>
+   <ValueList name="check_farm_tools">
+    <CodeValue value="Tractor/implements" code=""/>
+    <CodeValue value="Mga kagamitan nga gitaud sa Hayop" code=""/>
+    <CodeValue value="Walay kahimanan" code=""/>
+    <CodeValue value="Uban pa, nganli" code=""/>
+   </ValueList>
+   <ValueList name="check_type_of_fertilizer_and_pesticides">
+    <CodeValue value="Organic nga Abono" code=""/>
+    <CodeValue value="Synthetic nga Abono" code=""/>
+    <CodeValue value="Pesticides" code=""/>
+    <CodeValue value="Uban pa, nganli" code=""/>
+   </ValueList>
+   <ValueList name="check_farm_priorities">
+    <CodeValue value="Abono" code=""/>
+    <CodeValue value="Binhi" code=""/>
+    <CodeValue value="Mga kagamitan alang sa pagpanguma" code=""/>
+    <CodeValue value="Pestisidyo" code=""/>
+    <CodeValue value="Mga pagbansay" code=""/>
+    <CodeValue value="Uban pa, nganli" code=""/>
+   </ValueList>
+   <ValueList name="check_farm_production_purpose">
+    <CodeValue value="Para Kunsomo sa Balay" code=""/>
+    <CodeValue value="Para sa kinatibok-an/komunal nga konsumo" code=""/>
+    <CodeValue value="Para Panginabuhian" code=""/>
+    <CodeValue value="Uban pa, nganli" code=""/>
+   </ValueList>
+   <ValueList name="check_mode_of_selling">
+    <CodeValue value="Direkta nga Pagbaligya sa market" code=""/>
+    <CodeValue value="Middle-man/nay buyer" code=""/>
+    <CodeValue value="Kontrata" code=""/>
+    <CodeValue value="Subsidy sa Gobyerno" code=""/>
+    <CodeValue value="Uban pa, nganli" code=""/>
+   </ValueList>
+   <ValueList name="check_irrigation_source">
+    <CodeValue value="Tagsa-tagsa nga Irigasyon" code=""/>
+    <CodeValue value="Kumunal nga Irigasyon" code=""/>
+    <CodeValue value="Gikan sa Ulan" code=""/>
+    <CodeValue value="Walay Irigasyon" code=""/>
+    <CodeValue value="Ubapn pa, nganli" code=""/>
+   </ValueList>
+   <ValueList name="check_irrigation_provider">
+    <CodeValue value="IP organisasyon" code=""/>
+    <CodeValue value="Gobyerno" code=""/>
+    <CodeValue value="Pribado nga negosyo" code=""/>
+    <CodeValue value="Non-government organization" code=""/>
+    <CodeValue value="Simbahan" code=""/>
+    <CodeValue value="Uban pa, nganli" code=""/>
+   </ValueList>
+  </ValueLists>
+  <Associations>
+   <Association secondParent="HOUSEHOLD" firstParent="check_house_hold_properties" shortName="household_properties" name="sa_household_properties"/>
+   <Association secondParent="HOUSEHOLD" firstParent="check_communal_resources" shortName="communal_resources" name="sa_communal_resources"/>
+   <Association secondParent="HOUSEHOLD" firstParent="check_programs_and_services" shortName="programs_and_services" name="sa_programs_and_services"/>
+   <Association secondParent="HOUSEHOLD" firstParent="check_programs_and_services_provider" shortName="provider_of_programs_and_services" name="sa_provider_of_programs_and_services"/>
+   <Association secondParent="HOUSEHOLD" firstParent="check_savings_type" shortName="family_savings_type" name="sa_family_savings_type"/>
+   <Association secondParent="HOUSEHOLD" firstParent="check_communal_savings_type" shortName="community_savings_type" name="sa_community_savings_type"/>
+   <Association secondParent="HOUSEHOLD" firstParent="check_household_priorities" shortName="household_priorities" name="sa_household_priorities"/>
+   <Association secondParent="HOUSEHOLD" firstParent="check_communal_priorities" shortName="villiage_priorities" name="sa_villiage_priorities"/>
+   <Association secondParent="HOUSE" firstParent="check_structural_use" shortName="structure_use" name="sa_structure_use"/>
+   <Association secondParent="HOUSE" firstParent="check_power_source" shortName="power_source" name="sa_power_source"/>
+   <Association secondParent="HOUSE" firstParent="check_drinking_water_source" shortName="drinking_water_source" name="sa_drinking_water_source"/>
+   <Association secondParent="HOUSE" firstParent="check_domestic_water_source" shortName="domestic_water_source" name="sa_domestic_water_source"/>
+   <Association secondParent="HOUSE" firstParent="check_toilet_type" shortName="toilet_type" name="sa_toilet_type"/>
+   <Association secondParent="HOUSE" firstParent="check_house_lot_document_type" shortName="house_lot_document_type" name="sa_house_lot_document_type"/>
+   <Association secondParent="GARDEN" firstParent="check_garden_plants_use" shortName="garden_use" name="sa_garden_use"/>
+   <Association secondParent="GARDEN" firstParent="check_garden_plants" shortName="garden_plants" name="sa_garden_plants"/>
+   <Association secondParent="FARM" firstParent="check_source_of_conflict" shortName="conflict_caused_displacement" name="sa_conflict_caused_displacement"/>
+   <Association secondParent="FARM" firstParent="check_natural_calamity" shortName="displacement_caused_by_calamity" name="sa_displacement_caused_by_calamity"/>
+   <Association secondParent="FARM" firstParent="check_crops" shortName="crops_planted" name="sa_crops_planted"/>
+   <Association secondParent="FARM" firstParent="check_type_of_work_in_farm" shortName="type_of_work_in_the_farm" name="sa_type_of_work_in_the_farm"/>
+   <Association secondParent="FARM" firstParent="check_animal" shortName="animals_used_in_farm" name="sa_animals_used_in_farm"/>
+   <Association secondParent="FARM" firstParent="check_farm_tools" shortName="farm_tools" name="sa_farm_tools"/>
+   <Association secondParent="FARM" firstParent="check_farm_priorities" shortName="important_needs_for_farm" name="sa_important_needs_for_farm"/>
+   <Association secondParent="FARM" firstParent="check_farm_production_purpose" shortName="farm_production" name="sa_farm_production"/>
+   <Association secondParent="FARM" firstParent="check_mode_of_selling" shortName="mode_of_selling" name="sa_mode_of_selling"/>
+   <Association secondParent="FARM" firstParent="check_irrigation_source" shortName="irrigation_source" name="sa_irrigation_source"/>
+   <Association secondParent="FARM" firstParent="check_irrigation_provider" shortName="irrigation_provider" name="sa_irrigation_provider"/>
+   <Association secondParent="HOUSEHOLD MEMBER" firstParent="check_level_of_education" shortName="level_of_education" name="sa_level_of_education"/>
+   <Association secondParent="HOUSEHOLD MEMBER" firstParent="check_type_of_work" shortName="type_of_work" name="sa_type_of_work"/>
+   <Association secondParent="HOUSE" firstParent="check_house_document_type" shortName="house_document_type" name="sa_house_document_type"/>
+  </Associations>
+  <Entity editable="False" global="False" rowindex="-1" associative="False" description="" proxy="False" createId="True" supportsDocuments="False" shortName="check_tenure_type_str_attrs" name="sa_check_tenure_type_str_attrs" label="">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="-1" minimum="0" maximum="2147483647" description="" index="False" name="social_tenure_relationship_id" searchable="True" TYPE_INFO="FOREIGN_KEY" label="" mandatory="False">
+     <Relation name="fk_sa_social_tenure_relationship_id_sa_check_tenure_type_str_attrs_social_tenure_relationship_id"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="-1" minimum="0" maximum="1" description="" index="False" name="dummy_custom_str" searchable="True" TYPE_INFO="VARCHAR" label="" mandatory="False"/>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="0" associative="False" description="" documentTypeLookup="check_enumerator_document_type" proxy="False" createId="True" supportsDocuments="True" shortName="ENUMERATOR" name="sa_enumerator" label="ENUMERATOR">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="0" minimum="0" maximum="30" description="" index="False" name="first_name" searchable="True" TYPE_INFO="VARCHAR" label="Pangalan" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="1" minimum="0" maximum="30" description="" index="False" name="last_name" searchable="True" TYPE_INFO="VARCHAR" label="Apilyedo" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="2" minimum="0" maximum="2147483647" description="" index="False" name="gender" searchable="True" TYPE_INFO="LOOKUP" label="sex" mandatory="False">
+     <Relation name="fk_sa_check_sex_id_sa_enumerator_gender"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="3" minimum="1752-09-14" maximum="7999-12-31" description="" index="False" name="date_of_birth" searchable="False" TYPE_INFO="DATE" label="Adlaw na natawhan" mandatory="False">
+     <currentDate minimum="False" maximum="False"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="4" minimum="0" maximum="30" description="" index="False" name="barangay_enumerator" searchable="True" TYPE_INFO="VARCHAR" label="Barangay sa enumerator" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="5" minimum="0" maximum="30" description="" index="False" name="contact_number" searchable="True" TYPE_INFO="VARCHAR" label="Contact number" mandatory="False"/>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="1" associative="False" description="" documentTypeLookup="check_household_document_type" proxy="False" createId="True" supportsDocuments="True" shortName="HOUSEHOLD" name="sa_household" label="PANIMALAY">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="0" minimum="0" maximum="30" description="" index="False" name="survey_form_number" searchable="True" TYPE_INFO="VARCHAR" label="Survey form number" mandatory="True"/>
+    <Column unique="False" tip="" rowindex="1" description="" index="False" name="household_properties" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="Kabtangan na gipanagiyahan sa pamilya" mandatory="False">
+     <associationEntity name="sa_household_properties"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="2" minimum="0" maximum="30" description="" index="False" name="other_householdprop" searchable="True" TYPE_INFO="VARCHAR" label="Uban pa, nganli" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="3" minimum="0" maximum="30" description="" index="False" name="monthly_farming_income" searchable="True" TYPE_INFO="VARCHAR" label="Binulan nga kita sa pag uma" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="4" minimum="0" maximum="30" description="" index="False" name="monthly_income" searchable="True" TYPE_INFO="VARCHAR" label="Binulan nga kita na dili gikan sa pag uma" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="5" minimum="0" maximum="30" description="" index="False" name="monthly_expenses" searchable="True" TYPE_INFO="VARCHAR" label="Binulan nga gasto sa panimalay" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="6" minimum="0" maximum="30" description="" index="False" name="monthly_farming_expenses" searchable="True" TYPE_INFO="VARCHAR" label="BInulan na gasto  sa pag tikad sa umahan" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="7" description="" index="False" name="communal_resources" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="Mga rekurso/resources sa yutang kabilin nga na gamit/napuslan" mandatory="False">
+     <associationEntity name="sa_communal_resources"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="8" minimum="0" maximum="30" description="" index="False" name="other_communal_resources" searchable="True" TYPE_INFO="VARCHAR" label="Uban pa, nganli" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="9" description="" index="False" name="programs_and_services" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="Mga programa ug serbisyo na napuslan/nasinati" mandatory="False">
+     <associationEntity name="sa_programs_and_services"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="10" minimum="0" maximum="30" description="" index="False" name="other_programs_and_services" searchable="True" TYPE_INFO="VARCHAR" label="Uban pa, nganli" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="11" description="" index="False" name="provider_of_programs_and_services" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="Nag hatag sa mga programa ug serbisyo" mandatory="False">
+     <associationEntity name="sa_provider_of_programs_and_services"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="12" minimum="0" maximum="30" description="" index="False" name="other_programs_and_services_provider" searchable="True" TYPE_INFO="VARCHAR" label="Uban pa, nganli" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="13" description="" index="False" name="family_savings" searchable="False" TYPE_INFO="BOOL" label="Naa bay tinigom/gitagoan nga kwarta sa panimalay?" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="14" description="" index="False" name="family_savings_type" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="Unsa na klase sa pag tipig/tigom" mandatory="False">
+     <associationEntity name="sa_family_savings_type"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="15" minimum="0" maximum="30" description="" index="False" name="other_family_savings_type" searchable="True" TYPE_INFO="VARCHAR" label="Uban pa, nganli" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="16" description="" index="False" name="community_savings" searchable="False" TYPE_INFO="BOOL" label="Naa bay gi tiguman/ gi tipig ang komunidad" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="17" description="" index="False" name="community_savings_type" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="Klase sa pag tipig/tigom" mandatory="False">
+     <associationEntity name="sa_community_savings_type"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="18" minimum="0" maximum="30" description="" index="False" name="other_community_savings" searchable="True" TYPE_INFO="VARCHAR" label="Uban pa, nganli" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="19" description="" index="False" name="household_priorities" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="3 ka prayoridad sa panimalay" mandatory="False">
+     <associationEntity name="sa_household_priorities"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="20" minimum="0" maximum="30" description="" index="False" name="other_household_priorities" searchable="True" TYPE_INFO="VARCHAR" label="Uban pa, nganli" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="21" description="" index="False" name="villiage_priorities" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="3 ka prayoridad sa komunidad" mandatory="False">
+     <associationEntity name="sa_villiage_priorities"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="22" minimum="0" maximum="30" description="" index="False" name="other_communal_priorities" searchable="True" TYPE_INFO="VARCHAR" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="23" minimum="0" maximum="2147483647" description="" index="False" name="camera_id_number" searchable="True" TYPE_INFO="LOOKUP" label="Camera ID number" mandatory="False">
+     <Relation name="fk_sa_check_camera_id_number_id_sa_household_camera_id_number"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="24" minimum="0" maximum="30" description="" index="False" name="photo_file_name_family_pic" searchable="True" TYPE_INFO="VARCHAR" label="Photo file name sa family picture" mandatory="False"/>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="2" associative="False" description="" documentTypeLookup="check_household_member_document_type" proxy="False" createId="True" supportsDocuments="True" shortName="HOUSEHOLD MEMBER" name="sa_household_member" label="MYEMBRO SA PANIMALAY">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="0" minimum="0" maximum="30" description="" index="False" name="first_name" searchable="True" TYPE_INFO="VARCHAR" label="Pangalan" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="1" minimum="0" maximum="30" description="" index="False" name="last_name" searchable="True" TYPE_INFO="VARCHAR" label="Apilyedo" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="2" minimum="0" maximum="2147483647" description="" index="False" name="household_details" searchable="False" TYPE_INFO="FOREIGN_KEY" label="Survey form number" mandatory="False">
+     <Relation name="fk_sa_household_id_sa_household_member_household_details"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="3" minimum="0" maximum="2147483647" description="" index="False" name="gender" searchable="True" TYPE_INFO="LOOKUP" label="sex" mandatory="False">
+     <Relation name="fk_sa_check_sex_id_sa_household_member_gender"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="4" minimum="0001-01-01" maximum="9999-12-31" description="" index="False" name="date_of_birth" searchable="False" TYPE_INFO="DATE" label="Adlaw sa katawhan" mandatory="False">
+     <currentDate minimum="False" maximum="False"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="5" minimum="0" maximum="2147483647" description="" index="False" name="household_relation" searchable="True" TYPE_INFO="LOOKUP" label="Relasyon sa panimalay" mandatory="False">
+     <Relation name="fk_sa_check_relasyon_sa_pnimalay_id_sa_household_member_household_relation"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="6" description="" index="False" name="level_of_education" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="Estado sa pageskwela" mandatory="False">
+     <associationEntity name="sa_level_of_education"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="7" minimum="0" maximum="30" description="" index="False" name="other_level_of_education" searchable="True" TYPE_INFO="VARCHAR" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="8" description="" index="False" name="type_of_work" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="Klase sa trabaho" mandatory="False">
+     <associationEntity name="sa_type_of_work"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="9" minimum="0" maximum="30" description="" index="False" name="other_type_of_work" searchable="True" TYPE_INFO="VARCHAR" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="10" minimum="0" maximum="2147483647" description="" index="False" name="tribe" searchable="True" TYPE_INFO="LOOKUP" label="Tribo" mandatory="False">
+     <Relation name="fk_sa_check_tribe_id_sa_household_member_tribe"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="11" minimum="0" maximum="30" description="" index="False" name="other_tribe" searchable="True" TYPE_INFO="VARCHAR" label="Uban pa, nganli" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="12" description="" index="False" name="do_you_have_farmland" searchable="False" TYPE_INFO="BOOL" label="Aduna bay farm land?" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="13" minimum="0" maximum="30" description="" index="False" name="monthly_income" searchable="True" TYPE_INFO="VARCHAR" label="Binulan nga kita" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="14" minimum="0" maximum="2147483647" description="" index="False" name="camera_id_number" searchable="True" TYPE_INFO="LOOKUP" label="Camera ID number" mandatory="False">
+     <Relation name="fk_sa_check_camera_id_number_id_sa_household_member_camera_id_number"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="15" minimum="0" maximum="30" description="" index="False" name="photo_file_name" searchable="True" TYPE_INFO="VARCHAR" label="Photo file name" mandatory="False"/>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="3" associative="False" description="" documentTypeLookup="check_enumeration_document_type" proxy="False" createId="True" supportsDocuments="True" shortName="ENUMERATION" name="sa_enumeration" label="ENUMERATION">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="0" minimum="0" maximum="30" description="" index="False" name="survey_form_number" searchable="True" TYPE_INFO="VARCHAR" label="Survey form number" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="1" minimum="1752-09-14 00:00:00" maximum="9999-12-31 23:59:59.999999" description="" index="False" name="date_and_time" searchable="False" TYPE_INFO="DATETIME" label="Date and time" mandatory="False">
+     <currentDateTime minimum="False" maximum="False"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="2" minimum="0" maximum="2147483647" description="" index="False" name="respondent" searchable="False" TYPE_INFO="FOREIGN_KEY" label="Respondent" mandatory="False">
+     <Relation name="fk_sa_household_member_id_sa_enumeration_respondent"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="3" minimum="0" maximum="2147483647" description="" index="False" name="enumerator_details" searchable="False" TYPE_INFO="FOREIGN_KEY" label="Enumerator" mandatory="False">
+     <Relation name="fk_sa_enumerator_id_sa_enumeration_enumerator_details"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="4" minimum="0" maximum="2147483647" description="" index="False" name="municipality" searchable="True" TYPE_INFO="ADMIN_SPATIAL_UNIT" label="Municipality" mandatory="False">
+     <Relation name="fk_admin_spatial_unit_set_id_sa_enumeration_municipality"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="5" minimum="0" maximum="2147483647" description="" index="False" name="barangay" searchable="True" TYPE_INFO="ADMIN_SPATIAL_UNIT" label="Barangay" mandatory="False">
+     <Relation name="fk_admin_spatial_unit_set_id_sa_enumeration_barangay"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="6" minimum="0" maximum="2147483647" description="" index="False" name="sitio" searchable="True" TYPE_INFO="ADMIN_SPATIAL_UNIT" label="Sitio" mandatory="False">
+     <Relation name="fk_admin_spatial_unit_set_id_sa_enumeration_sitio"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="7" minimum="0" maximum="2147483647" description="" index="False" name="ipo" searchable="True" TYPE_INFO="LOOKUP" label="IPO" mandatory="False">
+     <Relation name="fk_sa_check_ipo_id_sa_enumeration_ipo"/>
+    </Column>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="4" associative="False" description="" documentTypeLookup="check_house_document_type" proxy="False" createId="True" supportsDocuments="True" shortName="HOUSE" name="sa_house" label="BALAY">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="0" description="" index="False" name="hose_shape" searchable="False" TYPE_INFO="GEOMETRY" label="" mandatory="False">
+     <Geometry layerDisplay="" srid="32651" type="2"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="1" minimum="0" maximum="2147483647" description="" index="False" name="house_materials" searchable="True" TYPE_INFO="LOOKUP" label="Meteryales sa straktura sa balay" mandatory="False">
+     <Relation name="fk_sa_check_structure_material_id_sa_house_house_materials"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="2" description="" index="False" name="structure_use" searchable="True" TYPE_INFO="MULTIPLE_SELECT" label="Gamit sa straktura" mandatory="False">
+     <associationEntity name="sa_structure_use"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="3" minimum="0" maximum="2147483647" description="" index="False" name="number_of_floors" searchable="True" TYPE_INFO="LOOKUP" label="Pila ka adana and straktura" mandatory="False">
+     <Relation name="fk_sa_check_number_of_floors_id_sa_house_number_of_floors"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="4" minimum="0" maximum="30" description="" index="False" name="other_number_of_floors" searchable="True" TYPE_INFO="VARCHAR" label="Uban pa, nganli" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="5" description="" index="False" name="power_source" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="Gigikanan sa kuryente" mandatory="False">
+     <associationEntity name="sa_power_source"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="6" minimum="0" maximum="30" description="" index="False" name="other_power_source" searchable="True" TYPE_INFO="VARCHAR" label="Uban pa, nganli" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="7" description="" index="False" name="drinking_water_source" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="Gigikanan sa tubig mainom" mandatory="False">
+     <associationEntity name="sa_drinking_water_source"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="8" minimum="0" maximum="30" description="" index="False" name="other_drinking_water_source" searchable="True" TYPE_INFO="VARCHAR" label="Uban pa, nganli" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="9" description="" index="False" name="domestic_water_source" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="Gigikanan sa tubig na gamit sa pag luto, laba,ligo, ug uban pang ginagamitan sa panimalay" mandatory="False">
+     <associationEntity name="sa_domestic_water_source"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="10" minimum="0" maximum="30" description="" index="False" name="other_domestic_water_source" searchable="True" TYPE_INFO="VARCHAR" label="Uban pa, nganli" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="11" minimum="0" maximum="2147483647" description="" index="False" name="sanitation" searchable="True" TYPE_INFO="LOOKUP" label="Naa bay kaselyas?" mandatory="False">
+     <Relation name="fk_sa_check_sanitation_id_sa_house_sanitation"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="12" description="" index="False" name="toilet_type" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="Klase sa kaselyas na ginagamit" mandatory="False">
+     <associationEntity name="sa_toilet_type"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="13" minimum="0" maximum="30" description="" index="False" name="other_toilet_type" searchable="True" TYPE_INFO="VARCHAR" label="Uban pa, nganli" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="14" minimum="0" maximum="2147483647" description="" index="False" name="gps_id_number" searchable="True" TYPE_INFO="LOOKUP" label="GPS ID number" mandatory="False">
+     <Relation name="fk_sa_check_gps_id_number_id_sa_house_gps_id_number"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="15" minimum="0" maximum="30" description="" index="False" name="gps_file_name" searchable="True" TYPE_INFO="VARCHAR" label="GPS File name" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="16" minimum="0" maximum="2147483647" description="" index="False" name="camera_id_number" searchable="True" TYPE_INFO="LOOKUP" label="Camera ID Number" mandatory="False">
+     <Relation name="fk_sa_check_camera_id_number_id_sa_house_camera_id_number"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="17" minimum="0" maximum="30" description="" index="False" name="photo_file_name_of_house" searchable="True" TYPE_INFO="VARCHAR" label="Photo file name sa balay" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="18" description="" index="False" name="garden_existence" searchable="False" TYPE_INFO="BOOL" label="Naa bay garden?" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="19" minimum="0" maximum="2147483647" description="" index="False" name="house_lot_tenure_type" searchable="True" TYPE_INFO="LOOKUP" label="Klase sa panag-iya sa yuta na gitukuran sa balay" mandatory="False">
+     <Relation name="fk_sa_check_hose_lot_tenure_id_sa_house_house_lot_tenure_type"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="20" minimum="0" maximum="30" description="" index="False" name="other_house_lot_tenure_type" searchable="True" TYPE_INFO="VARCHAR" label="Uban pa, nganli" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="21" description="" index="False" name="house_lot_document_type" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="Klase sa dokumento sa yuta na gi kuptan" mandatory="False">
+     <associationEntity name="sa_house_lot_document_type"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="22" minimum="0" maximum="30" description="" index="False" name="other_house_lot_document" searchable="True" TYPE_INFO="VARCHAR" label="Uban pa, nganli" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="23" minimum="0" maximum="30" description="" index="False" name="last_name_of_person_in_in_document_h2" searchable="True" TYPE_INFO="VARCHAR" label="Apilyedo nga nakutang sa H2 " mandatory="False"/>
+    <Column unique="False" tip="" rowindex="24" minimum="0" maximum="30" description="" index="False" name="first_name_of_person_in_document_h2" searchable="True" TYPE_INFO="VARCHAR" label="Pangalan nga naa sa dokumento sa H2" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="25" minimum="0" maximum="2147483647" description="" index="False" name="sex_of_person_in_document_h2" searchable="True" TYPE_INFO="LOOKUP" label="Sex" mandatory="False">
+     <Relation name="fk_sa_check_sex_id_sa_house_sex_of_person_in_document_h2"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="26" minimum="0" maximum="30" description="" index="False" name="registration_num_of_the_document_in_h2" searchable="True" TYPE_INFO="VARCHAR" label="Rehistro nga numero sa Dokumento (kung naa)" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="27" minimum="0" maximum="2147483647" description="" index="False" name="cam_id" searchable="True" TYPE_INFO="LOOKUP" label="Camera ID for the photo of the document in H2" mandatory="False">
+     <Relation name="fk_sa_check_camera_id_number_id_sa_house_cam_id"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="28" minimum="0" maximum="30" description="" index="False" name="photo_file_name_of_the_document_in_h2" searchable="True" TYPE_INFO="VARCHAR" label="Photo file name sa dokumento sa h2" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="29" minimum="0" maximum="30" description="" index="False" name="last_name_of_h2_if_abang" searchable="True" TYPE_INFO="VARCHAR" label="Apilyedo nga naa sa dokumento sa h2 kung abang/saop" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="30" minimum="0" maximum="30" description="" index="False" name="first_name_of_h2_if_abang" searchable="True" TYPE_INFO="VARCHAR" label="Pangalan nga naa sa dokumento sa h2 kung abang/saop" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="31" minimum="0" maximum="2147483647" description="" index="False" name="sex_kung_abang_sa_h2" searchable="True" TYPE_INFO="LOOKUP" label="Sex" mandatory="False">
+     <Relation name="fk_sa_check_sex_id_sa_house_sex_kung_abang_sa_h2"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="32" minimum="0" maximum="2147483647" description="" index="False" name="hose_tenure_type" searchable="True" TYPE_INFO="LOOKUP" label="Klase sa pagpanag-iya sa balay puloy-anan" mandatory="False">
+     <Relation name="fk_sa_check_house_tenure_type_id_sa_house_hose_tenure_type"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="33" minimum="0" maximum="30" description="" index="False" name="other_house_tenure_type" searchable="True" TYPE_INFO="VARCHAR" label="Uban pa, nganli" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="-1" description="" index="False" name="house_document_type" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="Klase sa dokumento sa balay nga gi kuptan" mandatory="False">
+     <associationEntity name="sa_house_document_type"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="35" minimum="0" maximum="30" description="" index="False" name="other_house_document_type" searchable="True" TYPE_INFO="VARCHAR" label="Uban pa, nganli" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="36" minimum="0" maximum="30" description="" index="False" name="last_name_in_the_document_in_i2" searchable="True" TYPE_INFO="VARCHAR" label="Apilyedo nga naa sa dokumento sa I2" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="37" minimum="0" maximum="30" description="" index="False" name="first_name_in_the_document_in_i2" searchable="True" TYPE_INFO="VARCHAR" label="Pangalan nga naa sa dokumento sa I2" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="38" minimum="0" maximum="2147483647" description="" index="False" name="sex_of_the_person_in_i2" searchable="True" TYPE_INFO="LOOKUP" label="sex" mandatory="False">
+     <Relation name="fk_sa_check_sex_id_sa_house_sex_of_the_person_in_i2"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="39" minimum="0" maximum="30" description="" index="False" name="rgistration_id_of_document_in_i2" searchable="True" TYPE_INFO="VARCHAR" label="Rehistro nga numero sa Dokumento (kung naa)" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="40" minimum="0" maximum="30" description="" index="False" name="cam_id_for_i2_photo" searchable="True" TYPE_INFO="VARCHAR" label="Camera ID for the photo of the document in I2" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="41" minimum="0" maximum="30" description="" index="False" name="photo_file_name_of_the_document_in_i2" searchable="True" TYPE_INFO="VARCHAR" label="Photo file name sa dokumento sa I2" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="42" minimum="0" maximum="30" description="" index="False" name="last_name_of_i2_if_abang" searchable="True" TYPE_INFO="VARCHAR" label="Apilyedo nga naa sa dokumento sa i2 kung abang/saop" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="43" minimum="0" maximum="30" description="" index="False" name="first_name_of_i2_if_abang" searchable="True" TYPE_INFO="VARCHAR" label="Pangalan nga naa sa dokumento sa i2 kung abang/saop" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="44" minimum="0" maximum="2147483647" description="" index="False" name="sex_kung_abang" searchable="True" TYPE_INFO="LOOKUP" label="sex" mandatory="False">
+     <Relation name="fk_sa_check_sex_id_sa_house_sex_kung_abang"/>
+    </Column>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="5" associative="False" description="" documentTypeLookup="check_garden_document_type" proxy="False" createId="True" supportsDocuments="True" shortName="GARDEN" name="sa_garden" label="GARDEN">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="0" description="" index="False" name="garden_shape" searchable="False" TYPE_INFO="GEOMETRY" label="" mandatory="False">
+     <Geometry layerDisplay="" srid="32651" type="2"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="1" minimum="0" maximum="30" description="" index="False" name="size_of_garden" searchable="True" TYPE_INFO="VARCHAR" label="Kadak-an sa garden" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="2" minimum="0" maximum="2147483647" description="" index="False" name="gps_id_number" searchable="True" TYPE_INFO="LOOKUP" label="GPS ID Number" mandatory="False">
+     <Relation name="fk_sa_check_gps_id_number_id_sa_garden_gps_id_number"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="3" minimum="0" maximum="30" description="" index="False" name="gps_point_file_name" searchable="True" TYPE_INFO="VARCHAR" label="GPS Point file name" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="4" description="" index="False" name="planted_garden" searchable="False" TYPE_INFO="BOOL" label="Gi tamnan ba ang garden?" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="5" description="" index="False" name="garden_use" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="Para asa ang mga tanom sa garden?" mandatory="False">
+     <associationEntity name="sa_garden_use"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="6" minimum="0" maximum="30" description="" index="False" name="other_garden_use" searchable="True" TYPE_INFO="VARCHAR" label="Uban pa, nganli" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="7" description="" index="False" name="garden_plants" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="Unsa nga mnga tanom ang naa sa garden?" mandatory="False">
+     <associationEntity name="sa_garden_plants"/>
+    </Column>
+   </Columns>
+  </Entity>
+  <Entity editable="True" global="False" rowindex="6" associative="False" description="" documentTypeLookup="check_farm_document_type" proxy="False" createId="True" supportsDocuments="True" shortName="FARM" name="sa_farm" label="UMAHAN">
+   <Columns>
+    <Column unique="False" tip="" rowindex="-1" minimum="-2147483648" maximum="2147483647" description="" index="False" name="id" searchable="True" TYPE_INFO="SERIAL" label="" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="0" description="" index="False" name="farm_shape" searchable="False" TYPE_INFO="GEOMETRY" label="" mandatory="False">
+     <Geometry layerDisplay="" srid="32651" type="2"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="1" minimum="0" maximum="2147483647" description="" index="False" name="gps_id_number_farm" searchable="True" TYPE_INFO="LOOKUP" label="GPS ID number" mandatory="False">
+     <Relation name="fk_sa_check_gps_id_number_id_sa_farm_gps_id_number_farm"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="2" minimum="0" maximum="30" description="" index="False" name="gps_filename" searchable="True" TYPE_INFO="VARCHAR" label="GPS File name" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="3" minimum="0" maximum="30" description="" index="False" name="number_of_farm_lots" searchable="True" TYPE_INFO="VARCHAR" label="Number of Farm lots" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="4" minimum="0" maximum="30" description="" index="False" name="total_hectares_of_farm" searchable="True" TYPE_INFO="VARCHAR" label="Total hectares of the farm" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="5" minimum="0" maximum="2147483647" description="" index="False" name="farm_tenure_type" searchable="True" TYPE_INFO="LOOKUP" label="Klase sa uma/yuta na gitikad" mandatory="False">
+     <Relation name="fk_sa_check_farmtenure_type_id_sa_farm_farm_tenure_type"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="6" minimum="0" maximum="30" description="" index="False" name="other_farm_tenure_type" searchable="True" TYPE_INFO="VARCHAR" label="Uban pa, nganli" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="7" minimum="0" maximum="2147483647" description="" index="False" name="farm_document_type" searchable="True" TYPE_INFO="LOOKUP" label="Klase sa dokumento sa yuta na gitikad" mandatory="False">
+     <Relation name="fk_sa_check_farmdocument_type_id_sa_farm_farm_document_type"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="8" minimum="0" maximum="30" description="" index="False" name="last_name_of_person_in_the_document_k4" searchable="True" TYPE_INFO="VARCHAR" label="Apilyedo nga naa sa dokumento sa K4" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="9" minimum="0" maximum="30" description="" index="False" name="first_name_of_person_in_document_k4" searchable="True" TYPE_INFO="VARCHAR" label="Pangalan nga naa sa dokumento sa K4" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="10" minimum="0" maximum="2147483647" description="" index="False" name="sex_sa_nakabutang_sa_dokumento" searchable="True" TYPE_INFO="LOOKUP" label="Sex" mandatory="False">
+     <Relation name="fk_sa_check_sex_id_sa_farm_sex_sa_nakabutang_sa_dokumento"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="11" minimum="0" maximum="30" description="" index="False" name="registration_number_of_document" searchable="True" TYPE_INFO="VARCHAR" label="Rehisro na numero sa dokumento" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="12" minimum="0" maximum="2147483647" description="" index="False" name="camera_id_for_farm_document_k4" searchable="True" TYPE_INFO="LOOKUP" label="Camera ID number" mandatory="False">
+     <Relation name="fk_sa_check_camera_id_number_id_sa_farm_camera_id_for_farm_document_k4"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="13" minimum="0" maximum="30" description="" index="False" name="photo_file_name_for_farm_document_k4" searchable="True" TYPE_INFO="VARCHAR" label="Photo file name sa dokumento sa K4" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="14" minimum="0" maximum="30" description="" index="False" name="if_saop__last_name_in_k4" searchable="True" TYPE_INFO="VARCHAR" label="Apilyedo sa Dokumento sa K4 kung saop/naka renta" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="15" minimum="0" maximum="30" description="" index="False" name="if_saop_first_name_in_k4" searchable="True" TYPE_INFO="VARCHAR" label="Pangalan sa Dokumento sa K4 kung saop/naka renta" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="16" minimum="0" maximum="2147483647" description="" index="False" name="if_saop_sex_sa_k4" searchable="True" TYPE_INFO="LOOKUP" label="Sex sa k4 if saop/ ga renta" mandatory="False">
+     <Relation name="fk_sa_check_sex_id_sa_farm_if_saop_sex_sa_k4"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="17" minimum="0" maximum="30" description="" index="False" name="if_saop_sharing_with_household" searchable="True" TYPE_INFO="VARCHAR" label="Kung Saop/nka kontrata, pila ka panimalay ang bahin sa kita sa umahan?" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="18" minimum="0" maximum="100" description="" index="False" name="percentage_for_landlord" searchable="False" TYPE_INFO="PERCENT" label="Kung saop/naka kontrata, pila ka porsyento sa kita ang mahatag sa tag-iya sa yuta?" mandatory="False">
+     <Numeric scale="6" precision="18"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="19" description="" index="False" name="fear_of_being_displaced" searchable="False" TYPE_INFO="BOOL" label="Aduna bay kahadlok na mapahawa sa inyong balay ug umahan sa sunod 5 ka tuig?" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="20" description="" index="False" name="conflict_caused_displacement" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="Kung panag-bangi ang hinungdan aron mo mapapahawa sa  yutang kabilin , sa unsa/kinsa nga grupo ang posibleng hinungdan?" mandatory="False">
+     <associationEntity name="sa_conflict_caused_displacement"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="21" minimum="0" maximum="30" description="" index="False" name="other_conflict_caused_by_people" searchable="True" TYPE_INFO="VARCHAR" label="Uban pa, nganli" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="22" description="" index="False" name="displacement_caused_by_calamity" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="Kung sa kinaiyahan nga kalamidad ang hinungdan nganu mapapahawa mo sa inyohang balay/umahan, unsang posibleng klase sa kalamidad kini? &#xa;" mandatory="False">
+     <associationEntity name="sa_displacement_caused_by_calamity"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="23" minimum="0" maximum="30" description="" index="False" name="other_natural_calamity" searchable="True" TYPE_INFO="VARCHAR" label="Uban pa, nganli" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="24" description="" index="False" name="crops_planted" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="Klase sa tanom nga gi sa uma" mandatory="False">
+     <associationEntity name="sa_crops_planted"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="25" minimum="0" maximum="30" description="" index="False" name="other_crops" searchable="True" TYPE_INFO="VARCHAR" label="Uban pa, nganli" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="26" description="" index="False" name="type_of_work_in_the_farm" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="klase sa trabaho alang sa " mandatory="False">
+     <associationEntity name="sa_type_of_work_in_the_farm"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="27" minimum="0" maximum="30" description="" index="False" name="other_type_of_work_in_the_farm" searchable="True" TYPE_INFO="VARCHAR" label="Uban pa, nganli" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="28" description="" index="False" name="animals_used_in_farm" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="klase sa mga hayop ang ginagamit?" mandatory="False">
+     <associationEntity name="sa_animals_used_in_farm"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="29" minimum="0" maximum="30" description="" index="False" name="other_animals_used_in_farm" searchable="True" TYPE_INFO="VARCHAR" label="Uban pa, nganli" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="30" description="" index="False" name="farm_tools" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="Mga gamit sa pagpanguma " mandatory="False">
+     <associationEntity name="sa_farm_tools"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="31" minimum="0" maximum="30" description="" index="False" name="other_farm_tools" searchable="True" TYPE_INFO="VARCHAR" label="Uban pa, nganli" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="32" minimum="0" maximum="2147483647" description="" index="False" name="pesticides_and_fertilizers_used" searchable="True" TYPE_INFO="LOOKUP" label="klase sa abono ug pesticides ang ginagamit alang sa pagpanguma" mandatory="False">
+     <Relation name="fk_sa_check_type_of_fertilizer_and_pesticides_id_sa_farm_pesticides_and_fertilizers_used"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="33" minimum="0" maximum="30" description="" index="False" name="other_pesticides_fertlizer" searchable="True" TYPE_INFO="VARCHAR" label="Uban pa, nganli" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="34" description="" index="False" name="important_needs_for_farm" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="3 ka pinaka importanti nga&#xa;&#x9;panginahanglanon sa inyong pag-pagpanguma&#xa;" mandatory="False">
+     <associationEntity name="sa_important_needs_for_farm"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="35" minimum="0" maximum="30" description="" index="False" name="other_important_needs_for_farm" searchable="True" TYPE_INFO="VARCHAR" label="Uban pa nganli" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="36" description="" index="False" name="farm_production" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="Para unsa/asa ang produksyon nga gikan sa umahan?" mandatory="False">
+     <associationEntity name="sa_farm_production"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="37" minimum="0" maximum="30" description="" index="False" name="other_farm_production" searchable="True" TYPE_INFO="VARCHAR" label="Uban pa, nganli" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="38" description="" index="False" name="mode_of_selling" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="Paagi sa pag baligya sa produkto" mandatory="False">
+     <associationEntity name="sa_mode_of_selling"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="39" minimum="0" maximum="30" description="" index="False" name="other_mode_of_selling" searchable="True" TYPE_INFO="VARCHAR" label="Uban pa, nganli" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="40" description="" index="False" name="irrigation_source" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="Asa gikan ang patubig sa uma?" mandatory="False">
+     <associationEntity name="sa_irrigation_source"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="41" minimum="0" maximum="30" description="" index="False" name="other_irrigation_source" searchable="True" TYPE_INFO="VARCHAR" label="Ubapn pa, nganli" mandatory="False"/>
+    <Column unique="False" tip="" rowindex="42" description="" index="False" name="irrigation_provider" searchable="False" TYPE_INFO="MULTIPLE_SELECT" label="Gahatag ug irigasyon/patubig sa uma" mandatory="False">
+     <associationEntity name="sa_irrigation_provider"/>
+    </Column>
+    <Column unique="False" tip="" rowindex="43" minimum="0" maximum="30" description="" index="False" name="other_irrigation_provider" searchable="True" TYPE_INFO="VARCHAR" label="Uban pa, nganli" mandatory="False"/>
+   </Columns>
+  </Entity>
+  <Relations>
+   <EntityRelation displayColumns="name,code" child="social_tenure_relationship_supporting_document" showInParent="True" parent="check_social_tenure_relationship_document_type" name="fk_sa_check_social_tenure_relationship_document_type_id_sa_social_tenure_relationship_supporting_document_document_type" parentColumn="id" showInChild="True" childColumn="document_type"/>
+   <EntityRelation displayColumns="" child="social_tenure_relationship_supporting_document" showInParent="True" parent="social_tenure_relationship" name="fk_sa_social_tenure_relationship_id_sa_social_tenure_relationship_supporting_document_social_tenure_relationship_id" parentColumn="id" showInChild="True" childColumn="social_tenure_relationship_id"/>
+   <EntityRelation displayColumns="" child="social_tenure_relationship_supporting_document" showInParent="True" parent="supporting_document" name="fk_sa_supporting_document_id_sa_social_tenure_relationship_supporting_document_supporting_doc_id" parentColumn="id" showInChild="True" childColumn="supporting_doc_id"/>
+   <EntityRelation displayColumns="name,code" child="social_tenure_relationship" showInParent="True" parent="check_tenure_type" name="fk_sa_check_tenure_type_id_sa_social_tenure_relationship_tenure_type" parentColumn="id" showInChild="True" childColumn="tenure_type"/>
+   <EntityRelation displayColumns="" child="admin_spatial_unit_set" showInParent="True" parent="admin_spatial_unit_set" name="fk_admin_spatial_unit_set_id_admin_spatial_unit_set_parent_id" parentColumn="id" showInChild="True" childColumn="parent_id"/>
+   <EntityRelation displayColumns="name,code" child="ENUMERATOR_supporting_document" showInParent="True" parent="check_enumerator_document_type" name="fk_sa_check_enumerator_document_type_id_sa_enumerator_supporting_document_document_type" parentColumn="id" showInChild="True" childColumn="document_type"/>
+   <EntityRelation displayColumns="" child="ENUMERATOR_supporting_document" showInParent="True" parent="ENUMERATOR" name="fk_sa_enumerator_id_sa_enumerator_supporting_document_enumerator_id" parentColumn="id" showInChild="True" childColumn="enumerator_id"/>
+   <EntityRelation displayColumns="" child="ENUMERATOR_supporting_document" showInParent="True" parent="supporting_document" name="fk_sa_supporting_document_id_sa_enumerator_supporting_document_supporting_doc_id" parentColumn="id" showInChild="True" childColumn="supporting_doc_id"/>
+   <EntityRelation displayColumns="name,code" child="ENUMERATOR" showInParent="True" parent="check_sex" name="fk_sa_check_sex_id_sa_enumerator_gender" parentColumn="id" showInChild="True" childColumn="gender"/>
+   <EntityRelation displayColumns="name,code" child="HOUSEHOLD_supporting_document" showInParent="True" parent="check_household_document_type" name="fk_sa_check_household_document_type_id_sa_household_supporting_document_document_type" parentColumn="id" showInChild="True" childColumn="document_type"/>
+   <EntityRelation displayColumns="" child="HOUSEHOLD_supporting_document" showInParent="True" parent="HOUSEHOLD" name="fk_sa_household_id_sa_household_supporting_document_household_id" parentColumn="id" showInChild="True" childColumn="household_id"/>
+   <EntityRelation displayColumns="" child="HOUSEHOLD_supporting_document" showInParent="True" parent="supporting_document" name="fk_sa_supporting_document_id_sa_household_supporting_document_supporting_doc_id" parentColumn="id" showInChild="True" childColumn="supporting_doc_id"/>
+   <EntityRelation displayColumns="" child="household_properties" showInParent="True" parent="check_house_hold_properties" name="fk_sa_check_house_hold_properties_id_sa_household_properties_sa_check_house_hold_properties_id" parentColumn="id" showInChild="True" childColumn="sa_check_house_hold_properties_id"/>
+   <EntityRelation displayColumns="" child="household_properties" showInParent="True" parent="HOUSEHOLD" name="fk_sa_household_id_sa_household_properties_sa_household_id" parentColumn="id" showInChild="True" childColumn="sa_household_id"/>
+   <EntityRelation displayColumns="" child="communal_resources" showInParent="True" parent="check_communal_resources" name="fk_sa_check_communal_resources_id_sa_communal_resources_sa_check_communal_resources_id" parentColumn="id" showInChild="True" childColumn="sa_check_communal_resources_id"/>
+   <EntityRelation displayColumns="" child="communal_resources" showInParent="True" parent="HOUSEHOLD" name="fk_sa_household_id_sa_communal_resources_sa_household_id" parentColumn="id" showInChild="True" childColumn="sa_household_id"/>
+   <EntityRelation displayColumns="" child="programs_and_services" showInParent="True" parent="check_programs_and_services" name="fk_sa_check_programs_and_services_id_sa_programs_and_services_sa_check_programs_and_services_id" parentColumn="id" showInChild="True" childColumn="sa_check_programs_and_services_id"/>
+   <EntityRelation displayColumns="" child="programs_and_services" showInParent="True" parent="HOUSEHOLD" name="fk_sa_household_id_sa_programs_and_services_sa_household_id" parentColumn="id" showInChild="True" childColumn="sa_household_id"/>
+   <EntityRelation displayColumns="" child="provider_of_programs_and_services" showInParent="True" parent="check_programs_and_services_provider" name="fk_sa_check_programs_and_services_provider_id_sa_provider_of_programs_and_services_sa_check_programs_and_services_provider_id" parentColumn="id" showInChild="True" childColumn="sa_check_programs_and_services_provider_id"/>
+   <EntityRelation displayColumns="" child="provider_of_programs_and_services" showInParent="True" parent="HOUSEHOLD" name="fk_sa_household_id_sa_provider_of_programs_and_services_sa_household_id" parentColumn="id" showInChild="True" childColumn="sa_household_id"/>
+   <EntityRelation displayColumns="" child="family_savings_type" showInParent="True" parent="check_savings_type" name="fk_sa_check_savings_type_id_sa_family_savings_type_sa_check_savings_type_id" parentColumn="id" showInChild="True" childColumn="sa_check_savings_type_id"/>
+   <EntityRelation displayColumns="" child="family_savings_type" showInParent="True" parent="HOUSEHOLD" name="fk_sa_household_id_sa_family_savings_type_sa_household_id" parentColumn="id" showInChild="True" childColumn="sa_household_id"/>
+   <EntityRelation displayColumns="" child="community_savings_type" showInParent="True" parent="check_communal_savings_type" name="fk_sa_check_communal_savings_type_id_sa_community_savings_type_sa_check_communal_savings_type_id" parentColumn="id" showInChild="True" childColumn="sa_check_communal_savings_type_id"/>
+   <EntityRelation displayColumns="" child="community_savings_type" showInParent="True" parent="HOUSEHOLD" name="fk_sa_household_id_sa_community_savings_type_sa_household_id" parentColumn="id" showInChild="True" childColumn="sa_household_id"/>
+   <EntityRelation displayColumns="" child="household_priorities" showInParent="True" parent="check_household_priorities" name="fk_sa_check_household_priorities_id_sa_household_priorities_sa_check_household_priorities_id" parentColumn="id" showInChild="True" childColumn="sa_check_household_priorities_id"/>
+   <EntityRelation displayColumns="" child="household_priorities" showInParent="True" parent="HOUSEHOLD" name="fk_sa_household_id_sa_household_priorities_sa_household_id" parentColumn="id" showInChild="True" childColumn="sa_household_id"/>
+   <EntityRelation displayColumns="" child="villiage_priorities" showInParent="True" parent="check_communal_priorities" name="fk_sa_check_communal_priorities_id_sa_villiage_priorities_sa_check_communal_priorities_id" parentColumn="id" showInChild="True" childColumn="sa_check_communal_priorities_id"/>
+   <EntityRelation displayColumns="" child="villiage_priorities" showInParent="True" parent="HOUSEHOLD" name="fk_sa_household_id_sa_villiage_priorities_sa_household_id" parentColumn="id" showInChild="True" childColumn="sa_household_id"/>
+   <EntityRelation displayColumns="name,code" child="HOUSEHOLD" showInParent="True" parent="check_camera_id_number" name="fk_sa_check_camera_id_number_id_sa_household_camera_id_number" parentColumn="id" showInChild="True" childColumn="camera_id_number"/>
+   <EntityRelation displayColumns="name,code" child="HOUSE_supporting_document" showInParent="True" parent="check_house_document_type" name="fk_sa_check_house_document_type_id_sa_house_supporting_document_document_type" parentColumn="id" showInChild="True" childColumn="document_type"/>
+   <EntityRelation displayColumns="" child="HOUSE_supporting_document" showInParent="True" parent="HOUSE" name="fk_sa_house_id_sa_house_supporting_document_house_id" parentColumn="id" showInChild="True" childColumn="house_id"/>
+   <EntityRelation displayColumns="" child="HOUSE_supporting_document" showInParent="True" parent="supporting_document" name="fk_sa_supporting_document_id_sa_house_supporting_document_supporting_doc_id" parentColumn="id" showInChild="True" childColumn="supporting_doc_id"/>
+   <EntityRelation displayColumns="name,code" child="HOUSE" showInParent="True" parent="check_structure_material" name="fk_sa_check_structure_material_id_sa_house_house_materials" parentColumn="id" showInChild="True" childColumn="house_materials"/>
+   <EntityRelation displayColumns="" child="structure_use" showInParent="True" parent="check_structural_use" name="fk_sa_check_structural_use_id_sa_structure_use_sa_check_structural_use_id" parentColumn="id" showInChild="True" childColumn="sa_check_structural_use_id"/>
+   <EntityRelation displayColumns="" child="structure_use" showInParent="True" parent="HOUSE" name="fk_sa_house_id_sa_structure_use_sa_house_id" parentColumn="id" showInChild="True" childColumn="sa_house_id"/>
+   <EntityRelation displayColumns="name,code" child="HOUSE" showInParent="True" parent="check_number_of_floors" name="fk_sa_check_number_of_floors_id_sa_house_number_of_floors" parentColumn="id" showInChild="True" childColumn="number_of_floors"/>
+   <EntityRelation displayColumns="" child="power_source" showInParent="True" parent="check_power_source" name="fk_sa_check_power_source_id_sa_power_source_sa_check_power_source_id" parentColumn="id" showInChild="True" childColumn="sa_check_power_source_id"/>
+   <EntityRelation displayColumns="" child="power_source" showInParent="True" parent="HOUSE" name="fk_sa_house_id_sa_power_source_sa_house_id" parentColumn="id" showInChild="True" childColumn="sa_house_id"/>
+   <EntityRelation displayColumns="" child="drinking_water_source" showInParent="True" parent="check_drinking_water_source" name="fk_sa_check_drinking_water_source_id_sa_drinking_water_source_sa_check_drinking_water_source_id" parentColumn="id" showInChild="True" childColumn="sa_check_drinking_water_source_id"/>
+   <EntityRelation displayColumns="" child="drinking_water_source" showInParent="True" parent="HOUSE" name="fk_sa_house_id_sa_drinking_water_source_sa_house_id" parentColumn="id" showInChild="True" childColumn="sa_house_id"/>
+   <EntityRelation displayColumns="" child="domestic_water_source" showInParent="True" parent="check_domestic_water_source" name="fk_sa_check_domestic_water_source_id_sa_domestic_water_source_sa_check_domestic_water_source_id" parentColumn="id" showInChild="True" childColumn="sa_check_domestic_water_source_id"/>
+   <EntityRelation displayColumns="" child="domestic_water_source" showInParent="True" parent="HOUSE" name="fk_sa_house_id_sa_domestic_water_source_sa_house_id" parentColumn="id" showInChild="True" childColumn="sa_house_id"/>
+   <EntityRelation displayColumns="name,code" child="HOUSE" showInParent="True" parent="check_sanitation" name="fk_sa_check_sanitation_id_sa_house_sanitation" parentColumn="id" showInChild="True" childColumn="sanitation"/>
+   <EntityRelation displayColumns="" child="toilet_type" showInParent="True" parent="check_toilet_type" name="fk_sa_check_toilet_type_id_sa_toilet_type_sa_check_toilet_type_id" parentColumn="id" showInChild="True" childColumn="sa_check_toilet_type_id"/>
+   <EntityRelation displayColumns="" child="toilet_type" showInParent="True" parent="HOUSE" name="fk_sa_house_id_sa_toilet_type_sa_house_id" parentColumn="id" showInChild="True" childColumn="sa_house_id"/>
+   <EntityRelation displayColumns="name,code" child="HOUSE" showInParent="True" parent="check_gps_id_number" name="fk_sa_check_gps_id_number_id_sa_house_gps_id_number" parentColumn="id" showInChild="True" childColumn="gps_id_number"/>
+   <EntityRelation displayColumns="name,code" child="HOUSE" showInParent="True" parent="check_camera_id_number" name="fk_sa_check_camera_id_number_id_sa_house_camera_id_number" parentColumn="id" showInChild="True" childColumn="camera_id_number"/>
+   <EntityRelation displayColumns="name,code" child="HOUSE" showInParent="True" parent="check_hose_lot_tenure" name="fk_sa_check_hose_lot_tenure_id_sa_house_house_lot_tenure_type" parentColumn="id" showInChild="True" childColumn="house_lot_tenure_type"/>
+   <EntityRelation displayColumns="" child="house_lot_document_type" showInParent="True" parent="check_house_lot_document_type" name="fk_sa_check_house_lot_document_type_id_sa_house_lot_document_type_sa_check_house_lot_document_type_id" parentColumn="id" showInChild="True" childColumn="sa_check_house_lot_document_type_id"/>
+   <EntityRelation displayColumns="" child="house_lot_document_type" showInParent="True" parent="HOUSE" name="fk_sa_house_id_sa_house_lot_document_type_sa_house_id" parentColumn="id" showInChild="True" childColumn="sa_house_id"/>
+   <EntityRelation displayColumns="name,code" child="HOUSE" showInParent="True" parent="check_sex" name="fk_sa_check_sex_id_sa_house_sex_of_person_in_document_h2" parentColumn="id" showInChild="True" childColumn="sex_of_person_in_document_h2"/>
+   <EntityRelation displayColumns="name,code" child="HOUSE" showInParent="True" parent="check_camera_id_number" name="fk_sa_check_camera_id_number_id_sa_house_cam_id" parentColumn="id" showInChild="True" childColumn="cam_id"/>
+   <EntityRelation displayColumns="name,code" child="HOUSE" showInParent="True" parent="check_sex" name="fk_sa_check_sex_id_sa_house_sex_kung_abang_sa_h2" parentColumn="id" showInChild="True" childColumn="sex_kung_abang_sa_h2"/>
+   <EntityRelation displayColumns="name,code" child="HOUSE" showInParent="True" parent="check_house_tenure_type" name="fk_sa_check_house_tenure_type_id_sa_house_hose_tenure_type" parentColumn="id" showInChild="True" childColumn="hose_tenure_type"/>
+   <EntityRelation displayColumns="" child="house_document_type" showInParent="True" parent="check_house_document_type" name="fk_sa_check_house_document_type_id_sa_house_document_type_sa_check_house_document_type_id" parentColumn="id" showInChild="True" childColumn="sa_check_house_document_type_id"/>
+   <EntityRelation displayColumns="" child="house_document_type" showInParent="True" parent="HOUSE" name="fk_sa_house_id_sa_house_document_type_sa_house_id" parentColumn="id" showInChild="True" childColumn="sa_house_id"/>
+   <EntityRelation displayColumns="name,code" child="HOUSE" showInParent="True" parent="check_sex" name="fk_sa_check_sex_id_sa_house_sex_of_the_person_in_i2" parentColumn="id" showInChild="True" childColumn="sex_of_the_person_in_i2"/>
+   <EntityRelation displayColumns="name,code" child="HOUSE" showInParent="True" parent="check_sex" name="fk_sa_check_sex_id_sa_house_sex_kung_abang" parentColumn="id" showInChild="True" childColumn="sex_kung_abang"/>
+   <EntityRelation displayColumns="name,code" child="GARDEN_supporting_document" showInParent="True" parent="check_garden_document_type" name="fk_sa_check_garden_document_type_id_sa_garden_supporting_document_document_type" parentColumn="id" showInChild="True" childColumn="document_type"/>
+   <EntityRelation displayColumns="" child="GARDEN_supporting_document" showInParent="True" parent="GARDEN" name="fk_sa_garden_id_sa_garden_supporting_document_garden_id" parentColumn="id" showInChild="True" childColumn="garden_id"/>
+   <EntityRelation displayColumns="" child="GARDEN_supporting_document" showInParent="True" parent="supporting_document" name="fk_sa_supporting_document_id_sa_garden_supporting_document_supporting_doc_id" parentColumn="id" showInChild="True" childColumn="supporting_doc_id"/>
+   <EntityRelation displayColumns="name,code" child="GARDEN" showInParent="True" parent="check_gps_id_number" name="fk_sa_check_gps_id_number_id_sa_garden_gps_id_number" parentColumn="id" showInChild="True" childColumn="gps_id_number"/>
+   <EntityRelation displayColumns="" child="garden_use" showInParent="True" parent="check_garden_plants_use" name="fk_sa_check_garden_plants_use_id_sa_garden_use_sa_check_garden_plants_use_id" parentColumn="id" showInChild="True" childColumn="sa_check_garden_plants_use_id"/>
+   <EntityRelation displayColumns="" child="garden_use" showInParent="True" parent="GARDEN" name="fk_sa_garden_id_sa_garden_use_sa_garden_id" parentColumn="id" showInChild="True" childColumn="sa_garden_id"/>
+   <EntityRelation displayColumns="" child="garden_plants" showInParent="True" parent="check_garden_plants" name="fk_sa_check_garden_plants_id_sa_garden_plants_sa_check_garden_plants_id" parentColumn="id" showInChild="True" childColumn="sa_check_garden_plants_id"/>
+   <EntityRelation displayColumns="" child="garden_plants" showInParent="True" parent="GARDEN" name="fk_sa_garden_id_sa_garden_plants_sa_garden_id" parentColumn="id" showInChild="True" childColumn="sa_garden_id"/>
+   <EntityRelation displayColumns="name,code" child="FARM_supporting_document" showInParent="True" parent="check_farm_document_type" name="fk_sa_check_farm_document_type_id_sa_farm_supporting_document_document_type" parentColumn="id" showInChild="True" childColumn="document_type"/>
+   <EntityRelation displayColumns="" child="FARM_supporting_document" showInParent="True" parent="FARM" name="fk_sa_farm_id_sa_farm_supporting_document_farm_id" parentColumn="id" showInChild="True" childColumn="farm_id"/>
+   <EntityRelation displayColumns="" child="FARM_supporting_document" showInParent="True" parent="supporting_document" name="fk_sa_supporting_document_id_sa_farm_supporting_document_supporting_doc_id" parentColumn="id" showInChild="True" childColumn="supporting_doc_id"/>
+   <EntityRelation displayColumns="name,code" child="FARM" showInParent="True" parent="check_gps_id_number" name="fk_sa_check_gps_id_number_id_sa_farm_gps_id_number_farm" parentColumn="id" showInChild="True" childColumn="gps_id_number_farm"/>
+   <EntityRelation displayColumns="name,code" child="FARM" showInParent="True" parent="check_farmtenure_type" name="fk_sa_check_farmtenure_type_id_sa_farm_farm_tenure_type" parentColumn="id" showInChild="True" childColumn="farm_tenure_type"/>
+   <EntityRelation displayColumns="name,code" child="FARM" showInParent="True" parent="check_farmdocument_type" name="fk_sa_check_farmdocument_type_id_sa_farm_farm_document_type" parentColumn="id" showInChild="True" childColumn="farm_document_type"/>
+   <EntityRelation displayColumns="name,code" child="FARM" showInParent="True" parent="check_sex" name="fk_sa_check_sex_id_sa_farm_sex_sa_nakabutang_sa_dokumento" parentColumn="id" showInChild="True" childColumn="sex_sa_nakabutang_sa_dokumento"/>
+   <EntityRelation displayColumns="name,code" child="FARM" showInParent="True" parent="check_camera_id_number" name="fk_sa_check_camera_id_number_id_sa_farm_camera_id_for_farm_document_k4" parentColumn="id" showInChild="True" childColumn="camera_id_for_farm_document_k4"/>
+   <EntityRelation displayColumns="name,code" child="FARM" showInParent="True" parent="check_sex" name="fk_sa_check_sex_id_sa_farm_if_saop_sex_sa_k4" parentColumn="id" showInChild="True" childColumn="if_saop_sex_sa_k4"/>
+   <EntityRelation displayColumns="" child="conflict_caused_displacement" showInParent="True" parent="check_source_of_conflict" name="fk_sa_check_source_of_conflict_id_sa_conflict_caused_displacement_sa_check_source_of_conflict_id" parentColumn="id" showInChild="True" childColumn="sa_check_source_of_conflict_id"/>
+   <EntityRelation displayColumns="" child="conflict_caused_displacement" showInParent="True" parent="FARM" name="fk_sa_farm_id_sa_conflict_caused_displacement_sa_farm_id" parentColumn="id" showInChild="True" childColumn="sa_farm_id"/>
+   <EntityRelation displayColumns="" child="displacement_caused_by_calamity" showInParent="True" parent="check_natural_calamity" name="fk_sa_check_natural_calamity_id_sa_displacement_caused_by_calamity_sa_check_natural_calamity_id" parentColumn="id" showInChild="True" childColumn="sa_check_natural_calamity_id"/>
+   <EntityRelation displayColumns="" child="displacement_caused_by_calamity" showInParent="True" parent="FARM" name="fk_sa_farm_id_sa_displacement_caused_by_calamity_sa_farm_id" parentColumn="id" showInChild="True" childColumn="sa_farm_id"/>
+   <EntityRelation displayColumns="" child="crops_planted" showInParent="True" parent="check_crops" name="fk_sa_check_crops_id_sa_crops_planted_sa_check_crops_id" parentColumn="id" showInChild="True" childColumn="sa_check_crops_id"/>
+   <EntityRelation displayColumns="" child="crops_planted" showInParent="True" parent="FARM" name="fk_sa_farm_id_sa_crops_planted_sa_farm_id" parentColumn="id" showInChild="True" childColumn="sa_farm_id"/>
+   <EntityRelation displayColumns="" child="type_of_work_in_the_farm" showInParent="True" parent="check_type_of_work_in_farm" name="fk_sa_check_type_of_work_in_farm_id_sa_type_of_work_in_the_farm_sa_check_type_of_work_in_farm_id" parentColumn="id" showInChild="True" childColumn="sa_check_type_of_work_in_farm_id"/>
+   <EntityRelation displayColumns="" child="type_of_work_in_the_farm" showInParent="True" parent="FARM" name="fk_sa_farm_id_sa_type_of_work_in_the_farm_sa_farm_id" parentColumn="id" showInChild="True" childColumn="sa_farm_id"/>
+   <EntityRelation displayColumns="" child="animals_used_in_farm" showInParent="True" parent="check_animal" name="fk_sa_check_animal_id_sa_animals_used_in_farm_sa_check_animal_id" parentColumn="id" showInChild="True" childColumn="sa_check_animal_id"/>
+   <EntityRelation displayColumns="" child="animals_used_in_farm" showInParent="True" parent="FARM" name="fk_sa_farm_id_sa_animals_used_in_farm_sa_farm_id" parentColumn="id" showInChild="True" childColumn="sa_farm_id"/>
+   <EntityRelation displayColumns="" child="farm_tools" showInParent="True" parent="check_farm_tools" name="fk_sa_check_farm_tools_id_sa_farm_tools_sa_check_farm_tools_id" parentColumn="id" showInChild="True" childColumn="sa_check_farm_tools_id"/>
+   <EntityRelation displayColumns="" child="farm_tools" showInParent="True" parent="FARM" name="fk_sa_farm_id_sa_farm_tools_sa_farm_id" parentColumn="id" showInChild="True" childColumn="sa_farm_id"/>
+   <EntityRelation displayColumns="name,code" child="FARM" showInParent="True" parent="check_type_of_fertilizer_and_pesticides" name="fk_sa_check_type_of_fertilizer_and_pesticides_id_sa_farm_pesticides_and_fertilizers_used" parentColumn="id" showInChild="True" childColumn="pesticides_and_fertilizers_used"/>
+   <EntityRelation displayColumns="" child="important_needs_for_farm" showInParent="True" parent="check_farm_priorities" name="fk_sa_check_farm_priorities_id_sa_important_needs_for_farm_sa_check_farm_priorities_id" parentColumn="id" showInChild="True" childColumn="sa_check_farm_priorities_id"/>
+   <EntityRelation displayColumns="" child="important_needs_for_farm" showInParent="True" parent="FARM" name="fk_sa_farm_id_sa_important_needs_for_farm_sa_farm_id" parentColumn="id" showInChild="True" childColumn="sa_farm_id"/>
+   <EntityRelation displayColumns="" child="farm_production" showInParent="True" parent="check_farm_production_purpose" name="fk_sa_check_farm_production_purpose_id_sa_farm_production_sa_check_farm_production_purpose_id" parentColumn="id" showInChild="True" childColumn="sa_check_farm_production_purpose_id"/>
+   <EntityRelation displayColumns="" child="farm_production" showInParent="True" parent="FARM" name="fk_sa_farm_id_sa_farm_production_sa_farm_id" parentColumn="id" showInChild="True" childColumn="sa_farm_id"/>
+   <EntityRelation displayColumns="" child="mode_of_selling" showInParent="True" parent="check_mode_of_selling" name="fk_sa_check_mode_of_selling_id_sa_mode_of_selling_sa_check_mode_of_selling_id" parentColumn="id" showInChild="True" childColumn="sa_check_mode_of_selling_id"/>
+   <EntityRelation displayColumns="" child="mode_of_selling" showInParent="True" parent="FARM" name="fk_sa_farm_id_sa_mode_of_selling_sa_farm_id" parentColumn="id" showInChild="True" childColumn="sa_farm_id"/>
+   <EntityRelation displayColumns="" child="irrigation_source" showInParent="True" parent="check_irrigation_source" name="fk_sa_check_irrigation_source_id_sa_irrigation_source_sa_check_irrigation_source_id" parentColumn="id" showInChild="True" childColumn="sa_check_irrigation_source_id"/>
+   <EntityRelation displayColumns="" child="irrigation_source" showInParent="True" parent="FARM" name="fk_sa_farm_id_sa_irrigation_source_sa_farm_id" parentColumn="id" showInChild="True" childColumn="sa_farm_id"/>
+   <EntityRelation displayColumns="" child="irrigation_provider" showInParent="True" parent="check_irrigation_provider" name="fk_sa_check_irrigation_provider_id_sa_irrigation_provider_sa_check_irrigation_provider_id" parentColumn="id" showInChild="True" childColumn="sa_check_irrigation_provider_id"/>
+   <EntityRelation displayColumns="" child="irrigation_provider" showInParent="True" parent="FARM" name="fk_sa_farm_id_sa_irrigation_provider_sa_farm_id" parentColumn="id" showInChild="True" childColumn="sa_farm_id"/>
+   <EntityRelation displayColumns="" child="check_tenure_type_str_attrs" showInParent="True" parent="social_tenure_relationship" name="fk_sa_social_tenure_relationship_id_sa_check_tenure_type_str_attrs_social_tenure_relationship_id" parentColumn="id" showInChild="True" childColumn="social_tenure_relationship_id"/>
+   <EntityRelation displayColumns="name,code" child="HOUSEHOLD MEMBER_supporting_document" showInParent="True" parent="check_household_member_document_type" name="fk_sa_check_household_member_document_type_id_sa_household_member_supporting_document_document_type" parentColumn="id" showInChild="True" childColumn="document_type"/>
+   <EntityRelation displayColumns="" child="HOUSEHOLD MEMBER_supporting_document" showInParent="True" parent="HOUSEHOLD MEMBER" name="fk_sa_household_member_id_sa_household_member_supporting_document_household_member_id" parentColumn="id" showInChild="True" childColumn="household_member_id"/>
+   <EntityRelation displayColumns="" child="HOUSEHOLD MEMBER_supporting_document" showInParent="True" parent="supporting_document" name="fk_sa_supporting_document_id_sa_household_member_supporting_document_supporting_doc_id" parentColumn="id" showInChild="True" childColumn="supporting_doc_id"/>
+   <EntityRelation displayColumns="survey_form_number" child="HOUSEHOLD MEMBER" showInParent="True" parent="HOUSEHOLD" name="fk_sa_household_id_sa_household_member_household_details" parentColumn="id" showInChild="True" childColumn="household_details"/>
+   <EntityRelation displayColumns="name,code" child="HOUSEHOLD MEMBER" showInParent="True" parent="check_sex" name="fk_sa_check_sex_id_sa_household_member_gender" parentColumn="id" showInChild="True" childColumn="gender"/>
+   <EntityRelation displayColumns="name,code" child="HOUSEHOLD MEMBER" showInParent="True" parent="check_relasyon_sa_pnimalay" name="fk_sa_check_relasyon_sa_pnimalay_id_sa_household_member_household_relation" parentColumn="id" showInChild="True" childColumn="household_relation"/>
+   <EntityRelation displayColumns="" child="level_of_education" showInParent="True" parent="check_level_of_education" name="fk_sa_check_level_of_education_id_sa_level_of_education_sa_check_level_of_education_id" parentColumn="id" showInChild="True" childColumn="sa_check_level_of_education_id"/>
+   <EntityRelation displayColumns="" child="level_of_education" showInParent="True" parent="HOUSEHOLD MEMBER" name="fk_sa_household_member_id_sa_level_of_education_sa_household_member_id" parentColumn="id" showInChild="True" childColumn="sa_household_member_id"/>
+   <EntityRelation displayColumns="" child="type_of_work" showInParent="True" parent="check_type_of_work" name="fk_sa_check_type_of_work_id_sa_type_of_work_sa_check_type_of_work_id" parentColumn="id" showInChild="True" childColumn="sa_check_type_of_work_id"/>
+   <EntityRelation displayColumns="" child="type_of_work" showInParent="True" parent="HOUSEHOLD MEMBER" name="fk_sa_household_member_id_sa_type_of_work_sa_household_member_id" parentColumn="id" showInChild="True" childColumn="sa_household_member_id"/>
+   <EntityRelation displayColumns="name,code" child="HOUSEHOLD MEMBER" showInParent="True" parent="check_tribe" name="fk_sa_check_tribe_id_sa_household_member_tribe" parentColumn="id" showInChild="True" childColumn="tribe"/>
+   <EntityRelation displayColumns="name,code" child="HOUSEHOLD MEMBER" showInParent="True" parent="check_camera_id_number" name="fk_sa_check_camera_id_number_id_sa_household_member_camera_id_number" parentColumn="id" showInChild="True" childColumn="camera_id_number"/>
+   <EntityRelation displayColumns="name,code" child="ENUMERATION_supporting_document" showInParent="True" parent="check_enumeration_document_type" name="fk_sa_check_enumeration_document_type_id_sa_enumeration_supporting_document_document_type" parentColumn="id" showInChild="True" childColumn="document_type"/>
+   <EntityRelation displayColumns="" child="ENUMERATION_supporting_document" showInParent="True" parent="ENUMERATION" name="fk_sa_enumeration_id_sa_enumeration_supporting_document_enumeration_id" parentColumn="id" showInChild="True" childColumn="enumeration_id"/>
+   <EntityRelation displayColumns="" child="ENUMERATION_supporting_document" showInParent="True" parent="supporting_document" name="fk_sa_supporting_document_id_sa_enumeration_supporting_document_supporting_doc_id" parentColumn="id" showInChild="True" childColumn="supporting_doc_id"/>
+   <EntityRelation displayColumns="first_name,last_name" child="ENUMERATION" showInParent="True" parent="HOUSEHOLD MEMBER" name="fk_sa_household_member_id_sa_enumeration_respondent" parentColumn="id" showInChild="True" childColumn="respondent"/>
+   <EntityRelation displayColumns="first_name,last_name" child="ENUMERATION" showInParent="True" parent="ENUMERATOR" name="fk_sa_enumerator_id_sa_enumeration_enumerator_details" parentColumn="id" showInChild="True" childColumn="enumerator_details"/>
+   <EntityRelation displayColumns="name,code" child="ENUMERATION" showInParent="True" parent="admin_spatial_unit_set" name="fk_admin_spatial_unit_set_id_sa_enumeration_municipality" parentColumn="id" showInChild="True" childColumn="municipality"/>
+   <EntityRelation displayColumns="name,code" child="ENUMERATION" showInParent="True" parent="admin_spatial_unit_set" name="fk_admin_spatial_unit_set_id_sa_enumeration_barangay" parentColumn="id" showInChild="True" childColumn="barangay"/>
+   <EntityRelation displayColumns="name,code" child="ENUMERATION" showInParent="True" parent="admin_spatial_unit_set" name="fk_admin_spatial_unit_set_id_sa_enumeration_sitio" parentColumn="id" showInChild="True" childColumn="sitio"/>
+   <EntityRelation displayColumns="name,code" child="ENUMERATION" showInParent="True" parent="check_ipo" name="fk_sa_check_ipo_id_sa_enumeration_ipo" parentColumn="id" showInChild="True" childColumn="ipo"/>
+   <EntityRelation displayColumns="" child="social_tenure_relationship" showInParent="True" parent="HOUSEHOLD" name="fk_sa_household_id_sa_social_tenure_relationship_household_id" parentColumn="id" showInChild="True" childColumn="household_id"/>
+   <EntityRelation displayColumns="" child="social_tenure_relationship" showInParent="True" parent="HOUSE" name="fk_sa_house_id_sa_social_tenure_relationship_house_id" parentColumn="id" showInChild="True" childColumn="house_id"/>
+   <EntityRelation displayColumns="" child="social_tenure_relationship" showInParent="True" parent="GARDEN" name="fk_sa_garden_id_sa_social_tenure_relationship_garden_id" parentColumn="id" showInChild="True" childColumn="garden_id"/>
+   <EntityRelation displayColumns="" child="social_tenure_relationship" showInParent="True" parent="FARM" name="fk_sa_farm_id_sa_social_tenure_relationship_farm_id" parentColumn="id" showInChild="True" childColumn="farm_id"/>
+   <EntityRelation displayColumns="" child="house_document_type" showInParent="True" parent="check_housedocumenttype" name="fk_sa_check_housedocumenttype_id_sa_house_document_type_sa_check_housedocumenttype_id" parentColumn="id" showInChild="True" childColumn="sa_check_housedocumenttype_id"/>
+  </Relations>
+  <SocialTenure layerDisplay="" tenureTypeList="check_tenure_type" spatialUnit="HOUSE,GARDEN,FARM" supportsMultipleParties="True" party="HOUSEHOLD">
+   <SpatialUnitTenureMappings>
+    <Mapping tenureTypeList="check_tenure_type" spatialUnit="FARM"/>
+    <Mapping tenureTypeList="check_tenure_type" spatialUnit="HOUSE"/>
+    <Mapping tenureTypeList="check_tenure_type" spatialUnit="GARDEN"/>
+   </SpatialUnitTenureMappings>
+   <CustomAttributes>
+    <TenureEntity tenureTypeList="check_tenure_type" entity="check_tenure_type_str_attrs"/>
+   </CustomAttributes>
+  </SocialTenure>
+ </Profile>
+</Configuration>
